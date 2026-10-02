@@ -38521,7 +38521,7 @@
 			(uuid "429a009d-8331-4ac9-ab88-eb7ce731150c")
 		)
 		(embedded_fonts no)
-		(model "/3dmodels/c-2309413-1-1-3d.step"
+		(model "${KIPRJMOD}/3dmodels/c-2309413-1-1-3d.step"
 			(offset
 				(xyz 0 -12.924 4.575)
 			)

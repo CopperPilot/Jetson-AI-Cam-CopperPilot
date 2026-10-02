@@ -551778,7 +551778,7 @@
 			(uuid "06dd73f3-9409-4f92-9055-a0a99b405304")
 		)
 		(embedded_fonts no)
-		(model "/3dmodels/RJ45_Bel_SI-51005-F.step"
+		(model "${KIPRJMOD}/3dmodels/RJ45_Bel_SI-51005-F.step"
 			(offset
 				(xyz -11.5 0 0)
 			)
@@ -817659,7 +817659,7 @@
 			(uuid "429a009d-8331-4ac9-ab88-eb7ce731150c")
 		)
 		(embedded_fonts no)
-		(model "/3dmodels/c-2309413-1-1-3d.step"
+		(model "${KIPRJMOD}/3dmodels/c-2309413-1-1-3d.step"
 			(offset
 				(xyz 0 -12.924 4.575)
 			)
@@ -844264,7 +844264,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844384,7 +844384,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844504,7 +844504,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844624,7 +844624,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844744,7 +844744,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844864,7 +844864,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -844984,7 +844984,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845104,7 +845104,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845224,7 +845224,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845344,7 +845344,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845464,7 +845464,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845584,7 +845584,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845704,7 +845704,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845824,7 +845824,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845944,7 +845944,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846064,7 +846064,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846184,7 +846184,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846304,7 +846304,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846424,7 +846424,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846544,7 +846544,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -846664,7 +846664,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -863867,7 +863867,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -863987,7 +863987,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -864107,7 +864107,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -864227,7 +864227,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -864347,7 +864347,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -937266,7 +937266,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -937386,7 +937386,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -937506,7 +937506,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -983120,7 +983120,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104275,7 +1104275,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104395,7 +1104395,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104515,7 +1104515,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104635,7 +1104635,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104755,7 +1104755,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104875,7 +1104875,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104995,7 +1104995,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1105115,7 +1105115,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1105235,7 +1105235,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1105355,7 +1105355,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1105475,7 +1105475,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1120466,7 +1120466,7 @@
 		)
 		(embedded_fonts no)
 	
-		(model "/3dmodels/TP_SMD_1.5mm.step"
+		(model "${KIPRJMOD}/3dmodels/TP_SMD_1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
