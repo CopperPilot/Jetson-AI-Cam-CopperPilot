@@ -1,0 +1,261 @@
+(footprint "L_Coilcraft-XFL4020"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-0000618f1d61")
+		(at 153.813912 115.278993 180)
+		(property "Reference" "L1"
+			(at 3.106412 -1.988507 0)
+			(layer "F.SilkS")
+			(uuid "a0a5001b-ee56-4f80-860c-a91ead8068f2")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_2u2_8A_Coilcraft-XFL4020"
+			(at -0.01 3.47 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f0b26db-2a71-4801-855f-7410f53155d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c107c6-3b5e-43c4-a230-0b6f37af3d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deaf096e-4cbc-4671-b32b-c70a02875a6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Imax" "8A"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d75422d6-71e1-4547-b424-6722c744ea3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Isat" "3.7A"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "138392cf-3718-41e9-9146-b29312e4ccbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dfcba56-9ebf-46e8-ae72-a92adecad277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XFL4020-222MEC"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01cf8f04-9092-41dd-a3c5-9ed203de6d6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51541b86-39f0-4f82-b0ce-197173192007")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MaxCur" "6A"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4846315e-bc79-49e2-9531-182fe6dc29b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Size" "4.0x4.0"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47b54140-d74e-4b6b-84f3-56ca21b13f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "2u28A"
+			(at 307.627824 230.557986 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b74d2d3-6c7d-45d6-8c0c-b424ef5eb566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "00000000-0000-0000-0000-0000608dc6e900000000-0000-0000-0000-000062296cec")
+		(sheetname "Supply")
+		(sheetfile "supply.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 2.4 2.4)
+			(end -2.4 2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e744dfc-8b0d-4246-96db-be9acd5e6c63")
+		)
+		(fp_line
+			(start 2.4 -2.4)
+			(end 2.4 2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4650f792-30ee-46cd-a1c5-2f23fe5c5a36")
+		)
+		(fp_line
+			(start -2.4 2.4)
+			(end -2.4 -2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4810d611-3243-41c1-bc34-d3b83a2f025f")
+		)
+		(fp_line
+			(start -2.4 -2.4)
+			(end 2.4 -2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b157194b-854c-4ade-997f-32ee40ceab15")
+		)
+		(fp_line
+			(start 2.25 2.25)
+			(end -2.25 2.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e67e45f7-b967-4665-b012-85fe26453ef9")
+		)
+		(fp_line
+			(start 2.25 -2.25)
+			(end 2.25 2.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8255a432-74bc-4fd9-b713-0e9b99618295")
+		)
+		(fp_line
+			(start -2.25 2.25)
+			(end -2.25 -2.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e43c6637-a0f7-4ba9-b6b6-aabea482c59c")
+		)
+		(fp_line
+			(start -2.25 -2.25)
+			(end 2.25 -2.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3820aa09-84ed-44fc-9157-5446d3f99176")
+		)
+		(pad "1" smd rect
+			(at -1.185 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Supply3V3_SW")
+			(pintype "passive")
+			(uuid "3265c021-8f7c-4376-a984-90f2ca2ca912")
+		)
+		(pad "2" smd rect
+			(at 1.185 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "3V3_SYS")
+			(pintype "passive")
+			(uuid "b9e215cf-745e-43e2-a201-6b259276c43c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/L_Coilcraft-XFL4020.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)

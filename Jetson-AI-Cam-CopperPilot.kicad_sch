@@ -2,9 +2,336 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 9050bd6b-e6d3-4b96-8c6f-c1795326f6c7)
-	(paper "A4")
+	(uuid "9df9f3e2-e127-4935-b743-4d95c8ce9b2e")
+	(paper "A3")
+	(title_block
+		(title "Jetson Stereo AI Camera")
+		(date "2026-08-20")
+		(rev "0.1.0")
+	)
 	(lib_symbols)
+	(sheet
+		(at 209.55 159.385)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-0000608dc6e9")
+		(property "Sheetname" "Supply"
+			(at 209.55 158.6734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 209.55 190.4496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 160.02)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-0000608df3e5")
+		(property "Sheetname" "USB"
+			(at 284.48 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-debug.kicad_sch"
+			(at 284.48 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 215.9)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-0000608e1758")
+		(property "Sheetname" "Interfaces"
+			(at 209.55 215.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interfaces.kicad_sch"
+			(at 209.55 246.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.525 159.385)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-00006096d016")
+		(property "Sheetname" "Display"
+			(at 136.525 158.6734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 136.525 190.4496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 215.9)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000060b0f7be")
+		(property "Sheetname" "ID Serial"
+			(at 63.5 215.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "id-serial.kicad_sch"
+			(at 63.5 246.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.135 159.385)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000060d9f63d")
+		(property "Sheetname" "CSI"
+			(at 64.135 158.6734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "csi.kicad_sch"
+			(at 64.135 190.4496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 215.9)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-0000610accab")
+		(property "Sheetname" "SoM"
+			(at 135.89 215.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "som.kicad_sch"
+			(at 135.89 246.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
