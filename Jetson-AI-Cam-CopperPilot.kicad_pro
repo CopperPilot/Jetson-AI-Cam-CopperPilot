@@ -1116,6 +1116,38 @@
       {
         "netclass": "Z90_in",
         "pattern": "USBSS_TX6_P"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "*CSI_A*"
+      },
+      {
+        "netclass": "Z100_in",
+        "pattern": "*CSI_C*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*1V2_CAM*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*2V8_CAM*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*1V8_SYS*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*5V0_SYS*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*3V3_SYS*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*VIN*"
       }
     ]
   },

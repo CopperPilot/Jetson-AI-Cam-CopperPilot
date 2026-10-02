@@ -39,39 +39,32 @@
 		)
 	)
 
-	<!-- Silkscreen: Camera base 11.4x11.4mm centered at X=-10.5, Y=0 -->
-	(fp_line (start -16.2 -5.7) (end -4.8 -5.7) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "7e992e3d-c242-474d-98db-32a203801cd3"))
+		(fp_line (start -16.2 -5.7) (end -4.8 -5.7) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "7e992e3d-c242-474d-98db-32a203801cd3"))
 	(fp_line (start -16.2 5.7) (end -4.8 5.7) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "b9e69954-13de-4582-8a9f-6be238cbf7ba"))
 	(fp_line (start -16.2 -5.7) (end -16.2 5.7) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "1ecae880-df86-4f12-a052-e1f53597ba03"))
 	(fp_line (start -4.8 -5.7) (end -4.8 -3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "b971e6fd-1e6f-41a2-9c18-e35a64075821"))
 	(fp_line (start -4.8 5.7) (end -4.8 3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "846c503a-5c1b-4ed7-acb1-56381f7aa976"))
 
-	<!-- Camera corner "3" marking -->
-	(fp_text user "3" (at -15.0 -4.5 0) (layer "F.SilkS") (uuid "c5d40fae-3024-4ddc-8bab-c3eb56bd171f") (effects (font (size 0.8 0.8) (thickness 0.12))))
+		(fp_text user "3" (at -15.0 -4.5 0) (layer "F.SilkS") (uuid "c5d40fae-3024-4ddc-8bab-c3eb56bd171f") (effects (font (size 0.8 0.8) (thickness 0.12))))
 
-	<!-- Flex Ribbon Neck Silkscreen matching p2_cam_full.png -->
-	(fp_line (start -4.8 3.8) (end -2.0 3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "14e36d7d-ee27-42f7-9e32-982fd93a80fe"))
+		(fp_line (start -4.8 3.8) (end -2.0 3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "14e36d7d-ee27-42f7-9e32-982fd93a80fe"))
 	(fp_arc (start -4.8 -3.8) (mid -3.5 -2.2) (end -2.0 -3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "5a156a56-ec6c-45b6-a8ce-fbc560034a91"))
 
-	<!-- Connector stiffener silkscreen outline -->
-	(fp_line (start -2.0 -4.5) (end 2.0 -4.5) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "0700f30a-3ea9-4b1b-a943-14c31a4d45ce"))
+		(fp_line (start -2.0 -4.5) (end 2.0 -4.5) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "0700f30a-3ea9-4b1b-a943-14c31a4d45ce"))
 	(fp_line (start 2.0 -4.5) (end 2.0 4.5) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "e2cc6c81-fcca-4db5-8df6-751d0395faff"))
 	(fp_line (start 2.0 4.5) (end -2.0 4.5) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "8b529a4a-627d-415e-93d0-de5b0e83d453"))
 	(fp_line (start -2.0 4.5) (end -2.0 3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "bd98defd-943e-4762-a56f-660b7b108d88"))
 	(fp_line (start -2.0 -4.5) (end -2.0 -3.8) (stroke (width 0.15) (type solid)) (layer "F.SilkS") (uuid "025dce45-03c3-4022-a425-994fe5149121"))
 
-	<!-- Pin 1 Marker Dot at top-right of connector -->
-	(fp_circle (center 2.6 -3.2) (end 2.85 -3.2) (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (uuid "b2c38af6-395f-4257-b4a9-6e4bf0ac443e"))
+		(fp_circle (center 2.6 -3.2) (end 2.85 -3.2) (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (uuid "b2c38af6-395f-4257-b4a9-6e4bf0ac443e"))
 
-	<!-- Fabrication Layer: Camera body, lens circles, flex, stiffener -->
-	(fp_rect (start -16.2 -5.7) (end -4.8 5.7) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "9c5b2372-63f8-4424-aefe-d7aa8e7606ab"))
+		(fp_rect (start -16.2 -5.7) (end -4.8 5.7) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "9c5b2372-63f8-4424-aefe-d7aa8e7606ab"))
 	(fp_circle (center -10.5 0) (end -3.7 0) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "94bb176a-2801-44e4-b10c-dbdf57eeed61"))
 	(fp_circle (center -10.5 0) (end -6.75 0) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "22917c89-b1af-403d-9748-61aeabbc4a1a"))
 	(fp_rect (start -4.8 -3.8) (end -2.0 3.8) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "c9891d20-68b6-4115-882f-0f8bd2689f3e"))
 	(fp_rect (start -2.0 -4.5) (end 2.0 4.5) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "c263a75b-995e-4c89-ae68-4207f0363d93"))
 
-	<!-- Courtyard: 0.25mm boundary around full assembly -->
-	(fp_poly
+		(fp_poly
 		(pts
 			(xy -16.45 -5.95)
 			(xy -4.55 -5.95)
