@@ -10,7 +10,7 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
-		(symbol \"jetson-symbols:C_100n_0402\"
+		(symbol "jetson-symbols:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -236,7 +236,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Conn_FFC_WE_68715014022\"
+		(symbol "jetson-symbols:Conn_FFC_WE_68715014022"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1854,7 +1854,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Conn_FFC_WE_68715014522\"
+		(symbol "jetson-symbols:Conn_FFC_WE_68715014522"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3472,7 +3472,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:PCA9547_VQFN\"
+		(symbol "jetson-symbols:PCA9547_VQFN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4054,7 +4054,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_0R_0402\"
+		(symbol "jetson-symbols:R_0R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4268,7 +4268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_100k_0402\"
+		(symbol "jetson-symbols:R_100k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4469,7 +4469,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_10k_0402\"
+		(symbol "jetson-symbols:R_10k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4670,7 +4670,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_2k_0402\"
+		(symbol "jetson-symbols:R_2k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4871,7 +4871,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\"
+		(symbol "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9884,7 +9884,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:TP_1.5mm_SMD\"
+		(symbol "jetson-symbols:TP_1.5mm_SMD"
 			(pin_names
 				(hide yes)
 			)
@@ -10034,7 +10034,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:BSS138PW\"
+		(symbol "jetson-symbols:BSS138PW"
 			(pin_names
 				(offset 0)
 			)
@@ -10412,7 +10412,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:GND\"
+		(symbol "jetson-symbols:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -10534,9 +10534,870 @@
 			)
 			(embedded_fonts no)
 		)
+	
+	(symbol "jetson-symbols:IMX219_30P"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IMX219_30P"
+			(at 0 -40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jetson-footprints:Camera_Module_IMX219-D160"
+			(at 0 -43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IMX219_30P_0_1"
+			(rectangle
+				(start -10.16 39.37)
+				(end 10.16 -39.37)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "IMX219_30P_1_1"
+			(pin passive line
+				(at -12.7 36.83 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 34.29 0)
+				(length 2.54)
+				(name "NC4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 31.75 0)
+				(length 2.54)
+				(name "VO1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 29.21 0)
+				(length 2.54)
+				(name "VD1V2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 26.67 0)
+				(length 2.54)
+				(name "/PWDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 24.13 0)
+				(length 2.54)
+				(name "DGND4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 21.59 0)
+				(length 2.54)
+				(name "MCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 19.05 0)
+				(length 2.54)
+				(name "DGND3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 16.51 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 13.97 0)
+				(length 2.54)
+				(name "VA2V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 11.43 0)
+				(length 2.54)
+				(name "NC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 8.89 0)
+				(length 2.54)
+				(name "DGND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "NC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "NC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "DGND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 1.27 180)
+				(length 2.54)
+				(name "DGND5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 3.81 180)
+				(length 2.54)
+				(name "NC6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 6.35 180)
+				(length 2.54)
+				(name "NC7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 8.89 180)
+				(length 2.54)
+				(name "DGND6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 11.43 180)
+				(length 2.54)
+				(name "MD1N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 13.97 180)
+				(length 2.54)
+				(name "MD1P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 16.51 180)
+				(length 2.54)
+				(name "DGND7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 19.05 180)
+				(length 2.54)
+				(name "MD0N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 21.59 180)
+				(length 2.54)
+				(name "MD0P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 24.13 180)
+				(length 2.54)
+				(name "DGND8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 26.67 180)
+				(length 2.54)
+				(name "MCKN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 29.21 180)
+				(length 2.54)
+				(name "MCKP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 31.75 180)
+				(length 2.54)
+				(name "DGND9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 34.29 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 36.83 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -41.91 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "jetson-symbols:TPS7A0518P_SOT23-5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 26.67 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TPS7A0518P_SOT23-5"
+			(at 26.67 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "jetson-footprints:SOT-23-5"
+			(at 26.67 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf?ts=1678973651768&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 26.67 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Linear voltage regulator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS7A0518PDBVT"
+			(at 26.67 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 26.67 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 26.67 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, PMIC, IC, LDO, LINEAR, VOLTAGE, REGULATOR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS7A0518P_SOT23-5_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -3.81 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 52.07 41.91 0)
 		(mirror y)
 		(unit 2)
@@ -11447,7 +12308,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 161.29 224.79 180)
 		(unit 1)
 		(body_style 1)
@@ -11564,7 +12425,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 161.29 227.33 180)
 		(unit 1)
 		(body_style 1)
@@ -11681,7 +12542,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 70.485 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -11798,7 +12659,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 70.485 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -11915,7 +12776,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 70.485 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -12032,7 +12893,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TP_1.5mm_SMD\")
+		(lib_id "jetson-symbols:TP_1.5mm_SMD")
 		(at 70.485 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -12148,284 +13009,9 @@
 			)
 		)
 	)
+
 	(symbol
-		(lib_id \"jetson-symbols:Conn_FFC_WE_68715014022\")
-		(at 340.995 167.64 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1532f642-b01c-4619-b9c1-610560716e4f")
-		(property "Reference" "J7"
-			(at 352.425 118.745 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_FFC_WE_68715014022"
-			(at 349.885 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:Conn_FFC_WE_68715014x22"
-			(at 360.045 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/68715014022.pdf"
-			(at 360.045 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 340.995 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "68715014022"
-			(at 352.425 121.285 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 360.045 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 360.045 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "9c691e51-6eb4-41c4-99c1-4137091a5c68")
-		)
-		(pin "10"
-			(uuid "4e0cd83c-eaf8-4ffa-9f3a-fa7ed8ca171a")
-		)
-		(pin "11"
-			(uuid "45ea7360-2392-4415-97e1-8e647b8cdd52")
-		)
-		(pin "12"
-			(uuid "4508cdd4-846e-4d7b-bb67-a3226533fc0b")
-		)
-		(pin "13"
-			(uuid "646461bf-35e1-47e5-9f3a-cb71a6b4fbdf")
-		)
-		(pin "14"
-			(uuid "935150e3-9f86-4fb4-9f4e-51989fe99c28")
-		)
-		(pin "15"
-			(uuid "275b2826-2879-45e8-9c22-004ef3901742")
-		)
-		(pin "16"
-			(uuid "925c3167-7ac7-459d-9411-9c527f7c4a74")
-		)
-		(pin "17"
-			(uuid "8b0aa987-1346-4b78-9d80-e003791d73dd")
-		)
-		(pin "18"
-			(uuid "b683c92c-e83e-4584-9fe5-df0569c27961")
-		)
-		(pin "19"
-			(uuid "628eaa33-3d75-417f-9064-3154a5eaafb5")
-		)
-		(pin "2"
-			(uuid "ff3032d3-8c74-48bf-9bc5-f6e5cc67576e")
-		)
-		(pin "20"
-			(uuid "36038702-ac22-45aa-9b7c-03661b3e28bf")
-		)
-		(pin "21"
-			(uuid "4a833c3b-cb77-4370-a94b-493c8211a3d7")
-		)
-		(pin "22"
-			(uuid "b8c5cc2b-4ffd-482f-af17-8ca29597d002")
-		)
-		(pin "23"
-			(uuid "308cf561-d9ce-42d5-a235-b4c717fd6759")
-		)
-		(pin "24"
-			(uuid "73f6d574-c59b-40ee-8ba4-ce2b3ef0f0fd")
-		)
-		(pin "25"
-			(uuid "91631a25-0bfe-4812-9768-e1dfbd1a562c")
-		)
-		(pin "26"
-			(uuid "72d7d07f-aa8a-4e7b-97b3-09f2de6e746b")
-		)
-		(pin "27"
-			(uuid "40f32c9e-3ff0-4f8b-8357-8cf87600bc62")
-		)
-		(pin "28"
-			(uuid "7c9f1dca-5baa-4d88-a478-a2f2aa80d4b8")
-		)
-		(pin "29"
-			(uuid "c55d835a-8db8-418a-8fbd-ae8b6988680a")
-		)
-		(pin "3"
-			(uuid "1cb7db0a-6bf3-41b0-a8ee-876d089a39e2")
-		)
-		(pin "30"
-			(uuid "6d348e59-314f-46ad-86c7-8ede2188836d")
-		)
-		(pin "31"
-			(uuid "3786ae9a-d5da-4e7e-8b10-761f36a50618")
-		)
-		(pin "32"
-			(uuid "d4fbae0a-635b-40a7-b70e-65921ecda80a")
-		)
-		(pin "33"
-			(uuid "d4ede46f-8aaa-4e7f-9e51-43be5ace63df")
-		)
-		(pin "34"
-			(uuid "65b53fed-8522-414b-82cf-8eeacdd48817")
-		)
-		(pin "35"
-			(uuid "dd02db87-df1d-4baf-b23b-5036ba41adad")
-		)
-		(pin "36"
-			(uuid "13baadd6-0a22-4448-a11e-f49f7b6e69bf")
-		)
-		(pin "37"
-			(uuid "5aa933dd-bbee-432e-aeaf-175c1ff2a2bb")
-		)
-		(pin "38"
-			(uuid "5f564834-5e22-40b1-bf52-a1945eb12750")
-		)
-		(pin "39"
-			(uuid "c3564af3-d96e-4e15-b174-b871a5ba3e14")
-		)
-		(pin "4"
-			(uuid "82c22cec-4623-4803-ab44-83c9e5538431")
-		)
-		(pin "40"
-			(uuid "8af7350a-a549-401c-aec7-5cfc011a6866")
-		)
-		(pin "41"
-			(uuid "65331cb9-3d38-48a3-af7c-63a6d7cbb5b4")
-		)
-		(pin "42"
-			(uuid "ae4bfab2-c197-45a7-b3a1-8b8ad5aaa422")
-		)
-		(pin "43"
-			(uuid "004c35fc-8b3e-4552-a3f7-b07e9ace0c8a")
-		)
-		(pin "44"
-			(uuid "aef46c3f-5b85-4e52-bdac-4c0328461b27")
-		)
-		(pin "45"
-			(uuid "e64c2eaf-b994-4a5d-aef9-4addeb1075d7")
-		)
-		(pin "46"
-			(uuid "f1bbcc00-b9a9-4cd3-ba56-0c8d10d780e7")
-		)
-		(pin "47"
-			(uuid "b8e0515c-70cd-4a59-a166-1ff47319a1e9")
-		)
-		(pin "48"
-			(uuid "5af2a872-6e16-44e0-b3c2-50780b606ca4")
-		)
-		(pin "49"
-			(uuid "84525db3-a92b-4e65-8c20-3e37a6e31f49")
-		)
-		(pin "5"
-			(uuid "1875d182-962c-4840-b03e-6fcaded90d76")
-		)
-		(pin "50"
-			(uuid "3b6aab98-7337-4aa8-a8b2-a9f61c49214d")
-		)
-		(pin "6"
-			(uuid "8bee1cd4-1282-4bb6-b72b-64ccd0bb94ad")
-		)
-		(pin "7"
-			(uuid "a36ee1db-2b60-49ff-950a-50292a1e39c0")
-		)
-		(pin "8"
-			(uuid "0252c856-9460-40ca-bbca-40ce281140db")
-		)
-		(pin "9"
-			(uuid "8c699a03-2e62-4dd3-b764-21e2e9525460")
-		)
-		(pin "MP1"
-			(uuid "a8b76710-fd5d-4fcc-933c-9068a6214476")
-		)
-		(pin "MP2"
-			(uuid "4d56dcd5-47f5-463e-b2d7-f54c96094ccd")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:PCA9547_VQFN\")
+		(lib_id "jetson-symbols:PCA9547_VQFN")
 		(at 209.55 209.55 0)
 		(unit 1)
 		(body_style 1)
@@ -12618,7 +13204,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 180.34 252.73 0)
 		(unit 1)
 		(body_style 1)
@@ -12739,295 +13325,9 @@
 			)
 		)
 	)
+
 	(symbol
-		(lib_id \"jetson-symbols:Conn_FFC_WE_68715014522\")
-		(at 205.105 40.005 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de46bb9a-4194-4236-aaf9-49ff83f915ff")
-		(property "Reference" "J6"
-			(at 214.63 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_FFC_WE_68715014522"
-			(at 213.36 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:Conn_FFC_WE_68715014x22"
-			(at 224.155 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/68715014522.pdf"
-			(at 224.155 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 205.105 40.005 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "68715014522"
-			(at 214.63 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 224.155 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 224.155 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "VSD_Class" "Stereo Camera interface"
-			(at 224.155 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "f1fbf615-c8e1-469f-9d1a-9073c18b545a")
-		)
-		(pin "10"
-			(uuid "7622ed6e-ce48-4a07-b7d6-08684ade36f4")
-		)
-		(pin "11"
-			(uuid "cf8a8312-e46d-4e6a-a7d4-a2ad3c15cbc8")
-		)
-		(pin "12"
-			(uuid "bfcaad65-e5d8-4890-84f3-6d60bf345d57")
-		)
-		(pin "13"
-			(uuid "dd9a8ee2-e817-4ea2-ad9d-3a56de4a6e55")
-		)
-		(pin "14"
-			(uuid "30ceff40-878f-40f1-8830-eb5a53696d12")
-		)
-		(pin "15"
-			(uuid "37b2dabd-3280-4c27-b079-95d9b8e7f983")
-		)
-		(pin "16"
-			(uuid "ae1a3c9f-f1e1-4750-9c9b-09516559a9a4")
-		)
-		(pin "17"
-			(uuid "839365fa-2f44-489a-9a7a-b00da4dcce03")
-		)
-		(pin "18"
-			(uuid "ec9289c0-963a-4051-8704-db98b1542ae6")
-		)
-		(pin "19"
-			(uuid "db9f9e62-6c6c-475b-9a89-037bf50a5196")
-		)
-		(pin "2"
-			(uuid "79a64ba4-2a26-48e9-bf9d-0b1db940c072")
-		)
-		(pin "20"
-			(uuid "179d607d-c089-4bc7-8695-697d5c8e5abb")
-		)
-		(pin "21"
-			(uuid "53a14da2-1f62-4a4d-be4a-6e149b254ef8")
-		)
-		(pin "22"
-			(uuid "58023b4a-fd5b-4ac0-bd08-533418e32c7b")
-		)
-		(pin "23"
-			(uuid "96697069-97ea-4859-9ce1-f0e67731b4e2")
-		)
-		(pin "24"
-			(uuid "34e6aaa9-d38a-4c6d-a2a8-dbc6c35acf6b")
-		)
-		(pin "25"
-			(uuid "df2030b7-0ffa-420c-8de3-deae44c941da")
-		)
-		(pin "26"
-			(uuid "e52ea3ea-8517-4198-8557-d03ab29626d6")
-		)
-		(pin "27"
-			(uuid "5cd84c6f-3b91-41f7-bfc7-aa1a4a655c6a")
-		)
-		(pin "28"
-			(uuid "d492ffac-6685-48ad-91bc-6352ac6a9f92")
-		)
-		(pin "29"
-			(uuid "f89f7532-736a-4668-8da0-a08f187b3414")
-		)
-		(pin "3"
-			(uuid "f3e9c747-23e1-4cc7-a845-6a2b9cfacf7b")
-		)
-		(pin "30"
-			(uuid "0847939a-93f4-4a83-849a-e00c15da063b")
-		)
-		(pin "31"
-			(uuid "49849384-4978-4b2a-949d-8fed752d1bb1")
-		)
-		(pin "32"
-			(uuid "a665a178-7029-412c-ac1a-c062117e7fa7")
-		)
-		(pin "33"
-			(uuid "4b4ad6dc-5113-40c4-804a-186454104a76")
-		)
-		(pin "34"
-			(uuid "0f949cfb-e958-4ce1-aa87-e723f014ea31")
-		)
-		(pin "35"
-			(uuid "8e99d19c-4aef-4017-bca3-2a9021f554ce")
-		)
-		(pin "36"
-			(uuid "1071455d-521d-4ae4-993a-2227a6a28a04")
-		)
-		(pin "37"
-			(uuid "e047b429-4ef8-47f8-aa9a-81a4f790c07c")
-		)
-		(pin "38"
-			(uuid "4655c086-033a-4cb9-ad48-7352aa4864db")
-		)
-		(pin "39"
-			(uuid "6127478c-c4c2-486a-8bd3-b70094c362eb")
-		)
-		(pin "4"
-			(uuid "a82f9f49-0b3a-4dfa-ba85-2dfa00691d8e")
-		)
-		(pin "40"
-			(uuid "e29017d8-6a4f-4ed0-87d4-1baafbd96945")
-		)
-		(pin "41"
-			(uuid "8a15c713-c24d-4964-8761-e5822b579148")
-		)
-		(pin "42"
-			(uuid "f38c4c2b-266b-4ed1-8b1a-4dad63e60585")
-		)
-		(pin "43"
-			(uuid "60d846fa-ba70-45b6-a110-b48476465524")
-		)
-		(pin "44"
-			(uuid "d5805761-2814-4aff-a6a3-ea29da436b36")
-		)
-		(pin "45"
-			(uuid "074dac53-6f11-41de-9a83-1f1b2ae41b6e")
-		)
-		(pin "46"
-			(uuid "51a71819-027e-4d30-abf6-9e17a537bff5")
-		)
-		(pin "47"
-			(uuid "c5e2f5b1-20bc-4068-930b-b8a125db1b30")
-		)
-		(pin "48"
-			(uuid "e6273d00-4a14-4cd8-8170-05461ef5955d")
-		)
-		(pin "49"
-			(uuid "aac68921-fbad-4c28-8de4-973a407426c0")
-		)
-		(pin "5"
-			(uuid "9c310aff-87c5-441e-b534-682052e9eab0")
-		)
-		(pin "50"
-			(uuid "ab47f7ee-6ebf-4e8e-a56c-be4d562fe1bd")
-		)
-		(pin "6"
-			(uuid "caf674e4-5bcb-4b93-9dfb-ee61fedd10ed")
-		)
-		(pin "7"
-			(uuid "19dd4075-eeef-4a57-ad8e-866f3e777733")
-		)
-		(pin "8"
-			(uuid "456c31fb-6a91-4333-8586-b8d74abce630")
-		)
-		(pin "9"
-			(uuid "3a37f546-8570-4374-9f11-4ff160e383d6")
-		)
-		(pin "MP2"
-			(uuid "070a3f85-7c5e-4775-a36f-ff1c5ef83921")
-		)
-		(pin "MP1"
-			(uuid "4f8d9a97-0b90-4d76-a21e-2c1ccee238b2")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 209.55 0)
 		(mirror x)
 		(unit 1)
@@ -13184,7 +13484,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -13341,7 +13641,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 217.17 0)
 		(mirror x)
 		(unit 1)
@@ -13498,7 +13798,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 219.71 0)
 		(mirror x)
 		(unit 1)
@@ -13655,7 +13955,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 224.79 0)
 		(mirror x)
 		(unit 1)
@@ -13812,7 +14112,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 227.33 0)
 		(mirror x)
 		(unit 1)
@@ -13969,7 +14269,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 232.41 0)
 		(mirror x)
 		(unit 1)
@@ -14126,7 +14426,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 240.03 234.95 0)
 		(mirror x)
 		(unit 1)
@@ -14283,7 +14583,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 199.39 224.79 0)
 		(unit 1)
 		(body_style 1)
@@ -14439,7 +14739,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 199.39 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -14594,1778 +14894,20 @@
 			)
 		)
 	)
+
+
+
+
+
+
+
+
+
+
+
+
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
-		(at 145.415 117.475 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-000060d0f966")
-		(property "Reference" "R23"
-			(at 147.32 118.745 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 149.225 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 140.335 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 145.415 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 145.415 117.475 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 135.255 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 137.795 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "0R"
-			(at 147.32 121.285 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 170.815 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" ""
-			(at 155.575 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Current" "1A"
-			(at 143.51 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "cdf12e2d-65b3-4c39-a578-fde4119fb883")
-		)
-		(pin "2"
-			(uuid "89bfa3fd-bc22-4f9c-99cc-d231b6ec9333")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
-		(at 172.085 117.475 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060d13e41")
-		(property "Reference" "R78"
-			(at 173.99 118.7449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 168.275 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 177.165 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 172.085 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 172.085 117.475 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 182.245 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 179.705 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "0R"
-			(at 173.99 121.2849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 146.685 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" ""
-			(at 161.925 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Current" "1A"
-			(at 167.64 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "736ebf53-4920-47b5-ac49-34fbd5c45f8d")
-		)
-		(pin "2"
-			(uuid "f3843d9e-e357-4f1f-85de-8b7e106beb14")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
-		(at 282.575 120.015 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-000060d6f682")
-		(property "Reference" "R79"
-			(at 284.48 121.285 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 286.385 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 277.495 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 282.575 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 282.575 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 272.415 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 274.955 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "0R"
-			(at 284.48 123.825 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 307.975 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" ""
-			(at 292.735 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Current" "1A"
-			(at 280.67 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "452fc830-59a0-4f16-a799-99e6428f6af4")
-		)
-		(pin "2"
-			(uuid "138776ee-4c65-4319-a2ad-49af556ef295")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
-		(at 309.245 120.015 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060d7009c")
-		(property "Reference" "R80"
-			(at 311.15 121.2849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 305.435 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 314.325 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 309.245 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 309.245 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 319.405 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 316.865 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "0R"
-			(at 311.15 123.8249 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 283.845 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" ""
-			(at 299.085 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Current" "1A"
-			(at 304.8 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "a14fc196-316b-41d0-b51a-b3ae55fba916")
-		)
-		(pin "2"
-			(uuid "e418b4ee-1ea5-4133-a5b4-dfb59c1303e9")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 309.245 130.175 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060db2f51")
-		(property "Reference" "R29"
-			(at 311.785 131.4449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 305.435 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 314.325 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 309.245 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 309.245 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 319.405 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 316.865 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 311.785 133.9849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 283.845 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 299.085 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d2d24259-e505-4cb1-b32d-76c49b243bc0")
-		)
-		(pin "2"
-			(uuid "c45319f4-d519-46ac-a177-73fff5e7a3dc")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 300.355 130.175 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060db96d5")
-		(property "Reference" "R33"
-			(at 302.895 131.4449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 296.545 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 305.435 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 300.355 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 300.355 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 310.515 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 307.975 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 302.895 133.9849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 274.955 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 290.195 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2307aa40-589d-4ca2-93af-dedfcf008715")
-		)
-		(pin "2"
-			(uuid "d4f9f4bc-d160-4a36-befd-0de1e6d4c6ec")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 291.465 130.175 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060db9b96")
-		(property "Reference" "R28"
-			(at 294.005 131.4449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 287.655 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 296.545 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 291.465 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 291.465 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 301.625 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 299.085 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 294.005 133.9849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 266.065 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 281.305 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d71ae4db-712b-4ec1-a230-7975c4a20cbe")
-		)
-		(pin "2"
-			(uuid "b91b23ee-de6a-4e3f-a490-55383324d328")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 282.575 130.175 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060dba023")
-		(property "Reference" "R27"
-			(at 285.115 131.4449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 278.765 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 287.655 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 282.575 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 282.575 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 292.735 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 290.195 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 285.115 133.9849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 257.175 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 272.415 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fc0bbcab-39b5-40e6-b493-aebe75283ef5")
-		)
-		(pin "2"
-			(uuid "f76fa764-67f8-47fa-973a-b71d8665ee64")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 172.085 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060dcf781")
-		(property "Reference" "R25"
-			(at 174.625 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 168.275 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 177.165 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 172.085 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 172.085 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 182.245 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 179.705 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 174.625 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 146.685 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 161.925 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e10569af-4b22-4fdf-904e-ed38e043b861")
-		)
-		(pin "2"
-			(uuid "bcc1eb2c-011a-4e2c-91cf-af021c8ee8c3")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 163.195 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060dcf78a")
-		(property "Reference" "R24"
-			(at 165.735 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 159.385 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 168.275 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 163.195 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 163.195 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 173.355 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 170.815 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 165.735 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 137.795 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 153.035 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d95884b7-8aff-4788-b0e0-9f7543ecdd7f")
-		)
-		(pin "2"
-			(uuid "b38f5f75-6333-461b-a37c-80f3f57e0cc5")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 154.305 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060dcf793")
-		(property "Reference" "R22"
-			(at 156.845 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 150.495 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 159.385 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 154.305 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 154.305 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 164.465 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 161.925 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 156.845 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 128.905 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 144.145 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fe6159b4-c251-483f-9560-493d03f1f495")
-		)
-		(pin "2"
-			(uuid "91abfc39-792c-47da-8e08-afc4e2e838fc")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
-		(at 145.415 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060dcf79c")
-		(property "Reference" "R18"
-			(at 147.955 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 141.605 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 150.495 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 145.415 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 145.415 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 155.575 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 153.035 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "2k"
-			(at 147.955 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 120.015 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 135.255 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2d52e803-22a8-4382-9310-f84983746c5f")
-		)
-		(pin "2"
-			(uuid "ad0e8906-1708-456e-92fd-b18e62b14c04")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
+		(lib_id "jetson-symbols:R_2k_0402")
 		(at 187.96 207.01 90)
 		(mirror x)
 		(unit 1)
@@ -16509,7 +15051,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
+		(lib_id "jetson-symbols:R_2k_0402")
 		(at 177.8 207.01 90)
 		(mirror x)
 		(unit 1)
@@ -16654,7 +15196,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 207.01 210.82 90)
 		(mirror x)
 		(unit 1)
@@ -16811,7 +15353,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 172.72 240.03 0)
 		(unit 1)
 		(body_style 1)
@@ -16952,7 +15494,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 175.26 259.08 270)
 		(unit 1)
 		(body_style 1)
@@ -17095,7 +15637,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 201.93 266.7 0)
 		(mirror y)
 		(unit 1)
@@ -17188,194 +15730,10 @@
 			)
 		)
 	)
+
+
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
-		(at 337.82 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e710513")
-		(property "Reference" "#GND_02"
-			(at 337.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.7184 174.9044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 346.71 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "b953cde2-a477-468e-aed8-dd237fd6519c")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#GND_02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:GND\")
-		(at 201.93 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e710516")
-		(property "Reference" "#GND01"
-			(at 201.93 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.8284 172.3136 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 210.82 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "867eea6d-7fe5-4bb4-9aad-e53fe96ef08f")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#GND01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 175.26 266.7 0)
 		(unit 1)
 		(body_style 1)
@@ -17468,7 +15826,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 187.96 266.7 0)
 		(unit 1)
 		(body_style 1)
@@ -17561,7 +15919,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 207.01 215.9 0)
 		(mirror y)
 		(unit 1)
@@ -19171,196 +17529,40 @@
 	(no_connect
 		(at 229.87 242.57)
 		(uuid "085632b6-0797-4c6a-b798-8394d62407a9")
-	)
-	(no_connect
-		(at 205.105 126.365)
-		(uuid "0dae2046-35d4-4b73-877b-762f30829ed1")
-	)
-	(no_connect
-		(at 205.105 154.305)
-		(uuid "0e359b4c-c2b4-4d97-9369-7ffea4a430b4")
-	)
-	(no_connect
-		(at 205.105 80.645)
-		(uuid "16bd4355-5d86-4bc4-99d8-9ac4530502be")
-	)
-	(no_connect
-		(at 205.105 128.905)
-		(uuid "19b1bd9a-02ce-468c-8cc8-61ccbc58c2fa")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 262.89)
 		(uuid "1bf52ab4-5e3f-462a-aebe-d9f4d9f80ba4")
-	)
-	(no_connect
-		(at 205.105 70.485)
-		(uuid "22b7b44c-a53d-4a60-86be-2f2f7443e559")
-	)
-	(no_connect
-		(at 340.995 154.94)
-		(uuid "2d599464-5127-444c-ab19-7b560d41af86")
-	)
-	(no_connect
-		(at 340.995 134.62)
-		(uuid "39e43ac9-5400-4b9c-a672-1025220625c0")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 255.27)
 		(uuid "42850a7c-2bc4-4d67-9a67-9354b8736bdc")
-	)
-	(no_connect
-		(at 340.995 81.28)
-		(uuid "449e5b9a-e5f1-417f-8661-b5c9226773e9")
-	)
-	(no_connect
+	)	(no_connect
 		(at 52.07 143.51)
 		(uuid "4515747a-9fdd-4fd1-abb6-a012415e0d72")
-	)
-	(no_connect
+	)	(no_connect
 		(at 52.07 102.87)
 		(uuid "4a00c62f-142a-446f-8357-1dda4ee7ebf9")
-	)
-	(no_connect
-		(at 340.995 38.1)
-		(uuid "53df0041-992b-4930-9e8e-f133ec94ebd1")
-	)
-	(no_connect
-		(at 340.995 73.66)
-		(uuid "5862ea17-885b-4ab1-8811-6e2dda46c7a8")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 257.81)
 		(uuid "59be144c-5728-4f46-89c7-c8fab129c074")
-	)
-	(no_connect
-		(at 340.995 152.4)
-		(uuid "5a45c333-adc8-41e0-8b25-6a09ea428530")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 247.65)
 		(uuid "5bd038b6-2333-4067-aaf6-17aa65a4cc11")
-	)
-	(no_connect
-		(at 205.105 149.225)
-		(uuid "669fb14b-5bad-4fbc-ab3c-acc61f3e63be")
-	)
-	(no_connect
-		(at 205.105 40.005)
-		(uuid "68a0b2de-d1ed-45d0-b694-70eac0166df7")
-	)
-	(no_connect
-		(at 205.105 146.685)
-		(uuid "71a56cc1-5192-4ca7-b5af-319751f0801e")
-	)
-	(no_connect
-		(at 340.995 157.48)
-		(uuid "73eb7389-7bb4-4ac9-9fba-df233e286964")
-	)
-	(no_connect
-		(at 205.105 133.985)
-		(uuid "749613af-5d21-462e-9fab-b9be9b4f35f0")
-	)
-	(no_connect
-		(at 205.105 121.285)
-		(uuid "7af2dceb-f1ba-4b31-9740-aefccb5319ff")
-	)
-	(no_connect
-		(at 340.995 129.54)
-		(uuid "806dad3e-ea30-429b-9c22-1c843292b8df")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 250.19)
 		(uuid "859f367e-d5e8-420a-8be3-891c5b9a6c94")
-	)
-	(no_connect
-		(at 340.995 132.08)
-		(uuid "9058b36d-1e18-4a34-af89-c515b2a0f8b9")
-	)
-	(no_connect
-		(at 205.105 167.005)
-		(uuid "9c5dfa05-8fb6-4a09-829b-1a903a9db258")
-	)
-	(no_connect
-		(at 340.995 83.82)
-		(uuid "a7c73417-208c-4352-9eed-7c6546299edc")
-	)
-	(no_connect
-		(at 340.995 149.86)
-		(uuid "adbf0cb4-bb6f-48e7-8aba-6f7c110e5c3b")
-	)
-	(no_connect
-		(at 205.105 116.205)
-		(uuid "b073fd1c-68b4-4659-abd1-3d466943698c")
-	)
-	(no_connect
-		(at 205.105 131.445)
-		(uuid "b0bf8d03-da1e-4c42-844f-5d9f457f2b19")
-	)
-	(no_connect
-		(at 340.995 40.64)
-		(uuid "b854e026-4dab-44a6-b3d5-5e5e0ee61cb6")
-	)
-	(no_connect
+	)	(no_connect
 		(at 52.07 138.43)
 		(uuid "ba7385ab-4d99-4da0-a374-1e01cd6f7910")
-	)
-	(no_connect
-		(at 205.105 73.025)
-		(uuid "bc6025c2-d4e1-48c2-b63c-8a1a34157b92")
-	)
-	(no_connect
-		(at 340.995 76.2)
-		(uuid "bd9f0d4d-9783-4b0c-a40a-123324eda4ee")
-	)
-	(no_connect
-		(at 205.105 169.545)
-		(uuid "c0159ff2-9a28-4908-87d3-dd4394372361")
-	)
-	(no_connect
-		(at 205.105 151.765)
-		(uuid "c05e6393-108e-4bad-b578-bd23b56ce19d")
-	)
-	(no_connect
-		(at 340.995 137.16)
-		(uuid "c1ca897c-8863-43b8-89c7-865af28ef456")
-	)
-	(no_connect
-		(at 205.105 42.545)
-		(uuid "c3e7a4f2-c612-4280-aa92-58d667ccd20b")
-	)
-	(no_connect
-		(at 205.105 45.085)
-		(uuid "c4ef417c-e183-4304-987e-b83c5b962bf8")
-	)
-	(no_connect
-		(at 205.105 47.625)
-		(uuid "c5863596-cd05-4d7e-9011-e4cc42ee26aa")
-	)
-	(no_connect
-		(at 340.995 124.46)
-		(uuid "ca8f0508-36af-4134-aa70-0c184bb68521")
-	)
-	(no_connect
+	)	(no_connect
 		(at 52.07 105.41)
 		(uuid "d12a999e-5212-4ccd-ac8a-07bcd12cf340")
-	)
-	(no_connect
-		(at 340.995 119.38)
-		(uuid "e2b2509d-ff9b-473e-8eb6-c14f7b45e474")
-	)
-	(no_connect
-		(at 205.105 78.105)
-		(uuid "e41e38ce-a723-4463-a8f4-c3637f408cd5")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 265.43)
 		(uuid "ed2d3fe1-04ca-4f93-bfae-b20772fc846c")
-	)
-	(no_connect
+	)	(no_connect
 		(at 229.87 240.03)
 		(uuid "fbb8ed7b-2072-411b-aa93-b74132695369")
-	)
-	(text "RIGHT CAMERA"
+	)	(text "RIGHT CAMERA"
 		(exclude_from_sim no)
 		(at 237.5916 111.5314 90)
 		(effects
@@ -20071,26 +18273,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 116.84) (xy 337.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0001bdf1-d6ef-439c-b7db-741a8f9f33f4")
-	)
-	(wire
-		(pts
-			(xy 340.995 86.36) (xy 337.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "005bb40a-dbc3-4204-8f55-112983787372")
-	)
-	(wire
-		(pts
 			(xy 52.07 110.49) (xy 70.485 110.49)
 		)
 		(stroke
@@ -20098,18 +18280,7 @@
 			(type default)
 		)
 		(uuid "016f5458-6c5d-4982-8e2e-0b26e2bd9f8d")
-	)
-	(wire
-		(pts
-			(xy 184.15 98.425) (xy 205.105 98.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02738a46-4d39-46d1-87fd-7006525508a1")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 219.71) (xy 240.03 219.71)
 		)
@@ -20118,28 +18289,7 @@
 			(type default)
 		)
 		(uuid "046367ea-22d6-42c1-8249-15a921e8be31")
-	)
-	(wire
-		(pts
-			(xy 205.105 164.465) (xy 198.12 164.465)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05601d3c-4dc4-4fbe-bcba-d286730922ad")
-	)
-	(wire
-		(pts
-			(xy 300.355 127.635) (xy 309.245 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c59648-2700-4e6e-a599-711e367441ed")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 205.74 209.55) (xy 207.01 209.55)
 		)
@@ -20148,48 +18298,7 @@
 			(type default)
 		)
 		(uuid "07105092-8f85-4203-8ec9-e233bb638d12")
-	)
-	(wire
-		(pts
-			(xy 334.01 167.64) (xy 334.01 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074cc518-8691-4c84-8fd3-b7f9964a0e41")
-	)
-	(wire
-		(pts
-			(xy 198.12 161.925) (xy 205.105 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b6236d-dafc-4d65-a3b1-88a7909de175")
-	)
-	(wire
-		(pts
-			(xy 199.39 123.825) (xy 205.105 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08998a3d-c2e9-4390-8349-f32eb197b6d9")
-	)
-	(wire
-		(pts
-			(xy 184.15 65.405) (xy 205.105 65.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a053e7a-8516-43bd-a21e-5a38c33d00cb")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 64.77) (xy 70.485 64.77)
 		)
@@ -20198,38 +18307,7 @@
 			(type default)
 		)
 		(uuid "0c5076c9-daa0-4cc1-b88a-6797357b5cfc")
-	)
-	(wire
-		(pts
-			(xy 172.085 122.555) (xy 172.085 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0decdaa7-77d8-4eb8-8f00-b29e1b04dc67")
-	)
-	(wire
-		(pts
-			(xy 337.82 86.36) (xy 337.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc3c3d7-52b2-42c9-9202-d7052a60fa61")
-	)
-	(wire
-		(pts
-			(xy 184.15 93.345) (xy 205.105 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "103f22ec-9a3c-4432-8dff-d31cfdd2703b")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 209.55 262.89) (xy 201.93 262.89)
 		)
@@ -20238,8 +18316,7 @@
 			(type default)
 		)
 		(uuid "1263a35e-ed5e-4b5f-a669-583abba05035")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 97.79) (xy 70.485 97.79)
 		)
@@ -20248,28 +18325,7 @@
 			(type default)
 		)
 		(uuid "12d717ba-dd27-4e6a-aa84-22e3916ad012")
-	)
-	(wire
-		(pts
-			(xy 340.995 66.04) (xy 320.04 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131333c1-5c05-44a4-b4c0-537355314bb9")
-	)
-	(wire
-		(pts
-			(xy 337.82 116.84) (xy 337.82 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148c67c0-3452-459e-b134-821742661f13")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 177.8 212.09) (xy 177.8 224.79)
 		)
@@ -20278,8 +18334,7 @@
 			(type default)
 		)
 		(uuid "14b40bd1-32ed-4f72-a6e1-6d8c2c6967a8")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 49.53) (xy 69.85 49.53)
 		)
@@ -20288,8 +18343,7 @@
 			(type default)
 		)
 		(uuid "15d1a7f1-8347-4049-a001-f4706db94f86")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 204.47 224.79) (xy 209.55 224.79)
 		)
@@ -20298,8 +18352,7 @@
 			(type default)
 		)
 		(uuid "17177ff9-3c6b-4e4c-8025-81cc6d32f986")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 128.27) (xy 70.485 128.27)
 		)
@@ -20308,38 +18361,7 @@
 			(type default)
 		)
 		(uuid "17ebbe7e-0ccf-419a-917c-6e5ecc8d5959")
-	)
-	(wire
-		(pts
-			(xy 340.995 121.92) (xy 335.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1caf3513-5b9d-4398-8606-b804a908a4af")
-	)
-	(wire
-		(pts
-			(xy 205.105 113.665) (xy 201.93 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d5e84f2-c2d7-4a33-8c22-ad4f5310f69d")
-	)
-	(wire
-		(pts
-			(xy 320.04 43.18) (xy 340.995 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc99576-74e1-405e-8466-f90cb813106a")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 224.79) (xy 240.03 224.79)
 		)
@@ -20348,18 +18370,7 @@
 			(type default)
 		)
 		(uuid "1e5b1f95-b2ed-4c25-816e-5a7080c366a1")
-	)
-	(wire
-		(pts
-			(xy 300.355 127.635) (xy 300.355 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed395bf-a102-4881-9ac7-d49a5be951b9")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 69.85 54.61) (xy 52.07 54.61)
 		)
@@ -20368,8 +18379,7 @@
 			(type default)
 		)
 		(uuid "1eff347b-ef32-4c4c-80a7-f3457355423f")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 173.99) (xy 71.755 173.99)
 		)
@@ -20378,28 +18388,7 @@
 			(type default)
 		)
 		(uuid "2253d871-2c62-49fd-bcb8-1e5a115bca91")
-	)
-	(wire
-		(pts
-			(xy 320.04 58.42) (xy 340.995 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "226bf240-b071-48e3-b216-7f8a1035fa3b")
-	)
-	(wire
-		(pts
-			(xy 205.105 52.705) (xy 184.15 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2596d754-6a9c-4caa-a1a0-1e35e0d0ee74")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 77.47) (xy 70.485 77.47)
 		)
@@ -20408,8 +18397,7 @@
 			(type default)
 		)
 		(uuid "25a820a0-ab39-4bbd-a1a7-e55d5ee4f24e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 156.21) (xy 71.755 156.21)
 		)
@@ -20418,18 +18406,7 @@
 			(type default)
 		)
 		(uuid "25f43dd4-0428-46b6-ac43-7a4cf3cc4a84")
-	)
-	(wire
-		(pts
-			(xy 172.085 124.46) (xy 172.085 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e38470-4cfe-45e0-ae04-df91b7c1468e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 120.65) (xy 70.485 120.65)
 		)
@@ -20438,8 +18415,7 @@
 			(type default)
 		)
 		(uuid "2a0f7036-ab76-4d1e-85d4-1ad5ddd8ea9f")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 234.95) (xy 270.51 234.95)
 		)
@@ -20448,38 +18424,7 @@
 			(type default)
 		)
 		(uuid "2e422803-c091-41e6-ac62-c9394eadd191")
-	)
-	(wire
-		(pts
-			(xy 337.82 63.5) (xy 337.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f03660e-e065-4ec7-8109-8785e98ad06a")
-	)
-	(wire
-		(pts
-			(xy 320.04 101.6) (xy 340.995 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30fe44d4-9e80-407c-b6a7-76efbe1e064e")
-	)
-	(wire
-		(pts
-			(xy 334.01 160.02) (xy 340.995 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32226433-28cd-48ac-a8e5-064cad416bbe")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 177.8 224.79) (xy 199.39 224.79)
 		)
@@ -20488,8 +18433,7 @@
 			(type default)
 		)
 		(uuid "34caa66c-f29d-433d-8b0b-139af2052b19")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 232.41) (xy 240.03 232.41)
 		)
@@ -20498,18 +18442,7 @@
 			(type default)
 		)
 		(uuid "3613ae73-fd44-4839-b177-a00f54f41c8f")
-	)
-	(wire
-		(pts
-			(xy 201.93 83.185) (xy 201.93 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "364f8eee-f9b4-4694-b43c-9a6e1810891c")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 67.945 69.85) (xy 70.485 69.85)
 		)
@@ -20518,28 +18451,7 @@
 			(type default)
 		)
 		(uuid "39551013-bf6b-476a-a7e7-2344132f411f")
-	)
-	(wire
-		(pts
-			(xy 337.82 71.12) (xy 337.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b54b4f3-2f35-4e7c-9e08-433490476187")
-	)
-	(wire
-		(pts
-			(xy 334.01 162.56) (xy 334.01 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eebebfa-5c97-4be6-afdc-cf1bd10bea57")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 173.99 252.73) (xy 175.26 252.73)
 		)
@@ -20548,8 +18460,7 @@
 			(type default)
 		)
 		(uuid "426a8a64-df43-4f98-b009-403bf21f6ff6")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 177.8 199.39) (xy 187.96 199.39)
 		)
@@ -20558,58 +18469,7 @@
 			(type default)
 		)
 		(uuid "44792f9a-c675-4fb4-a852-ad82f9091c99")
-	)
-	(wire
-		(pts
-			(xy 320.04 104.14) (xy 340.995 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ac62fe-a04c-40d8-9b16-797649199593")
-	)
-	(wire
-		(pts
-			(xy 320.04 93.98) (xy 340.995 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44bcc429-06fe-4269-96e9-6a58bcb7cf4b")
-	)
-	(wire
-		(pts
-			(xy 163.195 124.46) (xy 172.085 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45784f40-12ad-4925-9694-537e9e312204")
-	)
-	(wire
-		(pts
-			(xy 340.995 63.5) (xy 337.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d9a5f9-e534-43d3-be6d-ad4a372b64a1")
-	)
-	(wire
-		(pts
-			(xy 163.195 139.065) (xy 205.105 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b10769-0f09-4bf2-8ea1-458a321b205b")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 170.18 240.03) (xy 172.72 240.03)
 		)
@@ -20618,8 +18478,7 @@
 			(type default)
 		)
 		(uuid "47986862-7b7c-4258-8e87-f649c1fc3414")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 95.25) (xy 70.485 95.25)
 		)
@@ -20628,8 +18487,7 @@
 			(type default)
 		)
 		(uuid "483b718a-ea3d-416e-a554-64caf13dd4da")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 209.55) (xy 240.03 209.55)
 		)
@@ -20638,8 +18496,7 @@
 			(type default)
 		)
 		(uuid "485b9b8c-4a67-4a56-8742-a780f493c0fa")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 44.45) (xy 69.85 44.45)
 		)
@@ -20648,18 +18505,7 @@
 			(type default)
 		)
 		(uuid "489a30bb-a2cc-4763-b5eb-dd3f2961445d")
-	)
-	(wire
-		(pts
-			(xy 337.82 109.22) (xy 337.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48cd19ff-5c18-4650-a919-897e21a573ae")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 191.77 161.925) (xy 198.12 161.925)
 		)
@@ -20668,38 +18514,7 @@
 			(type default)
 		)
 		(uuid "4bd4f135-e97b-4827-a3d3-3cf254831db2")
-	)
-	(wire
-		(pts
-			(xy 282.575 117.475) (xy 282.575 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6529fa-e889-4b3a-a525-c358c9f845bf")
-	)
-	(wire
-		(pts
-			(xy 184.15 85.725) (xy 205.105 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e38d2fc-1715-4197-b578-896aab6254d3")
-	)
-	(wire
-		(pts
-			(xy 172.085 114.3) (xy 172.085 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f32272c-3565-42d3-9a6e-c20d263a62c0")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 166.37) (xy 71.755 166.37)
 		)
@@ -20708,8 +18523,7 @@
 			(type default)
 		)
 		(uuid "505d4b19-cb1d-48a2-b90d-d0be518bcd41")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 177.8 240.03) (xy 187.96 240.03)
 		)
@@ -20718,28 +18532,7 @@
 			(type default)
 		)
 		(uuid "537a1c54-dd1b-4142-8184-46711b23d14a")
-	)
-	(wire
-		(pts
-			(xy 320.04 99.06) (xy 340.995 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5613be60-a738-440f-9151-7d876e85ab9f")
-	)
-	(wire
-		(pts
-			(xy 201.93 75.565) (xy 201.93 83.185)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56989586-1abd-4558-9198-ce001b27c066")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 265.43) (xy 209.55 265.43)
 		)
@@ -20748,18 +18541,7 @@
 			(type default)
 		)
 		(uuid "56baac68-0948-422a-9777-ed09eba2e484")
-	)
-	(wire
-		(pts
-			(xy 201.93 113.665) (xy 201.93 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d685ca-7365-4124-9d7c-d317587f9fe3")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 199.39) (xy 187.96 207.01)
 		)
@@ -20768,18 +18550,7 @@
 			(type default)
 		)
 		(uuid "5753fbf8-2dea-482f-bb68-3a26f0595d5f")
-	)
-	(wire
-		(pts
-			(xy 291.465 127.635) (xy 291.465 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a5966d-169e-4fa1-9247-3b68399fbe53")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 257.81) (xy 201.93 262.89)
 		)
@@ -20788,18 +18559,7 @@
 			(type default)
 		)
 		(uuid "585ebdd0-4708-4429-a538-8102e704732b")
-	)
-	(wire
-		(pts
-			(xy 291.465 135.255) (xy 291.465 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae1d6c9-32b6-4e2c-8ce1-fdfb9f3b043c")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 62.23) (xy 70.485 62.23)
 		)
@@ -20808,8 +18568,7 @@
 			(type default)
 		)
 		(uuid "5b7ac490-cdbc-4aa6-8461-6543e41a5501")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 252.73) (xy 209.55 252.73)
 		)
@@ -20818,18 +18577,7 @@
 			(type default)
 		)
 		(uuid "5cd5ba0a-b1cd-4e9f-ab9f-a85555a0daf5")
-	)
-	(wire
-		(pts
-			(xy 340.995 162.56) (xy 334.01 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd7fbac-b8da-4ab1-b874-c58fa9d1c6dc")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 69.85 46.99) (xy 52.07 46.99)
 		)
@@ -20838,68 +18586,7 @@
 			(type default)
 		)
 		(uuid "5e7d4b21-dbb3-47bd-9e3e-dc971900dc52")
-	)
-	(wire
-		(pts
-			(xy 154.305 132.08) (xy 154.305 141.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ede0e89-06c1-4674-9a53-f6b23033da3c")
-	)
-	(wire
-		(pts
-			(xy 154.305 124.46) (xy 163.195 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60daff87-1bba-4c71-a804-1a4e4fb71ce6")
-	)
-	(wire
-		(pts
-			(xy 198.12 164.465) (xy 198.12 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b9e216-0a0d-4c1f-9a2d-1f861602db9a")
-	)
-	(wire
-		(pts
-			(xy 337.82 78.74) (xy 337.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d9650c-d780-423a-a476-0026df011e67")
-	)
-	(wire
-		(pts
-			(xy 184.15 103.505) (xy 205.105 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621f7bc9-c9c3-443c-b31d-0f98f6cb76d7")
-	)
-	(wire
-		(pts
-			(xy 145.415 144.145) (xy 205.105 144.145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623fee49-6b46-45c3-b3b0-fbf9c3dd5fc8")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 123.19) (xy 70.485 123.19)
 		)
@@ -20908,8 +18595,7 @@
 			(type default)
 		)
 		(uuid "63d9efb4-382f-4b93-954f-09f82b878506")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 92.71) (xy 70.485 92.71)
 		)
@@ -20918,18 +18604,7 @@
 			(type default)
 		)
 		(uuid "66545510-7913-4bbc-919d-88fca20b9c60")
-	)
-	(wire
-		(pts
-			(xy 184.15 88.265) (xy 205.105 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca8b1f5-41b7-4cb4-a02c-aca095ef080e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 175.26 264.16) (xy 175.26 266.7)
 		)
@@ -20938,28 +18613,7 @@
 			(type default)
 		)
 		(uuid "6d3646e1-e1ca-4499-92d0-dcd3820f4864")
-	)
-	(wire
-		(pts
-			(xy 309.245 135.255) (xy 309.245 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d85b178-7970-4ef3-8c18-041b2c2d2168")
-	)
-	(wire
-		(pts
-			(xy 205.105 159.385) (xy 198.12 159.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb73bbd-6b1a-4f41-a07c-021ab620af0c")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 255.27) (xy 209.55 255.27)
 		)
@@ -20968,28 +18622,7 @@
 			(type default)
 		)
 		(uuid "7047c8ac-17d4-4587-8716-a9d6768c077f")
-	)
-	(wire
-		(pts
-			(xy 205.105 108.585) (xy 184.15 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708b8cd3-8dd9-49bc-aac5-8232ad23adcd")
-	)
-	(wire
-		(pts
-			(xy 184.15 55.245) (xy 205.105 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708c4275-2d65-4a64-acc3-0e59eaa72ad4")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 130.81) (xy 70.485 130.81)
 		)
@@ -20998,28 +18631,7 @@
 			(type default)
 		)
 		(uuid "71cc16c2-6099-459f-8e8a-1a7f25740928")
-	)
-	(wire
-		(pts
-			(xy 145.415 114.3) (xy 145.415 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f9709e-3190-4ca7-8265-96f4d6b5475b")
-	)
-	(wire
-		(pts
-			(xy 163.195 132.08) (xy 163.195 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ec78eb-3103-43b3-a3eb-e7e762708261")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 327.66 160.02) (xy 334.01 160.02)
 		)
@@ -21028,38 +18640,7 @@
 			(type default)
 		)
 		(uuid "7526f57c-55e5-4136-98d6-4d1381c09ed2")
-	)
-	(wire
-		(pts
-			(xy 282.575 127.635) (xy 291.465 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75913ab7-4926-4a32-ad4d-13f029d6f72c")
-	)
-	(wire
-		(pts
-			(xy 340.995 111.76) (xy 320.04 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75da5a54-c641-4293-926b-5331073cc173")
-	)
-	(wire
-		(pts
-			(xy 320.04 45.72) (xy 340.995 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779bb81a-0ea0-47f2-8aae-2ad718b69460")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 74.93) (xy 70.485 74.93)
 		)
@@ -21068,18 +18649,7 @@
 			(type default)
 		)
 		(uuid "79a27fa1-98a8-46ab-855b-760de1ded1ee")
-	)
-	(wire
-		(pts
-			(xy 205.105 100.965) (xy 184.15 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b119d22-ee12-40eb-9efa-5f51b5cdb2f8")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 232.41) (xy 270.51 232.41)
 		)
@@ -21088,18 +18658,7 @@
 			(type default)
 		)
 		(uuid "7cb96d7c-e24b-4c61-bcb5-a783cacba4a5")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.945) (xy 201.93 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee50490-8d9e-4d7f-b419-a57893e62cd8")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 67.945 72.39) (xy 67.945 69.85)
 		)
@@ -21108,18 +18667,7 @@
 			(type default)
 		)
 		(uuid "83357205-9b59-4fc6-8e4f-19eb57d90353")
-	)
-	(wire
-		(pts
-			(xy 184.15 57.785) (xy 205.105 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837eccc6-cfaf-4e15-b442-14e8c0d1245a")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 100.33) (xy 70.485 100.33)
 		)
@@ -21128,8 +18676,7 @@
 			(type default)
 		)
 		(uuid "842df403-c725-4537-ad4f-b8ec9dc044b6")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 227.33) (xy 240.03 227.33)
 		)
@@ -21138,18 +18685,7 @@
 			(type default)
 		)
 		(uuid "848a2587-e55d-4cd3-9af5-640783e7cd22")
-	)
-	(wire
-		(pts
-			(xy 291.465 144.78) (xy 340.995 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852ca831-b821-4977-81ad-471bd2fc3e8a")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 207.01 209.55) (xy 207.01 210.82)
 		)
@@ -21158,8 +18694,7 @@
 			(type default)
 		)
 		(uuid "8684d9e3-3f3d-4ab7-97a9-e2c755e158a3")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 163.83) (xy 71.755 163.83)
 		)
@@ -21168,48 +18703,7 @@
 			(type default)
 		)
 		(uuid "8689037e-c878-44f5-84eb-b238a0133573")
-	)
-	(wire
-		(pts
-			(xy 320.04 48.26) (xy 340.995 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86cd1070-7bcf-4df0-b5ce-d59cbd29aeec")
-	)
-	(wire
-		(pts
-			(xy 320.04 106.68) (xy 340.995 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b0bcc8-eb2d-4e69-b9ab-47e77a6cf11f")
-	)
-	(wire
-		(pts
-			(xy 320.04 50.8) (xy 340.995 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88242787-2e6c-4837-a991-5b04cc21fa70")
-	)
-	(wire
-		(pts
-			(xy 334.01 165.1) (xy 340.995 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88775900-eae7-41a6-a8d8-58e85fa09a06")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 171.45) (xy 71.755 171.45)
 		)
@@ -21218,18 +18712,7 @@
 			(type default)
 		)
 		(uuid "88e84a0b-7d9c-4eaa-bdd6-4aae7b4dddd9")
-	)
-	(wire
-		(pts
-			(xy 282.575 147.32) (xy 340.995 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0e74a3-2449-4831-8d35-24905290ff31")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 161.29 227.33) (xy 187.96 227.33)
 		)
@@ -21238,28 +18721,7 @@
 			(type default)
 		)
 		(uuid "8a30c03a-a789-4a45-a483-0802c2a8a7b4")
-	)
-	(wire
-		(pts
-			(xy 145.415 124.46) (xy 154.305 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2a5d89-6eff-45f6-ae8e-39e48d62ec08")
-	)
-	(wire
-		(pts
-			(xy 320.04 55.88) (xy 340.995 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b44a8db-58a5-430d-850f-ec64b6b4a09a")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 204.47 227.33) (xy 209.55 227.33)
 		)
@@ -21268,28 +18730,7 @@
 			(type default)
 		)
 		(uuid "8b6418ac-e3a8-4572-878d-67672288c241")
-	)
-	(wire
-		(pts
-			(xy 184.15 90.805) (xy 205.105 90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bada950-3600-4970-b01b-be12fa6d20a0")
-	)
-	(wire
-		(pts
-			(xy 340.995 167.64) (xy 334.01 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bce6ac4-3c46-4665-a43c-08a1bf685294")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 85.09) (xy 70.485 85.09)
 		)
@@ -21298,18 +18739,7 @@
 			(type default)
 		)
 		(uuid "907d8193-4f51-4f8c-98be-06e070d8e0e9")
-	)
-	(wire
-		(pts
-			(xy 145.415 122.555) (xy 145.415 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f9ce9e-53dc-4a71-b377-8b305f453b96")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 69.85) (xy 67.945 69.85)
 		)
@@ -21318,8 +18748,7 @@
 			(type default)
 		)
 		(uuid "93617651-181e-4540-bd83-d3a3e62e6788")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 240.03) (xy 187.96 243.84)
 		)
@@ -21328,8 +18757,7 @@
 			(type default)
 		)
 		(uuid "93e8f7d7-d4a6-47ec-a423-df45d8add3d1")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 255.27) (xy 201.93 257.81)
 		)
@@ -21338,18 +18766,7 @@
 			(type default)
 		)
 		(uuid "96ec8329-67e0-46f6-bf92-667f112bea1c")
-	)
-	(wire
-		(pts
-			(xy 300.355 135.255) (xy 300.355 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9721fb7a-6dca-4f9d-be84-b8edaa38f603")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 148.59) (xy 70.485 148.59)
 		)
@@ -21358,8 +18775,7 @@
 			(type default)
 		)
 		(uuid "97bd40a2-1cad-439e-a4a8-cf7b1eb99d14")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 212.09) (xy 187.96 227.33)
 		)
@@ -21368,18 +18784,7 @@
 			(type default)
 		)
 		(uuid "97c40cb4-8dd8-48ee-b094-562136f9b3b5")
-	)
-	(wire
-		(pts
-			(xy 340.995 68.58) (xy 320.04 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f3c453-00ad-4031-b98e-5c8095ad0b26")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 146.05) (xy 53.975 146.05)
 		)
@@ -21388,8 +18793,7 @@
 			(type default)
 		)
 		(uuid "9a9953d3-daaa-470d-8d3c-4012c7756483")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 224.79) (xy 270.51 224.79)
 		)
@@ -21398,28 +18802,7 @@
 			(type default)
 		)
 		(uuid "9ef180ac-5192-464d-8ac8-66d4f7171197")
-	)
-	(wire
-		(pts
-			(xy 172.085 136.525) (xy 205.105 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11af65f-6bf9-460c-ac76-2bbb929c045c")
-	)
-	(wire
-		(pts
-			(xy 340.995 88.9) (xy 320.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2547732-62f2-4857-9882-279857fb7aca")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 227.33) (xy 270.51 227.33)
 		)
@@ -21428,28 +18811,7 @@
 			(type default)
 		)
 		(uuid "a3b9433e-713d-4a6c-8c80-3e7d2499a710")
-	)
-	(wire
-		(pts
-			(xy 340.995 109.22) (xy 337.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4409a4d-db4f-4443-a6b3-9167e6e5fff0")
-	)
-	(wire
-		(pts
-			(xy 340.995 71.12) (xy 337.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d119b5-9cc4-4cd1-842c-0347bc914327")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 82.55) (xy 70.485 82.55)
 		)
@@ -21458,28 +18820,7 @@
 			(type default)
 		)
 		(uuid "a7e5d15f-18c7-4612-9b84-872a139b4cfa")
-	)
-	(wire
-		(pts
-			(xy 205.105 83.185) (xy 201.93 83.185)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c91713-c9fa-4d34-bf09-d99efe076e5e")
-	)
-	(wire
-		(pts
-			(xy 145.415 124.46) (xy 145.415 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab68a9e2-ac09-4f78-bd62-d97561d84578")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 118.11) (xy 70.485 118.11)
 		)
@@ -21488,8 +18829,7 @@
 			(type default)
 		)
 		(uuid "ac9c6e74-f444-4a8f-b490-34a3d387b89b")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 125.73) (xy 70.485 125.73)
 		)
@@ -21498,18 +18838,7 @@
 			(type default)
 		)
 		(uuid "ae5d65c6-d7b2-4e51-9cc1-6ea9f57f08b8")
-	)
-	(wire
-		(pts
-			(xy 282.575 135.255) (xy 282.575 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec53b9e-3769-4164-849d-d0f729b5001e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 140.97) (xy 70.485 140.97)
 		)
@@ -21518,8 +18847,7 @@
 			(type default)
 		)
 		(uuid "aecf255b-74b5-4248-b719-5d1bc452a216")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 240.03) (xy 209.55 240.03)
 		)
@@ -21528,28 +18856,7 @@
 			(type default)
 		)
 		(uuid "afad4029-92b9-4692-a42f-b3e7d4037f1f")
-	)
-	(wire
-		(pts
-			(xy 201.93 60.325) (xy 201.93 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc1fa41-450a-4fc7-80b0-12d8c520fa52")
-	)
-	(wire
-		(pts
-			(xy 309.245 125.095) (xy 309.245 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ca3ec5-3ed4-4fe7-8730-e7d9b956d732")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 217.17) (xy 270.51 217.17)
 		)
@@ -21558,18 +18865,7 @@
 			(type default)
 		)
 		(uuid "b417be53-0675-4c7d-8936-cab6018dd84c")
-	)
-	(wire
-		(pts
-			(xy 154.305 141.605) (xy 205.105 141.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e2898b-0483-4890-a419-c91b55fd18ba")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 168.91) (xy 71.755 168.91)
 		)
@@ -21578,68 +18874,7 @@
 			(type default)
 		)
 		(uuid "b98fab86-450f-4f62-b5be-866b42dbb2c1")
-	)
-	(wire
-		(pts
-			(xy 184.15 50.165) (xy 205.105 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb009051-e644-4329-9927-6d399841969e")
-	)
-	(wire
-		(pts
-			(xy 205.105 156.845) (xy 198.12 156.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe5b273-fdff-42ec-a9a8-517e2fd1cc24")
-	)
-	(wire
-		(pts
-			(xy 205.105 62.865) (xy 184.15 62.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd0ef1b1-e4c4-4b8c-a64e-6f9e8f572e81")
-	)
-	(wire
-		(pts
-			(xy 309.245 127.635) (xy 309.245 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc2d449-653c-4318-9eea-e35d85b8b890")
-	)
-	(wire
-		(pts
-			(xy 172.085 132.08) (xy 172.085 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1544056-c4ad-40bf-b482-be64e9cdb98d")
-	)
-	(wire
-		(pts
-			(xy 282.575 127.635) (xy 282.575 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c161581e-159e-4b9e-886c-eea743fcb92f")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 153.67) (xy 71.755 153.67)
 		)
@@ -21648,8 +18883,7 @@
 			(type default)
 		)
 		(uuid "c1c2fd22-61d9-421d-8662-74824fc94e7a")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 115.57) (xy 70.485 115.57)
 		)
@@ -21658,8 +18892,7 @@
 			(type default)
 		)
 		(uuid "c1caaa5b-c0e8-4d95-a4d6-9a28046d6e83")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 177.8 199.39) (xy 177.8 207.01)
 		)
@@ -21668,8 +18901,7 @@
 			(type default)
 		)
 		(uuid "c349a2d6-1f50-48bc-a419-a27a81881954")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 175.26 252.73) (xy 175.26 259.08)
 		)
@@ -21678,18 +18910,7 @@
 			(type default)
 		)
 		(uuid "c4648bbc-c875-409a-8d82-f1d3046ba946")
-	)
-	(wire
-		(pts
-			(xy 201.93 106.045) (xy 201.93 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57e2630-1d15-4315-9827-dd14a890bb89")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 41.91) (xy 69.85 41.91)
 		)
@@ -21698,8 +18919,7 @@
 			(type default)
 		)
 		(uuid "c694890d-4da9-423b-b2d7-7cbf7614602e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 257.81) (xy 209.55 257.81)
 		)
@@ -21708,28 +18928,7 @@
 			(type default)
 		)
 		(uuid "c6bdc35d-e356-42aa-8d99-6ebfcb7b45e7")
-	)
-	(wire
-		(pts
-			(xy 309.245 117.475) (xy 309.245 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fd73bd-8fa4-49d7-b56a-d97424d72094")
-	)
-	(wire
-		(pts
-			(xy 205.105 118.745) (xy 199.39 118.745)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78da9c5-6b9f-4c3b-9235-0397e34e33e5")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 252.73) (xy 201.93 255.27)
 		)
@@ -21738,18 +18937,7 @@
 			(type default)
 		)
 		(uuid "c82964a7-30b5-46af-ba07-a398cd234c5a")
-	)
-	(wire
-		(pts
-			(xy 309.245 139.7) (xy 340.995 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8614410-8c06-4b18-9411-12def30fa0d2")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 70.485 72.39) (xy 67.945 72.39)
 		)
@@ -21758,8 +18946,7 @@
 			(type default)
 		)
 		(uuid "c87de2fa-d0d4-4774-b01d-a5b8b4644caa")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 219.71) (xy 270.51 219.71)
 		)
@@ -21768,18 +18955,7 @@
 			(type default)
 		)
 		(uuid "c8ff28c0-d1bc-4c7c-aed2-4540bbfeb7f5")
-	)
-	(wire
-		(pts
-			(xy 205.105 75.565) (xy 201.93 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97cf550-fab1-452c-aa8d-2c806d31a726")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 327.66 165.1) (xy 334.01 165.1)
 		)
@@ -21788,8 +18964,7 @@
 			(type default)
 		)
 		(uuid "c97e1174-bf06-4ec0-bf23-bf1a0de83db8")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 212.09) (xy 270.51 212.09)
 		)
@@ -21798,18 +18973,7 @@
 			(type default)
 		)
 		(uuid "c9bd4bc4-be02-4ac2-9d25-e3733807348c")
-	)
-	(wire
-		(pts
-			(xy 205.105 111.125) (xy 184.15 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2b2caa-2f4c-43a3-9901-5c572e898655")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 133.35) (xy 70.485 133.35)
 		)
@@ -21818,8 +18982,7 @@
 			(type default)
 		)
 		(uuid "ca8f2608-608a-46c9-ae55-bbcbfe2b22bb")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 227.33) (xy 199.39 227.33)
 		)
@@ -21828,28 +18991,7 @@
 			(type default)
 		)
 		(uuid "caafb0e3-071b-4af0-9865-970bc4fd0544")
-	)
-	(wire
-		(pts
-			(xy 291.465 127.635) (xy 300.355 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb46e689-a335-4828-b61d-d1d475da0db9")
-	)
-	(wire
-		(pts
-			(xy 320.04 96.52) (xy 340.995 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb67bd1f-9df2-4a65-bfc3-89cdf8453ef6")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 67.31) (xy 70.485 67.31)
 		)
@@ -21858,28 +19000,7 @@
 			(type default)
 		)
 		(uuid "cd19eea1-8a7c-47d7-a5a6-8d90405fe3d8")
-	)
-	(wire
-		(pts
-			(xy 154.305 124.46) (xy 154.305 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdada632-cff8-4046-85c2-fbb441cc0a61")
-	)
-	(wire
-		(pts
-			(xy 300.355 142.24) (xy 340.995 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14ca771-1389-450e-9af2-934c61cfe4d9")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 199.39) (xy 187.96 191.77)
 		)
@@ -21888,8 +19009,7 @@
 			(type default)
 		)
 		(uuid "d3c3d349-8733-46c2-b2fd-90eba2d1ec89")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 113.03) (xy 70.485 113.03)
 		)
@@ -21898,8 +19018,7 @@
 			(type default)
 		)
 		(uuid "d4c8753d-8241-4998-96a3-d1638cc37e9f")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 87.63) (xy 70.485 87.63)
 		)
@@ -21908,18 +19027,7 @@
 			(type default)
 		)
 		(uuid "d5279104-34f2-4fc7-8ab1-7ed17853d8a0")
-	)
-	(wire
-		(pts
-			(xy 320.04 53.34) (xy 340.995 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6027ac1-cb2b-48c0-b17a-6a704b447232")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 198.12 156.845) (xy 191.77 156.845)
 		)
@@ -21928,18 +19036,7 @@
 			(type default)
 		)
 		(uuid "d6e12951-6e44-4234-8a79-a6623d691fc6")
-	)
-	(wire
-		(pts
-			(xy 198.12 159.385) (xy 198.12 156.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a15f51-d098-415f-a9b5-285684090d31")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 161.29) (xy 71.755 161.29)
 		)
@@ -21948,8 +19045,7 @@
 			(type default)
 		)
 		(uuid "d7cf33d9-24b6-4d7b-929e-cabcdf6f6983")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 265.43) (xy 201.93 266.7)
 		)
@@ -21958,8 +19054,7 @@
 			(type default)
 		)
 		(uuid "db4c5027-d0b6-4821-a2f4-983865b9c840")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 207.01 209.55) (xy 209.55 209.55)
 		)
@@ -21968,38 +19063,7 @@
 			(type default)
 		)
 		(uuid "dc1cee4c-729c-445a-a146-a6ab2dc9ccb2")
-	)
-	(wire
-		(pts
-			(xy 163.195 124.46) (xy 163.195 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd129738-7367-4f31-999e-4e35c8abe9c8")
-	)
-	(wire
-		(pts
-			(xy 205.105 67.945) (xy 201.93 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8ac1b8-d427-438c-a612-936513787bd3")
-	)
-	(wire
-		(pts
-			(xy 340.995 60.96) (xy 320.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1f282c-5968-4881-b8ba-065482521290")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 161.29 224.79) (xy 177.8 224.79)
 		)
@@ -22008,28 +19072,7 @@
 			(type default)
 		)
 		(uuid "e3c3c093-9646-48d5-93af-179009c47585")
-	)
-	(wire
-		(pts
-			(xy 320.04 91.44) (xy 340.995 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e545f113-6c3d-47f1-9eda-70bfa5c9a5db")
-	)
-	(wire
-		(pts
-			(xy 282.575 125.095) (xy 282.575 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e729df05-0dbc-40e7-8b88-debdaadf2bcd")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 212.09) (xy 240.03 212.09)
 		)
@@ -22038,8 +19081,7 @@
 			(type default)
 		)
 		(uuid "e988ebfa-63b2-479d-b096-9c95e922e49f")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 234.95) (xy 240.03 234.95)
 		)
@@ -22048,28 +19090,7 @@
 			(type default)
 		)
 		(uuid "ec75aaf6-d3c8-44fc-906d-2b8356f221f0")
-	)
-	(wire
-		(pts
-			(xy 335.28 127) (xy 340.995 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecdd2e27-ad11-41b5-865a-d9b18aa25400")
-	)
-	(wire
-		(pts
-			(xy 340.995 78.74) (xy 337.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed2dc048-7364-4256-97ee-cebf2a007fad")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 187.96 256.54) (xy 187.96 266.7)
 		)
@@ -22078,8 +19099,7 @@
 			(type default)
 		)
 		(uuid "ed8769f5-369b-4617-9aba-02dd9677fa30")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 80.01) (xy 70.485 80.01)
 		)
@@ -22088,8 +19108,7 @@
 			(type default)
 		)
 		(uuid "ef5c5ab6-3465-4af7-9eb2-6d16240c083e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 229.87 217.17) (xy 240.03 217.17)
 		)
@@ -22098,8 +19117,7 @@
 			(type default)
 		)
 		(uuid "ef94db8d-5bf3-4acd-982c-bd613b5ca07c")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 245.11 209.55) (xy 270.51 209.55)
 		)
@@ -22108,18 +19126,7 @@
 			(type default)
 		)
 		(uuid "f614d76a-eb74-47c8-b07a-2118354da545")
-	)
-	(wire
-		(pts
-			(xy 184.15 95.885) (xy 205.105 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f78331bb-1d24-49e5-b843-23f334f6b62e")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 201.93 262.89) (xy 201.93 265.43)
 		)
@@ -22128,18 +19135,7 @@
 			(type default)
 		)
 		(uuid "f7a56e25-ad6d-468c-a198-13018f3977f7")
-	)
-	(wire
-		(pts
-			(xy 205.105 60.325) (xy 201.93 60.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85fe13e-a70e-478c-b71c-6411907e53fe")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 52.07) (xy 69.85 52.07)
 		)
@@ -22148,28 +19144,7 @@
 			(type default)
 		)
 		(uuid "f8cea9a8-e350-43e6-a1d7-aa72f9942d03")
-	)
-	(wire
-		(pts
-			(xy 205.105 106.045) (xy 201.93 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f984c8c1-2933-4b97-8be8-af2c4e1db657")
-	)
-	(wire
-		(pts
-			(xy 145.415 132.08) (xy 145.415 144.145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc70de60-3325-4c6d-893d-d3b0cbef5e64")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 52.07 59.69) (xy 70.485 59.69)
 		)
@@ -22178,18 +19153,7 @@
 			(type default)
 		)
 		(uuid "fc8ebfaa-e049-40e7-bbc4-f5ea402ee249")
-	)
-	(wire
-		(pts
-			(xy 320.04 114.3) (xy 340.995 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fee51c97-04d3-4e44-8669-b646d6ca07c6")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 175.26 252.73) (xy 180.34 252.73)
 		)
@@ -22198,7 +19162,1692 @@
 			(type default)
 		)
 		(uuid "ff6480a5-3be8-42c2-b7ca-a49c44998e2f")
-	)
+	)	(embedded_fonts no)
 
-	(embedded_fonts no)
+	(symbol
+		(lib_id "jetson-symbols:IMX219_30P")
+		(at 241.3 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7658f646-5872-46f5-94ee-f7f98d483e4d")
+		(property "Reference" "CAM_L"
+			(at 241.3 45.720000000000006 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "IMX219_30P"
+			(at 241.3 132.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:Camera_Module_IMX219-D160"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Onboard 8MP IMX219 Sensor Socket"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "2d90dae2-f69d-4b82-b1fb-8bc4e2447fa7"))
+		(pin "2" (uuid "576047fd-bfc2-4acd-8439-8cd956c14a18"))
+		(pin "3" (uuid "923371e7-9cc9-495b-a2ca-0e3a3793c86d"))
+		(pin "4" (uuid "3b4923d8-0fdf-491b-a4bf-918e908f2cd7"))
+		(pin "5" (uuid "3a225cce-d14c-4749-9012-b5a9aacb3fc9"))
+		(pin "6" (uuid "58ffb58c-3270-42b4-8216-95ec48611898"))
+		(pin "7" (uuid "23c715b7-ff66-4cb7-827d-3ed3a3717eec"))
+		(pin "8" (uuid "98a2db59-9ebb-45f5-bdbe-386b88be19b7"))
+		(pin "9" (uuid "32e8105a-f046-4af2-afec-8a13f585ab15"))
+		(pin "10" (uuid "f5541371-b9e1-49d5-834c-66977129637c"))
+		(pin "11" (uuid "613e2328-50fd-4e3d-ad7d-5de31d2046f5"))
+		(pin "12" (uuid "d5fbea52-ec84-4a92-b18d-2b6443d5e925"))
+		(pin "13" (uuid "43c9a667-b4a3-4871-96fb-879039f00365"))
+		(pin "14" (uuid "1fa86808-9fcf-46d2-a00a-043371fe79e6"))
+		(pin "15" (uuid "15d5afa2-a22e-4851-904a-127449551a2c"))
+		(pin "16" (uuid "7d52f4ec-276a-4f8f-8d5d-68f84a213437"))
+		(pin "17" (uuid "c18e6088-ca2b-452b-b87e-f206e4ddbaff"))
+		(pin "18" (uuid "fe24d6cf-26a3-4adc-bbf1-688505fb703c"))
+		(pin "19" (uuid "d22a7f8f-d12f-4691-9ccc-0f812f3fff13"))
+		(pin "20" (uuid "9aef5a9a-cbbc-485d-8b21-1b4b250e87bd"))
+		(pin "21" (uuid "53f1a0ff-0dde-4e9b-a840-a504b143fd78"))
+		(pin "22" (uuid "9c09b9c2-03d4-470e-a7c1-231f3be8b649"))
+		(pin "23" (uuid "e335d34b-fb94-466b-99c1-64ea74c49ee2"))
+		(pin "24" (uuid "eb9af7d8-f2c1-4463-9588-7774269dfe43"))
+		(pin "25" (uuid "af52b796-7446-41c9-8c6f-de1622b06d37"))
+		(pin "26" (uuid "80ccfb04-6520-496d-b8d8-ec346e4d7cc3"))
+		(pin "27" (uuid "63f87188-8fe3-4070-a6b1-5c4c693f3df3"))
+		(pin "28" (uuid "a22295b7-21ef-4a21-a4d9-42882224599a"))
+		(pin "29" (uuid "38954361-12fc-427f-ba07-88c78fefd6a8"))
+		(pin "30" (uuid "5a48c702-66f5-4301-bd02-0416eab79de1"))
+		(pin "SH" (uuid "46bf239d-582d-4b97-a4df-7a00b6c5900a"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "CAM_L")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 228.6 52.07)
+		(uuid "5abff2fa-0370-43ae-871d-057bec445feb")
+	)
+	(no_connect
+		(at 228.6 54.61)
+		(uuid "6e1c3346-502a-4442-8354-4e986f643907")
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 228.6 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98832fca-ce98-419a-8270-4c4c5ed1ebe7")
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 228.6 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "288ed5a8-e9be-41fd-898a-2ed584c5c9a3")
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 228.6 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c197a71-a4eb-40d4-9055-20d90accc4f9")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 228.6 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10f0439c-3df1-4e6f-9e70-ad81b688144b")
+		(property "Reference" "#PWRea579e"
+			(at 228.6 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 228.6 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "0a1b422c-a509-4643-aca3-7e67920d66b2"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRf5ec82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM0_MCLK"
+		(shape input)
+		(at 228.6 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10eec6b5-2f94-431b-a475-2d21c4fceef6")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 228.6 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b095f905-8eb1-4ec6-89c5-b10d74fdd22b")
+		(property "Reference" "#PWRa1e853"
+			(at 228.6 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 228.6 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "4c2dc06a-b66a-41a2-bd00-df34fc80ba93"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR0f0d21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 228.6 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4aba9037-5229-4d6e-8784-e25a7d782ed4")
+		(property "Reference" "#PWR35ec0e"
+			(at 228.6 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 228.6 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "52de6b30-d9aa-4907-8522-4983af320367"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRb3735e")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 228.6 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8aaadb1-eb76-4605-8cb9-7000fc2c477e")
+	)
+	(no_connect
+		(at 228.6 77.47)
+		(uuid "02b86eb5-c683-4a10-903e-5922501dd29a")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 228.6 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24861ff3-d79e-4db3-b086-cff655502cbd")
+		(property "Reference" "#PWR5c5f17"
+			(at 228.6 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 228.6 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "565b11bb-9632-4b3b-ae2c-5834f2c1a404"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR10600c")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 228.6 82.55)
+		(uuid "3cd4a22b-69cf-42da-bf6f-702e6b7aedad")
+	)
+	(no_connect
+		(at 228.6 85.09)
+		(uuid "055ea1c6-faff-4044-b239-9da88e77e5a6")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 228.6 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b42cd5a-d3c6-43fb-8762-ae4b7beac40a")
+		(property "Reference" "#PWR3e0b2e"
+			(at 228.6 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 228.6 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "41075dc1-253e-4d72-9512-53ceeb5ad337"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRb12197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 254.0 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "411a505b-4946-4321-887a-91380fdc7bf5")
+		(property "Reference" "#PWR446050"
+			(at 254.0 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.0 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "94ad2216-3945-48e5-8c87-6da078e3abad"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR50d0e9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 254.0 85.09)
+		(uuid "719ee61d-16f9-4046-96c4-05e1b89551e3")
+	)
+	(no_connect
+		(at 254.0 82.55)
+		(uuid "0270545f-ad97-4948-8cb0-ae3d8cca3889")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 254.0 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68c8ea96-3be9-4eff-a842-c44209e57c8c")
+		(property "Reference" "#PWRb584dd"
+			(at 254.0 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.0 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "b43f28c8-2c93-45e0-b55f-801c05f72cf0"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRde9395")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_A_D1_N"
+		(shape input)
+		(at 254.0 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c15d278-66da-4939-9bc8-02e73205274e")
+	)
+	(global_label "CSI_A_D1_P"
+		(shape input)
+		(at 254.0 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3952a0b9-5df0-42ef-8baa-99d59e9c6778")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 254.0 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81a7478d-1182-4097-ad96-f5956ed6dbba")
+		(property "Reference" "#PWRee4e96"
+			(at 254.0 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.0 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "c8243a05-00c5-4b18-91d2-2e86457f69e6"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRb1ae49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_A_D0_N"
+		(shape input)
+		(at 254.0 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9af684f-d7e9-46fa-ad60-4b94fbc9a072")
+	)
+	(global_label "CSI_A_D0_P"
+		(shape input)
+		(at 254.0 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "606e2f23-2c70-48a9-9dd3-3b06c026619a")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 254.0 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b77e9d73-b2a9-454f-938d-0edb91050667")
+		(property "Reference" "#PWR6ff8f4"
+			(at 254.0 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.0 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "89f60112-b1ce-4fc9-9bde-7a9dd5bc251d"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR704fc1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_A_CLK_N"
+		(shape input)
+		(at 254.0 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a188f18-f111-4ed8-a5ad-f07d49fd71dc")
+	)
+	(global_label "CSI_A_CLK_P"
+		(shape input)
+		(at 254.0 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1edd06f8-1442-43a7-880e-32f30268cf19")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 254.0 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6b05edb-3814-4874-a515-fd69bacbff1e")
+		(property "Reference" "#PWR7a8744"
+			(at 254.0 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 254.0 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "030c53e4-853e-4fa8-89da-7c9b4c7147d2"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR637a0b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM0_SCL"
+		(shape input)
+		(at 254.0 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28909a16-f69f-40df-97ed-ba9f284bae1e")
+	)
+	(global_label "CAM0_SDA"
+		(shape input)
+		(at 254.0 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53080960-d509-48dd-a82b-d344daba2f23")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 241.3 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb31ca55-da60-4796-9950-4513ab531d48")
+		(property "Reference" "#PWR2cf983"
+			(at 241.3 133.35 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 241.3 133.35 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "a0002f15-78f3-4835-8d48-0ec864e31dc0"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR1190de")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:IMX219_30P")
+		(at 330.2 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e77ce6-b147-474b-99f1-fde7bd9d6a85")
+		(property "Reference" "CAM_R"
+			(at 330.2 45.720000000000006 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "IMX219_30P"
+			(at 330.2 132.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:Camera_Module_IMX219-D160"
+			(at 330.2 88.9 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Onboard 8MP IMX219 Sensor Socket"
+			(at 330.2 88.9 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "856090c7-f92a-42b3-b1c8-92a20d6aece7"))
+		(pin "2" (uuid "dbc35c8f-d3dd-440f-b7dc-430479ffb714"))
+		(pin "3" (uuid "14b968e4-b614-40a9-88b6-5bdd8a43991b"))
+		(pin "4" (uuid "e28e0635-47ef-4496-b116-25233a2c7ec7"))
+		(pin "5" (uuid "5cb0168f-b37f-4579-9d2b-88e1cfeb2191"))
+		(pin "6" (uuid "22c56c99-1797-4c93-9d66-d76e806b27ec"))
+		(pin "7" (uuid "8914cd0f-2b44-4eb3-9b35-9a0c1a5c54ba"))
+		(pin "8" (uuid "94b42b51-eb27-48a9-b0af-241ddd83d2e1"))
+		(pin "9" (uuid "86049d6a-3733-417c-8466-07afba63b8fa"))
+		(pin "10" (uuid "ddd4d17e-17f8-4dc6-98da-d172f069ff31"))
+		(pin "11" (uuid "b91c3e26-7e35-4f14-a097-881d58d8c2c9"))
+		(pin "12" (uuid "6eb96230-a160-4a42-a387-c7e3ab62e7f0"))
+		(pin "13" (uuid "904d60da-a0a6-41be-b394-57158393fb64"))
+		(pin "14" (uuid "85550bb7-171e-43a3-8adb-4fff33da20c0"))
+		(pin "15" (uuid "5624c4a2-5b3d-4784-8598-51265faf9384"))
+		(pin "16" (uuid "3df793da-c724-438d-8ab7-87ada7996354"))
+		(pin "17" (uuid "422d8a38-2061-4962-ad14-44d17a48a060"))
+		(pin "18" (uuid "b8985ecc-a8ce-4bb3-920a-7a66fe1d9218"))
+		(pin "19" (uuid "0ba0e705-2d78-498c-9d1a-6d85a6247537"))
+		(pin "20" (uuid "fd5e342e-9369-4fb4-9c0e-14130201ef40"))
+		(pin "21" (uuid "e4e2b295-a097-4208-9cb2-3497d2176588"))
+		(pin "22" (uuid "5afaf413-cf6c-4ecd-a714-38f184c36894"))
+		(pin "23" (uuid "13408f25-2fec-48cf-a3ba-300667289e7b"))
+		(pin "24" (uuid "61346d74-00c9-4b45-9563-1ce08ecb4bcb"))
+		(pin "25" (uuid "ca2ca534-0dc3-4203-aa3d-d89d24554901"))
+		(pin "26" (uuid "10350450-0012-4166-b627-72b32875925d"))
+		(pin "27" (uuid "ef03a031-a921-464b-b974-f8f0abc260d1"))
+		(pin "28" (uuid "b69edfff-760d-42e7-9b33-8922910a730c"))
+		(pin "29" (uuid "30e433f5-0a31-42ca-b917-b28c130d7597"))
+		(pin "30" (uuid "cfdaa7d2-8961-4423-9ab1-929ab6da4342"))
+		(pin "SH" (uuid "ca7033b7-3a2c-4785-98ac-6bf75e7d437d"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "CAM_R")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 317.5 52.07)
+		(uuid "dc813d19-5a1c-4fe3-bc11-604187ff2a54")
+	)
+	(no_connect
+		(at 317.5 54.61)
+		(uuid "87a2d4f0-4026-484d-9689-b00f17895296")
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 317.5 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57a176e7-d1ac-40fa-bfd5-6eff0e5798de")
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 317.5 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "717de7d4-edf7-402e-8f10-db93bfc77e7f")
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 317.5 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b71524a-94cc-49d4-90cc-2c0b57e42608")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 317.5 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3804155-5a75-42a7-adc6-c221fc14881a")
+		(property "Reference" "#PWR2ac1d0"
+			(at 317.5 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 317.5 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "28580b5b-a556-46ee-8a77-0e1af18e50d9"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR7bd30f")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM1_MCLK"
+		(shape input)
+		(at 317.5 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ee74688-45c4-4320-9faa-ce2ee8405aa0")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 317.5 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbebadf2-ff5e-4bf3-9ec7-7f7c45992d54")
+		(property "Reference" "#PWR0b7e95"
+			(at 317.5 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 317.5 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "02610b76-19f7-4930-b23e-f72efbc29ad4"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR71bf32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 317.5 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d18e58be-7947-428b-b9d7-72de9e9c0d5b")
+		(property "Reference" "#PWR2d2b13"
+			(at 317.5 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 317.5 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "a46e7133-28be-414f-a525-7ac637c50940"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR5bec1f")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 317.5 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cab22060-e5a0-4f0a-9ce7-603c3666bd90")
+	)
+	(no_connect
+		(at 317.5 77.47)
+		(uuid "2f50642b-38ca-4be7-b193-1a98530015d8")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 317.5 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "923ded6c-07a4-425d-ba14-a5f3cdb0bbeb")
+		(property "Reference" "#PWR2d8fb6"
+			(at 317.5 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 317.5 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "ecd9c86a-4e26-4016-98d2-0a6b0d1bec56"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRa590a3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 317.5 82.55)
+		(uuid "85248627-173f-4470-adff-4ce0cc8cb594")
+	)
+	(no_connect
+		(at 317.5 85.09)
+		(uuid "35a9dd53-01d7-4ad9-83c7-adb2068f742d")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 317.5 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d9d7eec-ac26-476b-af8d-23f29b978f7e")
+		(property "Reference" "#PWRc6cbb3"
+			(at 317.5 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 317.5 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "10847df4-53f4-4479-adb1-6fda61930c5c"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR85b2d9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac174f39-ede1-46b4-8a3b-2b3dded2e33e")
+		(property "Reference" "#PWR97841c"
+			(at 342.9 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "cdcc90f6-1d44-42b7-88fd-0e733d8d12ae"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR19ed25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 342.9 85.09)
+		(uuid "f8c97ce8-3593-4223-93b7-a5a16b52947b")
+	)
+	(no_connect
+		(at 342.9 82.55)
+		(uuid "54502338-e0b8-4aa9-9f87-66d16fcad809")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2aa47ab-eda3-4d56-83ec-3a48038d12aa")
+		(property "Reference" "#PWR38e79f"
+			(at 342.9 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 82.55000000000001 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "6ad98378-87cd-430b-8087-9c089c6d4ee8"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR451aac")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_C_D1_N"
+		(shape input)
+		(at 342.9 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8611ba3f-546b-4957-b9bd-fd39f5ff8e24")
+	)
+	(global_label "CSI_C_D1_P"
+		(shape input)
+		(at 342.9 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ae7ebbd-5264-4ca2-8c74-f92ad02c1e20")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "922fddb4-8650-4fda-8432-ecd45dad29ed")
+		(property "Reference" "#PWRaa9e7a"
+			(at 342.9 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "1a149607-dc9d-4d2b-bcf0-fd53c8e95dab"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRd13c32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_C_D0_N"
+		(shape input)
+		(at 342.9 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3dd06f1f-9331-4932-ae30-911a8461c97a")
+	)
+	(global_label "CSI_C_D0_P"
+		(shape input)
+		(at 342.9 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71def9ad-1c8b-4c4b-bffd-b8062e36b884")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49d587e8-107a-414e-b821-0f78f0df443f")
+		(property "Reference" "#PWRcae0d6"
+			(at 342.9 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "3da1704c-f484-46e9-a288-7b7a7cd7d870"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR2901bf")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CSI_C_CLK_N"
+		(shape input)
+		(at 342.9 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fee3e605-a999-4d02-9da1-9ed200101b6c")
+	)
+	(global_label "CSI_C_CLK_P"
+		(shape input)
+		(at 342.9 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d7b376d-fbf1-42ff-b978-a1bde22aad01")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0de6b041-5e3f-480b-8f69-d307e37911ac")
+		(property "Reference" "#PWR0960c5"
+			(at 342.9 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "47ace28d-3145-42e9-abf8-a1d5e041faad"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR775445")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM1_SCL"
+		(shape input)
+		(at 342.9 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb9de416-4cd9-4810-af30-7cc2704de047")
+	)
+	(global_label "CAM1_SDA"
+		(shape input)
+		(at 342.9 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ed31898-4174-49cb-a2af-75cdc3dfae40")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 330.2 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3ec0cfd-7158-400a-a6b5-6bd6907fae1c")
+		(property "Reference" "#PWRf569c8"
+			(at 330.2 133.35 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 330.2 133.35 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "582f4d71-b78d-4598-b69b-953e1c4c7dc8"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRf13c43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:TPS7A0518P_SOT23-5")
+		(at 254.0 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e757fd-2964-4731-9ce2-da640949c6e2")
+		(property "Reference" "U10"
+			(at 261.62 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TPS7A0528PDBVR"
+			(at 261.62 182.88000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:SOT-23-5"
+			(at 254.0 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "0ffaab40-dea3-4a60-8001-4e4b48cc120c"))
+		(pin "2" (uuid "f9ae521c-8772-4af1-a17b-77ce823ff323"))
+		(pin "3" (uuid "c016fa04-d64f-4b3b-bf2a-8f2547551a4f"))
+		(pin "4" (uuid "a5ec8e56-3461-4935-a668-91e0282a8d5d"))
+		(pin "5" (uuid "867a1708-e7dc-44e6-baad-b07e3eb844ca"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 254.0 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a1e9452-1d3a-4ff7-a59d-d7022d580c1f")
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 254.0 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4a7782f-48ab-4ac8-bf31-4138532d2771")
+	)
+	(no_connect
+		(at 256.54 181.61)
+		(uuid "8b89a67b-835c-4d48-a8bb-7f0d1ed37cbe")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 269.24 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cc6ba81-f625-4381-a031-8d319008b4f2")
+		(property "Reference" "#PWRbe2584"
+			(at 269.24 177.79999999999998 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 269.24 177.79999999999998 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "109db347-4f59-4341-9bfd-afe0e5e24af1"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRe18239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 269.24 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "535328ce-4ebe-4438-883c-9d5971947418")
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 241.3 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf411725-50be-4389-9b0b-fbdf62529e3d")
+		(property "Reference" "C91"
+			(at 243.84 175.26000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "1uF_0402"
+			(at 243.84 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 241.3 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "5a1e241f-c384-444b-9c17-9f564e9ca847"))
+		(pin "2" (uuid "b1757dd9-45e5-4d52-86f9-5e2d7e673dde"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 241.3 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7789212-d42a-4170-869e-7a0d9b69166f")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 246.38 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b4dde20-64f2-4f11-8685-7df636aa4cd4")
+		(property "Reference" "#PWR4ae7dd"
+			(at 246.38 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 246.38 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "c39c1df1-a1a7-48cf-952a-e218c3581a23"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR669e12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 274.32 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2685dbb5-3302-4a5a-8d21-25414f8d9a6a")
+		(property "Reference" "C92"
+			(at 276.86 175.26000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "2.2uF_0402"
+			(at 276.86 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 274.32 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "2efd6df6-654d-4210-ad2d-65edf727e1e1"))
+		(pin "2" (uuid "a774f5e8-1302-48c5-badf-7162e6d4a076"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 274.32 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f24b22d-047e-4eb2-b2e0-a4ddc5b7355f")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 279.4 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44d67fcb-c355-4e9e-930b-2ea2a6b425b0")
+		(property "Reference" "#PWR0f27c0"
+			(at 279.4 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 279.4 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "2f5673ee-946a-4817-a320-aa5b478b4f62"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRfc2589")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:TPS7A0518P_SOT23-5")
+		(at 304.8 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c65b0f-e25c-4dc6-b0a8-08bae30a7a14")
+		(property "Reference" "U11"
+			(at 312.42 172.72 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TPS7A0512PDBVR"
+			(at 312.42 182.88000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:SOT-23-5"
+			(at 304.8 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "2df8560e-b654-47d6-a94e-2174635f7ac9"))
+		(pin "2" (uuid "5dc800b2-e0fd-4810-a8b6-033be549b8d1"))
+		(pin "3" (uuid "976f9645-e5bd-4683-9801-d2e497639f82"))
+		(pin "4" (uuid "bcc259bc-fb0b-4ef1-90d6-660b0b7f9fd4"))
+		(pin "5" (uuid "d78582a2-2230-491e-9deb-75838b7ae232"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 304.8 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16f63c38-b000-4875-bce7-9a398daf7a99")
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 304.8 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "491270da-e858-4685-b20b-7dadd8a67ac7")
+	)
+	(no_connect
+		(at 307.34 181.61)
+		(uuid "143115d2-6541-445b-b5bc-43f60be3ff93")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 320.04 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66dfea4f-7914-4f99-b4c3-4f4c806d7cbd")
+		(property "Reference" "#PWRe05136"
+			(at 320.04 177.79999999999998 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 320.04 177.79999999999998 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "944691a0-87b0-478b-825c-8a2f5119f251"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR177321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 320.04 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "808c7a4f-8cfc-4be1-b3f3-7fea4eb4b338")
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 292.1 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd24a1da-03c6-4048-b350-5189d62d7fa2")
+		(property "Reference" "C93"
+			(at 294.64000000000004 175.26000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "1uF_0402"
+			(at 294.64000000000004 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 292.1 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "68c153ac-0a1a-430f-98d4-ac206dca5e4e"))
+		(pin "2" (uuid "cd4131a1-b316-4de3-953a-efc44c7336bd"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 292.1 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02289345-7ef5-4ea3-80b2-ceb3c5eaa195")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 297.18 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33045b0e-c971-4225-9bda-32d970119289")
+		(property "Reference" "#PWR45e268"
+			(at 297.18 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 297.18 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "7e4aec26-b895-4308-8650-b56dbb53dcf8"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR8c3b50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 325.12 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7ffd20d-0249-4dff-9864-54a46238ddbb")
+		(property "Reference" "C94"
+			(at 327.66 175.26000000000002 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "2.2uF_0402"
+			(at 327.66 180.34 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 325.12 177.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "4f30588d-d485-4145-8e17-c3f3183dbbad"))
+		(pin "2" (uuid "d2b6715b-9583-49a5-b0b5-ca5555b75207"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 325.12 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08449735-b847-449c-9bc3-87b1e374c8e7")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 330.2 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a3caee0-511a-449e-b0fc-47dc6e3c1c0c")
+		(property "Reference" "#PWR315968"
+			(at 330.2 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 330.2 180.34 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "1afba323-82f0-4fa3-95e2-e57392c347e4"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWRca4532")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
