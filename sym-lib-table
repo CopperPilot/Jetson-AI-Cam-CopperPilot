@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "jetson-symbols")(type "KiCad")(uri "${KIPRJMOD}/libs/jetson-symbols.kicad_sym")(options "")(descr "Jetson Stereo AI Camera Symbols"))
+)

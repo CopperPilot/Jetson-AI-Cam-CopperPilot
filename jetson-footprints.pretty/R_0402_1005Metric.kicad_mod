@@ -1,0 +1,318 @@
+(footprint "R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005e7930e3")
+		(at 117.7 115.26 90)
+		(descr "Resistor SMD 0402")
+		(tags "resistor SMD 0402")
+		(property "Reference" "R131"
+			(at 7.28 -8.6175 90)
+			(layer "F.SilkS")
+			(uuid "c75cbeaf-9f85-420a-935e-a19b5fb2f91e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 0 1.4 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8d63623-e877-44d0-87e7-f431a937426c")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68e1282e-1e4c-4fd5-81a2-a2da28b84e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "10k resistor in 0402 package with 1% tolerance"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "541401ae-f709-4258-824b-1cf9ac5ebe95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 232.96 -2.44 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce55c23c-364a-4cdb-9e52-ad823e4e2b66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 232.96 -2.44 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722a84bd-5299-4363-b616-ec92c0d02651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 232.96 -2.44 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a97dfc2-f65d-47fa-ad55-0451151e83b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 232.96 -2.44 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c01ae04-dae6-4bfa-8c39-f9cdc3a5eb57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 232.96 -2.44 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed7fd998-3fe7-44e5-a09c-d8d81ff80dec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "00000000-0000-0000-0000-0000608df3e500000000-0000-0000-0000-000062708db4")
+		(sheetname "USB")
+		(sheetfile "usb-debug.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.925 -0.47)
+			(end 0.925 0.47)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b7de7d77-a04f-4e07-807f-d4697cb4ad61")
+		)
+		(fp_rect
+			(start -0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "56a65b9f-138f-4daf-a64f-27bdc780de36")
+		)
+		(fp_rect
+			(start -0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.5")
+			(uuid "bd3e59ed-8e3f-46fa-aa45-ba998d162d29")
+		)
+		(fp_line
+			(start 0.498 -0.25)
+			(end 0.248 -0.25)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "abdeba02-d239-4881-8480-31335a049037")
+		)
+		(fp_line
+			(start 0.248 -0.25)
+			(end 0.248 0.248)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "27d08f8b-fabd-47dc-aec1-74b8c41bce09")
+		)
+		(fp_line
+			(start -0.25 -0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "ef3212dd-5cf4-416f-8718-3174a419f9cb")
+		)
+		(fp_line
+			(start 0.248 -0.232)
+			(end -0.25 -0.232)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "3cd25efe-f310-4f86-b235-a84f934fbb13")
+		)
+		(fp_line
+			(start 0.248 0.23)
+			(end -0.25 0.23)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "ce1a4f1d-ff66-43b8-8d14-242a9f0c1e3e")
+		)
+		(fp_line
+			(start 0.498 0.248)
+			(end 0.498 -0.25)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "9ecb5936-d548-4962-9992-c261132c7e2f")
+		)
+		(fp_line
+			(start 0.248 0.248)
+			(end 0.498 0.248)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "aa01bc74-9bbf-4fce-8158-60bd1e88c39a")
+		)
+		(fp_line
+			(start -0.25 0.248)
+			(end -0.25 -0.25)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "6fcd0176-ef70-4f6e-8b91-1fae396451d8")
+		)
+		(fp_line
+			(start -0.25 0.248)
+			(end -0.5 0.248)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "8f7afb0b-f20a-45da-bfcb-8abbe12ecb53")
+		)
+		(fp_line
+			(start -0.5 0.248)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.02)
+				(type solid)
+			)
+			(layer "User.9")
+			(uuid "d0f56fa0-2e64-49ed-bb89-702a74d9a43c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.95 3.168 90)
+			(layer "F.Fab")
+			(uuid "c993af0a-ca15-44c6-9d64-b0332d8dee6c")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+			(layer "F.Fab")
+			(uuid "b479bcc2-e5ba-4ebf-8c6a-f8360f993e83")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -0.95 5.169 90)
+			(layer "F.Fab")
+			(uuid "ff064704-a89a-44a3-a418-5dad8fe18e8f")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0 90)
+			(size 0.59 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "USBUSBC_VBUS")
+			(pintype "passive")
+			(uuid "cd371b0f-2dfe-4191-99ee-c96f59c41fdc")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0 90)
+			(size 0.59 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "bb87c889-b48d-4e18-81ca-773b2c71dbbb")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
