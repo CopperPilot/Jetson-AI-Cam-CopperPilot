@@ -7548,7 +7548,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7559,7 +7559,7 @@
 		(pad "2" thru_hole circle
 			(at 0 -3.351)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayDP_HPD_IN")
@@ -7570,7 +7570,7 @@
 		(pad "3" thru_hole circle
 			(at 0.45 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE0_P")
@@ -7581,7 +7581,7 @@
 		(pad "4" thru_hole circle
 			(at 0.45 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayDP_MODE")
@@ -7592,7 +7592,7 @@
 		(pad "5" thru_hole circle
 			(at 1.35 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE0_N")
@@ -7603,7 +7603,7 @@
 		(pad "6" thru_hole circle
 			(at 1.35 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayDP_CEC")
@@ -7614,7 +7614,7 @@
 		(pad "7" thru_hole circle
 			(at 1.8 0)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7625,7 +7625,7 @@
 		(pad "8" thru_hole circle
 			(at 1.8 -3.351)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7634,9 +7634,9 @@
 			(uuid "0c7f1093-73c8-4c7a-b03c-1bae7a92a043")
 		)
 		(pad "9" thru_hole circle
-			(at 2.249 -0.804)
+			(at 2.25 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE1_P")
@@ -7645,9 +7645,9 @@
 			(uuid "14a8fbe5-46b1-405e-986e-d970f9034e42")
 		)
 		(pad "10" thru_hole circle
-			(at 2.249 -4.151)
+			(at 2.25 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE3_P")
@@ -7656,9 +7656,9 @@
 			(uuid "f1f68a93-67e3-4fb6-8e74-0977afddf2c9")
 		)
 		(pad "11" thru_hole circle
-			(at 3.148 -0.804)
+			(at 3.15 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE1_N")
@@ -7667,9 +7667,9 @@
 			(uuid "bf7405bb-d2e8-4a4e-901e-d9caa3922aa9")
 		)
 		(pad "12" thru_hole circle
-			(at 3.148 -4.151)
+			(at 3.15 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE3_N")
@@ -7680,7 +7680,7 @@
 		(pad "13" thru_hole circle
 			(at 3.6 0)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7691,7 +7691,7 @@
 		(pad "14" thru_hole circle
 			(at 3.6 -3.351)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7700,9 +7700,9 @@
 			(uuid "d4121b95-8a40-4ed7-8b9f-39ca5495adcd")
 		)
 		(pad "15" thru_hole circle
-			(at 4.049 -0.804)
+			(at 4.05 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE2_P")
@@ -7711,9 +7711,9 @@
 			(uuid "835834cb-966a-4488-bf78-4f02882e7b83")
 		)
 		(pad "16" thru_hole circle
-			(at 4.049 -4.151)
+			(at 4.05 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayEDP_C_AUX_C_P")
@@ -7724,7 +7724,7 @@
 		(pad "17" thru_hole circle
 			(at 4.95 -0.804)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayML_C_LANE2_N")
@@ -7735,7 +7735,7 @@
 		(pad "18" thru_hole circle
 			(at 4.95 -4.151)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DisplayEDP_C_AUX_C_N")
@@ -7746,7 +7746,7 @@
 		(pad "19" thru_hole circle
 			(at 5.4 0)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -7757,7 +7757,7 @@
 		(pad "20" thru_hole circle
 			(at 5.4 -3.351)
 			(size 0.75 0.75)
-			(drill 0.55)
+			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2-C)")
