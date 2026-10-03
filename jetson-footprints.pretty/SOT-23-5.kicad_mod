@@ -194,8 +194,8 @@
 			(uuid "4636eb67-6642-4af6-9795-c0af6466f117")
 		)
 		(fp_rect
-			(start 1.9 -1.76)
-			(end -1.9 1.75)
+			(start 1.9 -1.6)
+			(end -1.9 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)

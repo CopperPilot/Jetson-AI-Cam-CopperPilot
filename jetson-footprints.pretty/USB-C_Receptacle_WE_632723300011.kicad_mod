@@ -90,7 +90,7 @@
 		(path "00000000-0000-0000-0000-0000608df3e500000000-0000-0000-0000-00005e710327")
 		(sheetname "USB")
 		(sheetfile "usb-debug.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.401 -4.901)
