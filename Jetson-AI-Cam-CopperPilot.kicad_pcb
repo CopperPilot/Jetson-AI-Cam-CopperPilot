@@ -697553,7 +697553,7 @@
 	(footprint "jetson-footprints:TP_SMD_1.5mm"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005e7931b1")
-		(at 153.29126 97.08154)
+		(at 157.0 97.08)
 		(property "Reference" "TP2"
 			(at -0.89126 0.37846 180)
 			(layer "B.SilkS")
@@ -698148,7 +698148,7 @@
 	(footprint "jetson-footprints:TP_SMD_1.5mm"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005e793211")
-		(at 111.8618 94.39681)
+		(at 117.0 94.4)
 		(property "Reference" "TP10"
 			(at 3.6382 0.40319 180)
 			(layer "B.SilkS")
@@ -698386,7 +698386,7 @@
 	(footprint "jetson-footprints:TP_SMD_1.5mm"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005e793259")
-		(at 102.5 96.1)
+		(at 100.5 96.1)
 		(property "Reference" "TP16"
 			(at 1.35 2.2 180)
 			(layer "B.SilkS")
@@ -751996,7 +751996,7 @@
 	(footprint "jetson-footprints:SC70-3"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-0000616281bf")
-		(at 110.6 105.69 90)
+		(at 118.6 105.69 90)
 		(property "Reference" "T7"
 			(at -2.39 0.65 0)
 			(layer "B.SilkS")
@@ -841260,7 +841260,7 @@
 	(footprint "jetson-footprints:TP_SMD_1.5mm"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-000061d74156")
-		(at 102.6 101.4)
+		(at 100.5 101.4)
 		(property "Reference" "TP41"
 			(at 1.4 2.05 180)
 			(layer "B.SilkS")
@@ -909686,7 +909686,7 @@
 	(footprint "jetson-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "024160dc-f72a-4434-a1a6-ac4b4d158f28")
-		(at 113 106.5 180)
+		(at 121.0 106.5 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R47"
@@ -922979,7 +922979,7 @@
 	(footprint "jetson-footprints:SOD-523_NP"
 		(layer "B.Cu")
 		(uuid "33d6aa0e-8d8e-41dc-be0d-d585b95a18b8")
-		(at 152.207902 111.920593 180)
+		(at 152.21 114.0 180)
 		(property "Reference" "D1"
 			(at -0.692098 -1.529407 0)
 			(layer "B.SilkS")
@@ -923391,7 +923391,7 @@
 	(footprint "jetson-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "4c89c7f3-1e98-4e9d-9693-b5e4252f4aaa")
-		(at 113.5 105 90)
+		(at 121.5 105.0 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R137"
@@ -935369,7 +935369,7 @@
 	(footprint "jetson-footprints:Camera_Module_IMX219-D160"
 		(layer "B.Cu")
 		(uuid "75b5c90a-5ed1-4347-9b3f-4f790c4c469b")
-		(at 144.66 100)
+		(at 109.157 96.0 90)
 		(descr "Sony IMX219 8MP Stereo Camera Sensor Module")
 		(property "Reference" "CAM_L"
 			(at -10.5 -7.2 0)
@@ -976331,7 +976331,7 @@
 	(footprint "jetson-footprints:Camera_Module_IMX219-D160"
 		(layer "B.Cu")
 		(uuid "dfd6ab68-05b6-4a82-ba24-39c22440f5e9")
-		(at 112.66 100)
+		(at 148.157 96.0 90)
 		(descr "Sony IMX219 8MP Stereo Camera Sensor Module")
 		(property "Reference" "CAM_R"
 			(at -10.5 -7.2 0)
@@ -976889,7 +976889,7 @@
 	(footprint "jetson-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e28a1b93-791f-4e6a-9a95-e76f6f026f81")
-		(at 114.5 105 90)
+		(at 122.5 105.0 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R102"
@@ -996015,7 +996015,7 @@
 	(footprint "jetson-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "fd9747f3-c8af-420c-8a50-f2237375e8ca")
-		(at 112.5 105 90)
+		(at 120.5 105.0 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R49"
