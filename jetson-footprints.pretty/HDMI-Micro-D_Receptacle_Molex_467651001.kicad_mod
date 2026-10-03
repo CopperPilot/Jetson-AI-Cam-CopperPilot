@@ -92,7 +92,7 @@
 		(path "00000000-0000-0000-0000-00006096d01600000000-0000-0000-0000-0000616f319b")
 		(sheetname "Display")
 		(sheetfile "display.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 -3.86)
