@@ -998090,8 +998090,8 @@
 		(uuid "00000000-0000-0000-0000-00006176ad9d")
 	)
 	(gr_line
-		(start 92.657 74.906)
-		(end 164.657 74.906)
+		(start 89.657 74.906)
+		(end 167.657 74.906)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -998100,8 +998100,8 @@
 		(uuid "1aad6da5-b1a3-4dee-a62c-deccc58f421d")
 	)
 	(gr_line
-		(start 92.657 129.906)
-		(end 92.657 74.906)
+		(start 89.657 129.906)
+		(end 89.657 74.906)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -998121,7 +998121,7 @@
 	)
 	(gr_line
 		(start 132.302 129.906)
-		(end 92.657 129.906)
+		(end 89.657 129.906)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -998150,8 +998150,8 @@
 		(uuid "014b68b8-d09c-43ac-8385-bb4f7d8cf5eb")
 	)
 	(gr_line
-		(start 164.657 74.906)
-		(end 164.657 129.906)
+		(start 167.657 74.906)
+		(end 167.657 129.906)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -998160,7 +998160,7 @@
 		(uuid "1a6abefe-d065-4659-b000-a2be320c737c")
 	)
 	(gr_line
-		(start 164.657 129.906)
+		(start 167.657 129.906)
 		(end 141.002 129.906)
 		(stroke
 			(width 0.12)
