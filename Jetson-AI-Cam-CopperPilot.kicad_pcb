@@ -1039235,4 +1039235,6 @@
 (segment (start 108.25 95.4) (end 108.25 94.8) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000004"))
 (segment (start 108.25 94.8) (end 108.357 94.65) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000005"))
 
+
+(segment (start 115.4807 124.1969) (end 115.61 124.0676) (width 0.25) (layer "F.Cu") (net "/Display/TMDS_SCL_5V0") (uuid "f5555555-5555-0000-0000-000000000001"))
 )
