@@ -1039336,4 +1039336,15 @@
 		)
 	)
 	(embedded_fonts no)
+
+
+(segment (start 117.526 77.706) (end 117.526 79.600) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1710001-0000-0000-0000-000000000001"))
+(segment (start 117.526 79.600) (end 119.026 79.600) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1710001-0000-0000-0000-000000000002"))
+(segment (start 119.026 79.600) (end 119.026 78.907) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1710001-0000-0000-0000-000000000003"))
+(segment (start 120.526 77.706) (end 120.526 79.000) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1590001-0000-0000-0000-000000000001"))
+(segment (start 120.526 79.000) (end 122.026 79.000) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1590001-0000-0000-0000-000000000002"))
+(segment (start 122.026 77.706) (end 122.026 79.000) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1530001-0000-0000-0000-000000000001"))
+(segment (start 122.026 79.000) (end 123.526 79.000) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1530001-0000-0000-0000-000000000002"))
+(segment (start 123.526 79.000) (end 123.526 77.706) (width 0.15) (layer "F.Cu") (net "GND") (uuid "f1530001-0000-0000-0000-000000000003"))
+
 )
