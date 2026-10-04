@@ -1039227,4 +1039227,12 @@
 		)
 	)
 	(embedded_fonts no)
+
+
+(segment (start 108.357 97.35) (end 108.45 96.5) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000001"))
+(segment (start 108.45 96.5) (end 108.45 95.8) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000002"))
+(segment (start 108.45 95.8) (end 108.25 95.4) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000003"))
+(segment (start 108.25 95.4) (end 108.25 94.8) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000004"))
+(segment (start 108.25 94.8) (end 108.357 94.65) (width 0.10) (layer "B.Cu") (net "GND") (uuid "f8888888-4444-0000-0000-000000000005"))
+
 )
