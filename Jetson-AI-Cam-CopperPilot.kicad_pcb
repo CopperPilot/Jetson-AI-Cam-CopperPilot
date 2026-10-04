@@ -1005585,6 +1005585,14 @@
 		(uuid "82e33f9c-a25d-4480-98d5-a11069b116bf")
 	)
 	(segment
+		(start 140.4929 112.655)
+		(end 145.501 112.655)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "5V0_SYS")
+		(uuid "83c9e9bf-1605-448d-b7f6-afc5467385fc")
+	)
+	(segment
 		(start 101.716 90.2)
 		(end 101.1834 90.7326)
 		(width 0.25)
@@ -1005647,6 +1005655,14 @@
 		(layer "B.Cu")
 		(net "5V0_SYS")
 		(uuid "d456adc0-20cc-401d-b339-a4b7fe0d6abc")
+	)
+	(segment
+		(start 139.1485 111.3106)
+		(end 140.4929 112.655)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "5V0_SYS")
+		(uuid "da2b3c27-183e-46ef-8439-2dbf2bf6e4a5")
 	)
 	(segment
 		(start 99.2175 111.9952)
