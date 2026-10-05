@@ -46,3 +46,6 @@ fp-info-cache
 
 .copperpilot/
 
+
+__pycache__/
+*.pyc
