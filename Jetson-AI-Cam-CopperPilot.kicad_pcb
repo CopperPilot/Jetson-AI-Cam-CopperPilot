@@ -1004321,6 +1004321,14 @@
 		(uuid "ffa3ffb8-5863-4453-b1f4-6714e74f1bbd")
 	)
 	(via micro
+		(at 110.757 97.35)
+		(size 0.25)
+		(drill 0.1)
+		(layers "In6.Cu" "B.Cu")
+		(net "GND")
+		(uuid "1964016c-1acc-413d-ab48-48607f1b5eb2")
+	)
+	(via micro
 		(at 145.7 124.8)
 		(size 0.3)
 		(drill 0.1)
