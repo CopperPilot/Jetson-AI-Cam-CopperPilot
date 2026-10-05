@@ -1004921,6 +1004921,14 @@
 		(uuid "0b1dadbb-39c9-4e52-a0f6-8b5e1089852c")
 	)
 	(segment
+		(start 111.81 98.637)
+		(end 112.319 98.637)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "3V3_SYS")
+		(uuid "1606f4d7-333e-4c17-90c6-b1dc63f9d99c")
+	)
+	(segment
 		(start 113.5159 104.0555)
 		(end 117.4972 104.0555)
 		(width 0.25)
@@ -1005079,6 +1005087,14 @@
 		(layer "F.Cu")
 		(net "3V3_SYS")
 		(uuid "7ccba1f5-cbe4-4cc7-83b0-f8133f765bcc")
+	)
+	(segment
+		(start 111.81 94.145)
+		(end 111.81 98.637)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "3V3_SYS")
+		(uuid "8d3af418-cc02-45fa-a6c8-6561112b5e22")
 	)
 	(segment
 		(start 116.215 117.2654)
