@@ -931752,7 +931752,7 @@
 			(uuid "5c48c6ea-aecf-45a8-9b51-f3b253f6345f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12.step"
+		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12-Large.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -972283,7 +972283,7 @@
 			(uuid "e7479fd4-ca48-464c-9de3-ed224db131bf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12.step"
+		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12-Large.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1040730,8 +1040730,8 @@
 		(uuid "3e5681ba-0b1a-4f50-88c7-4627c6bd33d5")
 	)
 	(gr_circle
-		(center 109.157 117.5)
-		(end 110.557 117.5)
+		(center 109.157 119.5)
+		(end 110.557 119.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1040741,7 +1040741,7 @@
 		(uuid "9301b599-11fa-4463-87ed-abac3c0b49e7")
 	)
 	(gr_text "L"
-		(at 109.157 117.5 0)
+		(at 109.157 119.5 0)
 		(layer "B.SilkS")
 		(uuid "d6083234-8d19-430c-9e38-69087fd8fa5c")
 		(effects
@@ -1040753,8 +1040753,8 @@
 		)
 	)
 	(gr_circle
-		(center 148.157 117.5)
-		(end 149.557 117.5)
+		(center 148.157 119.5)
+		(end 149.557 119.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1040764,7 +1040764,7 @@
 		(uuid "d55bf032-fd10-49a2-b381-506e4b3dcf58")
 	)
 	(gr_text "R"
-		(at 148.157 117.5 0)
+		(at 148.157 119.5 0)
 		(layer "B.SilkS")
 		(uuid "c9db4b09-5e8d-4bc1-8eea-99c49e200ac6")
 		(effects
