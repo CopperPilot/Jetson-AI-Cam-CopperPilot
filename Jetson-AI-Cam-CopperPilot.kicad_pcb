@@ -35170,7 +35170,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_0603_1608Metric.step"
 			(offset
-				(xyz -0.001 0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -227221,7 +227221,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_SOD-323F.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -227755,7 +227755,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_SOD-323F.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -261913,7 +261913,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/USB-C_Receptacle_WE_632723300011.step"
 			(offset
-				(xyz 0.001 -0.002 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -265084,7 +265084,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_0603_1608Metric.step"
 			(offset
-				(xyz -0.001 0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -268281,7 +268281,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_0603_1608Metric.step"
 			(offset
-				(xyz -0.001 0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -288658,7 +288658,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_0603_1608Metric.step"
 			(offset
-				(xyz -0.001 0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -443908,7 +443908,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/VQFN-14-HR_4x3.5mm.step"
 			(offset
-				(xyz -0.005 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -481288,13 +481288,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/QFN-32-5x5.step"
 			(offset
-				(xyz 0.002 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -564024,7 +564024,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_SOD-323F.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -585312,7 +585312,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_SOD-323F.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -599889,13 +599889,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/L_Vishay-IHLP-3232DZ.step"
 			(offset
-				(xyz 0.001 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -636853,7 +636853,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_0603_1608Metric.step"
 			(offset
-				(xyz -0.001 0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -774507,7 +774507,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_SOD-323F.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -903581,7 +903581,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0805_2012Metric.step"
 			(offset
-				(xyz 0.001 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
