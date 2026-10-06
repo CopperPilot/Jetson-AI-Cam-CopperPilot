@@ -499,7 +499,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -42176,7 +42176,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -49182,7 +49182,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -56188,7 +56188,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -63194,7 +63194,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -70200,7 +70200,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -77206,7 +77206,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -84212,7 +84212,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -91218,7 +91218,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -98224,7 +98224,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -107584,7 +107584,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -114590,7 +114590,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -121596,7 +121596,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -128602,7 +128602,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -135608,7 +135608,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -142614,7 +142614,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -149620,7 +149620,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -156626,7 +156626,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -163632,7 +163632,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -170638,7 +170638,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -177644,7 +177644,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -184650,7 +184650,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -191656,7 +191656,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -198662,7 +198662,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -205668,7 +205668,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -212674,7 +212674,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -219680,7 +219680,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -226686,7 +226686,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -268589,7 +268589,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -268897,7 +268897,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -269205,7 +269205,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -269513,7 +269513,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -269821,7 +269821,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -270129,7 +270129,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -270437,7 +270437,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -270745,7 +270745,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -271053,7 +271053,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -271361,7 +271361,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -271681,7 +271681,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -272002,7 +272002,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -272322,7 +272322,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -272642,7 +272642,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -272963,7 +272963,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -273284,7 +273284,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -273592,7 +273592,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -273900,7 +273900,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -274208,7 +274208,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -274516,7 +274516,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -274824,7 +274824,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -275132,7 +275132,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -275440,7 +275440,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -275748,7 +275748,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -276056,7 +276056,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -276376,7 +276376,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -276696,7 +276696,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -277016,7 +277016,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -277336,7 +277336,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -277656,7 +277656,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -277976,7 +277976,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -278296,7 +278296,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -278604,7 +278604,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -278924,7 +278924,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -279245,7 +279245,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -279566,7 +279566,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -279886,7 +279886,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -280206,7 +280206,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -280526,7 +280526,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -280846,7 +280846,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -281166,7 +281166,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -281474,7 +281474,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -281782,7 +281782,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -282090,7 +282090,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -322786,7 +322786,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -323094,7 +323094,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -323402,7 +323402,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -323710,7 +323710,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -324018,7 +324018,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -324326,7 +324326,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -324634,7 +324634,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -327376,7 +327376,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -376583,7 +376583,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -399007,7 +399007,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -399327,7 +399327,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -400702,7 +400702,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -407708,7 +407708,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -428887,7 +428887,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -435894,7 +435894,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -436464,7 +436464,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -443470,7 +443470,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -450914,7 +450914,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -457920,7 +457920,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -458228,7 +458228,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -458536,7 +458536,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -465543,7 +465543,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -472550,7 +472550,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -490272,7 +490272,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -497278,7 +497278,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -504284,7 +504284,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -507505,7 +507505,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -507813,7 +507813,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -531385,7 +531385,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -538391,7 +538391,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -541034,7 +541034,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -541354,7 +541354,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -554417,7 +554417,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -560401,7 +560401,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -563489,7 +563489,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -572096,7 +572096,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -584778,7 +584778,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -586687,7 +586687,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -586995,7 +586995,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -587303,7 +587303,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -587611,7 +587611,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -587919,7 +587919,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -588239,7 +588239,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -595246,7 +595246,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -595554,7 +595554,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -606896,7 +606896,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -613902,7 +613902,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -614222,7 +614222,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -621228,7 +621228,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -628234,7 +628234,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -628542,7 +628542,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -628862,7 +628862,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -629182,7 +629182,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -629490,7 +629490,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -629810,7 +629810,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -630130,7 +630130,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -630450,7 +630450,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -630770,7 +630770,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -631078,7 +631078,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -631386,7 +631386,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -632844,7 +632844,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -633164,7 +633164,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -675708,7 +675708,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -692582,7 +692582,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -692890,7 +692890,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -693198,7 +693198,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -723294,7 +723294,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -723608,7 +723608,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -723922,7 +723922,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -724606,7 +724606,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -781519,7 +781519,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -798402,7 +798402,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -821987,7 +821987,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -822303,7 +822303,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -831678,7 +831678,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -831994,7 +831994,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -832309,7 +832309,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -839323,7 +839323,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -852716,7 +852716,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -859731,7 +859731,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -866745,7 +866745,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -872745,7 +872745,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -873074,7 +873074,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -873522,7 +873522,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -873837,7 +873837,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -882831,7 +882831,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -883147,7 +883147,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -883462,7 +883462,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -883778,7 +883778,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -884094,7 +884094,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -891109,7 +891109,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -909999,7 +909999,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -922245,7 +922245,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -922572,7 +922572,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -922898,7 +922898,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -923705,7 +923705,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -932073,7 +932073,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -935371,7 +935371,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -938620,7 +938620,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -955586,7 +955586,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -961972,7 +961972,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -966597,7 +966597,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -976025,7 +976025,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -976339,7 +976339,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -977211,7 +977211,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -987776,7 +987776,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -996025,7 +996025,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -996351,7 +996351,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_0402_1005Metric.step"
 			(offset
-				(xyz 0 0 -0.01)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
