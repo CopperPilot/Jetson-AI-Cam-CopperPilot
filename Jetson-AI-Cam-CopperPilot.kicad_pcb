@@ -230743,7 +230743,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -234859,13 +234859,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R-PDSO-N15.step"
 			(offset
-				(xyz -0.82 2.75 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -245105,13 +245105,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R-PDSO-N15.step"
 			(offset
-				(xyz -0.82 2.75 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -400400,7 +400400,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -410697,7 +410697,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -561468,13 +561468,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/sot23-5.step"
 			(offset
-				(xyz 0.0025 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -565096,7 +565096,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -586385,7 +586385,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -773970,13 +773970,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/sot23-5.step"
 			(offset
-				(xyz 0.0025 0 0.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -911153,13 +911153,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/sot23-6.step"
 			(offset
-				(xyz -0.9525 -0.95885 0.1)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -935064,7 +935064,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
