@@ -226703,6 +226703,7 @@
 		(property "Reference" "D2"
 			(at -0.66099 1.7495 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "be0fcc9b-9a35-4376-accf-7a58c932e249")
 			(effects
 				(font
@@ -271699,6 +271700,7 @@
 		(property "Reference" "R13"
 			(at -0.09621 11.56861 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6f421122-2159-47f0-9598-538724da8cb8")
 			(effects
 				(font
@@ -272659,6 +272661,7 @@
 		(property "Reference" "R19"
 			(at -0.09621 11.56861 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5e99ba9-9fe4-4f15-8bed-0767152c4949")
 			(effects
 				(font
@@ -272979,6 +272982,7 @@
 		(property "Reference" "R21"
 			(at -0.09621 11.56861 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a065fe37-85e7-4ebc-83f2-303318f15128")
 			(effects
 				(font
@@ -278939,6 +278943,7 @@
 		(property "Reference" "R98"
 			(at 1.478 -0.612 90.0)
 
+			(hide yes)
 			(layer "F.SilkS")
 			(uuid "57ca048b-2569-4c7c-b4ba-acac5f75e6d2")
 			(effects
@@ -703333,6 +703338,7 @@
 		(property "Reference" "TP24"
 			(at -0.75 -0.05 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "83c6647e-6c02-41d5-9511-48ac7be0c987")
 			(effects
 				(font
@@ -703690,6 +703696,7 @@
 		(property "Reference" "TP27"
 			(at 1.38922 1.73111 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9ad4c1c7-7436-48d9-bbbf-079bc68f483d")
 			(effects
 				(font
@@ -703809,6 +703816,7 @@
 		(property "Reference" "TP28"
 			(at 1.15 1.9 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "92d77b7c-db14-4545-a970-e49ee003f86a")
 			(effects
 				(font
@@ -703928,6 +703936,7 @@
 		(property "Reference" "TP29"
 			(at 1.29 1.77 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "fd20e7ad-bc72-40e1-8c43-d5811c1acb94")
 			(effects
 				(font
@@ -704047,6 +704056,7 @@
 		(property "Reference" "TP31"
 			(at 1.26 -0.99 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6004f1ee-f14b-4682-a490-a3ad1f4af0b5")
 			(effects
 				(font
@@ -710383,6 +710393,7 @@
 		(property "Reference" "TP35"
 			(at 1.1324 -0.91861 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a5fd3f58-9f39-4c1a-8a4b-acd957ae173e")
 			(effects
 				(font
@@ -724186,6 +724197,7 @@
 		(property "Reference" "TP39"
 			(at -0.6226 -0.49441 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bfe132c7-62cf-4bff-a3f8-e62690097f3b")
 			(effects
 				(font
@@ -781545,8 +781557,9 @@
 		(uuid "00000000-0000-0000-0000-00006191663f")
 		(at 154 124)
 		(property "Reference" "T2"
-			(at 1.6 -0.376 0)
+			(at 1.5 0.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "89093b96-12d9-4a1a-957b-d7bd9ffc11a9")
 			(effects
 				(font
@@ -831711,6 +831724,7 @@
 		(property "Reference" "R96"
 			(at 0.74 -0.32 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a09b808f-3efa-4d15-aa8d-d1a1e5d63901")
 			(effects
 				(font
@@ -852751,6 +852765,7 @@
 		(property "Reference" "C61"
 			(at 8.895 11.035 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e0388bf3-7c41-4ef7-9826-40d2f0da976b")
 			(effects
 				(font
@@ -935414,8 +935429,9 @@
 		(at 109.157 96 90)
 		(descr "Sony IMX219 8MP Stereo Camera Sensor Module")
 		(property "Reference" "CAM_L"
-			(at -10.5 -7.2 0)
+			(at 0 -6.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f8e415f9-dfee-48ad-b0f8-afc9baa38ead")
 			(effects
 				(font
@@ -938745,8 +938761,9 @@
 		(uuid "a075b301-408b-4d96-b3d4-2a0543de745e")
 		(at 91.2 114.5)
 		(property "Reference" "T9"
-			(at 1.55 1.55 0)
+			(at 1.5 0.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ed3f2331-5952-4217-97a0-72f75b9afb88")
 			(effects
 				(font
@@ -976073,6 +976090,7 @@
 		(property "Reference" "R133"
 			(at -3.808 -0.35 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "72a58fbb-15b3-45f3-9b08-6a3f5db33cb6")
 			(effects
 				(font
@@ -976383,7 +976401,7 @@
 		(at 148.157 96 90)
 		(descr "Sony IMX219 8MP Stereo Camera Sensor Module")
 		(property "Reference" "CAM_R"
-			(at -10.5 -7.2 0)
+			(at 0 -6.5 0)
 			(layer "B.SilkS")
 			(uuid "c4251bc5-3ff3-4cc0-b482-a10bcd5825a8")
 			(effects
@@ -996725,16 +996743,6 @@
 		(uuid "00000000-0000-0000-0000-000061d7ca7a")
 	)
 	(gr_line
-		(start 96.1 101)
-		(end 96.1 96.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061d81a01")
-	)
-	(gr_line
 		(start 97.1425 117.08)
 		(end 96.4125 117.08)
 		(stroke
@@ -996753,17 +996761,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "06c9b18f-d098-4aaf-a1e0-c5208e7655c9")
-	)
-	(gr_rect
-		(start 100.9475 102.495)
-		(end 107.2475 104.8375)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "d3399504-fe07-441b-9d5e-8606465c1e1d")
 	)
 	(gr_line
 		(start 101 95.2)
