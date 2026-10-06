@@ -13098,13 +13098,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -18955,13 +18955,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24812,13 +24812,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -100578,7 +100578,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -322134,13 +322134,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_Pol_EIA-B.step"
 			(offset
-				(xyz -1.0145 4.97373 -2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -322478,13 +322478,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_Pol_EIA-B.step"
 			(offset
-				(xyz -1.0145 4.97373 -2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -333050,13 +333050,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
 			(offset
-				(xyz -1 0.625 1.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -352078,13 +352078,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -418196,13 +418196,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
 			(offset
-				(xyz -1 0.625 1.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -420550,7 +420550,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -422904,7 +422904,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -428578,13 +428578,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
 			(offset
-				(xyz -1 0.625 1.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -478407,13 +478407,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -540732,7 +540732,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -547417,7 +547417,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -560093,13 +560093,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
 			(offset
-				(xyz 0 -0.45 0.42)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -577772,13 +577772,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
 			(offset
-				(xyz 0 -0.45 0.42)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -710002,13 +710002,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -716281,13 +716281,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
 			(offset
-				(xyz 0 -0.45 0.42)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -824664,7 +824664,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
 			(offset
-				(xyz 0 -0.001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -844987,13 +844987,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
 			(offset
-				(xyz 0 -0.45 0.42)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -872430,13 +872430,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
 			(offset
-				(xyz 0 -0.45 0.42)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -897587,13 +897587,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
 			(offset
-				(xyz -1 0.625 1.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -903270,13 +903270,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
 			(offset
-				(xyz -1 0.625 1.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -929771,7 +929771,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -961652,7 +961652,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -975712,7 +975712,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/F_1206_3216Metric.step"
 			(offset
-				(xyz -2.9245 0.683 -0.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -995617,13 +995617,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/FB_0603_1608Metric.step"
 			(offset
-				(xyz 0.8 -0.4 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
