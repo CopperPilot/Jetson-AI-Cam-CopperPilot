@@ -967033,6 +967033,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
