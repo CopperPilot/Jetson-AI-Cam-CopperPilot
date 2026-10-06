@@ -909692,7 +909692,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -915239,7 +915239,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -965524,13 +965524,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN.step"
 			(offset
-				(xyz 0 1.42 -0.3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -980763,13 +980763,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN.step"
 			(offset
-				(xyz 0 1.42 -0.3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
