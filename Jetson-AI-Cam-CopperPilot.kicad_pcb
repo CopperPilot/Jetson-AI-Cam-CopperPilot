@@ -931752,7 +931752,7 @@
 			(uuid "5c48c6ea-aecf-45a8-9b51-f3b253f6345f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Camera_IMX219-D160.step"
+		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -972282,7 +972282,7 @@
 			(uuid "e7479fd4-ca48-464c-9de3-ed224db131bf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Camera_IMX219-D160.step"
+		(model "${KIPRJMOD}/3dmodels/Camera_Module_IMX219-M12.step"
 			(offset
 				(xyz 0 0 0)
 			)
