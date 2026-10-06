@@ -1012320,14 +1012320,6 @@
 		(net "/Display/TMDS_SCL_5V0")
 		(uuid "4b40f78e-eb04-4a88-ad47-1e2224b362b7")
 	)
-	(via
-		(at 114.8581 124.3263)
-		(size 0.5)
-		(drill 0.15)
-		(layers "F.Cu" "B.Cu")
-		(net "/Display/TMDS_SCL_5V0")
-		(uuid "ed2c9594-bb83-4692-9fe0-9c2856c5a158")
-	)
 	(via micro
 		(at 106.8084 122.631)
 		(size 0.25)
@@ -1020505,14 +1020497,6 @@
 		(uuid "d3b1698d-d63b-49e0-a748-5d0a7b30acd7")
 	)
 	(segment
-		(start 145.501 115.55)
-		(end 144.8 115.55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "5V0_DBG")
-		(uuid "e3a9afb5-eae8-4ce5-b0d2-14709fb02697")
-	)
-	(segment
 		(start 146.35 121.15)
 		(end 147.0642 121.15)
 		(width 0.125)
@@ -1020567,14 +1020551,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "5V0_DBG")
 		(uuid "555fb5b4-fd35-4c7b-8c6e-e6a2582f4bb1")
-	)
-	(via
-		(at 144.8 115.55)
-		(size 0.45)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "5V0_DBG")
-		(uuid "e3dde60e-1b3b-482b-ae6e-7b88a6832da0")
 	)
 	(segment
 		(start 145.4795 120.6)
@@ -1022527,14 +1022503,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GEN0_SDA")
 		(uuid "d78333c2-1380-4669-9875-4e9ee74ac5e2")
-	)
-	(via
-		(at 123.5 80.5)
-		(size 0.5)
-		(drill 0.15)
-		(layers "F.Cu" "B.Cu")
-		(net "GEN0_SDA")
-		(uuid "fc369978-f777-4030-9782-fc13e543d5b4")
 	)
 	(segment
 		(start 163.617 76.5065)
@@ -1028975,14 +1028943,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "1V2_CAM")
 		(uuid "52e4e090-c9ee-4c8b-9356-ed7cb24bc940")
-	)
-	(via
-		(at 129.6352 98.0673)
-		(size 0.5)
-		(drill 0.15)
-		(layers "F.Cu" "B.Cu")
-		(net "1V2_CAM")
-		(uuid "987efc01-7006-4416-870e-21d172e218bd")
 	)
 	(via
 		(at 135.0035 99.3435)
