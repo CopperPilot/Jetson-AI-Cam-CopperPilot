@@ -10,7 +10,7 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
-		(symbol \"jetson-symbols:C_100n_0402\"
+		(symbol "jetson-symbols:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -236,7 +236,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_10u_0402\"
+		(symbol "jetson-symbols:C_10u_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -462,7 +462,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_1u_0402\"
+		(symbol "jetson-symbols:C_1u_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -688,7 +688,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_2u2_0402\"
+		(symbol "jetson-symbols:C_2u2_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -914,7 +914,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_47p_0402\"
+		(symbol "jetson-symbols:C_47p_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1140,7 +1140,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_4u7_0402\"
+		(symbol "jetson-symbols:C_4u7_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1366,7 +1366,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_10u_0603\"
+		(symbol "jetson-symbols:C_10u_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1592,7 +1592,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_100u_1206\"
+		(symbol "jetson-symbols:C_100u_1206"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1830,7 +1830,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_47u_0805\"
+		(symbol "jetson-symbols:C_47u_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2068,7 +2068,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:1N4148WS\"
+		(symbol "jetson-symbols:1N4148WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2281,7 +2281,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603\"
+		(symbol "jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2507,7 +2507,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:FT232R_QFN\"
+		(symbol "jetson-symbols:FT232R_QFN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3241,7 +3241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:HD3SS3220RNH\"
+		(symbol "jetson-symbols:HD3SS3220RNH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3933,7 +3933,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\"
+		(symbol "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4182,7 +4182,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:74LVC1G07_SOT-753\"
+		(symbol "jetson-symbols:74LVC1G07_SOT-753"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4465,7 +4465,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:NCP380LSNAJAAT1G\"
+		(symbol "jetson-symbols:NCP380LSNAJAAT1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4705,7 +4705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:TPS7A0518P_SOT23-5\"
+		(symbol "jetson-symbols:TPS7A0518P_SOT23-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4928,7 +4928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_0R_0402\"
+		(symbol "jetson-symbols:R_0R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5142,7 +5142,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_100k_0402\"
+		(symbol "jetson-symbols:R_100k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5343,7 +5343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_10k_0402\"
+		(symbol "jetson-symbols:R_10k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5544,7 +5544,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_200k_0402\"
+		(symbol "jetson-symbols:R_200k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5745,7 +5745,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_22R_0402\"
+		(symbol "jetson-symbols:R_22R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5946,7 +5946,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_2k_0402\"
+		(symbol "jetson-symbols:R_2k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6147,7 +6147,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_470R_0402\"
+		(symbol "jetson-symbols:R_470R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6348,7 +6348,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_909k_0402\"
+		(symbol "jetson-symbols:R_909k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6549,7 +6549,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:PESD2USB5UV-TR\"
+		(symbol "jetson-symbols:PESD2USB5UV-TR"
 			(pin_names
 				(hide yes)
 			)
@@ -6847,7 +6847,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:TPD4E05U06QDQARQ1\"
+		(symbol "jetson-symbols:TPD4E05U06QDQARQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7424,7 +7424,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:TP_1.5mm_SMD\"
+		(symbol "jetson-symbols:TP_1.5mm_SMD"
 			(pin_names
 				(hide yes)
 			)
@@ -7574,7 +7574,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:BSS138PW\"
+		(symbol "jetson-symbols:BSS138PW"
 			(pin_names
 				(offset 0)
 			)
@@ -7952,7 +7952,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:USB-C_WE_632723300011\"
+		(symbol "jetson-symbols:USB-C_WE_632723300011"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8729,7 +8729,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:USB-Micro-B_Molex_473460001\"
+		(symbol "jetson-symbols:USB-Micro-B_Molex_473460001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9124,7 +9124,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:GND\"
+		(symbol "jetson-symbols:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -9248,7 +9248,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FT232R_QFN\")
+		(lib_id "jetson-symbols:FT232R_QFN")
 		(at 156.21 228.6 0)
 		(mirror y)
 		(unit 1)
@@ -9473,7 +9473,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:HD3SS3220RNH\")
+		(lib_id "jetson-symbols:HD3SS3220RNH")
 		(at 101.6 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -9678,7 +9678,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:USB-Micro-B_Molex_473460001\")
+		(lib_id "jetson-symbols:USB-Micro-B_Molex_473460001")
 		(at 363.22 166.37 0)
 		(mirror y)
 		(unit 1)
@@ -9810,7 +9810,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:USB-C_WE_632723300011\")
+		(lib_id "jetson-symbols:USB-C_WE_632723300011")
 		(at 369.57 39.37 0)
 		(mirror y)
 		(unit 1)
@@ -10003,7 +10003,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:USB-Micro-B_Molex_473460001\")
+		(lib_id "jetson-symbols:USB-Micro-B_Molex_473460001")
 		(at 264.16 238.76 0)
 		(mirror y)
 		(unit 1)
@@ -10135,7 +10135,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 104.775 192.405 0)
 		(mirror y)
 		(unit 1)
@@ -10259,7 +10259,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 207.01 59.055 0)
 		(unit 1)
 		(body_style 1)
@@ -10382,7 +10382,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TPS7A0518P_SOT23-5\")
+		(lib_id "jetson-symbols:TPS7A0518P_SOT23-5")
 		(at 59.055 237.49 0)
 		(mirror y)
 		(unit 1)
@@ -10508,7 +10508,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:NCP380LSNAJAAT1G\")
+		(lib_id "jetson-symbols:NCP380LSNAJAAT1G")
 		(at 255.905 46.355 0)
 		(unit 1)
 		(body_style 1)
@@ -10637,7 +10637,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 104.775 178.435 0)
 		(mirror y)
 		(unit 1)
@@ -10761,7 +10761,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:74LVC1G07_SOT-753\")
+		(lib_id "jetson-symbols:74LVC1G07_SOT-753")
 		(at 177.165 178.435 0)
 		(mirror y)
 		(unit 1)
@@ -10894,7 +10894,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:NCP380LSNAJAAT1G\")
+		(lib_id "jetson-symbols:NCP380LSNAJAAT1G")
 		(at 242.57 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -11023,7 +11023,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:1N4148WS\")
+		(lib_id "jetson-symbols:1N4148WS")
 		(at 191.135 228.6 0)
 		(unit 1)
 		(body_style 1)
@@ -11140,7 +11140,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100u_1206\")
+		(lib_id "jetson-symbols:C_100u_1206")
 		(at 292.735 53.34 270)
 		(unit 1)
 		(body_style 1)
@@ -11296,7 +11296,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603\")
+		(lib_id "jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603")
 		(at 361.95 190.5 270)
 		(unit 1)
 		(body_style 1)
@@ -11416,7 +11416,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\")
+		(lib_id "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 271.78 34.29 0)
 		(mirror y)
 		(unit 1)
@@ -11536,7 +11536,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_10u_0402\")
+		(lib_id "jetson-symbols:C_10u_0402")
 		(at 243.205 52.705 270)
 		(unit 1)
 		(body_style 1)
@@ -11692,7 +11692,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:PESD2USB5UV-TR\")
+		(lib_id "jetson-symbols:PESD2USB5UV-TR")
 		(at 237.49 250.19 270)
 		(unit 1)
 		(body_style 1)
@@ -11815,7 +11815,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603\")
+		(lib_id "jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603")
 		(at 298.45 46.355 0)
 		(unit 1)
 		(body_style 1)
@@ -11933,7 +11933,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603\")
+		(lib_id "jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603")
 		(at 233.68 238.76 0)
 		(mirror x)
 		(unit 1)
@@ -12052,7 +12052,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 68.58 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -12208,7 +12208,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 68.58 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -12364,7 +12364,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 68.58 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -12520,7 +12520,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 68.58 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -12676,7 +12676,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 81.28 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -12829,7 +12829,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 81.28 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -12982,7 +12982,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
+		(lib_id "jetson-symbols:R_2k_0402")
 		(at 81.28 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -13123,7 +13123,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 81.28 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -13264,7 +13264,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 62.23 60.325 0)
 		(unit 1)
 		(body_style 1)
@@ -13417,7 +13417,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_909k_0402\")
+		(lib_id "jetson-symbols:R_909k_0402")
 		(at 132.08 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -13558,7 +13558,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_200k_0402\")
+		(lib_id "jetson-symbols:R_200k_0402")
 		(at 132.08 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -13701,7 +13701,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_47u_0805\")
+		(lib_id "jetson-symbols:C_47u_0805")
 		(at 80.645 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -13856,7 +13856,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 71.12 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -14011,7 +14011,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 151.765 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -14167,7 +14167,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 151.765 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -14323,7 +14323,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 151.765 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -14476,7 +14476,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 151.765 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -14629,7 +14629,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 149.225 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -14782,7 +14782,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 154.305 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -14935,7 +14935,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 149.225 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -15088,7 +15088,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 154.305 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -15241,7 +15241,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_200k_0402\")
+		(lib_id "jetson-symbols:R_200k_0402")
 		(at 57.785 41.275 270)
 		(unit 1)
 		(body_style 1)
@@ -15384,7 +15384,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_2k_0402\")
+		(lib_id "jetson-symbols:R_2k_0402")
 		(at 106.045 193.675 270)
 		(unit 1)
 		(body_style 1)
@@ -15527,7 +15527,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 107.315 192.405 0)
 		(unit 1)
 		(body_style 1)
@@ -15668,7 +15668,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_4u7_0402\")
+		(lib_id "jetson-symbols:C_4u7_0402")
 		(at 358.14 152.4 270)
 		(unit 1)
 		(body_style 1)
@@ -15823,7 +15823,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 347.98 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -15976,7 +15976,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 347.98 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -16129,7 +16129,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 347.98 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -16282,7 +16282,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 347.98 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -16435,7 +16435,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_10u_0603\")
+		(lib_id "jetson-symbols:C_10u_0603")
 		(at 331.47 99.06 270)
 		(unit 1)
 		(body_style 1)
@@ -16590,7 +16590,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 342.9 99.06 270)
 		(unit 1)
 		(body_style 1)
@@ -16733,7 +16733,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_2u2_0402\")
+		(lib_id "jetson-symbols:C_2u2_0402")
 		(at 66.675 241.3 90)
 		(mirror x)
 		(unit 1)
@@ -16890,7 +16890,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_1u_0402\")
+		(lib_id "jetson-symbols:C_1u_0402")
 		(at 34.925 240.03 90)
 		(mirror x)
 		(unit 1)
@@ -17046,7 +17046,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_22R_0402\")
+		(lib_id "jetson-symbols:R_22R_0402")
 		(at 118.745 231.14 0)
 		(mirror x)
 		(unit 1)
@@ -17188,7 +17188,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_22R_0402\")
+		(lib_id "jetson-symbols:R_22R_0402")
 		(at 118.745 233.68 0)
 		(mirror x)
 		(unit 1)
@@ -17330,7 +17330,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_47p_0402\")
+		(lib_id "jetson-symbols:C_47p_0402")
 		(at 164.465 251.46 90)
 		(mirror x)
 		(unit 1)
@@ -17486,7 +17486,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_47p_0402\")
+		(lib_id "jetson-symbols:C_47p_0402")
 		(at 173.99 251.46 90)
 		(mirror x)
 		(unit 1)
@@ -17642,7 +17642,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 184.15 251.46 90)
 		(mirror x)
 		(unit 1)
@@ -17799,7 +17799,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 92.075 233.045 90)
 		(mirror x)
 		(unit 1)
@@ -17955,7 +17955,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 264.16 40.005 0)
 		(mirror x)
 		(unit 1)
@@ -18109,7 +18109,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_470R_0402\")
+		(lib_id "jetson-symbols:R_470R_0402")
 		(at 255.27 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -18250,7 +18250,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TPD4E05U06QDQARQ1\")
+		(lib_id "jetson-symbols:TPD4E05U06QDQARQ1")
 		(at 330.2 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -18396,7 +18396,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TPD4E05U06QDQARQ1\")
+		(lib_id "jetson-symbols:TPD4E05U06QDQARQ1")
 		(at 375.92 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -18542,7 +18542,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\")
+		(lib_id "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 257.81 153.67 0)
 		(mirror y)
 		(unit 1)
@@ -18662,7 +18662,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 211.455 37.465 270)
 		(unit 1)
 		(body_style 1)
@@ -18806,7 +18806,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:TPD4E05U06QDQARQ1\")
+		(lib_id "jetson-symbols:TPD4E05U06QDQARQ1")
 		(at 331.47 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -18953,7 +18953,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 180.34 37.465 270)
 		(unit 1)
 		(body_style 1)
@@ -19097,7 +19097,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 233.045 52.07 270)
 		(unit 1)
 		(body_style 1)
@@ -19240,7 +19240,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 67.31 122.555 270)
 		(unit 1)
 		(body_style 1)
@@ -19396,7 +19396,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603\")
+		(lib_id "jetson-symbols:FB_120Z_3A_Murata-BLM18SG_0603")
 		(at 285.75 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -19514,7 +19514,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 74.295 171.45 270)
 		(unit 1)
 		(body_style 1)
@@ -19670,7 +19670,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 62.865 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -19823,7 +19823,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:PESD2USB5UV-TR\")
+		(lib_id "jetson-symbols:PESD2USB5UV-TR")
 		(at 288.29 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -19944,7 +19944,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 67.31 133.35 270)
 		(unit 1)
 		(body_style 1)
@@ -20100,7 +20100,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 283.21 53.975 270)
 		(unit 1)
 		(body_style 1)
@@ -20244,7 +20244,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_100n_0402\")
+		(lib_id "jetson-symbols:C_100n_0402")
 		(at 184.15 178.435 0)
 		(mirror x)
 		(unit 1)
@@ -20398,7 +20398,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 62.865 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -20551,7 +20551,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 156.21 175.26 270)
 		(unit 1)
 		(body_style 1)
@@ -20694,7 +20694,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 106.045 168.91 270)
 		(unit 1)
 		(body_style 1)
@@ -20838,7 +20838,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 193.675 48.895 0)
 		(unit 1)
 		(body_style 1)
@@ -20994,7 +20994,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_0R_0402\")
+		(lib_id "jetson-symbols:R_0R_0402")
 		(at 250.19 160.02 0)
 		(mirror x)
 		(unit 1)
@@ -21148,7 +21148,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_10k_0402\")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 265.43 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -21289,7 +21289,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_470R_0402\")
+		(lib_id "jetson-symbols:R_470R_0402")
 		(at 242.57 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -21430,7 +21430,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 342.9 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -21523,7 +21523,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 184.15 260.985 0)
 		(mirror y)
 		(unit 1)
@@ -21616,7 +21616,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 106.045 200.025 0)
 		(unit 1)
 		(body_style 1)
@@ -21709,7 +21709,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 358.14 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -21802,7 +21802,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 42.545 247.65 0)
 		(mirror y)
 		(unit 1)
@@ -21895,7 +21895,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 34.925 247.65 0)
 		(mirror y)
 		(unit 1)
@@ -21988,7 +21988,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 66.675 247.65 0)
 		(mirror y)
 		(unit 1)
@@ -22081,7 +22081,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 361.95 198.12 0)
 		(unit 1)
 		(body_style 1)
@@ -22174,7 +22174,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 356.87 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -22267,7 +22267,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 287.02 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -22360,7 +22360,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 373.38 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -22453,7 +22453,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 327.66 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -22546,7 +22546,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 243.205 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -22639,7 +22639,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 292.735 61.595 0)
 		(unit 1)
 		(body_style 1)
@@ -22732,7 +22732,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 283.21 61.595 0)
 		(unit 1)
 		(body_style 1)
@@ -22825,7 +22825,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 250.825 61.595 0)
 		(unit 1)
 		(body_style 1)
@@ -22918,7 +22918,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 76.835 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -23011,7 +23011,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 331.47 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -23104,7 +23104,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 80.645 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -23197,7 +23197,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 71.12 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -23290,7 +23290,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 99.06 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -23383,7 +23383,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 92.075 241.3 0)
 		(mirror y)
 		(unit 1)
@@ -23476,7 +23476,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 164.465 260.985 0)
 		(mirror y)
 		(unit 1)
@@ -23569,7 +23569,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 173.99 260.985 0)
 		(mirror y)
 		(unit 1)
@@ -23662,7 +23662,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 158.115 271.145 0)
 		(mirror y)
 		(unit 1)
@@ -23755,7 +23755,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 220.98 254 0)
 		(unit 1)
 		(body_style 1)
@@ -23849,7 +23849,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 262.89 260.35 0)
 		(unit 1)
 		(body_style 1)
@@ -23941,7 +23941,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 214.63 65.405 0)
 		(unit 1)
 		(body_style 1)
@@ -24033,7 +24033,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 233.045 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -24126,7 +24126,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 97.155 197.485 0)
 		(unit 1)
 		(body_style 1)
@@ -24219,7 +24219,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 160.02 186.055 0)
 		(unit 1)
 		(body_style 1)
@@ -24311,7 +24311,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 240.03 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -24403,7 +24403,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 274.32 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -24495,7 +24495,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 193.04 179.705 0)
 		(unit 1)
 		(body_style 1)
@@ -24587,7 +24587,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 368.3 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -24680,7 +24680,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 330.2 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -24773,7 +24773,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 67.31 140.97 0)
 		(unit 1)
 		(body_style 1)
