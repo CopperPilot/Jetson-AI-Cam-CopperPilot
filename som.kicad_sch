@@ -9,7 +9,7 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
-		(symbol \"jetson-symbols:Battery_Holder_MS621FE-FL11E\"
+		(symbol "jetson-symbols:Battery_Holder_MS621FE-FL11E"
 			(pin_names
 				(offset 0)
 			)
@@ -218,7 +218,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B\"
+		(symbol "jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B"
 			(pin_numbers
 				(hide yes)
 			)
@@ -466,7 +466,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Conn_FFC_Molex_5051101097\"
+		(symbol "jetson-symbols:Conn_FFC_Molex_5051101097"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -924,7 +924,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:FB_10Z_10A_WE-MPSB_1206\"
+		(symbol "jetson-symbols:FB_10Z_10A_WE-MPSB_1206"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1150,7 +1150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\"
+		(symbol "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1399,7 +1399,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\"
+		(symbol "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1560,7 +1560,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Jetson-Nano\"
+		(symbol "jetson-symbols:Jetson-Nano"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1706,7 +1706,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:SW_TL3340AF160QG_SMD\"
+		(symbol "jetson-symbols:SW_TL3340AF160QG_SMD"
 			(pin_names
 				(hide yes)
 			)
@@ -2020,7 +2020,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_100k_0402\"
+		(symbol "jetson-symbols:R_100k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2221,7 +2221,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:R_470R_0402\"
+		(symbol "jetson-symbols:R_470R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2422,7 +2422,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\"
+		(symbol "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7435,7 +7435,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:TP_1.5mm_SMD\"
+		(symbol "jetson-symbols:TP_1.5mm_SMD"
 			(pin_names
 				(hide yes)
 			)
@@ -7585,7 +7585,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:BSS138PW\"
+		(symbol "jetson-symbols:BSS138PW"
 			(pin_names
 				(offset 0)
 			)
@@ -7963,7 +7963,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol \"jetson-symbols:GND\"
+		(symbol "jetson-symbols:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -8087,7 +8087,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\")
+		(lib_id "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 370.84 118.11 270)
 		(mirror x)
 		(unit 1)
@@ -8208,7 +8208,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 68.58 177.8 0)
 		(unit 7)
 		(body_style 1)
@@ -9118,7 +9118,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 207.01 146.05 0)
 		(unit 6)
 		(body_style 1)
@@ -10030,7 +10030,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 69.85 125.73 0)
 		(unit 4)
 		(body_style 1)
@@ -10942,7 +10942,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 41.91 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -11852,7 +11852,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket\")
+		(lib_id "jetson-symbols:Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano-H9.2mm-socket")
 		(at 207.01 35.56 0)
 		(unit 3)
 		(body_style 1)
@@ -12764,7 +12764,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 302.26 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -12888,7 +12888,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 339.09 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -13012,7 +13012,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:BSS138PW\")
+		(lib_id "jetson-symbols:BSS138PW")
 		(at 378.46 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -13136,7 +13136,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:SW_TL3340AF160QG_SMD\")
+		(lib_id "jetson-symbols:SW_TL3340AF160QG_SMD")
 		(at 297.18 199.39 0)
 		(unit 1)
 		(body_style 1)
@@ -13266,7 +13266,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Conn_FFC_Molex_5051101097\")
+		(lib_id "jetson-symbols:Conn_FFC_Molex_5051101097")
 		(at 290.83 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -13422,7 +13422,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 379.73 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -13536,7 +13536,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 379.73 226.06 0)
 		(unit 1)
 		(body_style 1)
@@ -13651,7 +13651,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Battery_Holder_MS621FE-FL11E\")
+		(lib_id "jetson-symbols:Battery_Holder_MS621FE-FL11E")
 		(at 350.52 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -13771,7 +13771,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 350.52 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -13885,7 +13885,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 350.52 226.06 0)
 		(unit 1)
 		(body_style 1)
@@ -13999,7 +13999,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Jetson-Nano\")
+		(lib_id "jetson-symbols:Jetson-Nano")
 		(at 255.905 260.35 0)
 		(unit 1)
 		(body_style 1)
@@ -14113,7 +14113,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 321.31 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -14227,7 +14227,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\")
+		(lib_id "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 331.47 118.11 270)
 		(mirror x)
 		(unit 1)
@@ -14348,7 +14348,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z\")
+		(lib_id "jetson-symbols:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 294.64 118.11 270)
 		(mirror x)
 		(unit 1)
@@ -14469,7 +14469,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R\")
+		(lib_id "jetson-symbols:Spacer_Drill3.7mm_H6mm_9774060151R")
 		(at 321.31 226.06 0)
 		(unit 1)
 		(body_style 1)
@@ -14583,7 +14583,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B\")
+		(lib_id "jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B")
 		(at 364.49 35.56 270)
 		(unit 1)
 		(body_style 1)
@@ -14738,7 +14738,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B\")
+		(lib_id "jetson-symbols:C_Pol_330u_6.3V_KEMET-T520-B")
 		(at 350.52 35.56 270)
 		(unit 1)
 		(body_style 1)
@@ -14893,7 +14893,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 314.96 191.77 270)
 		(unit 1)
 		(body_style 1)
@@ -15037,7 +15037,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_470R_0402\")
+		(lib_id "jetson-symbols:R_470R_0402")
 		(at 294.64 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -15181,7 +15181,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_470R_0402\")
+		(lib_id "jetson-symbols:R_470R_0402")
 		(at 331.47 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -15325,7 +15325,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_470R_0402\")
+		(lib_id "jetson-symbols:R_470R_0402")
 		(at 370.84 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -15469,7 +15469,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:SW_TL3340AF160QG_SMD\")
+		(lib_id "jetson-symbols:SW_TL3340AF160QG_SMD")
 		(at 297.18 168.91 0)
 		(unit 1)
 		(body_style 1)
@@ -15599,7 +15599,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 379.73 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -15742,7 +15742,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:SW_TL3340AF160QG_SMD\")
+		(lib_id "jetson-symbols:SW_TL3340AF160QG_SMD")
 		(at 297.18 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -15872,7 +15872,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:R_100k_0402\")
+		(lib_id "jetson-symbols:R_100k_0402")
 		(at 115.57 57.15 270)
 		(unit 1)
 		(body_style 1)
@@ -16016,7 +16016,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:FB_10Z_10A_WE-MPSB_1206\")
+		(lib_id "jetson-symbols:FB_10Z_10A_WE-MPSB_1206")
 		(at 364.49 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -16134,7 +16134,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 287.02 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -16226,7 +16226,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 350.52 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -16318,7 +16318,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 370.84 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -16410,7 +16410,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 317.5 228.6 0)
 		(unit 1)
 		(body_style 1)
@@ -16502,7 +16502,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 331.47 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -16594,7 +16594,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 294.64 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -16686,7 +16686,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 289.56 209.55 0)
 		(unit 1)
 		(body_style 1)
@@ -16778,7 +16778,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 349.25 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -16870,7 +16870,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 378.46 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -16962,7 +16962,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 364.49 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -17054,7 +17054,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 350.52 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -17146,7 +17146,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 39.37 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -17238,7 +17238,7 @@
 		)
 	)
 	(symbol
-		(lib_id \"jetson-symbols:GND\")
+		(lib_id "jetson-symbols:GND")
 		(at 115.57 64.77 0)
 		(unit 1)
 		(body_style 1)

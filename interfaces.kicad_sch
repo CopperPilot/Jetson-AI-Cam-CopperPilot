@@ -1456,7 +1456,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Round Standoff Threaded M2.5x0.45 Steel 0.157" (4.00mm)"
+			(property "Description" "Round Standoff Threaded M2.5x0.45 Steel 0.157\" (4.00mm)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
