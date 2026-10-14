@@ -19021,6 +19021,21 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 210.82) (xy 250.19 212.09)
+		)
+		(stroke (width 0) (type default))
+		(uuid "df420ab8-0f0d-4005-9c30-33e4520d8cb4")
+	)
+	(wire
+		(pts
+			(xy 250.19 212.09) (xy 270.51 212.09)
+		)
+		(stroke (width 0) (type default))
+		(uuid "55ab97b1-0639-472e-a3a2-3656b0d8ff86")
+	)
+
+	(wire
+		(pts
 			(xy 52.07 138.43) (xy 53.975 138.43)
 		)
 		(stroke
