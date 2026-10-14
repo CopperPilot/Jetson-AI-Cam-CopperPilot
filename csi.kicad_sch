@@ -15774,7 +15774,17 @@
 	)
 	(no_connect (at 70.485 67.31) (uuid "ab0c347a-6e0b-4714-ac98-57eba4ddf27a"))
 	(no_connect (at 70.485 97.79) (uuid "af25f21b-6515-4255-8729-a005181668d7"))
-	(no_connect (at 270.51 212.09) (uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b"))
+	(global_label "CAM0_SCL"
+		(shape bidirectional)
+		(at 270.51 212.09 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b")
+	)
 	(no_connect (at 270.51 234.95) (uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b"))
 	(no_connect (at 70.485 95.25) (uuid "c4826ff4-c115-4254-af86-7c66e21f4df4"))
 	(no_connect (at 70.485 110.49) (uuid "e285647d-7923-4520-966f-b2cc65748a10"))
