@@ -10,6 +10,286 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
+		(symbol "jetson-symbols:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(property "Reference" "#FLG"
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "PWR_FLAG_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "pwr" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+		(symbol "jetson-symbols:C_2u2_0402"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 20.32 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_2u2_0402"
+			(at 20.32 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 20.32 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1A225K050BC"
+			(at 20.32 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 2.2 µF, 10 V, 0402 [1005 Metric], ± 10%, X5R, C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X5R1A225K050BC"
+			(at 20.32 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 20.32 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 20.32 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "2u2"
+			(at 20.32 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 20.32 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 20.32 -30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_2u2_0402_0_1"
+			(polyline
+				(pts
+					(xy 2.032 -1.524) (xy 2.032 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.524) (xy 3.048 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_2u2_0402_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "jetson-symbols:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -14210,10 +14490,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060e8d348")
 		(property "Reference" "R35"
 			(at 180.34 208.2799 90)
@@ -14353,10 +14633,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000060e91bd0")
 		(property "Reference" "R34"
@@ -15348,16 +15628,7 @@
 		)
 		(uuid "1ecab993-2254-486b-a988-1b5ff633f25b")
 	)
-	(label "CAM2_SCL"
-		(at 270.51 227.33 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "1f7ce0dc-b092-47c4-916f-db994e600c36")
-	)
+	(no_connect (at 270.51 227.33) (uuid "1f7ce0dc-b092-47c4-916f-db994e600c36"))
 	(global_label "CSI_A_CLK_P"
 		(shape bidirectional)
 		(at 69.85 52.07 180)
@@ -15586,16 +15857,7 @@
 		)
 		(uuid "6faba2e8-97f1-4819-ab8d-77fccc430b7d")
 	)
-	(label "CAM3_SDA"
-		(at 270.51 232.41 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "706986fb-217a-4ace-bc63-60f438d10c7b")
-	)
+	(no_connect (at 270.51 232.41) (uuid "706986fb-217a-4ace-bc63-60f438d10c7b"))
 	(global_label "CSI_A_D1_P"
 		(shape bidirectional)
 		(at 69.85 46.99 180)
@@ -15732,16 +15994,7 @@
 		)
 		(uuid "b0a3142b-d590-4508-8064-868bfb63b50b")
 	)
-	(label "CAM3_SCL"
-		(at 270.51 234.95 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b")
-	)
+	(no_connect (at 270.51 234.95) (uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b"))
 	(label "CSI_F_D0_N"
 		(at 70.485 95.25 180)
 		(effects
@@ -15783,16 +16036,7 @@
 		)
 		(uuid "dc04bf48-48d3-4d63-9489-dd61e675d1e4")
 	)
-	(label "CAM2_SDA"
-		(at 270.51 224.79 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "e285647d-7923-4520-966f-b2cc65748a10")
-	)
+	(no_connect (at 270.51 224.79) (uuid "e285647d-7923-4520-966f-b2cc65748a10"))
 	(label "CAM_I2C_SCL"
 		(at 71.755 153.67 180)
 		(effects
@@ -19052,5 +19296,1097 @@
 			(justify left)
 		)
 		(uuid "e878c10e-9549-4a40-8289-3ee680709c38")
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 231.14 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b44561b4-13b0-4875-be2e-6b4dd5939840")
+		(property "Reference" "C95"
+			(at 233.67999999999998 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 233.67999999999998 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 231.14 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "3317ab04-3a13-474d-bd16-23a5faa8abf7"))
+		(pin "2" (uuid "749adcce-2656-4818-9cf3-5d92d17b99f8"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 231.14 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "2f5d7d74-2c1f-4ea6-8edf-9a976e2e3de5")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 231.14 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f9f39c3-aca6-4f36-b652-7ae9a4e5d143")
+		(property "Reference" "#PWR_C95"
+			(at 231.14 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 231.14 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "c541f5a4-397f-45e9-a5d3-fcd1eeaa83a0"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 241.3 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67e6da58-bbfd-47b5-a3f9-dc0a4ba084eb")
+		(property "Reference" "C96"
+			(at 243.84 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 243.84 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 241.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "4f849722-cd03-433d-9e8f-0a23f8563d16"))
+		(pin "2" (uuid "9c084f77-da19-4277-aac1-027cb4c8cdfa"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 241.3 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "9821387e-faeb-4c9c-9e8e-cacb84d2e217")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 241.3 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cec4b21-8321-4ec2-b215-a437cf20c751")
+		(property "Reference" "#PWR_C96"
+			(at 241.3 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 241.3 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "4fed23b5-80db-4f30-9854-376731f9999c"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 251.46 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c268f6e-4b67-4792-af83-3fc2866c2cb4")
+		(property "Reference" "C97"
+			(at 254.0 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 254.0 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 251.46 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "915ac534-1835-445f-bda5-ee892b16b4cb"))
+		(pin "2" (uuid "25c13efc-9ece-432d-a318-cbc026e11722"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 251.46 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "05046087-b892-42b4-a25b-7a12a00d840a")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 251.46 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9257a033-9761-4efb-8a88-54801aa93c2e")
+		(property "Reference" "#PWR_C97"
+			(at 251.46 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 251.46 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "49115a02-40ac-4856-9d8c-d99e7d0da065"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_2u2_0402")
+		(at 261.62 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc2eb6a4-4d7e-47e9-be85-174203a128a9")
+		(property "Reference" "C98"
+			(at 264.16 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_2u2_0402"
+			(at 264.16 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 261.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "6c0a722c-9931-4d2a-bdc0-a4d93c3d1575"))
+		(pin "2" (uuid "183fd9f6-e82b-481d-8c2f-6fc897153902"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 261.62 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "422bbc15-6a38-4817-9523-42453588df51")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 261.62 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95c3cd0a-a50b-43e1-b40a-0b744fe05997")
+		(property "Reference" "#PWR_C98"
+			(at 261.62 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 261.62 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "08d9016d-d4cb-44b0-aadc-6ab4273af02b"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 312.42 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0d9166c-7f0f-4adf-a38d-3632fe70cea5")
+		(property "Reference" "C99"
+			(at 314.96000000000004 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 314.96000000000004 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 312.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "c737e808-b5e9-4193-96ed-46946672e77b"))
+		(pin "2" (uuid "c0d42268-c5e2-4d04-82b0-d910a4462f96"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 312.42 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "9c8c7ea0-2f3b-4017-9b1c-387fbcf90119")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 312.42 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "895da2a7-b74d-4cc5-9566-1b171c770056")
+		(property "Reference" "#PWR_C99"
+			(at 312.42 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 312.42 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "9227da58-9f86-46ff-a175-c08a173dfd7d"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 322.58 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27da8f23-5870-4ecd-9d89-913d88c08f49")
+		(property "Reference" "C100"
+			(at 325.12 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 325.12 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 322.58 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "0dcc2112-760f-420b-90dd-297e9b373d0a"))
+		(pin "2" (uuid "61442a97-f8e0-4f02-a1ed-a03b05985ff0"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V2_CAM"
+		(shape input)
+		(at 322.58 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "bbcc8a26-9aff-4034-a8d8-d09b9d4f2451")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 322.58 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31df35d3-6081-4b06-8d45-cd308badd8b0")
+		(property "Reference" "#PWR_C100"
+			(at 322.58 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 322.58 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "2eb47bd8-958f-4ba3-b8b7-93c6e5722627"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 332.74 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c148aeb8-8b6a-4c94-a698-558eda187adb")
+		(property "Reference" "C101"
+			(at 335.28000000000003 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 335.28000000000003 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 332.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "5940ad7e-97c6-4bff-9bf5-9a6ee6be55c3"))
+		(pin "2" (uuid "411b953a-551d-4cef-ab01-e639fe688ddd"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 332.74 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "539fd751-8ff9-4deb-8099-5e87b9ddc055")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 332.74 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fa7cdba-d95f-43f2-9d00-d27236c249e2")
+		(property "Reference" "#PWR_C101"
+			(at 332.74 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 332.74 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "a6630692-6766-41de-be7e-7b233b08c994"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:C_2u2_0402")
+		(at 342.9 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f62622b-cde6-4e59-bd35-016f4b5bd949")
+		(property "Reference" "C102"
+			(at 345.44 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_2u2_0402"
+			(at 345.44 124.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 342.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "258ed9cc-cb37-4999-b329-901060c6e317"))
+		(pin "2" (uuid "ab98b095-aa13-4702-8ccd-1d0fe513cb57"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "2V8_CAM"
+		(shape input)
+		(at 342.9 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "ac60a1e3-9b31-4db0-ab00-4a5a67702556")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 342.9 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "545e1e2e-1d95-4af1-b00f-2793ba81baf3")
+		(property "Reference" "#PWR_C102"
+			(at 342.9 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 342.9 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "6f812446-aeff-4740-930a-a7af5e7c2417"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_2k_0402")
+		(at 271.78 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24b91eb2-9929-4428-b5f7-4ac3f3d55171")
+		(property "Reference" "R140"
+			(at 274.32 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k"
+			(at 274.32 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 271.78 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "f963d35f-201f-43c1-ab62-e2c91577c036"))
+		(pin "2" (uuid "159f569d-9c87-4316-b1db-9190efc5e1be"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 271.78 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "2a3ace04-4851-4db4-b7b2-dd946e5ef213")
+	)
+	(global_label "CAM0_SCL"
+		(shape bidirectional)
+		(at 271.78 125.73 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "fed74259-d34a-42e4-82ce-bc0e4a346904")
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_2k_0402")
+		(at 281.94 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d1ca441-b063-4c36-9374-0617dbf5728b")
+		(property "Reference" "R141"
+			(at 284.48 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k"
+			(at 284.48 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 281.94 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "11f13918-3a9a-44b3-8209-3659e0a4a3e7"))
+		(pin "2" (uuid "3166fda6-c38e-4719-81a8-61d0befe0d14"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 281.94 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "e8c929b9-b465-4977-b642-4df442cfb6f3")
+	)
+	(global_label "CAM0_SDA"
+		(shape bidirectional)
+		(at 281.94 125.73 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "234713b4-c9de-40d3-86c2-539ad9b6d88c")
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_2k_0402")
+		(at 353.06 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1b638c6-fb69-4eea-900e-d0eaae97b523")
+		(property "Reference" "R142"
+			(at 355.6 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k"
+			(at 355.6 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 353.06 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "817a3e60-1eca-45b3-bae1-246bc6547f36"))
+		(pin "2" (uuid "c3f7ac8d-3696-4889-b03b-056df9aa4bd9"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 353.06 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "f1759bff-13ae-4540-b05b-deb8855febd2")
+	)
+	(global_label "CAM1_SCL"
+		(shape bidirectional)
+		(at 353.06 125.73 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "e714eb53-c158-4ccd-a39a-ce22fb2c4799")
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_2k_0402")
+		(at 363.22 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b53ef7a-3eca-44e1-8943-549e4050a01b")
+		(property "Reference" "R143"
+			(at 365.76000000000005 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k"
+			(at 365.76000000000005 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 363.22 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "df3d4642-403c-4038-b273-e6e95598bb14"))
+		(pin "2" (uuid "1e966d19-c6cf-4307-9b3f-0a0f7d44c813"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "1V8_SYS"
+		(shape input)
+		(at 363.22 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "12d29adc-dc73-4275-b78b-a0d0e120ba87")
+	)
+	(global_label "CAM1_SDA"
+		(shape bidirectional)
+		(at 363.22 125.73 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "42e5cab1-0310-4b82-9fcb-5e9cfe1f4646")
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_100k_0402")
+		(at 292.1 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ce785c6-6ae3-48fe-972a-2319143e5fc5")
+		(property "Reference" "R144"
+			(at 294.64000000000004 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100k"
+			(at 294.64000000000004 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 292.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "227bf00c-d1af-4e59-98a8-fbf47e8b3649"))
+		(pin "2" (uuid "4ab669de-0f9c-40e8-84f2-810bcb9e702a"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM0_PWDN"
+		(shape input)
+		(at 292.1 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "25c415df-916f-40e3-97b7-edeb6c1940a0")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 292.1 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90c8ef9f-d07f-4eb4-a159-5bafce5d7ad6")
+		(property "Reference" "#PWR_R144"
+			(at 292.1 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 292.1 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "effe607f-b6f9-4114-88ec-6304e68c64de"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:R_100k_0402")
+		(at 373.38 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "033b00dd-9d02-44ae-a5bc-d1cf046545fe")
+		(property "Reference" "R145"
+			(at 375.92 123.19000000000001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "100k"
+			(at 375.92 124.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
+			(at 373.38 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "1" (uuid "a2422f8a-a554-4864-9560-a8a4e5ece04f"))
+		(pin "2" (uuid "615affa4-9af3-4db9-84e5-dfcd592cae24"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "R145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CAM1_PWDN"
+		(shape input)
+		(at 373.38 120.65 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "12f610de-9a82-4ab5-bb80-5d97c1c71e75")
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 373.38 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b9b6c78-94a3-4535-b9ee-3e543bdde20e")
+		(property "Reference" "#PWR_R145"
+			(at 373.38 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 373.38 128.27 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "1cb408e5-943a-4115-9174-9580f771fe4a"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_R145")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 220.98 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56c5cc1d-092a-4cbe-b23b-7ec5f1c7b805")
+		(property "Reference" "#FLG01"
+			(at 220.98 118.11 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 123.19 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "5150f786-f571-4cfb-a5f3-a6b83cf3a493"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 220.98 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "273a90fd-d626-4bb7-af09-7c9d19a19410")
+		(property "Reference" "#PWR_GND_FLAG"
+			(at 220.98 123.19 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 220.98 123.19 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "57d31725-6543-41fc-9680-c17caba2e141"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#PWR_GND_FLAG")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
