@@ -7479,4 +7479,12 @@
 		)
 		(uuid "c072eb39-dd12-42d1-b33f-13a1fb632270")
 	)
+
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 126.365 57.785 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify left))
+		(uuid "bf2df192-9699-4aee-a999-1652b013524a")
+	)
 )
