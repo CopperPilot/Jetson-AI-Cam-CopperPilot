@@ -9246,6 +9246,30 @@
 			)
 			(embedded_fonts no)
 		)
+	(symbol "jetson-symbols:PWR_FLAG"
+		(power global)
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(property "Reference" "#FLG" (at 0 0 0) (hide yes))
+		(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 0 0 0) (hide yes))
+		(property "Datasheet" "" (at 0 0 0) (hide yes))
+		(property "Description" "" (at 0 0 0) (hide yes))
+		(symbol "PWR_FLAG_0_1"
+			(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27))
+				(stroke (width 0) (type default)) (fill (type none)))
+		)
+		(symbol "PWR_FLAG_1_1"
+			(pin power_out line (at 0 0 90) (length 0)
+				(name "pwr" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
 	)
 	(symbol
 		(lib_id "jetson-symbols:FT232R_QFN")
@@ -29457,16 +29481,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 97.79) (xy 369.57 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10f2dc2-d1b3-410a-ab50-22c55556fe41")
-	)
-	(wire
-		(pts
 			(xy 187.96 104.14) (xy 169.545 104.14)
 		)
 		(stroke
@@ -30717,4 +30731,45 @@
 	)
 
 	(embedded_fonts no)
+
+	(no_connect
+		(at 369.57 97.79)
+		(uuid "a58258cd-4f5d-44b5-9eb2-507256b9e8d9")
+	)
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 50.8 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e0e4ff42-385d-445a-8cc2-fede9249f802")
+		(property "Reference" "#FLG_eccd71"
+			(at 50.8 25.4 0)
+			(hide yes)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 27.939999999999998 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608df3e5"
+					(reference "#FLG_eccd71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 50.8 25.4 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "b1c3ecd2-46af-4f53-ba38-f7a59e6255f8")
+	)
 )

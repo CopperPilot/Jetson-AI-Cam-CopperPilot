@@ -1511,7 +1511,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062df2d52")
 		(property "Reference" "R132"
-			(at 232.41 161.29 0)
+			(at 224.79 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2084,7 +2084,8 @@
 			)
 		)
 	)
-	(label "GEN0_SDA"
+	(global_label "GEN0_SDA"
+		(shape bidirectional)
 		(at 191.135 165.1 0)
 		(effects
 			(font
@@ -2104,7 +2105,8 @@
 		)
 		(uuid "4c492ed7-c7f0-45da-996e-4fe3ba8132f1")
 	)
-	(label "GEN0_SDA"
+	(global_label "GEN0_SDA"
+		(shape bidirectional)
 		(at 177.165 120.015 0)
 		(effects
 			(font
@@ -2124,7 +2126,8 @@
 		)
 		(uuid "8e3ed464-dd1b-402f-b58c-389a07c08df0")
 	)
-	(label "GEN0_SCL"
+	(global_label "GEN0_SCL"
+		(shape bidirectional)
 		(at 177.165 122.555 0)
 		(effects
 			(font
@@ -2134,7 +2137,8 @@
 		)
 		(uuid "a41ff499-cb09-402b-96e9-2bb94b324e6f")
 	)
-	(label "GEN0_SDA"
+	(global_label "GEN0_SDA"
+		(shape bidirectional)
 		(at 245.11 167.64 180)
 		(effects
 			(font
@@ -2154,7 +2158,8 @@
 		)
 		(uuid "bf61fcfd-f974-4a65-a05d-86e100a92a72")
 	)
-	(label "GEN0_SCL"
+	(global_label "GEN0_SCL"
+		(shape bidirectional)
 		(at 245.11 165.1 180)
 		(effects
 			(font
@@ -2558,4 +2563,35 @@
 	)
 
 	(embedded_fonts no)
+
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 219.71 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaefcb69-8f1d-464e-b99e-161725f82ce7")
+		(property "Reference" "#PWR_e44d59"
+			(at 219.71 165.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 219.71 165.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
+					(reference "#PWR_85177d")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

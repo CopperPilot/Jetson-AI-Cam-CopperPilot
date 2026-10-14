@@ -49,7 +49,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "6")
 				)
@@ -95,7 +95,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "8")
 				)
@@ -141,7 +141,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "7")
 				)
@@ -187,7 +187,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "5")
 				)
@@ -233,7 +233,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "2")
 				)
@@ -279,7 +279,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "3")
 				)
@@ -325,7 +325,7 @@
 			)
 		)
 		(instances
-			(project "project-step-by-step"
+			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e"
 					(page "4")
 				)

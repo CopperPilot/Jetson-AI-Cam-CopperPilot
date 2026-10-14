@@ -10107,6 +10107,30 @@
 			)
 			(embedded_fonts no)
 		)
+	(symbol "jetson-symbols:PWR_FLAG"
+		(power global)
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(property "Reference" "#FLG" (at 0 0 0) (hide yes))
+		(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 0 0 0) (hide yes))
+		(property "Datasheet" "" (at 0 0 0) (hide yes))
+		(property "Description" "" (at 0 0 0) (hide yes))
+		(symbol "PWR_FLAG_0_1"
+			(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27))
+				(stroke (width 0) (type default)) (fill (type none)))
+		)
+		(symbol "PWR_FLAG_1_1"
+			(pin power_out line (at 0 0 90) (length 0)
+				(name "pwr" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
 	)
 	(symbol
 		(lib_id "jetson-symbols:PCA9517ADP")
@@ -17649,7 +17673,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000615ee274")
 		(property "Reference" "C5"
@@ -23048,7 +23072,8 @@
 		)
 		(uuid "6f35fdc1-2d5a-47c9-a43a-972c3920db8d")
 	)
-	(label "TMDS_HPD"
+	(global_label "TMDS_HPD"
+		(shape bidirectional)
 		(at 66.675 68.58 180)
 		(effects
 			(font
@@ -23782,30 +23807,6 @@
 			)
 		)
 	)
-	(global_label "M2_ALERT"
-		(shape input)
-		(at 82.55 132.715 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67e35e07-1d96-4f63-a361-13234c0f3663")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.0061 132.6356 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "3V3_SYS"
 		(shape input)
 		(at 300.355 153.67 90)
@@ -23867,30 +23868,6 @@
 		(uuid "8705bd8c-f775-40dc-9620-535eb0ae9292")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.9499 115.4906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TMDS_HPD"
-		(shape input)
-		(at 82.55 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b08350d-2691-4b11-9a13-d3bf1af60c11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6109 135.8106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27164,4 +27141,76 @@
 	)
 
 	(embedded_fonts no)
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 50.8 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "88717aa1-9e70-418b-aa10-a90cf83eeaff")
+		(property "Reference" "#FLG_5fcbd1"
+			(at 50.8 25.4 0)
+			(hide yes)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 27.939999999999998 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_5fcbd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "DP_PWR"
+		(shape input)
+		(at 50.8 25.4 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "90a17e19-735d-42ba-b270-b9fe0eb42ad5")
+	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 50.8 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3cfd9099-4d3a-4beb-ae38-0504474ea720")
+		(property "Reference" "#FLG_a2d91f"
+			(at 50.8 30.48 0)
+			(hide yes)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 33.02 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_a2d91f")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "HDMI_PWR"
+		(shape input)
+		(at 50.8 30.48 180)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "09f94dab-714a-4699-9a09-235b6e29e169")
+	)
+
 )
