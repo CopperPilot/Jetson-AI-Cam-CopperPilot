@@ -9,6 +9,232 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
+		(symbol "jetson-symbols:C_100n_0402"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 20.32 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 20.32 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 20.32 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 20.32 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 20.32 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 20.32 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 20.32 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 20.32 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 20.32 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 20.32 -30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_100n_0402_0_1"
+			(polyline
+				(pts
+					(xy 2.032 -1.524) (xy 2.032 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.524) (xy 3.048 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_100n_0402_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "jetson-symbols:Battery_Holder_MS621FE-FL11E"
 			(pin_names
 				(offset 0)
@@ -13541,10 +13767,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e7103ee")
 		(property "Reference" "SP3"
@@ -13890,10 +14116,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e7103fd")
 		(property "Reference" "SP2"
 			(at 354.965 215.9 0)
@@ -14118,10 +14344,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e710408")
 		(property "Reference" "SP4"
 			(at 326.39 244.475 0)
@@ -14474,10 +14700,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e710413")
 		(property "Reference" "SP1"
 			(at 326.39 218.44 0)
@@ -16963,7 +17189,7 @@
 	)
 	(symbol
 		(lib_id "jetson-symbols:GND")
-		(at 364.49 43.18 0)
+		(at 364.49 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16973,7 +17199,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e710426")
 		(property "Reference" "#GND_045"
-			(at 364.49 43.18 0)
+			(at 364.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16995,7 +17221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 43.18 0)
+			(at 364.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17007,7 +17233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 43.18 0)
+			(at 364.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17019,7 +17245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 43.18 0)
+			(at 364.49 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17329,6 +17555,79 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 274.32 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864ec8b1-9d32-4ab3-be6a-cc31c1c9d241")
+		(property "Reference" "C103"
+			(at 274.32 41.91 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 274.32 49.53 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 274.32 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "1a9ebf40-fbe8-4596-8990-5b989cbc9430"))
+		(pin "2" (uuid "2096e548-dfa8-470c-a995-bc5a1cfdbf41"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000610accab"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:C_100n_0402")
+		(at 274.32 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d90b64e-a3f0-44cf-9ee2-7368512d6784")
+		(property "Reference" "C104"
+			(at 274.32 44.45 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "C_100n_0402"
+			(at 274.32 52.07 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "jetson-footprints:C_0402_1005Metric"
+			(at 274.32 48.26 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "3214a54b-1ef5-43ac-b38b-06c88b0fa64d"))
+		(pin "2" (uuid "3ee7f0bc-fe2a-4fd9-9867-ac20358dd4bc"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000610accab"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 	(label "PMIC_BBAT"
 		(at 90.17 50.8 180)
 		(effects
@@ -19907,26 +20206,8 @@
 		)
 		(uuid "1b09b2c1-3245-4f7d-bd7a-00d5b422d998")
 	)
-	(wire
-		(pts
-			(xy 289.56 168.91) (xy 289.56 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b2511e7-1ca4-4c12-930f-65a3fb77ef64")
-	)
-	(wire
-		(pts
-			(xy 267.97 45.72) (xy 290.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8973b0-6d8b-406c-ac04-a7d5ce1db464")
-	)
+	(wire (pts (xy 267.97 45.72) (xy 274.32 45.72)) (stroke (width 0) (type default)) (uuid "43136b1a-5dad-43eb-bec4-ae5a071fd291"))
+	(wire (pts (xy 279.4 45.72) (xy 290.83 45.72)) (stroke (width 0) (type default)) (uuid "6824b993-6046-4e09-a6b2-5b761214a158"))
 	(wire
 		(pts
 			(xy 321.31 226.06) (xy 317.5 226.06)
@@ -20847,26 +21128,8 @@
 		)
 		(uuid "9a6c9cc6-b505-44cd-b9bd-4378436a68f9")
 	)
-	(wire
-		(pts
-			(xy 364.49 40.64) (xy 364.49 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e520d25-90fe-45c2-a588-5ab0ec36f744")
-	)
-	(wire
-		(pts
-			(xy 267.97 48.26) (xy 290.83 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a57c415c-1951-4847-ae0c-5ae5f0398c20")
-	)
+	(wire (pts (xy 267.97 48.26) (xy 274.32 48.26)) (stroke (width 0) (type default)) (uuid "0e6dca40-4a04-488f-884a-655751fe998d"))
+	(wire (pts (xy 279.4 48.26) (xy 290.83 48.26)) (stroke (width 0) (type default)) (uuid "6f785f9e-de6b-445b-bc09-3bbf451f20c6"))
 	(wire
 		(pts
 			(xy 267.97 53.34) (xy 290.83 53.34)
@@ -21467,6 +21730,17 @@
 		)
 		(uuid "f5321a9f-498a-4299-859d-cfb848324edc")
 	)
+	(wire
+		(pts
+			(xy 289.56 168.91) (xy 289.56 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ab97cc-ea2f-4f20-bf32-6952774cb1f9")
+	)
+
 	(wire
 		(pts
 			(xy 191.77 176.53) (xy 207.01 176.53)

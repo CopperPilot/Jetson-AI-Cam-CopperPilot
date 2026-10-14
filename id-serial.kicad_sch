@@ -1500,159 +1500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jetson-symbols:R_0R_0402")
-		(at 224.79 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062df2d52")
-		(property "Reference" "R132"
-			(at 224.79 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 224.79 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jetson-footprints:R_0402_1005Metric"
-			(at 229.87 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 224.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 229.87 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 229.87 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Val" "0R"
-			(at 223.52 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 245.11 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" ""
-			(at 245.11 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Current" "1A"
-			(at 227.33 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a365c66b-64d5-4cf3-9f0a-88db70f6a455")
-		)
-		(pin "2"
-			(uuid "275a7309-fc7f-48dc-a0d1-67159327d4b5")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
-					(reference "R132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jetson-symbols:C_100n_0402")
 		(at 247.65 134.62 270)
 		(unit 1)
@@ -1992,119 +1839,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "jetson-symbols:GND")
-		(at 204.47 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060d686f7")
-		(property "Reference" "#GND_0119"
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 213.36 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "e02a14ac-2538-4ee9-a9c1-a96ae1325c4e")
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
-					(reference "#GND_0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "GEN0_SDA"
-		(shape bidirectional)
-		(at 191.135 165.1 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "158f7441-beae-4481-8fc5-9c83337ad0b0")
-	)
-	(label "EEPROM_PWR"
-		(at 191.135 162.56 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c492ed7-c7f0-45da-996e-4fe3ba8132f1")
-	)
 	(global_label "GEN0_SDA"
 		(shape bidirectional)
 		(at 177.165 120.015 0)
@@ -2137,17 +1871,6 @@
 		)
 		(uuid "a41ff499-cb09-402b-96e9-2bb94b324e6f")
 	)
-	(global_label "GEN0_SDA"
-		(shape bidirectional)
-		(at 245.11 167.64 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "adf41723-9ce5-44a6-b809-254bbf828d10")
-	)
 	(label "SN_WP"
 		(at 177.165 125.095 0)
 		(effects
@@ -2157,27 +1880,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf61fcfd-f974-4a65-a05d-86e100a92a72")
-	)
-	(global_label "GEN0_SCL"
-		(shape bidirectional)
-		(at 245.11 165.1 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddd1e19c-4fca-47fb-ab26-8400183213fb")
-	)
-	(label "SN_WP"
-		(at 245.11 162.56 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "f06c10de-5436-4d68-b68b-d62f52429e18")
 	)
 	(global_label "3V3_SYS"
 		(shape input)
@@ -2373,26 +2075,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 162.56) (xy 224.79 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0702cbb6-c21b-48f5-b160-453346ce6db3")
-	)
-	(wire
-		(pts
-			(xy 204.47 167.64) (xy 204.47 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1edb5542-8f7b-473d-994b-dae1a75b9a6b")
-	)
-	(wire
-		(pts
 			(xy 218.44 122.555) (xy 218.44 128.27)
 		)
 		(stroke
@@ -2400,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "30f1aff8-4e15-4fa7-ab3b-e7e0d97e5bd8")
-	)
-	(wire
-		(pts
-			(xy 207.01 167.64) (xy 204.47 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7f9d55-233e-4f3a-821e-97642e7511d0")
 	)
 	(wire
 		(pts
@@ -2443,16 +2115,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 162.56) (xy 207.01 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598b2d85-6421-4f10-88dd-0721e8615d87")
-	)
-	(wire
-		(pts
 			(xy 177.165 122.555) (xy 193.675 122.555)
 		)
 		(stroke
@@ -2463,16 +2125,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 165.1) (xy 207.01 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87dd8421-4867-480f-b824-7d5d7fd89ca5")
-	)
-	(wire
-		(pts
 			(xy 218.44 120.015) (xy 234.315 120.015)
 		)
 		(stroke
@@ -2480,26 +2132,6 @@
 			(type default)
 		)
 		(uuid "98b68657-7f0a-4fe1-8e6e-80d9e4b16de5")
-	)
-	(wire
-		(pts
-			(xy 229.87 162.56) (xy 245.11 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2cd3939-6626-4631-b964-9d77f521abb1")
-	)
-	(wire
-		(pts
-			(xy 219.71 165.1) (xy 245.11 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69e86ed-342e-4f49-95b1-5d391fbbe25e")
 	)
 	(wire
 		(pts
@@ -2533,16 +2165,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 167.64) (xy 245.11 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd002a8d-b8e3-419b-abf4-e88a4abce6e6")
-	)
-	(wire
-		(pts
 			(xy 218.44 114.3) (xy 218.44 120.015)
 		)
 		(stroke
@@ -2563,35 +2185,4 @@
 	)
 
 	(embedded_fonts no)
-
-	(symbol
-		(lib_id "jetson-symbols:GND")
-		(at 219.71 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eaefcb69-8f1d-464e-b99e-161725f82ce7")
-		(property "Reference" "#PWR_e44d59"
-			(at 219.71 165.1 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "GND"
-			(at 219.71 165.1 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(instances
-			(project "Jetson-AI-Cam-CopperPilot"
-				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
-					(reference "#PWR_85177d")
-					(unit 1)
-				)
-			)
-		)
-	)
 )

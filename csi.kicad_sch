@@ -15587,47 +15587,10 @@
 			)
 		)
 	)
-	(label "CSI_G_CLK_P"
-		(at 71.755 161.29 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "06dcd275-3d3a-4bbe-b349-81ee3e2c1b6f")
-	)
-	(global_label "CSI_A_D1_N"
-		(shape bidirectional)
-		(at 69.85 49.53 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f58fbec-e94f-44a4-9c21-0e4cd354d3e6")
-	)
-	(label "CSI_E_CLK_P"
-		(at 70.485 85.09 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b13e294-63fe-44de-bb40-1c71b0170caa")
-	)
-	(label "CSI_F_D0_P"
-		(at 70.485 92.71 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ecab993-2254-486b-a988-1b5ff633f25b")
-	)
+	(no_connect (at 71.755 161.29) (uuid "06dcd275-3d3a-4bbe-b349-81ee3e2c1b6f"))
+	(no_connect (at 69.85 49.53) (uuid "1f7ce0dc-b092-47c4-916f-db994e600c36"))
+	(no_connect (at 70.485 85.09) (uuid "1b13e294-63fe-44de-bb40-1c71b0170caa"))
+	(no_connect (at 70.485 92.71) (uuid "1ecab993-2254-486b-a988-1b5ff633f25b"))
 	(no_connect (at 270.51 227.33) (uuid "1f7ce0dc-b092-47c4-916f-db994e600c36"))
 	(global_label "CSI_A_CLK_P"
 		(shape bidirectional)
@@ -15640,56 +15603,11 @@
 		)
 		(uuid "2144a3ec-e624-4061-b46a-0f43d4bbcf9d")
 	)
-	(label "CSI_E_CLK_N"
-		(at 70.485 87.63 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "21f7b5c6-3e9e-48b1-9f6b-f23d28e5747e")
-	)
-	(label "CSI_G_D1_N"
-		(at 71.755 168.91 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "286c0ff0-ed20-422b-97e0-12311ac77e06")
-	)
-	(label "CSI_G_CLK_N"
-		(at 71.755 163.83 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "2c74d480-bb82-4aa7-bdcf-7193b5a20359")
-	)
-	(label "CSI_B_D0_P"
-		(at 70.485 59.69 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "32576c3a-7523-4fb8-9e76-bf57c8c297d3")
-	)
-	(label "CSI_G_D0_N"
-		(at 71.755 173.99 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "331a399a-1d20-48d7-8125-576d95b5ebcb")
-	)
+	(no_connect (at 70.485 87.63) (uuid "21f7b5c6-3e9e-48b1-9f6b-f23d28e5747e"))
+	(no_connect (at 71.755 168.91) (uuid "286c0ff0-ed20-422b-97e0-12311ac77e06"))
+	(no_connect (at 71.755 163.83) (uuid "2c74d480-bb82-4aa7-bdcf-7193b5a20359"))
+	(no_connect (at 70.485 59.69) (uuid "32576c3a-7523-4fb8-9e76-bf57c8c297d3"))
+	(no_connect (at 71.755 173.99) (uuid "331a399a-1d20-48d7-8125-576d95b5ebcb"))
 	(global_label "CSI_C_D1_N"
 		(shape bidirectional)
 		(at 70.485 118.11 180)
@@ -15701,36 +15619,9 @@
 		)
 		(uuid "33ae09b3-c60a-4132-9919-7c29d7e74d8c")
 	)
-	(label "CSI_G_D0_P"
-		(at 71.755 171.45 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "351c8849-bc7a-41e2-886a-c215feae9c05")
-	)
-	(label "CSI_D_D1_N"
-		(at 70.485 128.27 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "43fb36c4-7225-4ae7-8663-f62018a8807e")
-	)
-	(label "CSI_E_D0_N"
-		(at 70.485 77.47 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "442f76bb-adb9-4d2e-bbd0-5f57568a74b9")
-	)
+	(no_connect (at 71.755 171.45) (uuid "351c8849-bc7a-41e2-886a-c215feae9c05"))
+	(no_connect (at 70.485 128.27) (uuid "43fb36c4-7225-4ae7-8663-f62018a8807e"))
+	(no_connect (at 70.485 77.47) (uuid "442f76bb-adb9-4d2e-bbd0-5f57568a74b9"))
 	(global_label "CSI_A_D0_N"
 		(shape bidirectional)
 		(at 69.85 44.45 180)
@@ -15742,16 +15633,7 @@
 		)
 		(uuid "45bdcf5f-f055-4388-9d9f-0ae3e3cf0b29")
 	)
-	(label "CSI_E_D0_P"
-		(at 70.485 74.93 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "4686514f-1cdc-44ce-ae05-57e1dbd4a65a")
-	)
+	(no_connect (at 70.485 74.93) (uuid "4686514f-1cdc-44ce-ae05-57e1dbd4a65a"))
 	(label "CAM_I2C_SCL"
 		(at 182.88 227.33 0)
 		(effects
@@ -15805,16 +15687,7 @@
 		)
 		(uuid "59268060-ad54-40b7-8125-1962f15f909a")
 	)
-	(label "CSI_D_D0_N"
-		(at 70.485 123.19 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "5cd1991e-d3bc-4583-a39d-b481885de907")
-	)
+	(no_connect (at 70.485 123.19) (uuid "5cd1991e-d3bc-4583-a39d-b481885de907"))
 	(global_label "CSI_C_CLK_N"
 		(shape bidirectional)
 		(at 70.485 133.35 180)
@@ -15826,37 +15699,9 @@
 		)
 		(uuid "663a8654-6f5d-41ff-855e-71e8ead440fe")
 	)
-	(label "CSI_B_D1_P"
-		(at 70.485 64.77 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b33c2bf-78f0-4f0d-b8c6-4aed07ce954d")
-	)
-	(label "CSI_D_D0_P"
-		(at 70.485 120.65 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c94499f-551d-426d-8998-b1c67e768a60")
-	)
-	(global_label "CSI_A_D0_P"
-		(shape bidirectional)
-		(at 69.85 41.91 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "6faba2e8-97f1-4819-ab8d-77fccc430b7d")
-	)
+	(no_connect (at 70.485 64.77) (uuid "6b33c2bf-78f0-4f0d-b8c6-4aed07ce954d"))
+	(no_connect (at 70.485 120.65) (uuid "6c94499f-551d-426d-8998-b1c67e768a60"))
+	(no_connect (at 69.85 41.91) (uuid "706986fb-217a-4ace-bc63-60f438d10c7b"))
 	(no_connect (at 270.51 232.41) (uuid "706986fb-217a-4ace-bc63-60f438d10c7b"))
 	(global_label "CSI_A_D1_P"
 		(shape bidirectional)
@@ -15869,16 +15714,7 @@
 		)
 		(uuid "715f3ac6-91da-4621-8a1a-04051830b9d6")
 	)
-	(label "CSI_E_D1_P"
-		(at 70.485 80.01 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c49d716-b277-4691-b9c6-8ee036d6a2f6")
-	)
+	(no_connect (at 70.485 80.01) (uuid "7c49d716-b277-4691-b9c6-8ee036d6a2f6"))
 	(global_label "CSI_C_D1_P"
 		(shape bidirectional)
 		(at 70.485 115.57 180)
@@ -15890,16 +15726,7 @@
 		)
 		(uuid "810a9ec0-9a75-43f6-a766-107c40b54ca0")
 	)
-	(label "CSI_G_D1_P"
-		(at 71.755 166.37 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "825c3ad3-2365-431a-a0db-c00fa26ffc97")
-	)
+	(no_connect (at 71.755 166.37) (uuid "825c3ad3-2365-431a-a0db-c00fa26ffc97"))
 	(label "CAM_I2C_SDA"
 		(at 71.755 156.21 180)
 		(effects
@@ -15921,16 +15748,7 @@
 		)
 		(uuid "92e6864b-bf98-4cb9-9365-26cfb7479db9")
 	)
-	(label "CSI_E_D1_N"
-		(at 70.485 82.55 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "9748cb02-3628-41cc-9e94-8c5544b9e97b")
-	)
+	(no_connect (at 70.485 82.55) (uuid "9748cb02-3628-41cc-9e94-8c5544b9e97b"))
 	(global_label "CSI_C_D0_N"
 		(shape bidirectional)
 		(at 70.485 113.03 180)
@@ -15942,16 +15760,7 @@
 		)
 		(uuid "9baa8736-f196-46c1-9716-2004998f9b63")
 	)
-	(label "CSI_B_D0_N"
-		(at 70.485 62.23 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c9449af-c59d-49d2-aab1-683e228a02f5")
-	)
+	(no_connect (at 70.485 62.23) (uuid "9c9449af-c59d-49d2-aab1-683e228a02f5"))
 	(global_label "CAM1_SDA"
 		(shape bidirectional)
 		(at 270.51 217.17 180)
@@ -15963,79 +15772,14 @@
 		)
 		(uuid "a3a7342e-31f2-4581-80e2-92779ced454f")
 	)
-	(label "CSI_B_D1_N"
-		(at 70.485 67.31 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab0c347a-6e0b-4714-ac98-57eba4ddf27a")
-	)
-	(label "CSI_F_D1_P"
-		(at 70.485 97.79 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "af25f21b-6515-4255-8729-a005181668d7")
-	)
-	(global_label "CAM0_SCL"
-		(shape bidirectional)
-		(at 270.51 212.09 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0a3142b-d590-4508-8064-868bfb63b50b")
-	)
+	(no_connect (at 70.485 67.31) (uuid "ab0c347a-6e0b-4714-ac98-57eba4ddf27a"))
+	(no_connect (at 70.485 97.79) (uuid "af25f21b-6515-4255-8729-a005181668d7"))
+	(no_connect (at 270.51 212.09) (uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b"))
 	(no_connect (at 270.51 234.95) (uuid "bd704f8f-c33a-47b0-96ea-6b877e61d66b"))
-	(label "CSI_F_D0_N"
-		(at 70.485 95.25 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4826ff4-c115-4254-af86-7c66e21f4df4")
-	)
-	(global_label "CSI_C_D0_P"
-		(shape bidirectional)
-		(at 70.485 110.49 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5d99a7a-a42c-445e-add5-112caf486768")
-	)
-	(label "CSI_F_D1_N"
-		(at 70.485 100.33 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7ab67c5-3312-4e4a-9631-d167fc4c936a")
-	)
-	(label "CSI_D_D1_P"
-		(at 70.485 125.73 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc04bf48-48d3-4d63-9489-dd61e675d1e4")
-	)
+	(no_connect (at 70.485 95.25) (uuid "c4826ff4-c115-4254-af86-7c66e21f4df4"))
+	(no_connect (at 70.485 110.49) (uuid "e285647d-7923-4520-966f-b2cc65748a10"))
+	(no_connect (at 70.485 100.33) (uuid "d7ab67c5-3312-4e4a-9631-d167fc4c936a"))
+	(no_connect (at 70.485 125.73) (uuid "dc04bf48-48d3-4d63-9489-dd61e675d1e4"))
 	(no_connect (at 270.51 224.79) (uuid "e285647d-7923-4520-966f-b2cc65748a10"))
 	(label "CAM_I2C_SCL"
 		(at 71.755 153.67 180)
@@ -20389,4 +20133,35 @@
 			)
 		)
 	)
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 209.55 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61256964-782c-48aa-aa6b-cd6e71a9d84b")
+		(property "Reference" "#FLG_3V3_CSI"
+			(at 209.55 207.01 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 209.55 212.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "16464d7a-a0ee-4208-88b0-19e8734bbaaf"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
+					(reference "#FLG_3V3_CSI")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )
