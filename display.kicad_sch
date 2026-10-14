@@ -23807,7 +23807,7 @@
 			)
 		)
 	)
-	(global_label "3V3_SYS"
+	(global_label "1V8_SYS"
 		(shape input)
 		(at 300.355 153.67 90)
 		(fields_autoplaced yes)
@@ -24648,16 +24648,6 @@
 			(type default)
 		)
 		(uuid "16ef4c20-bf7f-4315-9fcc-9fa405326114")
-	)
-	(wire
-		(pts
-			(xy 271.145 172.085) (xy 289.56 172.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17fa6997-7311-469f-823d-e8c3d1739b89")
 	)
 	(wire
 		(pts
@@ -25531,16 +25521,6 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 105.41) (xy 73.025 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae4125f-37c9-450d-b3bf-4f9b7599851f")
-	)
-	(wire
-		(pts
 			(xy 364.49 82.55) (xy 364.49 87.63)
 		)
 		(stroke
@@ -25748,16 +25728,6 @@
 			(type default)
 		)
 		(uuid "80d44de5-c64c-477b-89cd-e9b46e893588")
-	)
-	(wire
-		(pts
-			(xy 271.145 174.625) (xy 289.56 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ab7117-a726-4c9e-8635-f4919597198f")
 	)
 	(wire
 		(pts
@@ -26158,16 +26128,6 @@
 			(type default)
 		)
 		(uuid "a9ca05b7-9c03-4601-84cb-8f46cdc9ed5a")
-	)
-	(wire
-		(pts
-			(xy 75.565 118.745) (xy 73.025 118.745)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f35a55-f4b2-4a5f-8a57-1ec2bd0c45db")
 	)
 	(wire
 		(pts
@@ -27211,6 +27171,141 @@
 		(fields_autoplaced yes)
 		(effects (font (size 1.27 1.27)) (justify right))
 		(uuid "09f94dab-714a-4699-9a09-235b6e29e169")
+	)
+
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 163.83 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e683b612-b6a8-4528-a8bf-64351825f790")
+		(property "Reference" "#FLG_DP_PWR"
+			(at 163.83 227.33 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 232.41 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "007b16db-e992-427b-b232-4a05d5c32e6a"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_DP_PWR")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 335.915 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec64df0f-7228-4726-b587-d4456b88459a")
+		(property "Reference" "#FLG_HDMI_5V"
+			(at 335.915 85.09 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 335.915 90.17 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "dcf63201-31f4-4a98-893e-9eb30431492d"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_HDMI_5V")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 361.315 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94e2a398-9751-4971-a634-4c29526f593f")
+		(property "Reference" "#FLG_HDMI_GND"
+			(at 361.315 82.55 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 361.315 87.63 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "1addc64f-7842-4195-bfe6-89216add6e6a"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_HDMI_GND")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 102.87 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c870449-c4f2-467f-8e54-b9a63e7f78a6")
+		(property "Reference" "#FLG_5V_IC2"
+			(at 102.87 246.38 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 251.46 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "36493485-caae-41fe-86bc-7d8310ccb5a7"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016"
+					(reference "#FLG_5V_IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 271.78 172.085) (xy 289.56 172.085)
+		)
+		(stroke (width 0) (type default))
+		(uuid "643a6dbf-a6be-4a49-8671-b52f21d122db")
+	)
+	(wire
+		(pts
+			(xy 271.78 174.625) (xy 289.56 174.625)
+		)
+		(stroke (width 0) (type default))
+		(uuid "bfbf5dac-77ff-4ee4-be92-fa27d44765eb")
 	)
 
 )
