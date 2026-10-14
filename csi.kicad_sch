@@ -15317,7 +15317,8 @@
 		)
 		(uuid "06dcd275-3d3a-4bbe-b349-81ee3e2c1b6f")
 	)
-	(label "CSI_A_D1_N"
+	(global_label "CSI_A_D1_N"
+		(shape bidirectional)
 		(at 69.85 49.53 180)
 		(effects
 			(font
@@ -15357,7 +15358,8 @@
 		)
 		(uuid "1f7ce0dc-b092-47c4-916f-db994e600c36")
 	)
-	(label "CSI_A_CLK_P"
+	(global_label "CSI_A_CLK_P"
+		(shape bidirectional)
 		(at 69.85 52.07 180)
 		(effects
 			(font
@@ -15417,7 +15419,8 @@
 		)
 		(uuid "331a399a-1d20-48d7-8125-576d95b5ebcb")
 	)
-	(label "CSI_C_D1_N"
+	(global_label "CSI_C_D1_N"
+		(shape bidirectional)
 		(at 70.485 118.11 180)
 		(effects
 			(font
@@ -15457,7 +15460,8 @@
 		)
 		(uuid "442f76bb-adb9-4d2e-bbd0-5f57568a74b9")
 	)
-	(label "CSI_A_D0_N"
+	(global_label "CSI_A_D0_N"
+		(shape bidirectional)
 		(at 69.85 44.45 180)
 		(effects
 			(font
@@ -15497,7 +15501,8 @@
 		)
 		(uuid "4d9501f4-ecfc-4fdc-b1cf-8feb42870758")
 	)
-	(label "CAM0_SDA"
+	(global_label "CAM0_SDA"
+		(shape bidirectional)
 		(at 270.51 209.55 180)
 		(effects
 			(font
@@ -15507,7 +15512,8 @@
 		)
 		(uuid "5508fdc0-6a4a-430d-85e8-e824127b38f2")
 	)
-	(label "CSI_C_CLK_P"
+	(global_label "CSI_C_CLK_P"
+		(shape bidirectional)
 		(at 70.485 130.81 180)
 		(effects
 			(font
@@ -15517,7 +15523,8 @@
 		)
 		(uuid "56ff5025-a9ba-4bc1-8b83-1b656b1f6d56")
 	)
-	(label "CAM1_SCL"
+	(global_label "CAM1_SCL"
+		(shape bidirectional)
 		(at 270.51 219.71 180)
 		(effects
 			(font
@@ -15537,7 +15544,8 @@
 		)
 		(uuid "5cd1991e-d3bc-4583-a39d-b481885de907")
 	)
-	(label "CSI_C_CLK_N"
+	(global_label "CSI_C_CLK_N"
+		(shape bidirectional)
 		(at 70.485 133.35 180)
 		(effects
 			(font
@@ -15567,7 +15575,8 @@
 		)
 		(uuid "6c94499f-551d-426d-8998-b1c67e768a60")
 	)
-	(label "CSI_A_D0_P"
+	(global_label "CSI_A_D0_P"
+		(shape bidirectional)
 		(at 69.85 41.91 180)
 		(effects
 			(font
@@ -15587,7 +15596,8 @@
 		)
 		(uuid "706986fb-217a-4ace-bc63-60f438d10c7b")
 	)
-	(label "CSI_A_D1_P"
+	(global_label "CSI_A_D1_P"
+		(shape bidirectional)
 		(at 69.85 46.99 180)
 		(effects
 			(font
@@ -15607,7 +15617,8 @@
 		)
 		(uuid "7c49d716-b277-4691-b9c6-8ee036d6a2f6")
 	)
-	(label "CSI_C_D1_P"
+	(global_label "CSI_C_D1_P"
+		(shape bidirectional)
 		(at 70.485 115.57 180)
 		(effects
 			(font
@@ -15637,7 +15648,8 @@
 		)
 		(uuid "85f69896-05e6-4280-a96f-fece7f9e9f6d")
 	)
-	(label "CSI_A_CLK_N"
+	(global_label "CSI_A_CLK_N"
+		(shape bidirectional)
 		(at 69.85 54.61 180)
 		(effects
 			(font
@@ -15657,7 +15669,8 @@
 		)
 		(uuid "9748cb02-3628-41cc-9e94-8c5544b9e97b")
 	)
-	(label "CSI_C_D0_N"
+	(global_label "CSI_C_D0_N"
+		(shape bidirectional)
 		(at 70.485 113.03 180)
 		(effects
 			(font
@@ -15677,7 +15690,8 @@
 		)
 		(uuid "9c9449af-c59d-49d2-aab1-683e228a02f5")
 	)
-	(label "CAM1_SDA"
+	(global_label "CAM1_SDA"
+		(shape bidirectional)
 		(at 270.51 217.17 180)
 		(effects
 			(font
@@ -15707,7 +15721,8 @@
 		)
 		(uuid "af25f21b-6515-4255-8729-a005181668d7")
 	)
-	(label "CAM0_SCL"
+	(global_label "CAM0_SCL"
+		(shape bidirectional)
 		(at 270.51 212.09 180)
 		(effects
 			(font
@@ -15737,7 +15752,8 @@
 		)
 		(uuid "c4826ff4-c115-4254-af86-7c66e21f4df4")
 	)
-	(label "CSI_C_D0_P"
+	(global_label "CSI_C_D0_P"
+		(shape bidirectional)
 		(at 70.485 110.49 180)
 		(effects
 			(font
@@ -15810,8 +15826,8 @@
 			)
 		)
 	)
-	(global_label "VSYNC_CAM2_1"
-		(shape input)
+	(global_label "CAM0_PWDN"
+		(shape output)
 		(at 53.975 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -16101,10 +16117,7 @@
 	)	(no_connect
 		(at 229.87 255.27)
 		(uuid "42850a7c-2bc4-4d67-9a67-9354b8736bdc")
-	)	(no_connect
-		(at 52.07 143.51)
-		(uuid "4515747a-9fdd-4fd1-abb6-a012415e0d72")
-	)	(no_connect
+	)		(no_connect
 		(at 52.07 102.87)
 		(uuid "4a00c62f-142a-446f-8357-1dda4ee7ebf9")
 	)	(no_connect
@@ -16116,10 +16129,7 @@
 	)	(no_connect
 		(at 229.87 250.19)
 		(uuid "859f367e-d5e8-420a-8be3-891c5b9a6c94")
-	)	(no_connect
-		(at 52.07 138.43)
-		(uuid "ba7385ab-4d99-4da0-a374-1e01cd6f7910")
-	)	(no_connect
+	)		(no_connect
 		(at 52.07 105.41)
 		(uuid "d12a999e-5212-4ccd-ac8a-07bcd12cf340")
 	)	(no_connect
@@ -17062,7 +17072,7 @@
 		)
 		(uuid "288ed5a8-e9be-41fd-898a-2ed584c5c9a3")
 	)
-	(global_label "1V8_SYS"
+	(global_label "CAM0_PWDN"
 		(shape input)
 		(at 228.6 62.23 180)
 		(fields_autoplaced yes)
@@ -17644,7 +17654,7 @@
 		)
 		(uuid "717de7d4-edf7-402e-8f10-db93bfc77e7f")
 	)
-	(global_label "1V8_SYS"
+	(global_label "CAM1_PWDN"
 		(shape input)
 		(at 317.5 62.23 180)
 		(fields_autoplaced yes)
@@ -18353,7 +18363,7 @@
 			(at 312.42 172.72 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Value" "TPS7A0512PDBVR"
+		(property "Value" "TLV75512PDBVR"
 			(at 312.42 182.88000000000002 0)
 			(effects (font (size 1.27 1.27)))
 		)
@@ -18637,10 +18647,7 @@
 		(at 52.07 69.85)
 		(uuid "e89c2ce0-03b9-4e94-9642-d6b44f1ba828")
 	)
-	(no_connect
-		(at 52.07 140.97)
-		(uuid "24376ce0-3371-43f6-abb0-01f86a82670d")
-	)
+	
 	(no_connect
 		(at 52.07 148.59)
 		(uuid "13e65ac7-b838-42b3-9726-9457d8d2e96b")
@@ -18978,5 +18985,72 @@
 			(justify left bottom)
 		)
 		(uuid "d31b8af2-a2c7-42d8-947d-0e03d6f79aad")
+	)
+
+	(wire
+		(pts
+			(xy 52.07 143.51) (xy 53.975 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f003ca9-255c-4dfc-87d7-5ec460dba3e5")
+	)
+	(global_label "CAM0_MCLK"
+		(shape output)
+		(at 53.975 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce198131-3d35-426c-bd90-1d30d105c03b")
+	)
+	(wire
+		(pts
+			(xy 52.07 140.97) (xy 53.975 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97be075d-71eb-401b-9ad8-055696016af4")
+	)
+	(global_label "CAM1_PWDN"
+		(shape output)
+		(at 53.975 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a3ece93-3b90-4211-a0ba-748c75248e15")
+	)
+	(wire
+		(pts
+			(xy 52.07 138.43) (xy 53.975 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75f54b6-f662-401b-a354-e9f727defadb")
+	)
+	(global_label "CAM1_MCLK"
+		(shape output)
+		(at 53.975 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e878c10e-9549-4a40-8289-3ee680709c38")
 	)
 )
