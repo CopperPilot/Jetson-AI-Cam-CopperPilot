@@ -4594,7 +4594,7 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name "IN"
@@ -4612,7 +4612,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "GND"
@@ -25129,16 +25129,8 @@
 		)
 		(uuid "4ca15ee0-62a0-4dda-b09d-75fef3e91626")
 	)
-	(label "USBC_FAULT"
-		(at 132.08 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fece6c7-a731-447d-b7ee-e13e09397595")
-	)
+	(no_connect (at 129.54 63.5) (uuid "4fece6c7-a731-447d-b7ee-e13e09397595"))
+	(no_connect (at 129.54 60.96) (uuid "37a2c996-d2ac-49f7-921c-99a93efa343d"))
 	(label "C_USBSS_RX2_P"
 		(at 349.25 80.01 0)
 		(effects
@@ -25168,16 +25160,6 @@
 			(justify left bottom)
 		)
 		(uuid "65dc974e-e63c-4395-8836-625cd4c5b3a4")
-	)
-	(label "USBC_ID"
-		(at 132.08 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66c19f1e-e4f2-4d55-98af-0f23062d1307")
 	)
 	(label "C_USBSS_RX6_P"
 		(at 80.01 96.52 0)
@@ -27911,16 +27893,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 147.32 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cc790b-0c66-4e7e-aab0-605b68291c93")
-	)
-	(wire
-		(pts
 			(xy 349.25 74.93) (xy 369.57 74.93)
 		)
 		(stroke
@@ -29221,16 +29193,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4977f4-0f14-44d6-83e9-05c15e476c16")
-	)
-	(wire
-		(pts
 			(xy 309.88 121.92) (xy 330.2 121.92)
 		)
 		(stroke
@@ -29288,16 +29250,6 @@
 			(type default)
 		)
 		(uuid "908b191d-3d47-490a-a215-6dedc3f1be5b")
-	)
-	(wire
-		(pts
-			(xy 65.405 130.175) (xy 67.31 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913024b4-d67f-43ca-81bd-9fdf5761d796")
 	)
 	(wire
 		(pts
@@ -30765,11 +30717,65 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 50.8 25.4 180)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "b1c3ecd2-46af-4f53-ba38-f7a59e6255f8")
+	(no_connect (at 50.8 25.4) (uuid "b1c3ecd2-46af-4f53-ba38-f7a59e6255f8"))
+
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 184.15 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14a4363b-1912-47c1-b2ac-2579a15631bd")
+		(property "Reference" "#FLG_IC5_VCC"
+			(at 184.15 226.06 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 184.15 231.14 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "15e48651-4860-4217-9289-bda30481e7e8"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608df3e5"
+					(reference "#FLG_IC5_VCC")
+					(unit 1)
+				)
+			)
+		)
 	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 369.57 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49891ea2-3da7-4016-906f-bda4cedbcded")
+		(property "Reference" "#FLG_J11_VBUS"
+			(at 369.57 36.83 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 369.57 41.91 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "56dc840a-5ad9-4d76-98e2-0d73c5e1b459"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608df3e5"
+					(reference "#FLG_J11_VBUS")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )

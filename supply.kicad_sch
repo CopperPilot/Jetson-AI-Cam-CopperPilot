@@ -29420,7 +29420,8 @@
 		)
 		(uuid "13aa0193-9c77-4cca-9df9-9cd22ef74170")
 	)
-	(label "PWR_EN"
+	(global_label "PWR_EN"
+		(shape input)
 		(at 393.7 67.31 180)
 		(effects
 			(font
@@ -29796,30 +29797,7 @@
 			)
 		)
 	)
-	(global_label "3V3_FFC2"
-		(shape input)
-		(at 118.745 216.535 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "273a069f-ee64-46bf-a605-46e2dc15f11d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2011 216.4556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+	(no_connect (at 118.745 216.535) (uuid "273a069f-ee64-46bf-a605-46e2dc15f11d"))
 	(global_label "VIN"
 		(shape input)
 		(at 22.225 132.715 180)
@@ -30084,30 +30062,7 @@
 			)
 		)
 	)
-	(global_label "3V3_FFC1"
-		(shape input)
-		(at 117.475 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85005fd8-2019-4c57-b7af-38a00f9d228c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.9311 190.4206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+	(no_connect (at 117.475 190.5) (uuid "85005fd8-2019-4c57-b7af-38a00f9d228c"))
 	(global_label "VIN"
 		(shape input)
 		(at 24.13 46.99 180)

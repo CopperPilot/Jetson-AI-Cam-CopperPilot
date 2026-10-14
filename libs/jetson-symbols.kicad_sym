@@ -23640,7 +23640,7 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 0 0)
 				(length 2.54)
 				(name "IN"
@@ -23658,7 +23658,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -5.08 0)
 				(length 2.54)
 				(name "GND"
