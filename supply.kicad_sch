@@ -9,6 +9,60 @@
 		(rev "0.1.0")
 	)
 	(lib_symbols
+		(symbol "jetson-symbols:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(property "Reference" "#FLG"
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(hide yes)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "PWR_FLAG_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "pwr" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
 		(symbol "jetson-symbols:BarrelJack_Pin2mm_MJ-179PH"
 			(pin_names
 				(hide yes)
@@ -13315,10 +13369,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006217855e")
 		(property "Reference" "U5"
@@ -14775,10 +14829,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000618f00a3")
 		(property "Reference" "F2"
@@ -18316,10 +18370,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062178566")
 		(property "Reference" "L6"
@@ -18490,10 +18544,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062178584")
 		(property "Reference" "C55"
@@ -18646,10 +18700,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062178594")
 		(property "Reference" "R52"
 			(at 53.34 218.44 0)
@@ -18943,10 +18997,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000621d0fd0")
 		(property "Reference" "C18"
@@ -31468,15 +31522,6 @@
 		(uuid "0f89869f-91f1-4ad5-a8ea-d11e394697d0")
 	)	(wire
 		(pts
-			(xy 102.235 214.63) (xy 102.235 216.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f90c4f8-4875-49ce-b815-768ae70e4335")
-	)	(wire
-		(pts
 			(xy 93.345 137.795) (xy 107.95 137.795)
 		)
 		(stroke
@@ -32125,15 +32170,6 @@
 		(uuid "49398d84-54e7-4405-8731-6373da497dbe")
 	)	(wire
 		(pts
-			(xy 354.33 100.33) (xy 351.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494752d6-3a2b-48c7-af28-62f1502a38b4")
-	)	(wire
-		(pts
 			(xy 40.64 85.725) (xy 40.64 86.995)
 		)
 		(stroke
@@ -32141,15 +32177,6 @@
 			(type default)
 		)
 		(uuid "4babf269-1c75-4d67-aab3-be938636d4bc")
-	)	(wire
-		(pts
-			(xy 102.235 188.595) (xy 102.235 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c28e24a-f829-47b5-b034-ac80e6b96adf")
 	)	(wire
 		(pts
 			(xy 108.585 46.99) (xy 117.475 46.99)
@@ -32449,15 +32476,6 @@
 		(uuid "6234a4cf-6a84-45ab-a1d0-0807b4aa716b")
 	)	(wire
 		(pts
-			(xy 78.105 57.785) (xy 80.01 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625de52d-4896-45c9-9d96-12c6a6c3623e")
-	)	(wire
-		(pts
 			(xy 267.97 46.99) (xy 267.97 52.07)
 		)
 		(stroke
@@ -32663,15 +32681,6 @@
 			(type default)
 		)
 		(uuid "799c0f27-b5d5-4318-b765-19df16fd4125")
-	)	(wire
-		(pts
-			(xy 252.73 250.19) (xy 255.905 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae9d73f-b863-4e60-a8a7-a529f275c49d")
 	)	(wire
 		(pts
 			(xy 110.49 216.535) (xy 102.235 216.535)
@@ -33016,15 +33025,6 @@
 		(uuid "98f05a7d-8534-47eb-9c6b-9b1d702dca9b")
 	)	(wire
 		(pts
-			(xy 212.725 192.405) (xy 212.725 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996bec21-37e5-40ec-bc87-a303fd77a30f")
-	)	(wire
-		(pts
 			(xy 93.345 142.875) (xy 95.25 142.875)
 		)
 		(stroke
@@ -33113,15 +33113,6 @@
 			(type default)
 		)
 		(uuid "a4d2e6c3-8ddb-4a84-9bc2-08571aba1967")
-	)	(wire
-		(pts
-			(xy 214.63 45.72) (xy 214.63 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a550b8ec-9fdb-47d0-8761-e3a003fe0410")
 	)	(wire
 		(pts
 			(xy 279.4 83.82) (xy 269.24 83.82)
@@ -33700,15 +33691,6 @@
 		(uuid "d3929205-2ec9-434a-8706-378105bad2b7")
 	)	(wire
 		(pts
-			(xy 377.19 59.69) (xy 379.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e3cbac-cf24-49d9-ba86-eb154b9bc426")
-	)	(wire
-		(pts
 			(xy 130.175 149.225) (xy 139.7 149.225)
 		)
 		(stroke
@@ -33952,15 +33934,6 @@
 		(uuid "e80a0883-69e0-405b-94cd-3a121b21a86d")
 	)	(wire
 		(pts
-			(xy 121.285 73.025) (xy 121.285 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88ba99a-786e-419d-a250-25f6d1fccc85")
-	)	(wire
-		(pts
 			(xy 119.38 60.325) (xy 118.11 60.325)
 		)
 		(stroke
@@ -33986,15 +33959,6 @@
 			(type default)
 		)
 		(uuid "ea0ee727-7cb6-4c22-a1d9-001888bacf2f")
-	)	(wire
-		(pts
-			(xy 80.01 45.72) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea65a172-00a8-491e-93d0-b591eee99f8a")
 	)	(wire
 		(pts
 			(xy 293.37 71.12) (xy 275.59 71.12)
@@ -34253,4 +34217,127 @@
 			)
 		)
 	)
+
+
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 346.075 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d124e2b-cee3-451b-b441-faa5c1560151")
+		(property "Reference" "#PWR_J12_MP1"
+			(at 346.075 127.0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 346.075 127.0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "89094e37-6f94-4c2a-9547-039b5cb1817b"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608dc6e9"
+					(reference "#PWR_J12_MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:GND")
+		(at 346.075 127.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cedcbbf-3a38-4862-b7bc-15304262bc12")
+		(property "Reference" "#PWR_J12_MP2"
+			(at 346.075 154.94 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "GND"
+			(at 346.075 154.94 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "65cc836f-3711-4da7-8561-ad745a8bd462"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608dc6e9"
+					(reference "#PWR_J12_MP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 73.025 132.715 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51fb34f2-313e-4f65-8828-99a224506a6e")
+		(property "Reference" "#FLG_U2_VIN"
+			(at 73.025 130.175 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.025 135.255 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "4518d4be-5ee0-47a9-b2a5-fa9e325ea55d"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608dc6e9"
+					(reference "#FLG_U2_VIN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jetson-symbols:PWR_FLAG")
+		(at 116.205 62.865 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed9bf4c1-6462-4d04-b226-efe2478f4721")
+		(property "Reference" "#FLG_U6_VSNS"
+			(at 116.205 60.325 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.205 65.405 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1" (uuid "3655527e-d37d-411f-b822-fe651c829c49"))
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608dc6e9"
+					(reference "#FLG_U6_VSNS")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )
