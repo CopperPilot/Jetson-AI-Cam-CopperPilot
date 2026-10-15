@@ -12503,7 +12503,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "B0520W"
 			(at 144.78 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12547,7 +12547,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WS"
+		(property "MPN" "B0520W"
 			(at 745.4392 -344.2462 0)
 			(hide yes)
 			(show_name no)
@@ -12621,7 +12621,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WS"
+		(property "Value" "B0520W"
 			(at 287.02 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +12665,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WS"
+		(property "MPN" "B0520W"
 			(at 943.5592 593.1662 0)
 			(hide yes)
 			(show_name no)
@@ -23002,16 +23002,7 @@
 		)
 		(uuid "5a93e766-412d-4aff-aa8b-65ea728aa06f")
 	)
-	(label "TMDS_CEC"
-		(at 66.675 63.5 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e63feea-fba2-4bde-980b-5bc058058b66")
-	)
+	(no_connect (at 66.675 63.5) (uuid "5e63feea-fba2-4bde-980b-5bc058058b66"))
 	(label "TMDS_SDA"
 		(at 271.78 174.625 0)
 		(effects
@@ -26061,16 +26052,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 105.41) (xy 73.025 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2619d33-436e-4a71-aa9f-5ec44cd5a511")
-	)
-	(wire
-		(pts
 			(xy 332.74 172.085) (xy 340.36 172.085)
 		)
 		(stroke
@@ -26448,16 +26429,6 @@
 			(type default)
 		)
 		(uuid "c7aa94de-8c51-4349-adf7-d9e6c519cac3")
-	)
-	(wire
-		(pts
-			(xy 73.025 118.745) (xy 73.025 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f862dc-16bf-4697-a5d9-e4c08f6678ba")
 	)
 	(wire
 		(pts
