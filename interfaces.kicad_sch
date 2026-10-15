@@ -6974,6 +6974,18 @@
 		(color 0 0 0 0)
 		(uuid "250c3057-edf4-4257-857b-523b78332878")
 	)
+	(global_label "3V3_SYS"
+		(shape input)
+		(at 126.365 57.785 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "250c3057-edf4-4257-857b-523b78332879")
+	)
 	(junction
 		(at 305.435 74.93)
 		(diameter 0)
