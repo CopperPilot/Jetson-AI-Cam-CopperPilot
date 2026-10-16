@@ -17897,51 +17897,13 @@
 			)
 		)
 	)
-	(global_label "PCIE0_RX1_P"
-		(shape input)
-		(at 191.77 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f482bae-3209-4c11-b577-5db3b34b6431")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 194.31)
+		(uuid "e8af8e78-8d3f-467d-a0c1-b4010ec39ee9")
 	)
-	(global_label "#PWR_BUTTON"
-		(shape input)
-		(at 93.98 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22e3cf25-99cb-4ef3-8b78-f3719abc108d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -22.86 18.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 93.98 58.42)
+		(uuid "3ab39a50-647b-41e2-a2b6-c4321432a05f")
 	)
 	(global_label "FAN_PWM"
 		(shape output)
@@ -17989,28 +17951,9 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX2_P"
-		(shape input)
-		(at 191.77 201.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25d9634a-39bf-4f6d-a4a0-4b807abb22a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 201.93)
+		(uuid "f0a06787-0fdb-4578-9c57-42c47b0943f8")
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
@@ -18130,28 +18073,9 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX2_N"
-		(shape input)
-		(at 191.77 204.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ed87c21-ce4c-40e4-b85a-03e5e46b68fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 204.47)
+		(uuid "218d067c-f227-4ed4-b9ca-aab851757033")
 	)
 	(global_label "5V0_SYS"
 		(shape input)
@@ -18176,74 +18100,17 @@
 			)
 		)
 	)
-	(global_label "PEX_L0_CLKREQ_N"
-		(shape input)
-		(at 196.85 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3258229a-4eed-46b3-b719-6304d2c6ae89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 196.85 153.67)
+		(uuid "b2986083-41b1-48de-be28-5ebeb0af7c3c")
 	)
-	(global_label "ENET_TRD3_P"
-		(shape input)
-		(at 53.34 203.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34b2fe0e-0b09-405c-856d-4692b1c207f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 203.2)
+		(uuid "611033e6-02dc-4660-8899-f91727047ede")
 	)
-	(global_label "ENET_TRD2_P"
-		(shape input)
-		(at 53.34 208.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37fe7da8-f0dd-472b-9bad-c75f6f05fff0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 208.28)
+		(uuid "a50ef313-c44e-413f-a514-ea6882abfac7")
 	)
 	(global_label "GEN0_SCL"
 		(shape input)
@@ -18407,28 +18274,9 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX0_P"
-		(shape input)
-		(at 191.77 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c08358b-a85c-40cb-955a-00917e3aebf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 176.53)
+		(uuid "e2183d21-68c2-4eac-b078-82a3443e90e1")
 	)
 	(global_label "#RESET"
 		(shape input)
@@ -18476,51 +18324,13 @@
 			)
 		)
 	)
-	(global_label "PCIE0_RX3_P"
-		(shape input)
-		(at 193.04 219.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60ade3ec-0142-4e02-a0ac-e5a9192816b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 219.71)
+		(uuid "0823867a-cec2-4ba2-836d-598a7fc3407e")
 	)
-	(global_label "PCIE0_RX0_N"
-		(shape input)
-		(at 193.04 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61e9176d-dfef-49f6-8d03-a1c54773e8d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 184.15)
+		(uuid "ffb6cbc4-270f-4bde-908e-f3b415141945")
 	)
 	(global_label "USBSS_TX6_N"
 		(shape input)
@@ -18568,28 +18378,9 @@
 			)
 		)
 	)
-	(global_label "ENET_LED1"
-		(shape input)
-		(at 50.8 200.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63b09146-c439-41af-bcc4-c4cca0491929")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 50.8 200.66)
+		(uuid "98be3bad-db8e-458e-b810-d887740633e4")
 	)
 	(global_label "I2C_MUX_RESET"
 		(shape input)
@@ -18615,7 +18406,7 @@
 			)
 		)
 	)
-	(global_label "EGND"
+	(global_label "GND"
 		(shape input)
 		(at 318.77 238.76 180)
 		(fields_autoplaced yes)
@@ -18625,7 +18416,7 @@
 			)
 			(justify right)
 		)
-		(uuid "63e54067-f392-4910-913c-c3e922a4f7c1")
+		(uuid "3f25d96c-8627-4ee4-a958-fe17cce5abbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -27.94 4.445 0)
 			(hide yes)
@@ -18638,51 +18429,13 @@
 			)
 		)
 	)
-	(global_label "PCIE0_CLK_P"
-		(shape input)
-		(at 191.77 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "669b34a0-78b7-4e50-a4e8-b1b98f4b8447")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 168.91)
+		(uuid "2996bfc2-a0b4-4b68-b132-c650dfbc7008")
 	)
-	(global_label "PCIE0_RX2_N"
-		(shape input)
-		(at 191.77 209.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66ba070d-3d80-492f-bf02-65aec7fadbd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 209.55)
+		(uuid "64de226b-5072-44c5-a679-af625eadb381")
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
@@ -18708,74 +18461,17 @@
 			)
 		)
 	)
-	(global_label "PCIE0_RX0_P"
-		(shape input)
-		(at 193.04 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b8b6a9d-a10a-48c8-805a-1aff3d12e574")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 181.61)
+		(uuid "1715c752-52e7-4de6-b867-89ac0d82951d")
 	)
-	(global_label "\\PEWAKE_3V3"
-		(shape input)
-		(at 193.04 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d0ba1bb-6688-455f-a45a-d9ea67c87ca2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 146.05)
+		(uuid "256b595f-78eb-4293-9fd8-efb525fe80e4")
 	)
-	(global_label "PCIE0_TX0_N"
-		(shape input)
-		(at 191.77 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72e28f94-60f1-4705-8a74-c771736da0d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 179.07)
+		(uuid "36d8ea85-7856-482c-96e5-9f7705d9a4b5")
 	)
 	(global_label "PCIE1_CLK_N"
 		(shape input)
@@ -18800,51 +18496,13 @@
 			)
 		)
 	)
-	(global_label "VSYNC_CAM1_2"
-		(shape input)
-		(at 55.88 238.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74b43ce2-4669-429a-af3e-6b10eab97162")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -47.625 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 55.88 238.76)
+		(uuid "7a700dff-de67-4b88-99f7-fb9e0f65db3f")
 	)
-	(global_label "ENET_TRD0_N"
-		(shape input)
-		(at 53.34 220.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "777e105f-7eb6-4de8-be86-298823aa08d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 220.98)
+		(uuid "7ca4f6e1-9b76-4572-831b-d998e6b38b46")
 	)
 	(global_label "USB1_D_P"
 		(shape input)
@@ -18869,28 +18527,9 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX3_N"
-		(shape input)
-		(at 191.77 217.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81c6fd21-5296-4429-87d6-14921758574a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 217.17)
+		(uuid "09b4135f-501a-4712-a2f5-948b5a7df12c")
 	)
 	(global_label "1V8_SYS"
 		(shape input)
@@ -18915,51 +18554,13 @@
 			)
 		)
 	)
-	(global_label "PCIE0_RX1_N"
-		(shape input)
-		(at 191.77 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83d43e09-2321-4f71-82d5-d6c0f28f8551")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 196.85)
+		(uuid "cd4ec14d-ca35-4992-95f3-9669f1c62796")
 	)
-	(global_label "ENET_TRD1_P"
-		(shape input)
-		(at 53.34 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8634dfb6-bfed-4b78-a431-3df89c12ddda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 213.36)
+		(uuid "6bd6eef7-81f2-458e-a351-4a77c8edda0a")
 	)
 	(global_label "#RECOVERY"
 		(shape input)
@@ -18984,28 +18585,9 @@
 			)
 		)
 	)
-	(global_label "VSYNC_CAM1_1"
-		(shape input)
-		(at 55.88 236.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e754f63-c778-4eda-b6fc-e2fab96ca0ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -47.625 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 55.88 236.22)
+		(uuid "9f888e61-e905-4f98-87cb-a2e256f07fae")
 	)
 	(global_label "USB1_D_N"
 		(shape input)
@@ -19030,28 +18612,9 @@
 			)
 		)
 	)
-	(global_label "ENET_LED0"
-		(shape input)
-		(at 50.8 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91b0244b-a1d2-402e-99e9-3659e7f5de42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 50.8 198.12)
+		(uuid "abaa4da3-5ed1-401f-975c-0d6b76824db3")
 	)
 	(global_label "FAN_TACH"
 		(shape input)
@@ -19168,28 +18731,9 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX3_P"
-		(shape input)
-		(at 191.77 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6722869-3d7e-4621-95ba-64d67e7883ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 214.63)
+		(uuid "6c37580e-c4ef-46ba-a998-efa473ba1461")
 	)
 	(global_label "VDD_MOD"
 		(shape input)
@@ -19237,120 +18781,25 @@
 			)
 		)
 	)
-	(global_label "ENET_TRD3_N"
-		(shape input)
-		(at 53.34 205.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad667c47-5b23-41c3-b07c-c317738ed237")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 205.74)
+		(uuid "9fbdfc67-e11f-4a38-b258-774275bd7785")
 	)
-	(global_label "PCIE0_TX1_P"
-		(shape input)
-		(at 193.04 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b864a255-df4c-4fb6-a751-99bbd3c0b510")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 189.23)
+		(uuid "000d4a6e-338e-4d0d-8b6a-bfbf1aa0d3ac")
 	)
-	(global_label "PCIE0_CLK_N"
-		(shape input)
-		(at 191.77 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c794be1c-66a6-4a8d-9f14-a82c86997168")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 171.45)
+		(uuid "54e485e7-d5c1-4775-abc5-ceddb58ac264")
 	)
-	(global_label "PCIE0_RX3_N"
-		(shape input)
-		(at 193.04 222.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c82ebf8e-7ad7-4893-b599-befe82a45527")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 222.25)
+		(uuid "907080b9-e522-43f1-9c95-c307c2896b97")
 	)
-	(global_label "PCIE0_RX2_P"
-		(shape input)
-		(at 191.77 207.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc6b6e9b-153b-4bdf-a8af-3189ce234b8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -27.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 191.77 207.01)
+		(uuid "e059d17b-8935-4d26-9543-00e9b6635b61")
 	)
 	(global_label "5V0_SYS"
 		(shape input)
@@ -19467,74 +18916,17 @@
 			)
 		)
 	)
-	(global_label "ENET_TRD1_N"
-		(shape input)
-		(at 53.34 215.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db49b88e-d95d-46bd-9ec7-7bb2d88c08c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 215.9)
+		(uuid "524648b9-693d-4342-825b-73c66cd555f0")
 	)
-	(global_label "ENET_TRD0_P"
-		(shape input)
-		(at 53.34 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5081ee0-2460-4a6a-8666-157cf94d8566")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 218.44)
+		(uuid "899f46db-5d34-4e40-a11a-c521e34b80e1")
 	)
-	(global_label "PEX_L0_RST_N"
-		(shape input)
-		(at 193.04 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e99bb5d7-7cb8-4101-87a0-4eb36a2c709c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.635 -24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 151.13)
+		(uuid "bcc59d57-ed15-499b-939f-1671c27de8a6")
 	)
 	(global_label "#RESET"
 		(shape input)
@@ -19559,74 +18951,17 @@
 			)
 		)
 	)
-	(global_label "ENET_TRD2_N"
-		(shape input)
-		(at 53.34 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee74be1d-2fbc-415e-857a-deb8dee9cd8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -48.26 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 53.34 210.82)
+		(uuid "88123b84-6705-4634-b49c-d48a3bf024f9")
 	)
-	(global_label "PCIE0_TX1_N"
-		(shape input)
-		(at 193.04 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f03513bf-bf92-423e-9d78-811afde2f294")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.27 -22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 193.04 191.77)
+		(uuid "9439022f-8986-479e-ad82-8db454868303")
 	)
-	(global_label "VSYNC_CAM2_2"
-		(shape input)
-		(at 55.88 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6352d6a-b5cb-4894-8e2d-5255d65868ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -47.625 -34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+	(no_connect
+		(at 55.88 187.96)
+		(uuid "8ae15dfe-ac30-4feb-97c6-a63c9982c44c")
 	)
 	(global_label "VDD_MOD"
 		(shape input)

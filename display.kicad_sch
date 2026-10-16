@@ -23606,29 +23606,9 @@
 			)
 		)
 	)
-	(global_label "M2_ALERT"
-		(shape input)
-		(at 50.165 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
+	(no_connect
+		(at 50.165 111.76)
 		(uuid "16017205-e319-4463-aa01-a4f551f4f5f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6211 111.6806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "5V0_SYS"
 		(shape input)
