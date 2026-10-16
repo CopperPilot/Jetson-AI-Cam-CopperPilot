@@ -1871,15 +1871,85 @@
 		)
 		(uuid "a41ff499-cb09-402b-96e9-2bb94b324e6f")
 	)
-	(label "SN_WP"
+	(symbol
+		(lib_id "jetson-symbols:GND")
 		(at 177.165 125.095 0)
-		(effects
-			(font
-				(size 1.524 1.524)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41e478ae-4a87-4a6c-8030-4dacd95deedb")
+		(property "Reference" "#GND_WP"
+			(at 177.165 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "bf61fcfd-f974-4a65-a05d-86e100a92a72")
+		(property "Value" "GND"
+			(at 177.165 128.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.165 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94651f9f-16e0-46fc-80f6-506980cc5cd4")
+		)
+		(instances
+			(project "Jetson-AI-Cam-CopperPilot"
+				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
+					(reference "#GND_WP")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(global_label "3V3_SYS"
 		(shape input)
