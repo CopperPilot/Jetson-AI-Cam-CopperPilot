@@ -61,7 +61,10 @@ class AStarRouter:
             if is_via:
                 vx = pcbnew.ToMM(tr.GetPosition().x)
                 vy = pcbnew.ToMM(tr.GetPosition().y)
-                vr = (pcbnew.ToMM(tr.GetWidth(tr.TopLayer())) / 2.0) if hasattr(tr, 'GetWidth') else 0.2
+                try:
+                    vr = pcbnew.ToMM(tr.GetWidth()) / 2.0
+                except Exception:
+                    vr = 0.25
                 tot_r_track = vr + req_dist
                 tot_r_via = vr + via_req_dist
                 tot_r_uvia = vr + uvia_req_dist
