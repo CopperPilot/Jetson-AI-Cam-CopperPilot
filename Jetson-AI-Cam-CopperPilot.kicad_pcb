@@ -986691,7 +986691,7 @@
 	(footprint "jetson-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "6c6a9baa-a1a0-48ca-af4d-2bdccf70e68e")
-		(at 145 101 90)
+		(at 148 101 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R145"
@@ -1122889,22 +1122889,6 @@
 		(net "/USB/USBC_ID")
 		(uuid "57e90b5a-4628-4c57-add6-079dbcaf31de")
 	)
-	(segment
-		(start 126.467 107.95)
-		(end 125.964 108.453)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/USB/USBC_ID")
-		(uuid "5c725af5-4487-44f3-a29f-272bc8bef0b8")
-	)
-	(segment
-		(start 127.57 107.95)
-		(end 126.467 107.95)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/USB/USBC_ID")
-		(uuid "f1427e19-64aa-4313-8a3d-cc398f8d3dc9")
-	)
 	(via
 		(at 126.895 107.66)
 		(size 0.5)
@@ -1133160,14 +1133144,6 @@
 		(layer "B.Cu")
 		(net "/ID Serial/EEPROM_PWR")
 		(uuid "efa48ee1-abb1-487c-b433-9903107c3012")
-	)
-	(segment
-		(start 154.3584 82.455)
-		(end 155.0476 82.455)
-		(width 0.125)
-		(layer "B.Cu")
-		(net "/ID Serial/SN_WP")
-		(uuid "3619cad5-4b61-4cea-b920-f1203e421988")
 	)
 	(via
 		(at 104.8769 87.2669)
