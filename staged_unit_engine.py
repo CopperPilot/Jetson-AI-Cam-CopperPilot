@@ -20,7 +20,9 @@ def run_drc(pcb_path, rpt_path=None):
     unconn = d.get("unconnected_items", [])
     return len(errors), len(violations), len(unconn), errors, unconn
 
-def test_staged(op_id, items_to_add, commit_msg=None, promote=False):
+def test_staged(op_id, items_to_add=None, items_to_remove=None, commit_msg=None, promote=False):
+    if items_to_add is None: items_to_add = []
+    if items_to_remove is None: items_to_remove = []
     staging_dir = os.path.join(".copperpilot/tmp/staging", op_id)
     cand_dir = os.path.join(staging_dir, "candidate")
     base_dir = os.path.join(staging_dir, "baseline")
@@ -41,6 +43,32 @@ def test_staged(op_id, items_to_add, commit_msg=None, promote=False):
     print(f"[{op_id}] Baseline: {b_err} errors, {b_viol} violations, {b_unconn} unconnected")
     
     board = pcbnew.LoadBoard(cand_pcb)
+    for it in items_to_remove:
+        itype = it.get('type')
+        if itype == 'track':
+            s = it['start']
+            e = it['end']
+            to_del = []
+            for t in board.GetTracks():
+                if not isinstance(t, pcbnew.PCB_VIA):
+                    p1 = (t.GetStart().x/1e6, t.GetStart().y/1e6)
+                    p2 = (t.GetEnd().x/1e6, t.GetEnd().y/1e6)
+                    if (abs(p1[0]-s[0])<0.05 and abs(p1[1]-s[1])<0.05 and abs(p2[0]-e[0])<0.05 and abs(p2[1]-e[1])<0.05) or                        (abs(p1[0]-e[0])<0.05 and abs(p1[1]-e[1])<0.05 and abs(p2[0]-s[0])<0.05 and abs(p2[1]-s[1])<0.05):
+                        to_del.append(t)
+            for t in to_del:
+                board.Delete(t)
+                print(f"Removed track {s} -> {e}")
+        elif itype == 'via':
+            target_p = it['pos']
+            to_del = []
+            for t in board.GetTracks():
+                if isinstance(t, pcbnew.PCB_VIA):
+                    p = (t.GetPosition().x/1e6, t.GetPosition().y/1e6)
+                    if abs(p[0]-target_p[0])<0.05 and abs(p[1]-target_p[1])<0.05:
+                        to_del.append(t)
+            for t in to_del:
+                board.Delete(t)
+                print(f"Removed via at {target_p}")
     for it in items_to_add:
         netname = it["net"]
         netinfo = board.FindNet(netname)
@@ -74,8 +102,8 @@ def test_staged(op_id, items_to_add, commit_msg=None, promote=False):
                 v.SetDrill(pcbnew.FromMM(it.get("drill", 0.15)))
             else:
                 v.SetViaType(pcbnew.VIATYPE_THROUGH)
-                v.SetWidth(pcbnew.FromMM(it.get("size", 0.4)))
-                v.SetDrill(pcbnew.FromMM(it.get("drill", 0.15)))
+                v.SetWidth(pcbnew.FromMM(it.get("size", 0.45)))
+                v.SetDrill(pcbnew.FromMM(it.get("drill", 0.20)))
             
             if "top_layer" in it and "bottom_layer" in it:
                 l1 = board.GetLayerID(it["top_layer"])

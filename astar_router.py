@@ -4,7 +4,7 @@ import heapq
 import time
 
 class AStarRouter:
-    def __init__(self, board_path, net_name, bbox, grid_step=0.25, clearance=0.14, track_width=0.15, via_size=0.5):
+    def __init__(self, board_path, net_name, bbox, grid_step=0.25, clearance=0.14, track_width=0.15, via_size=0.45, via_drill=0.20):
         self.board = pcbnew.LoadBoard(board_path)
         self.net_name = net_name
         self.net = self.board.FindNet(net_name)
@@ -17,6 +17,7 @@ class AStarRouter:
         self.clearance = clearance
         self.track_w = track_width
         self.via_size = via_size
+        self.via_drill = via_drill
         self.uvia_size = 0.25
         
         self.cols = int(math.ceil((self.max_x - self.min_x) / self.step)) + 1
@@ -25,6 +26,8 @@ class AStarRouter:
         self.microvia_spans = {
             ('F.Cu', 'In2_SINGAL.Cu'): ['F.Cu', 'In1_5V0_SYS_VIN.Cu', 'In2_SINGAL.Cu'],
             ('In2_SINGAL.Cu', 'F.Cu'): ['F.Cu', 'In1_5V0_SYS_VIN.Cu', 'In2_SINGAL.Cu'],
+            ('F.Cu', 'In3_SIGNAL.Cu'): ['F.Cu', 'In1_5V0_SYS_VIN.Cu', 'In2_SINGAL.Cu', 'In3_SIGNAL.Cu'],
+            ('In3_SIGNAL.Cu', 'F.Cu'): ['F.Cu', 'In1_5V0_SYS_VIN.Cu', 'In2_SINGAL.Cu', 'In3_SIGNAL.Cu'],
             ('B.Cu', 'In5_3V3_SYS_SIGNAL.Cu'): ['B.Cu', 'In6_GND.Cu', 'In5_3V3_SYS_SIGNAL.Cu'],
             ('In5_3V3_SYS_SIGNAL.Cu', 'B.Cu'): ['B.Cu', 'In6_GND.Cu', 'In5_3V3_SYS_SIGNAL.Cu'],
             ('B.Cu', 'In3_SIGNAL.Cu'): ['B.Cu', 'In6_GND.Cu', 'In5_3V3_SYS_SIGNAL.Cu', 'In4_GND.Cu', 'In3_SIGNAL.Cu'],
@@ -333,7 +336,7 @@ class AStarRouter:
                         'pos': (vx, vy),
                         'via_type': 'through',
                         'size': self.via_size,
-                        'drill': 0.15,
+                        'drill': getattr(self, 'via_drill', 0.20),
                         'top_layer': 'F.Cu',
                         'bottom_layer': 'B.Cu'
                     })
