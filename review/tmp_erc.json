@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-18T15:43:57",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Footprint link issue",
+            "key": "footprint_link_issues"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e",
+            "violations": []
+        },
+        {
+            "path": "/ID Serial/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be",
+            "violations": []
+        },
+        {
+            "path": "/CSI/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d",
+            "violations": []
+        },
+        {
+            "path": "/SoM/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000610accab",
+            "violations": []
+        },
+        {
+            "path": "/Display/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-00006096d016",
+            "violations": []
+        },
+        {
+            "path": "/Supply/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608dc6e9",
+            "violations": []
+        },
+        {
+            "path": "/Interfaces/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608e1758",
+            "violations": []
+        },
+        {
+            "path": "/USB/",
+            "uuid_path": "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-0000608df3e5",
+            "violations": []
+        }
+    ],
+    "source": "Jetson-AI-Cam-CopperPilot.kicad_sch"
+}
