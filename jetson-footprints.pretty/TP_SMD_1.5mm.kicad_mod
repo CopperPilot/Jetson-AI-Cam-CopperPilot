@@ -1,0 +1,108 @@
+(footprint "TP_SMD_1.5mm"
+		(layer "B.Cu")
+		(uuid "00000000-0000-0000-0000-00005e7931a5")
+		(at 111.3 97)
+		(property "Reference" "TP1"
+			(at 3.05 0.35 180)
+			(layer "B.SilkS")
+			(uuid "c5accdde-f667-4ed7-93c2-11f9f1304ee9")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Value" "TP_1.5mm_SMD"
+			(at 0 -1.7 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73fe45d2-18ab-4300-8b7a-0cca6c581f09")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29238194-4005-4806-884c-5253f64d5eda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Testpoint 1.5mm"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c78dba5-64da-4120-b67f-a60fc9e440c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c6436b7-8486-42b0-b9e8-9e40b5abb480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00e39f38-55d5-4bbd-a96e-8eea0153608f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "096da164-9c72-4505-9cd4-b50a718bd63d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "00000000-0000-0000-0000-000060d9f63d00000000-0000-0000-0000-00005e7104ea")
+		(sheetname "CSI")
+		(sheetfile "csi.kicad_sch")
+		(attr exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 1.5 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net "CSICAM_I2C_SDA")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "d235399d-917f-4ee9-8dce-c96ef124a979")
+		)
+		(embedded_fonts no)
+	)

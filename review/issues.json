@@ -1,0 +1,288 @@
+[
+  {
+    "id": "PCB-001",
+    "sev": "P0",
+    "domain": "PCB",
+    "location": "CAM_L, CAM_R, J15, R13, R15, R17, R21, R140-R145 @ (106-148 mm, 85-103 mm)",
+    "finding": "10 critical camera I2C control, clock (MCLK), and power-down (PWDN) nets are disconnected or unrouted, rendering stereo cameras completely inoperable.",
+    "evidence": "review/baseline/drc-report.json: unconnected_items (10 items)",
+    "rule_violated": "JLCPCB Target: 0 unconnected items; IPC-2221 \u00a76.3 Electrical Connectivity",
+    "root_cause": "Incomplete routing between Jetson SoM connector J15, pull-up resistors, and dual MIPI CSI camera connectors CAM_L / CAM_R.",
+    "proposed_fix": "Route CAM0_SDA, CAM0_SCL, CAM1_SDA, CAM1_SCL, CAM0_PWDN, CAM0_MCLK, and CAM1_MCLK using 0.20 mm tracks on In3_SIGNAL.Cu / B.Cu with standard 0.45/0.20 mm vias.",
+    "rationale": "High-speed camera MCLK (24 MHz) and I2C signals require uninterrupted reference return paths and low parasitic resistance.",
+    "side_effects": "Refill copper zones across all 8 layers and re-run DRC to confirm zero clearance regressions.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_08_B_Cu",
+      "x_min": 105.0,
+      "y_min": 85.0,
+      "x_max": 149.0,
+      "y_max": 105.0,
+      "layers": [
+        "all_copper"
+      ]
+    },
+    "commits": [
+      "3e7ec8a",
+      "ba7e20a",
+      "2970ab1",
+      "dea645c",
+      "e08801e",
+      "4621d48",
+      "2d40523",
+      "96d4384",
+      "23f41e8",
+      "d07ee62"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "PCB-002",
+    "sev": "P0",
+    "domain": "PCB",
+    "location": "Board-wide (J15, J13, J22, IC17, D2, D4)",
+    "finding": "247 schematic-to-PCB parity discrepancies including pad net assignments (PCIe, Ethernet, PWR_BUTTON) and component property mismatches.",
+    "evidence": "review/baseline/drc-report.json: schematic_parity (247 issues)",
+    "rule_violated": "KiCad DRC Schematic Parity Check; JLCPCB Netlist Consistency Gate",
+    "root_cause": "Schematic netlist and component attributes were updated without synchronizing PCB layout database.",
+    "proposed_fix": "Synchronize PCB from schematic to reconcile all net names, pin assignments, and component properties.",
+    "rationale": "Fabricated board must have 100% netlist parity with schematic to ensure electrical functionality and correct automated assembly.",
+    "side_effects": "Verify no copper traces are orphaned or disconnected by net reconciliation.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_01_F_Cu",
+      "x_min": 85.0,
+      "y_min": 75.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "all_pcb"
+      ]
+    },
+    "commits": [
+      "dc416d6"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "DFM-001",
+    "sev": "P0",
+    "domain": "DFM",
+    "location": "Jetson-AI-Cam-CopperPilot.kicad_pro, board.design_settings.rules",
+    "finding": "Board design rules violate JLCPCB minimum fabrication capability limits (annular ring 0.075 mm < 0.10 mm, hole diameter 0.15 mm < 0.20 mm, copper-to-edge 0.125 mm < 0.20 mm).",
+    "evidence": "review/baseline/verify.txt: T3 Rules >= JLC failure",
+    "rule_violated": "JLCPCB Multilayer Fabrication Constraints; Section 3 Constraint Targets",
+    "root_cause": "KiCad design rules were misconfigured with sub-manufacturing thresholds that JLCPCB standard multilayer lines cannot manufacture.",
+    "proposed_fix": "Update .kicad_pro design rules to meet or exceed JLCPCB multilayer targets: min_via_annular_width >= 0.10 mm (target 0.15 mm), min_copper_edge_clearance >= 0.25 mm (target 0.30 mm), min_through_hole_diameter >= 0.25 mm.",
+    "rationale": "Prevents drill breakout, barrel cracking during thermal cycling, and copper exposure during perimeter milling.",
+    "side_effects": "Re-run DRC against updated rules to ensure all layout geometry conforms.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_15_Edge_Cuts",
+      "x_min": 85.0,
+      "y_min": 75.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "all_copper",
+        "pcb_15_Edge_Cuts"
+      ]
+    },
+    "commits": [
+      "7bcfbb4"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "DFM-002",
+    "sev": "P0",
+    "domain": "DFM",
+    "location": "Jetson-AI-Cam-CopperPilot.kicad_pro, board.design_settings.rules",
+    "finding": "Minimum text height (0.65 mm) and text thickness (0.08 mm) violate JLCPCB silkscreen legibility limits (1.0 mm / 0.15 mm).",
+    "evidence": "Jetson-AI-Cam-CopperPilot.kicad_pro: min_text_height=0.65, min_text_thickness=0.08",
+    "rule_violated": "JLCPCB Silkscreen Line / Text Height: >= 0.15 / 1.0 mm",
+    "root_cause": "Silkscreen DRC constraints were set below the minimum optical resolution of standard silkscreen screen printing.",
+    "proposed_fix": "Configure min_text_height to 0.80 mm (target 1.0 mm) and min_text_thickness to 0.12 mm (target 0.15 mm).",
+    "rationale": "Prevents illegible, smeared, or broken reference designators post-reflow.",
+    "side_effects": "Ensure all component reference designators on PCB comply with updated constraints.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_11_F_SilkS",
+      "x_min": 85.0,
+      "y_min": 75.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "all_silkscreen"
+      ]
+    },
+    "commits": [
+      "7bcfbb4"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "SCH-001",
+    "sev": "P1",
+    "domain": "SCH",
+    "location": "Schematic Sheets 1\u20138 (all 321 symbols)",
+    "finding": "321 ERC warnings for footprint library resolution ('The current configuration does not include the footprint library jetson-footprints').",
+    "evidence": "review/baseline/erc-report.json: footprint_link_issues (321 items)",
+    "rule_violated": "Section 9.3 T1 ERC: 0 errors, 0 warnings; T11 Repo hygiene",
+    "root_cause": "Eeschema configuration references footprint library with local prefix without synchronized environment mapping.",
+    "proposed_fix": "Configure project-local library tables and symbol definitions to resolve cleanly without configuration warnings.",
+    "rationale": "A public release repository must be standalone and compile with 0 warnings on any user machine.",
+    "side_effects": "Re-run kicad-cli sch erc to verify 0 warnings.",
+    "functional_change": false,
+    "region": {
+      "sheet": "sch_01_Root",
+      "x_min": 10.0,
+      "y_min": 10.0,
+      "x_max": 400.0,
+      "y_max": 280.0
+    },
+    "commits": [
+      "1aef6f8"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "PCB-003",
+    "sev": "P1",
+    "domain": "PCB",
+    "location": "Jetson-AI-Cam-CopperPilot.kicad_pcb (199 footprints)",
+    "finding": "199 DRC warnings for footprint library parity ('The footprint library jetson-footprints is not enabled in the current configuration').",
+    "evidence": "review/baseline/drc-report.json: lib_footprint_issues (199 items)",
+    "rule_violated": "Section 9.3 T2 DRC: 0 errors, 0 warnings; T11 Repo hygiene",
+    "root_cause": "KiCad 10 DRC library parity check requires project footprint library table to be enabled and synchronized with local worktree.",
+    "proposed_fix": "Enable and configure jetson-footprints library table so that all footprints resolve against project-local definitions.",
+    "rationale": "Eliminates false library warnings and guarantees footprint land patterns match project definitions.",
+    "side_effects": "Re-run DRC to confirm 0 lib_footprint_issues.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_01_F_Cu",
+      "x_min": 85.0,
+      "y_min": 75.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "all_pcb"
+      ]
+    },
+    "commits": [
+      "1aef6f8"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "PCB-004",
+    "sev": "P2",
+    "domain": "PCB",
+    "location": "F.SilkS and B.SilkS (97 locations across board)",
+    "finding": "97 DRC warnings for silkscreen line clearance < 0.15 mm or overlapping adjacent legends and pads.",
+    "evidence": "review/baseline/drc-report.json: silk_overlap (97 items)",
+    "rule_violated": "JLCPCB Target: Silkscreen clearance >= 0.15 mm; IPC-7351C",
+    "root_cause": "Silkscreen reference designators and graphics overlap adjacent component outlines (e.g., L4, J15, R15).",
+    "proposed_fix": "Adjust silkscreen text positions and clearances to maintain >= 0.15 mm spacing from all copper pads and adjacent silk lines.",
+    "rationale": "Prevents solder mask contamination and illegible printing during automated assembly.",
+    "side_effects": "Verify no silkscreen is pushed onto component pads or beyond board outline.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_11_F_SilkS",
+      "x_min": 91.0,
+      "y_min": 75.0,
+      "x_max": 118.0,
+      "y_max": 105.0,
+      "layers": [
+        "all_silkscreen"
+      ]
+    },
+    "commits": [
+      "c4957b0"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "PCB-005",
+    "sev": "P2",
+    "domain": "PCB",
+    "location": "Board edge near J4 (167.66 mm, 75.91 mm) and J15 (89.66 mm, 128.91 mm)",
+    "finding": "8 DRC warnings for silkscreen clipped by board edge cuts (clearance < 0.15 mm).",
+    "evidence": "review/baseline/drc-report.json: silk_edge_clearance (8 items)",
+    "rule_violated": "JLCPCB Target: Silkscreen to routed board edge >= 0.20 mm",
+    "root_cause": "Silkscreen outlines for edge connectors J4 and J15 extend to or beyond the Edge.Cuts routing line.",
+    "proposed_fix": "Pull back silkscreen graphics and text so that all silkscreen features maintain >= 0.25 mm clearance from Edge.Cuts.",
+    "rationale": "Eliminates CNC router bit tearing of silkscreen legend during panel routing.",
+    "side_effects": "Ensure connector pin identification remains clear after pull-back.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_11_F_SilkS",
+      "x_min": 88.0,
+      "y_min": 74.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "all_silkscreen",
+        "pcb_15_Edge_Cuts",
+        "pcb_18_F_Fab"
+      ]
+    },
+    "commits": [
+      "c4957b0"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "BOM-001",
+    "sev": "P2",
+    "domain": "BOM",
+    "location": "All assembled components across schematic",
+    "finding": "All assembled components lack LCSC part numbers in schematic symbol fields, preventing automated JLCPCB SMT quoting and assembly.",
+    "evidence": "review/trial-outputs/BOM.csv: missing LCSC values across 296 assembled parts",
+    "rule_violated": "Section 9.3 T6 BOM completeness; JLCPCB PCBA SMT Ordering Standard",
+    "root_cause": "LCSC part numbers were not populated during initial schematic capture.",
+    "proposed_fix": "Populate valid LCSC part numbers across all passive components (0402, 0603, 1206 capacitors and resistors), semiconductors, and connectors in the BOM.",
+    "rationale": "Direct LCSC part assignment eliminates assembly delays, manual part mapping errors, and non-stock surcharges.",
+    "side_effects": "Verify LCSC parts match footprint land patterns and electrical ratings.",
+    "functional_change": false,
+    "region": {
+      "sheet": "sch_01_Root",
+      "x_min": 10.0,
+      "y_min": 10.0,
+      "x_max": 400.0,
+      "y_max": 280.0
+    },
+    "commits": [
+      "728edb2"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "DOC-001",
+    "sev": "P3",
+    "domain": "DOC",
+    "location": "manufacturing/ORDER_SPEC.md",
+    "finding": "Manufacturing documentation package lacks formalized JLCPCB ordering specification with complete fabrication, stackup, and assembly notes.",
+    "evidence": "manufacturing/ORDER_SPEC.md missing",
+    "rule_violated": "Section 10 Phase F Release Package Requirement",
+    "root_cause": "Manufacturing release package has not yet been assembled.",
+    "proposed_fix": "Compile manufacturing/ORDER_SPEC.md detailing PCB stackup (JLC08161H-3313), surface finish (ENIG), solder mask (green), via tenting, and PCBA assembly notes.",
+    "rationale": "Enables one-click ordering on JLCPCB portal without engineering queries.",
+    "side_effects": "None.",
+    "functional_change": false,
+    "region": {
+      "layer": "pcb_18_F_Fab",
+      "x_min": 85.0,
+      "y_min": 75.0,
+      "x_max": 168.0,
+      "y_max": 130.0,
+      "layers": [
+        "pcb_18_F_Fab"
+      ]
+    },
+    "commits": [
+      "728edb2"
+    ],
+    "status": "Verified"
+  }
+]

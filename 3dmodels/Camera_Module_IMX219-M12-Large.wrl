@@ -1,0 +1,305 @@
+#VRML V2.0 utf8
+# Kicad 3D Model: IMX219 Oversized Industrial Cine Lens Module
+
+# 1. Hirose DF40C-30DS Receptacle Body
+Transform {
+  translation 0.000000 0.000000 0.196850
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.88 0.88 0.84
+          specularColor 0.3 0.3 0.3
+          shininess 0.3
+        }
+      }
+      geometry Box { size 1.259843 2.952756 0.393701 }
+    }
+  ]
+}
+
+# 2. Gold Contacts
+Transform {
+  translation 0.000000 0.000000 0.374016
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.95 0.80 0.25
+          specularColor 0.9 0.8 0.4
+          shininess 0.9
+        }
+      }
+      geometry Box { size 0.866142 2.559055 0.059055 }
+    }
+  ]
+}
+
+# 3. Polyimide Flex Cable
+Transform {
+  translation -1.377953 0.000000 0.049213
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.78 0.52 0.12
+          specularColor 0.5 0.3 0.1
+          shininess 0.5
+        }
+      }
+      geometry Box { size 1.968504 2.362205 0.098425 }
+    }
+  ]
+}
+
+# 4. Sensor Carrier PCB (14x14x0.8 mm)
+Transform {
+  translation -4.133858 0.000000 0.157480
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.08 0.25 0.12
+          specularColor 0.3 0.3 0.3
+          shininess 0.3
+        }
+      }
+      geometry Box { size 5.511811 5.511811 0.314961 }
+    }
+  ]
+}
+
+# 5. Mount Holder Base (14x14x6.5 mm)
+Transform {
+  translation -4.133858 0.000000 1.594488
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.12 0.12 0.14
+          specularColor 0.4 0.4 0.4
+          shininess 0.4
+        }
+      }
+      geometry Box { size 5.511811 5.511811 2.559055 }
+    }
+  ]
+}
+
+# Mount Ears (Y = +/- 6.5 mm)
+Transform {
+  translation -4.133858 2.559055 1.594488
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.12 0.12 0.14
+          specularColor 0.4 0.4 0.4
+          shininess 0.4
+        }
+      }
+      geometry Cylinder { radius 0.984252 height 2.559055 }
+    }
+  ]
+}
+Transform {
+  translation -4.133858 -2.559055 1.594488
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.12 0.12 0.14
+          specularColor 0.4 0.4 0.4
+          shininess 0.4
+        }
+      }
+      geometry Cylinder { radius 0.984252 height 2.559055 }
+    }
+  ]
+}
+
+# M2 Screws
+Transform {
+  translation -4.133858 2.559055 2.795276
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.70 0.70 0.72
+          specularColor 0.85 0.85 0.85
+          shininess 0.8
+        }
+      }
+      geometry Cylinder { radius 0.590551 height 0.236220 }
+    }
+  ]
+}
+Transform {
+  translation -4.133858 -2.559055 2.795276
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.70 0.70 0.72
+          specularColor 0.85 0.85 0.85
+          shininess 0.8
+        }
+      }
+      geometry Cylinder { radius 0.590551 height 0.236220 }
+    }
+  ]
+}
+
+# 6. Lens Base Collar (OD 14.0 mm)
+Transform {
+  translation -4.133858 0.000000 3.503937
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.18 0.18 0.20
+          specularColor 0.6 0.6 0.6
+          shininess 0.6
+        }
+      }
+      geometry Cylinder { radius 2.755906 height 1.259843 }
+    }
+  ]
+}
+
+# 7. Knurled Focus Ring (OD 20.0 mm)
+Transform {
+  translation -4.133858 0.000000 4.921260
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.14 0.14 0.16
+          specularColor 0.7 0.7 0.7
+          shininess 0.7
+        }
+      }
+      geometry Cylinder { radius 3.937008 height 1.574803 }
+    }
+  ]
+}
+
+# 8. Titanium Accent Index Ring (OD 21.0 mm)
+Transform {
+  translation -4.133858 0.000000 5.944882
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.85 0.85 0.88
+          specularColor 0.95 0.95 0.98
+          shininess 0.95
+        }
+      }
+      geometry Cylinder { radius 4.133858 height 0.472441 }
+    }
+  ]
+}
+
+# 9. Main Oversized Barrel with CNC Grip Band (OD 22.0 mm)
+Transform {
+  translation -4.133858 0.000000 7.362205
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.10 0.10 0.12
+          specularColor 0.75 0.75 0.75
+          shininess 0.75
+        }
+      }
+      geometry Cylinder { radius 4.330709 height 2.362205 }
+    }
+  ]
+}
+
+# 10. Front Bezel Accent Ring (OD 21.6 mm)
+Transform {
+  translation -4.133858 0.000000 8.700787
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.82 0.82 0.85
+          specularColor 0.92 0.92 0.96
+          shininess 0.92
+        }
+      }
+      geometry Cylinder { radius 4.251969 height 0.314961 }
+    }
+  ]
+}
+
+# 11. Beveled Front Lens Hood & Retaining Ring
+Transform {
+  translation -4.133858 0.000000 9.291339
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.08 0.08 0.10
+          specularColor 0.8 0.8 0.8
+          shininess 0.8
+        }
+      }
+      geometry Cylinder { radius 3.661417 height 0.866142 }
+    }
+  ]
+}
+
+# 12. Inner Stepped Aperture Ring
+Transform {
+  translation -4.133858 0.000000 9.566929
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.04 0.04 0.05
+          specularColor 0.5 0.5 0.5
+          shininess 0.5
+        }
+      }
+      geometry Cylinder { radius 2.913386 height 0.157480 }
+    }
+  ]
+}
+
+# 13. Internal Aperture Iris Diaphragm
+Transform {
+  translation -4.133858 0.000000 9.448819
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.02 0.02 0.02
+          specularColor 0.2 0.2 0.2
+          shininess 0.2
+        }
+      }
+      geometry Cylinder { radius 1.771654 height 0.078740 }
+    }
+  ]
+}
+
+# 14. Convex Multi-Coated Optical Glass Front Element
+Transform {
+  translation -4.133858 0.000000 9.665354
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.22 0.08 0.48
+          specularColor 0.98 0.98 1.0
+          shininess 0.98
+          transparency 0.12
+        }
+      }
+      geometry Cylinder { radius 2.598425 height 0.196850 }
+    }
+  ]
+}
