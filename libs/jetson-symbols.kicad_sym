@@ -30464,7 +30464,7 @@
 			(pin power_in line
 				(at 27.94 -10.16 180)
 				(length 2.54)
-				(name "V_{SNS}"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30482,7 +30482,7 @@
 			(pin passive line
 				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name "NC"
+				(name \"COMP\"
 					(effects
 						(font
 							(size 1.27 1.27)
