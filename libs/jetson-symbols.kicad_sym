@@ -1115,8 +1115,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "BSS138PW"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1803,8 +1807,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "Battery_Holder_MS621FE-FL11E"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30482,7 +30490,7 @@
 			(pin passive line
 				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name \"COMP\"
+				(name "~{COMP}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35457,7 +35465,7 @@
 		(symbol "IMX219_30P_0_1"
 			(rectangle
 				(start -10.16 39.37)
-				(end 10.16 -39.37)
+				(end 10.16 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -36009,7 +36017,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -41.91 90)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "SH"
 					(effects
@@ -36023,6 +36031,7 @@
 						(font
 							(size 1.27 1.27)
 						)
+						(hide yes)
 					)
 				)
 			)

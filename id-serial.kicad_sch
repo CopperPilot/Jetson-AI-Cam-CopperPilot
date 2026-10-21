@@ -1249,7 +1249,7 @@
 	)
 	(symbol
 		(lib_id "jetson-symbols:AT24CS01_SOT23")
-		(at 193.675 120.015 0)
+		(at 194.31 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1259,7 +1259,7 @@
 		(dnp no)
 		(uuid "5177063d-e197-4e3b-8d08-59515fb0d7f9")
 		(property "Reference" "IC17"
-			(at 203.835 113.665 0)
+			(at 204.47 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Value" "AT24CS01_SOT23"
-			(at 203.835 116.205 0)
+			(at 204.47 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1401,7 +1401,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ee8e781")
 		(property "Reference" "D15"
-			(at 220.98 110.4899 90)
+			(at 220.98 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 220.98 113.0299 90)
+			(at 220.98 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1530,7 +1530,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062dfc9b6")
 		(property "Reference" "C36"
-			(at 250.19 135.8962 90)
+			(at 250.19 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 250.19 138.4362 90)
+			(at 250.19 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1866,19 +1866,8 @@
 			)
 		)
 	)
-	(global_label "GEN0_SDA"
-		(shape bidirectional)
-		(at 177.165 120.015 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "55eaa80d-d900-47a0-90d7-aa29141ed43e")
-	)
 	(label "EEPROM_PWR"
-		(at 234.315 120.015 180)
+		(at 234.95 120.65 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1887,20 +1876,9 @@
 		)
 		(uuid "8e3ed464-dd1b-402f-b58c-389a07c08df0")
 	)
-	(global_label "GEN0_SCL"
-		(shape bidirectional)
-		(at 177.165 122.555 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "a41ff499-cb09-402b-96e9-2bb94b324e6f")
-	)
 	(symbol
 		(lib_id "jetson-symbols:GND")
-		(at 177.165 125.095 0)
+		(at 177.8 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1922,7 +1900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.165 128.905 0)
+			(at 177.8 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2003,7 +1981,7 @@
 	)
 	(global_label "GEN0_SCL"
 		(shape input)
-		(at 177.165 122.555 180)
+		(at 177.8 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2027,7 +2005,7 @@
 	)
 	(global_label "GEN0_SDA"
 		(shape input)
-		(at 177.165 120.015 180)
+		(at 177.8 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2074,14 +2052,14 @@
 		)
 	)
 	(junction
-		(at 218.44 120.015)
+		(at 218.44 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4589b03b-922f-409f-8b31-31b2d2a2f371")
 	)
 	(text "ID serial"
 		(exclude_from_sim no)
-		(at 18.415 24.13 0)
+		(at 17.78 24.13 0)
 		(effects
 			(font
 				(size 2.4892 2.4892)
@@ -2091,17 +2069,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bfe1b32-d930-48b5-a312-95591f4a2280")
-	)
-	(text "Text"
-		(exclude_from_sim no)
-		(at 67.7926 1253.8202 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bf7e420-ff85-436b-8ccd-b6d045922c6d")
 	)
 	(text "0x50h - memory"
 		(exclude_from_sim no)
@@ -2138,7 +2105,7 @@
 	)
 	(text "EEPROM with Unique ID"
 		(exclude_from_sim no)
-		(at 178.435 93.345 0)
+		(at 177.8 93.98 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -2149,30 +2116,9 @@
 		)
 		(uuid "cb8cc673-cb9b-472d-b10d-acd56696a9ca")
 	)
-	(text "Text"
-		(exclude_from_sim no)
-		(at 67.7926 1253.8202 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc06f31e-fb85-470c-a91a-b5c987c9b1eb")
-	)
-	(polyline
-		(pts
-			(xy 807.5422 828.4972) (xy 810.4886 828.4972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5abcf97e-0521-4ad4-b43f-1f8d963115c2")
-	)
 	(wire
 		(pts
-			(xy 218.44 122.555) (xy 218.44 128.27)
+			(xy 218.44 123.19) (xy 218.44 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 120.015) (xy 193.675 120.015)
+			(xy 177.8 120.65) (xy 194.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.995 122.555) (xy 218.44 122.555)
+			(xy 214.63 123.19) (xy 218.44 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 122.555) (xy 193.675 122.555)
+			(xy 177.8 123.19) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 120.015) (xy 234.315 120.015)
+			(xy 218.44 120.65) (xy 234.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.995 120.015) (xy 218.44 120.015)
+			(xy 214.63 120.65) (xy 218.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 125.095) (xy 193.675 125.095)
+			(xy 177.8 125.73) (xy 194.31 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 114.3) (xy 218.44 120.015)
+			(xy 218.44 114.3) (xy 218.44 120.65)
 		)
 		(stroke
 			(width 0)
