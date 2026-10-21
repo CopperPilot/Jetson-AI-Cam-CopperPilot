@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 209.55 159.385)
+		(at 209.55 160.02)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000608dc6e9")
 		(property "Sheetname" "Supply"
-			(at 209.55 158.6734 0)
+			(at 209.55 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "supply.kicad_sch"
-			(at 209.55 190.4496 0)
+			(at 209.55 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,7 +57,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 160.02)
+		(at 283.21 160.02)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73,7 +73,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000608df3e5")
 		(property "Sheetname" "USB"
-			(at 284.48 159.3084 0)
+			(at 283.21 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-debug.kicad_sch"
-			(at 284.48 191.0846 0)
+			(at 283.21 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +149,7 @@
 		)
 	)
 	(sheet
-		(at 136.525 159.385)
+		(at 135.89 160.02)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -165,7 +165,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00006096d016")
 		(property "Sheetname" "Display"
-			(at 136.525 158.6734 0)
+			(at 135.89 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -176,7 +176,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 136.525 190.4496 0)
+			(at 135.89 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -241,7 +241,7 @@
 		)
 	)
 	(sheet
-		(at 64.135 159.385)
+		(at 63.5 160.02)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -257,7 +257,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000060d9f63d")
 		(property "Sheetname" "CSI"
-			(at 64.135 158.6734 0)
+			(at 63.5 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -268,7 +268,7 @@
 			)
 		)
 		(property "Sheetfile" "csi.kicad_sch"
-			(at 64.135 190.4496 0)
+			(at 63.5 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
