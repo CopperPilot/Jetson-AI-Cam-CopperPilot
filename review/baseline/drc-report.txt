@@ -1,0 +1,1815 @@
+** Drc report for Jetson-AI-Cam-CopperPilot.kicad_pcb **
+** Created on 2026-10-17T00:21:29 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 304 DRC violations **
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1160 mm)
+    Rule: board setup constraints silk; warning
+    @(91.9000 mm, 80.1000 mm): Segment on F.Silkscreen
+    @(92.1510 mm, 76.8060 mm): Segment of J15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1160 mm)
+    Rule: board setup constraints silk; warning
+    @(91.9000 mm, 80.1000 mm): Segment on F.Silkscreen
+    @(92.1510 mm, 76.8060 mm): Segment of J15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(92.8225 mm, 75.7725 mm): PCB text 'B' on F.Silkscreen
+    @(92.8225 mm, 75.7725 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(95.3000 mm, 98.1000 mm): PCB text 'A' on F.Silkscreen
+    @(95.3000 mm, 98.1000 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1072 mm)
+    Rule: board setup constraints silk; warning
+    @(102.9250 mm, 102.6025 mm): Reference field of R15
+    @(101.6000 mm, 104.4000 mm): Segment of L4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(104.8175 mm, 95.6325 mm): PCB text 'B' on F.Silkscreen
+    @(104.8175 mm, 95.6325 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1353 mm)
+    Rule: board setup constraints silk; warning
+    @(109.9000 mm, 101.8450 mm): Segment on F.Silkscreen
+    @(109.8050 mm, 102.2200 mm): Reference field of T8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1403 mm)
+    Rule: board setup constraints silk; warning
+    @(110.8325 mm, 100.8400 mm): Reference field of R122
+    @(110.9750 mm, 101.0025 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1483 mm)
+    Rule: board setup constraints silk; warning
+    @(110.8325 mm, 100.8400 mm): Reference field of R122
+    @(111.8150 mm, 99.8775 mm): Reference field of C9
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1464 mm)
+    Rule: board setup constraints silk; warning
+    @(105.9200 mm, 88.3000 mm): Reference field of C86
+    @(106.9125 mm, 90.4825 mm): Reference field of R95
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1228 mm)
+    Rule: board setup constraints silk; warning
+    @(128.7225 mm, 110.2950 mm): Reference field of R124
+    @(132.3875 mm, 111.9500 mm): Reference field of R30
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1370 mm)
+    Rule: board setup constraints silk; warning
+    @(132.3875 mm, 111.9500 mm): Reference field of R30
+    @(133.4000 mm, 111.9500 mm): Reference field of C44
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1171 mm)
+    Rule: board setup constraints silk; warning
+    @(132.3875 mm, 111.9500 mm): Reference field of R30
+    @(131.5500 mm, 111.3000 mm): Reference field of R67
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1335 mm)
+    Rule: board setup constraints silk; warning
+    @(127.0900 mm, 117.5250 mm): Reference field of D7
+    @(126.6109 mm, 116.4480 mm): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1462 mm)
+    Rule: board setup constraints silk; warning
+    @(132.1895 mm, 104.8538 mm): Reference field of R55
+    @(132.1725 mm, 105.8500 mm): Reference field of R62
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0253 mm)
+    Rule: board setup constraints silk; warning
+    @(132.2000 mm, 103.9000 mm): Segment on F.Silkscreen
+    @(132.1895 mm, 104.8538 mm): Reference field of R55
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0963 mm)
+    Rule: board setup constraints silk; warning
+    @(135.1275 mm, 106.1075 mm): Reference field of R54
+    @(132.1895 mm, 104.8538 mm): Reference field of R55
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1435 mm)
+    Rule: board setup constraints silk; warning
+    @(135.1275 mm, 106.1075 mm): Reference field of R54
+    @(132.1725 mm, 105.8500 mm): Reference field of R62
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1028 mm)
+    Rule: board setup constraints silk; warning
+    @(132.2000 mm, 107.1000 mm): Segment on F.Silkscreen
+    @(132.1725 mm, 106.8500 mm): Reference field of R68
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1341 mm)
+    Rule: board setup constraints silk; warning
+    @(134.3500 mm, 106.2000 mm): Segment on F.Silkscreen
+    @(132.1725 mm, 106.8500 mm): Reference field of R68
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1341 mm)
+    Rule: board setup constraints silk; warning
+    @(134.3500 mm, 107.1000 mm): Segment on F.Silkscreen
+    @(132.1725 mm, 106.8500 mm): Reference field of R68
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1412 mm)
+    Rule: board setup constraints silk; warning
+    @(126.1000 mm, 109.4500 mm): Reference field of C53
+    @(122.3500 mm, 111.0000 mm): Reference field of R109
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0960 mm)
+    Rule: board setup constraints silk; warning
+    @(128.7225 mm, 110.2950 mm): Reference field of R124
+    @(128.7000 mm, 109.3500 mm): Reference field of R125
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0214 mm)
+    Rule: board setup constraints silk; warning
+    @(118.3089 mm, 115.4520 mm): Segment of D6 on F.Silkscreen
+    @(112.2025 mm, 114.1850 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1346 mm)
+    Rule: board setup constraints silk; warning
+    @(114.4000 mm, 112.9000 mm): Segment of C31 on F.Silkscreen
+    @(116.0475 mm, 113.9525 mm): Reference field of C31
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1295 mm)
+    Rule: board setup constraints silk; warning
+    @(119.6075 mm, 111.5000 mm): Reference field of R106
+    @(118.6675 mm, 111.4900 mm): Reference field of R104
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: board setup constraints silk; warning
+    @(113.1275 mm, 120.9650 mm): Reference field of C27
+    @(112.1825 mm, 121.4990 mm): Reference field of R1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1187 mm)
+    Rule: board setup constraints silk; warning
+    @(108.1825 mm, 121.5050 mm): Reference field of R7
+    @(109.1825 mm, 121.5050 mm): Reference field of R4
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1463 mm)
+    Rule: board setup constraints silk; warning
+    @(101.6000 mm, 112.6000 mm): Segment of L4 on F.Silkscreen
+    @(102.2300 mm, 114.0950 mm): Reference field of L9
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1406 mm)
+    Rule: board setup constraints silk; warning
+    @(103.4800 mm, 114.9750 mm): Reference field of R12
+    @(104.4706 mm, 114.9750 mm): Reference field of R37
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1463 mm)
+    Rule: board setup constraints silk; warning
+    @(102.2300 mm, 114.0950 mm): Reference field of L9
+    @(101.6000 mm, 112.6000 mm): Segment of L4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1427 mm)
+    Rule: board setup constraints silk; warning
+    @(140.6300 mm, 115.9125 mm): Reference field of C4
+    @(140.6300 mm, 116.8975 mm): Reference field of C3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1116 mm)
+    Rule: board setup constraints silk; warning
+    @(142.2075 mm, 116.1275 mm): Segment on F.Silkscreen
+    @(140.6300 mm, 116.8975 mm): Reference field of C3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk; warning
+    @(145.8000 mm, 118.8000 mm): Segment on F.Silkscreen
+    @(146.0000 mm, 119.2980 mm): Segment of IC15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk; warning
+    @(145.8000 mm, 118.8000 mm): Segment on F.Silkscreen
+    @(146.0000 mm, 121.0980 mm): Segment of IC15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk; warning
+    @(145.8000 mm, 118.8000 mm): Segment on F.Silkscreen
+    @(146.0000 mm, 121.0980 mm): Segment of IC15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk; warning
+    @(145.8000 mm, 118.8000 mm): Segment on F.Silkscreen
+    @(146.3000 mm, 119.2980 mm): Segment of IC15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1105 mm)
+    Rule: board setup constraints silk; warning
+    @(154.0550 mm, 122.3225 mm): Reference field of D3
+    @(153.0010 mm, 120.8400 mm): Segment of D3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0884 mm)
+    Rule: board setup constraints silk; warning
+    @(151.8950 mm, 120.4775 mm): Reference field of C25
+    @(151.9079 mm, 119.4790 mm): Segment of C25 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1377 mm)
+    Rule: board setup constraints silk; warning
+    @(162.6000 mm, 120.7500 mm): Reference field of R70
+    @(163.5500 mm, 120.8000 mm): Reference field of C89
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1386 mm)
+    Rule: board setup constraints silk; warning
+    @(161.0500 mm, 109.3650 mm): Reference field of R119
+    @(161.4525 mm, 110.3700 mm): Reference field of R48
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0234 mm)
+    Rule: board setup constraints silk; warning
+    @(151.9079 mm, 112.7206 mm): Segment of C20 on F.Silkscreen
+    @(151.4139 mm, 112.8790 mm): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk; warning
+    @(151.9079 mm, 117.8790 mm): Segment of C25 on F.Silkscreen
+    @(156.2139 mm, 117.6790 mm): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0881 mm)
+    Rule: board setup constraints silk; warning
+    @(151.4139 mm, 117.6790 mm): Segment of L1 on F.Silkscreen
+    @(150.7075 mm, 117.2675 mm): Reference field of L1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1076 mm)
+    Rule: board setup constraints silk; warning
+    @(150.7075 mm, 117.2675 mm): Reference field of L1
+    @(156.2139 mm, 117.6790 mm): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1348 mm)
+    Rule: board setup constraints silk; warning
+    @(110.9550 mm, 110.7675 mm): Reference field of C74
+    @(109.9550 mm, 110.7675 mm): Reference field of C75
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1319 mm)
+    Rule: board setup constraints silk; warning
+    @(117.1500 mm, 109.3500 mm): Reference field of R56
+    @(115.6311 mm, 107.3389 mm): Footprint text of IC3 (.)
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1306 mm)
+    Rule: board setup constraints silk; warning
+    @(121.1940 mm, 104.8660 mm): Segment on F.Silkscreen
+    @(121.0250 mm, 103.1925 mm): Reference field of R107
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0191 mm)
+    Rule: board setup constraints silk; warning
+    @(119.0100 mm, 103.7500 mm): Segment on F.Silkscreen
+    @(119.9576 mm, 103.1985 mm): Reference field of R108
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1424 mm)
+    Rule: board setup constraints silk; warning
+    @(118.7000 mm, 105.7000 mm): Reference field of C33
+    @(119.0100 mm, 103.7500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1344 mm)
+    Rule: board setup constraints silk; warning
+    @(112.9750 mm, 101.6875 mm): Segment on F.Silkscreen
+    @(119.9576 mm, 103.1985 mm): Reference field of R108
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0882 mm)
+    Rule: board setup constraints silk; warning
+    @(116.5000 mm, 103.7500 mm): Segment on F.Silkscreen
+    @(117.5000 mm, 105.7000 mm): Reference field of C32
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1290 mm)
+    Rule: board setup constraints silk; warning
+    @(110.8325 mm, 100.8400 mm): Reference field of R122
+    @(109.7600 mm, 98.3620 mm): Segment of IC4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1290 mm)
+    Rule: board setup constraints silk; warning
+    @(110.8325 mm, 100.8400 mm): Reference field of R122
+    @(109.7600 mm, 98.3620 mm): Segment of IC4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1472 mm)
+    Rule: board setup constraints silk; warning
+    @(111.5500 mm, 101.8450 mm): Segment on F.Silkscreen
+    @(109.8050 mm, 102.2200 mm): Reference field of T8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1267 mm)
+    Rule: board setup constraints silk; warning
+    @(111.4270 mm, 103.9900 mm): Segment of T8 on F.Silkscreen
+    @(110.8500 mm, 105.3500 mm): Reference field of IC3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1267 mm)
+    Rule: board setup constraints silk; warning
+    @(110.5000 mm, 104.3900 mm): Segment of T8 on F.Silkscreen
+    @(110.8500 mm, 105.3500 mm): Reference field of IC3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1469 mm)
+    Rule: board setup constraints silk; warning
+    @(110.5000 mm, 102.3900 mm): Segment of T8 on F.Silkscreen
+    @(109.8050 mm, 102.2200 mm): Reference field of T8
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1348 mm)
+    Rule: board setup constraints silk; warning
+    @(137.3500 mm, 106.5500 mm): Reference field of C40
+    @(136.3500 mm, 106.5500 mm): Reference field of C39
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0320 mm)
+    Rule: board setup constraints silk; warning
+    @(160.1000 mm, 110.7000 mm): Segment on F.Silkscreen
+    @(160.2410 mm, 106.7000 mm): Circle of RST1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1490 mm)
+    Rule: board setup constraints silk; warning
+    @(161.0775 mm, 110.6350 mm): Reference field of C87
+    @(160.1000 mm, 110.7000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1004 mm)
+    Rule: board setup constraints silk; warning
+    @(147.1187 mm, 99.8150 mm): Reference field of R51
+    @(146.1850 mm, 100.1250 mm): Reference field of R103
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0725 mm)
+    Rule: board setup constraints silk; warning
+    @(146.1850 mm, 100.1250 mm): Reference field of R103
+    @(145.2625 mm, 100.1200 mm): Reference field of R105
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1324 mm)
+    Rule: board setup constraints silk; warning
+    @(144.2608 mm, 97.1923 mm): Segment on F.Silkscreen
+    @(146.1850 mm, 100.1250 mm): Reference field of R103
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1274 mm)
+    Rule: board setup constraints silk; warning
+    @(144.2608 mm, 97.1923 mm): Segment on F.Silkscreen
+    @(145.2625 mm, 100.1200 mm): Reference field of R105
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1355 mm)
+    Rule: board setup constraints silk; warning
+    @(160.3000 mm, 94.1700 mm): Reference field of T5
+    @(160.4920 mm, 93.2350 mm): Segment of USR1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1355 mm)
+    Rule: board setup constraints silk; warning
+    @(160.3000 mm, 94.1700 mm): Reference field of T5
+    @(160.4920 mm, 93.2350 mm): Segment of USR1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1342 mm)
+    Rule: board setup constraints silk; warning
+    @(150.1656 mm, 99.8150 mm): Reference field of R64
+    @(149.1500 mm, 99.8150 mm): Reference field of R66
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1015 mm)
+    Rule: board setup constraints silk; warning
+    @(134.3500 mm, 106.2000 mm): Segment on F.Silkscreen
+    @(136.3500 mm, 106.5500 mm): Reference field of C39
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0715 mm)
+    Rule: board setup constraints silk; warning
+    @(135.3500 mm, 103.9000 mm): Segment on F.Silkscreen
+    @(136.3500 mm, 106.5500 mm): Reference field of C39
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1343 mm)
+    Rule: board setup constraints silk; warning
+    @(130.6500 mm, 105.2500 mm): Segment of C34 on F.Silkscreen
+    @(130.7500 mm, 105.5000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1028 mm)
+    Rule: board setup constraints silk; warning
+    @(132.2000 mm, 107.1000 mm): Segment on F.Silkscreen
+    @(132.1725 mm, 105.8500 mm): Reference field of R62
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1198 mm)
+    Rule: board setup constraints silk; warning
+    @(132.1895 mm, 104.8538 mm): Reference field of R55
+    @(132.2000 mm, 107.1000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1405 mm)
+    Rule: board setup constraints silk; warning
+    @(135.1275 mm, 106.1075 mm): Reference field of R54
+    @(132.2000 mm, 103.9000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0715 mm)
+    Rule: board setup constraints silk; warning
+    @(129.1500 mm, 107.4500 mm): Segment on F.Silkscreen
+    @(128.7000 mm, 109.3500 mm): Reference field of R125
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0715 mm)
+    Rule: board setup constraints silk; warning
+    @(129.1500 mm, 108.3500 mm): Segment on F.Silkscreen
+    @(128.7000 mm, 109.3500 mm): Reference field of R125
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: board setup constraints silk; warning
+    @(130.6500 mm, 105.2500 mm): Segment of C34 on F.Silkscreen
+    @(127.1000 mm, 105.5000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1489 mm)
+    Rule: board setup constraints silk; warning
+    @(128.4216 mm, 96.1666 mm): Segment of IC13 on F.Silkscreen
+    @(128.2500 mm, 98.6025 mm): Reference field of C23
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1399 mm)
+    Rule: board setup constraints silk; warning
+    @(127.2000 mm, 97.2000 mm): Segment of C23 on F.Silkscreen
+    @(128.2500 mm, 98.6025 mm): Reference field of C23
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: board setup constraints silk; warning
+    @(138.3475 mm, 96.8100 mm): Reference field of R16
+    @(140.5400 mm, 95.8225 mm): Reference field of R84
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1320 mm)
+    Rule: board setup constraints silk; warning
+    @(140.5400 mm, 95.8225 mm): Reference field of R84
+    @(138.3575 mm, 94.8650 mm): Reference field of C41
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0817 mm)
+    Rule: board setup constraints silk; warning
+    @(140.7300 mm, 98.8325 mm): Reference field of R85
+    @(140.7300 mm, 100.7975 mm): Reference field of C71
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1169 mm)
+    Rule: board setup constraints silk; warning
+    @(128.1700 mm, 102.7100 mm): Reference field of R130
+    @(127.8000 mm, 99.8475 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0832 mm)
+    Rule: board setup constraints silk; warning
+    @(123.4520 mm, 102.7060 mm): Segment on F.Silkscreen
+    @(127.0725 mm, 100.5225 mm): Reference field of R39
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1264 mm)
+    Rule: board setup constraints silk; warning
+    @(123.4520 mm, 102.7060 mm): Segment on F.Silkscreen
+    @(128.1700 mm, 102.7100 mm): Reference field of R130
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1077 mm)
+    Rule: board setup constraints silk; warning
+    @(98.5410 mm, 96.8910 mm): Reference field of C81
+    @(99.8000 mm, 96.6000 mm): Reference field of F4
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1247 mm)
+    Rule: board setup constraints silk; warning
+    @(103.9800 mm, 78.3250 mm): Reference field of C56
+    @(104.9800 mm, 78.3575 mm): Reference field of R74
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0670 mm)
+    Rule: board setup constraints silk; warning
+    @(104.4400 mm, 94.1250 mm): Segment of C64 on B.Silkscreen
+    @(104.6570 mm, 94.0000 mm): Segment of CAM_L on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0670 mm)
+    Rule: board setup constraints silk; warning
+    @(104.6570 mm, 98.0000 mm): Segment of CAM_L on B.Silkscreen
+    @(104.4400 mm, 94.1250 mm): Segment of C64 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1463 mm)
+    Rule: board setup constraints silk; warning
+    @(100.9000 mm, 115.6500 mm): Reference field of IC1
+    @(99.7000 mm, 115.8000 mm): Segment of IC1 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1351 mm)
+    Rule: board setup constraints silk; warning
+    @(99.7000 mm, 117.2000 mm): Segment of IC1 on B.Silkscreen
+    @(100.9000 mm, 115.6500 mm): Reference field of IC1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1215 mm)
+    Rule: board setup constraints silk; warning
+    @(99.8500 mm, 115.8000 mm): Segment of IC1 on B.Silkscreen
+    @(100.9000 mm, 115.6500 mm): Reference field of IC1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1215 mm)
+    Rule: board setup constraints silk; warning
+    @(99.8500 mm, 117.2000 mm): Segment of IC1 on B.Silkscreen
+    @(100.9000 mm, 115.6500 mm): Reference field of IC1
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1015 mm)
+    Rule: board setup constraints silk; warning
+    @(163.3334 mm, 84.6550 mm): Segment of D15 on B.Silkscreen
+    @(163.8000 mm, 85.7000 mm): Reference field of D15
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1422 mm)
+    Rule: board setup constraints silk; warning
+    @(163.6834 mm, 84.6550 mm): Segment of D15 on B.Silkscreen
+    @(163.8000 mm, 85.7000 mm): Reference field of D15
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1147 mm)
+    Rule: board setup constraints silk; warning
+    @(163.8000 mm, 85.7000 mm): Reference field of D15
+    @(161.7354 mm, 84.6550 mm): Segment of D15 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1204 mm)
+    Rule: board setup constraints silk; warning
+    @(163.8000 mm, 85.7000 mm): Reference field of D15
+    @(161.7354 mm, 84.3570 mm): Segment of D15 on B.Silkscreen
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(117.7000 mm, 115.2600 mm): Footprint R131
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(162.1400 mm, 98.0000 mm): Footprint REC1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(162.1400 mm, 105.0000 mm): Footprint RST1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(143.2300 mm, 110.7544 mm): Footprint L10
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(101.8034 mm, 115.3518 mm): Footprint L9
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(102.2000 mm, 127.4000 mm): Footprint L8
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(160.4600 mm, 123.9300 mm): Footprint SP5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(96.8310 mm, 123.9400 mm): Footprint SP6
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(95.0000 mm, 100.0000 mm): Footprint BAT1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(145.8000 mm, 128.2221 mm): Footprint BOOT1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(144.1198 mm, 117.6632 mm): Footprint C3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(144.1198 mm, 116.5202 mm): Footprint C4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(129.9500 mm, 128.0000 mm): Footprint C5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(139.9000 mm, 107.4459 mm): Footprint C6
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(140.9000 mm, 107.4459 mm): Footprint C7
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(141.9000 mm, 107.4459 mm): Footprint C8
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(142.9000 mm, 107.4459 mm): Footprint C12
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(116.7100 mm, 115.2600 mm): Footprint C26
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.7500 mm, 120.1270 mm): Footprint C27
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(114.9000 mm, 112.0000 mm): Footprint C31
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(117.0688 mm, 106.4000 mm): Footprint C32
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(118.3642 mm, 106.4364 mm): Footprint C33
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(135.9000 mm, 107.4459 mm): Footprint C39
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(136.9000 mm, 107.4459 mm): Footprint C40
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.9000 mm, 107.4459 mm): Footprint C42
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(138.9000 mm, 107.4459 mm): Footprint C43
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(132.9000 mm, 108.8348 mm): Footprint C44
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(133.9000 mm, 108.8394 mm): Footprint C45
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(120.7022 mm, 112.3800 mm): Footprint C48
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(121.7146 mm, 112.3800 mm): Footprint C50
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(125.7646 mm, 112.3800 mm): Footprint C53
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(126.8000 mm, 112.3800 mm): Footprint C54
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(111.6000 mm, 111.6220 mm): Footprint C73
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(110.6000 mm, 111.6220 mm): Footprint C74
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(109.6000 mm, 111.6220 mm): Footprint C75
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(107.5754 mm, 111.6220 mm): Footprint C76
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(105.5500 mm, 111.6000 mm): Footprint C78
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(106.5500 mm, 111.6000 mm): Footprint C79
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(143.0530 mm, 113.9040 mm): Footprint D2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(99.2000 mm, 119.1000 mm): Footprint D4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(125.2099 mm, 115.9500 mm): Footprint D7
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(102.3010 mm, 118.8848 mm): Footprint D11
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.5500 mm, 113.3800 mm): Footprint IC2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.2530 mm, 119.4134 mm): Footprint IC6
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(123.2520 mm, 108.1060 mm): Footprint IC7
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(133.8074 mm, 97.9404 mm): Footprint IC12
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.1500 mm, 115.3200 mm): Footprint IC18
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(133.9600 mm, 121.9810 mm): Footprint J2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(122.4600 mm, 124.0300 mm): Footprint J11
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.7000 mm, 128.9500 mm): Footprint LED1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(157.0326 mm, 128.3230 mm): Footprint PWR1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(110.8000 mm, 119.1000 mm): Footprint R2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(109.8000 mm, 119.1060 mm): Footprint R3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.8000 mm, 119.1060 mm): Footprint R4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.6100 mm, 123.5876 mm): Footprint R5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(113.9300 mm, 123.5876 mm): Footprint R6
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(107.8000 mm, 119.1060 mm): Footprint R7
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(106.8000 mm, 119.1060 mm): Footprint R8
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(105.8000 mm, 119.1060 mm): Footprint R9
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(104.8000 mm, 119.1060 mm): Footprint R10
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(114.7100 mm, 115.2500 mm): Footprint R11
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(103.1496 mm, 115.7836 mm): Footprint R12
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(113.4936 mm, 102.6987 mm): Footprint R13
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(114.4936 mm, 102.6987 mm): Footprint R15
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.4936 mm, 102.6987 mm): Footprint R17
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(117.4936 mm, 102.6987 mm): Footprint R19
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(116.4936 mm, 102.6987 mm): Footprint R21
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(134.9000 mm, 108.8348 mm): Footprint R26
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(131.9000 mm, 108.8533 mm): Footprint R30
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.8500 mm, 117.0000 mm): Footprint R31
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.8798 mm, 115.9360 mm): Footprint R32
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.3190 mm, 94.6254 mm): Footprint R35
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(104.1402 mm, 115.7836 mm): Footprint R37
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(116.6400 mm, 123.5876 mm): Footprint R43
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(130.1498 mm, 106.5380 mm): Footprint R54
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.0670 mm, 105.9538 mm): Footprint R55
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(118.8214 mm, 107.8842 mm): Footprint R56
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(111.3030 mm, 96.8352 mm): Footprint R57
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(118.5000 mm, 102.7000 mm): Footprint R58
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(119.9000 mm, 97.2000 mm): Footprint R59
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.3190 mm, 96.8352 mm): Footprint R60
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(118.9000 mm, 97.2000 mm): Footprint R61
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.0500 mm, 106.9500 mm): Footprint R62
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.5992 mm, 110.9000 mm): Footprint R67
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.0500 mm, 107.9500 mm): Footprint R68
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.7000 mm, 115.2500 mm): Footprint R98
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(113.7100 mm, 115.2500 mm): Footprint R99
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(118.2372 mm, 112.3800 mm): Footprint R104
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(119.2500 mm, 112.3800 mm): Footprint R106
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(120.6000 mm, 103.9000 mm): Footprint R107
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(119.5326 mm, 103.9060 mm): Footprint R108
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(123.2410 mm, 112.3800 mm): Footprint R109
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(156.8862 mm, 89.2660 mm): Footprint R111
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.3670 mm, 94.6254 mm): Footprint R112
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(158.0000 mm, 95.5000 mm): Footprint R113
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(162.1420 mm, 90.8860 mm): Footprint USR1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(158.2578 mm, 89.9772 mm): Footprint USER1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(98.4000 mm, 115.6700 mm): Footprint T1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(158.0000 mm, 93.5000 mm): Footprint T5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(98.0065 mm, 93.0405 mm): Footprint C10
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(98.0100 mm, 89.0300 mm): Footprint C11
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(129.6500 mm, 100.1500 mm): Footprint R87
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(111.3030 mm, 94.6254 mm): Footprint R34
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(100.1900 mm, 115.7500 mm): Footprint R88
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(96.5456 mm, 115.7836 mm): Footprint R83
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(111.8000 mm, 119.1000 mm): Footprint R1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.7100 mm, 115.2500 mm): Footprint R81
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(119.3548 mm, 106.4364 mm): Footprint R53
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(129.5656 mm, 96.8606 mm): Footprint IC13
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.2500 mm, 112.3800 mm): Footprint R110
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(130.3500 mm, 104.4500 mm): Footprint C34
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(151.6610 mm, 127.0190 mm): Footprint J9
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.6464 mm, 109.3574 mm): Footprint L2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(160.4400 mm, 123.9400 mm): Footprint M2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.3190 mm, 99.1212 mm): Footprint C9
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.2094 mm, 126.1070 mm): Footprint J1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.6084 mm, 96.6060 mm): Footprint C60
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(107.1084 mm, 96.1560 mm): Footprint R92
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(129.0600 mm, 124.6100 mm): Footprint IC11
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.9584 mm, 127.9910 mm): Footprint R100
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(105.6584 mm, 100.0060 mm): Footprint C65
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(119.7099 mm, 115.9500 mm): Footprint D6
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(115.6084 mm, 98.9560 mm): Footprint U4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(152.2079 mm, 118.6790 mm): Footprint C25
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(157.0139 mm, 111.6790 mm): Footprint C19
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(157.0139 mm, 118.8790 mm): Footprint C21
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(152.2079 mm, 111.9206 mm): Footprint C20
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(161.7139 mm, 113.8206 mm): Footprint R45
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(161.7139 mm, 111.8206 mm): Footprint C24
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(153.8139 mm, 115.2790 mm): Footprint L1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(162.8079 mm, 112.8206 mm): Footprint R118
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(161.7139 mm, 115.8206 mm): Footprint C87
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(158.7079 mm, 115.2790 mm): Footprint U2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(149.0000 mm, 112.9000 mm): Footprint C30
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(161.2500 mm, 118.6000 mm): Footprint C89
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(147.4976 mm, 103.9008 mm): Footprint R20
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(146.3546 mm, 103.8754 mm): Footprint R41
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(145.3000 mm, 119.1250 mm): Footprint C66
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(145.3000 mm, 121.3000 mm): Footprint C67
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(148.2076 mm, 122.9718 mm): Footprint L3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(147.1230 mm, 108.7520 mm): Footprint IC5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(151.5010 mm, 121.5400 mm): Footprint D3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(149.0000 mm, 114.9000 mm): Footprint C29
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(147.2000 mm, 114.9000 mm): Footprint C15
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(150.7000 mm, 109.2850 mm): Footprint C72
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(156.0000 mm, 103.0000 mm): Footprint J12
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(103.1970 mm, 91.9500 mm): Footprint U3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(113.9400 mm, 108.4100 mm): Footprint R42
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(106.5400 mm, 91.2000 mm): Footprint R95
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.5000 mm, 91.1000 mm): Footprint T3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(105.5400 mm, 91.2000 mm): Footprint C86
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(105.6000 mm, 93.2000 mm): Footprint C88
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(91.7000 mm, 114.5000 mm): Footprint C17
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.1000 mm, 93.0000 mm): Footprint R46
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(163.2000 mm, 116.7200 mm): Footprint R48
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(127.2000 mm, 94.6000 mm): Footprint F1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(121.9000 mm, 98.8000 mm): Footprint C16
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(126.9000 mm, 97.5000 mm): Footprint C23
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(126.7000 mm, 99.8000 mm): Footprint R39
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.3000 mm, 98.3000 mm): Footprint U1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.3400 mm, 94.6800 mm): Footprint L5
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(145.5240 mm, 125.4060 mm): Footprint R14
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(145.5000 mm, 114.5000 mm): Footprint D17
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(147.7000 mm, 120.2000 mm): Footprint IC15
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.6000 mm, 94.5500 mm): Footprint C41
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(135.1000 mm, 102.7000 mm): Footprint C63
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.1500 mm, 102.0000 mm): Footprint C71
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(138.7250 mm, 100.9000 mm): Footprint D13
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.0600 mm, 99.2600 mm): Footprint IC4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.6000 mm, 98.5500 mm): Footprint R36
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(160.7000 mm, 111.8150 mm): Footprint R44
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.6000 mm, 95.5500 mm): Footprint R84
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.1500 mm, 100.0500 mm): Footprint R85
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.6000 mm, 97.5500 mm): Footprint R86
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(129.6500 mm, 99.1500 mm): Footprint R130
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(104.7000 mm, 88.6750 mm): Footprint C28
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(137.6000 mm, 96.5500 mm): Footprint R16
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(98.0000 mm, 108.5000 mm): Footprint L4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(104.5500 mm, 111.6000 mm): Footprint C80
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.5909 mm, 111.6220 mm): Footprint C77
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(97.1500 mm, 117.8500 mm): Footprint R82
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(97.1500 mm, 118.8816 mm): Footprint C2
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(97.1500 mm, 119.8976 mm): Footprint C1
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(163.2000 mm, 115.7200 mm): Footprint R119
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(127.9146 mm, 103.8964 mm): Footprint R65
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(122.6900 mm, 103.9200 mm): Footprint R103
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(123.8520 mm, 103.9060 mm): Footprint R51
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(126.8989 mm, 103.9060 mm): Footprint R64
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(121.7170 mm, 103.9218 mm): Footprint R105
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.8676 mm, 103.9060 mm): Footprint R63
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(125.8833 mm, 103.9060 mm): Footprint R66
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(112.3190 mm, 101.0300 mm): Footprint R122
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(156.1400 mm, 90.7300 mm): Footprint R139
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(114.4311 mm, 105.9389 mm): Footprint IC3
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(108.7500 mm, 103.2500 mm): Footprint R69
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(128.0500 mm, 108.9500 mm): Footprint R125
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(93.5000 mm, 92.0000 mm): Footprint D9
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(165.0000 mm, 124.0000 mm): Footprint J4
+[lib_footprint_issues]: The footprint library 'jetson-footprints' is not enabled in the current configuration
+    Local override; warning
+    @(95.3300 mm, 128.4000 mm): Footprint LED2
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0677 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6570 mm, 75.9060 mm): Segment on Edge.Cuts
+    @(166.8000 mm, 124.0000 mm): Reference field of J4
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0190 mm)
+    Rule: board setup constraints silk; warning
+    @(89.6570 mm, 128.9060 mm): Segment on Edge.Cuts
+    @(89.7510 mm, 87.9050 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0190 mm)
+    Rule: board setup constraints silk; warning
+    @(89.6570 mm, 128.9060 mm): Segment on Edge.Cuts
+    @(89.7510 mm, 87.9050 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0190 mm)
+    Rule: board setup constraints silk; warning
+    @(89.6570 mm, 128.9060 mm): Segment on Edge.Cuts
+    @(92.0510 mm, 91.7050 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0300 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6570 mm, 75.9060 mm): Segment on Edge.Cuts
+    @(167.5520 mm, 91.9050 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0300 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6570 mm, 75.9060 mm): Segment on Edge.Cuts
+    @(167.5520 mm, 95.7060 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0300 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6570 mm, 75.9060 mm): Segment on Edge.Cuts
+    @(167.5520 mm, 95.7060 mm): Segment of J15 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0203 mm)
+    Rule: board setup constraints silk; warning
+    @(90.6570 mm, 74.9060 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 77.0000 mm): Reference field of C84
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.3570 mm, 97.3500 mm): Pad 30 [CAM0_SDA] of CAM_L on B.Cu
+    @(113.4936 mm, 103.1787 mm): Pad 2 [CAM0_SDA] of R13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.4936 mm, 103.1787 mm): Pad 2 [CAM0_SDA] of R13 on F.Cu
+    @(115.4000 mm, 101.5160 mm): Pad 2 [CAM0_SDA] of R141 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.2000 mm, 101.5160 mm): Pad 2 [CAM0_SCL] of R140 on B.Cu
+    @(114.4936 mm, 103.1787 mm): Pad 2 [CAM0_SCL] of R15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.8000 mm, 101.5160 mm): Pad 2 [CAM1_SDA] of R143 on B.Cu
+    @(115.4936 mm, 103.1787 mm): Pad 2 [CAM1_SDA] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.3570 mm, 97.3500 mm): Pad 30 [CAM1_SDA] of CAM_R on B.Cu
+    @(117.8000 mm, 101.5160 mm): Pad 2 [CAM1_SDA] of R143 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.6000 mm, 101.5160 mm): Pad 2 [CAM1_SCL] of R142 on B.Cu
+    @(116.4936 mm, 103.1787 mm): Pad 2 [CAM1_SCL] of R21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.7570 mm, 97.3500 mm): Pad 29 [CAM1_SCL] of CAM_R on B.Cu
+    @(116.6000 mm, 101.5160 mm): Pad 2 [CAM1_SCL] of R142 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.4500 mm, 95.7500 mm): Track [CAM0_PWDN] on In3_SIGNAL.Cu, length 0.4000 mm
+    @(133.7770 mm, 85.9060 mm): Pad 114 [CAM0_PWDN] of J15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.7570 mm, 94.6500 mm): Pad 7 [CAM0_MCLK] of CAM_L on B.Cu
+    @(133.2770 mm, 85.9060 mm): Pad 116 [CAM0_MCLK] of J15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.7770 mm, 85.9060 mm): Pad 122 [CAM1_MCLK] of J15 on F.Cu
+    @(147.7570 mm, 94.6500 mm): Pad 7 [CAM1_MCLK] of CAM_R on B.Cu
+
+** Found 247 Footprint errors **
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(160.1500 mm, 83.1500 mm): Footprint C36
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf')
+    Local override; warning
+    @(162.7084 mm, 83.9060 mm): Footprint D15
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'http://ww1.microchip.com/downloads/en/devicedoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf')
+    Local override; warning
+    @(155.7084 mm, 83.4060 mm): Footprint IC17
+[net_conflict]: Pad net (/ID Serial/SN_WP) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(154.3584 mm, 82.4550 mm): Pad 5 [/ID Serial/SN_WP] of IC17 on B.Cu
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(112.3190 mm, 99.1212 mm): Footprint C9
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(105.5000 mm, 91.5000 mm): Footprint C95
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(107.5000 mm, 91.0000 mm): Footprint C96
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(109.2000 mm, 91.0000 mm): Footprint C97
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(110.8000 mm, 91.0000 mm): Footprint C98
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(143.5000 mm, 88.5000 mm): Footprint C99
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(144.8000 mm, 88.0000 mm): Footprint C100
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(148.4000 mm, 89.5000 mm): Footprint C101
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(150.0000 mm, 89.5000 mm): Footprint C102
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Onboard 8MP IMX219 Sensor Socket')
+    Local override; warning
+    @(109.1570 mm, 96.0000 mm): Footprint CAM_L
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Onboard 8MP IMX219 Sensor Socket')
+    Local override; warning
+    @(148.1570 mm, 96.0000 mm): Footprint CAM_R
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://developer.nvidia.com/embedded/downloads#?search=jetson%20nano')
+    Local override; warning
+    @(128.6570 mm, 89.7320 mm): Footprint J15
+[net_conflict]: Pad net (/Display/TMDS_CEC) doesn't match net given by schematic (unconnected-(J15E-HDMI_CEC-Pad94))
+    Local override; warning
+    @(138.7770 mm, 85.9060 mm): Pad 94 [/Display/TMDS_CEC] of J15 on F.Cu
+[net_conflict]: Pad net (VSYNC_CAM2_2) doesn't match net given by schematic (unconnected-(J15G-GPIO06-Pad130))
+    Local override; warning
+    @(129.7770 mm, 85.9060 mm): Pad 130 [VSYNC_CAM2_2] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX0_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX0_N-Pad131))
+    Local override; warning
+    @(129.5260 mm, 77.7060 mm): Pad 131 [PCIE0_RX0_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX0_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX0_P-Pad133))
+    Local override; warning
+    @(129.0260 mm, 77.7060 mm): Pad 133 [PCIE0_RX0_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX0_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX0_N-Pad134))
+    Local override; warning
+    @(128.7760 mm, 85.9060 mm): Pad 134 [PCIE0_TX0_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX0_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX0_P-Pad136))
+    Local override; warning
+    @(128.2770 mm, 85.9060 mm): Pad 136 [PCIE0_TX0_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX1_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX1_N-Pad137))
+    Local override; warning
+    @(128.0270 mm, 77.7060 mm): Pad 137 [PCIE0_RX1_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX1_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX1_P-Pad139))
+    Local override; warning
+    @(127.5260 mm, 77.7060 mm): Pad 139 [PCIE0_RX1_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX1_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX1_N-Pad140))
+    Local override; warning
+    @(127.2760 mm, 85.9060 mm): Pad 140 [PCIE0_TX1_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX1_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX1_P-Pad142))
+    Local override; warning
+    @(126.7760 mm, 85.9060 mm): Pad 142 [PCIE0_TX1_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX2_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX2_N-Pad148))
+    Local override; warning
+    @(123.2770 mm, 85.9060 mm): Pad 148 [PCIE0_TX2_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX2_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX2_N-Pad149))
+    Local override; warning
+    @(123.0270 mm, 77.7060 mm): Pad 149 [PCIE0_RX2_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX2_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX2_P-Pad150))
+    Local override; warning
+    @(122.7770 mm, 85.9060 mm): Pad 150 [PCIE0_TX2_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX2_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX2_P-Pad151))
+    Local override; warning
+    @(122.5270 mm, 77.7060 mm): Pad 151 [PCIE0_RX2_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX3_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX3_N-Pad154))
+    Local override; warning
+    @(121.7770 mm, 85.9060 mm): Pad 154 [PCIE0_TX3_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX3_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX3_N-Pad155))
+    Local override; warning
+    @(121.5270 mm, 77.7060 mm): Pad 155 [PCIE0_RX3_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_TX3_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_TX3_P-Pad156))
+    Local override; warning
+    @(121.2770 mm, 85.9060 mm): Pad 156 [PCIE0_TX3_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_RX3_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_RX3_P-Pad157))
+    Local override; warning
+    @(121.0270 mm, 77.7060 mm): Pad 157 [PCIE0_RX3_P] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_CLK_N) doesn't match net given by schematic (unconnected-(J15F-PCIE0_CLK_N-Pad160))
+    Local override; warning
+    @(120.2760 mm, 85.9060 mm): Pad 160 [PCIE0_CLK_N] of J15 on F.Cu
+[net_conflict]: Pad net (PCIE0_CLK_P) doesn't match net given by schematic (unconnected-(J15F-PCIE0_CLK_P-Pad162))
+    Local override; warning
+    @(119.7760 mm, 85.9060 mm): Pad 162 [PCIE0_CLK_P] of J15 on F.Cu
+[net_conflict]: Pad net (\PEWAKE_3V3) doesn't match net given by schematic (unconnected-(J15F-~{PCIE_WAKE}-Pad179))
+    Local override; warning
+    @(115.5260 mm, 77.7060 mm): Pad 179 [\PEWAKE_3V3] of J15 on F.Cu
+[net_conflict]: Pad net (PEX_L0_CLKREQ_N) doesn't match net given by schematic (unconnected-(J15F-~{PCIE0_CLKREQ}-Pad180))
+    Local override; warning
+    @(115.2760 mm, 85.9060 mm): Pad 180 [PEX_L0_CLKREQ_N] of J15 on F.Cu
+[net_conflict]: Pad net (PEX_L0_RST_N) doesn't match net given by schematic (unconnected-(J15F-~{PCIE0_RST}-Pad181))
+    Local override; warning
+    @(115.0260 mm, 77.7060 mm): Pad 181 [PEX_L0_RST_N] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD0_N) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI0_N-Pad184))
+    Local override; warning
+    @(114.2760 mm, 85.9060 mm): Pad 184 [ENET_TRD0_N] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD0_P) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI0_P-Pad186))
+    Local override; warning
+    @(113.7760 mm, 85.9060 mm): Pad 186 [ENET_TRD0_P] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_LED1) doesn't match net given by schematic (unconnected-(J15G-GBE_LED_LINK-Pad188))
+    Local override; warning
+    @(113.2760 mm, 85.9060 mm): Pad 188 [ENET_LED1] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD1_N) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI1_N-Pad190))
+    Local override; warning
+    @(112.7760 mm, 85.9060 mm): Pad 190 [ENET_TRD1_N] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD1_P) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI1_P-Pad192))
+    Local override; warning
+    @(112.2770 mm, 85.9060 mm): Pad 192 [ENET_TRD1_P] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_LED0) doesn't match net given by schematic (unconnected-(J15G-GBE_LED_ACT-Pad194))
+    Local override; warning
+    @(111.7770 mm, 85.9060 mm): Pad 194 [ENET_LED0] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD2_N) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI2_N-Pad196))
+    Local override; warning
+    @(111.2770 mm, 85.9060 mm): Pad 196 [ENET_TRD2_N] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD2_P) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI2_P-Pad198))
+    Local override; warning
+    @(110.7770 mm, 85.9060 mm): Pad 198 [ENET_TRD2_P] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD3_N) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI3_N-Pad202))
+    Local override; warning
+    @(109.7770 mm, 85.9060 mm): Pad 202 [ENET_TRD3_N] of J15 on F.Cu
+[net_conflict]: Pad net (ENET_TRD3_P) doesn't match net given by schematic (unconnected-(J15G-GBE_MDI3_P-Pad204))
+    Local override; warning
+    @(109.2770 mm, 85.9060 mm): Pad 204 [ENET_TRD3_P] of J15 on F.Cu
+[net_conflict]: Pad net (M2_ALERT) doesn't match net given by schematic (unconnected-(J15E-GPIO10-Pad212))
+    Local override; warning
+    @(107.2770 mm, 85.9060 mm): Pad 212 [M2_ALERT] of J15 on F.Cu
+[net_conflict]: Pad net (VSYNC_CAM1_2) doesn't match net given by schematic (unconnected-(J15G-GPIO11-Pad216))
+    Local override; warning
+    @(106.2770 mm, 85.9060 mm): Pad 216 [VSYNC_CAM1_2] of J15 on F.Cu
+[net_conflict]: Pad net (VSYNC_CAM1_1) doesn't match net given by schematic (unconnected-(J15G-GPIO13-Pad228))
+    Local override; warning
+    @(103.2770 mm, 85.9060 mm): Pad 228 [VSYNC_CAM1_1] of J15 on F.Cu
+[net_conflict]: Pad net (#PWR_BUTTON) doesn't match net given by schematic (unconnected-(J15A-SLEEP{slash}~{WAKE}-Pad240))
+    Local override; warning
+    @(100.2770 mm, 85.9060 mm): Pad 240 [#PWR_BUTTON] of J15 on F.Cu
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(113.4936 mm, 102.6987 mm): Footprint R13
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(114.4936 mm, 102.6987 mm): Footprint R15
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(115.4936 mm, 102.6987 mm): Footprint R17
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(117.4936 mm, 102.6987 mm): Footprint R19
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(116.4936 mm, 102.6987 mm): Footprint R21
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(111.3030 mm, 94.6254 mm): Footprint R34
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(112.3190 mm, 94.6254 mm): Footprint R35
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(111.3030 mm, 96.8352 mm): Footprint R57
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(118.5000 mm, 102.7000 mm): Footprint R58
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(119.9000 mm, 97.2000 mm): Footprint R59
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(112.3190 mm, 96.8352 mm): Footprint R60
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(118.9000 mm, 97.2000 mm): Footprint R61
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(108.7500 mm, 103.2500 mm): Footprint R69
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(112.3190 mm, 101.0300 mm): Footprint R122
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(114.2000 mm, 102.0000 mm): Footprint R140
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(115.4000 mm, 102.0000 mm): Footprint R141
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(116.6000 mm, 102.0000 mm): Footprint R142
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(117.8000 mm, 102.0000 mm): Footprint R143
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(109.0000 mm, 101.0000 mm): Footprint R144
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(148.0000 mm, 101.0000 mm): Footprint R145
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf')
+    Local override; warning
+    @(110.8000 mm, 103.3900 mm): Footprint T8
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.nxp.com/docs/en/data-sheet/PCA9547.pdf')
+    Local override; warning
+    @(115.6084 mm, 98.9560 mm): Footprint U4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/')
+    Local override; warning
+    @(95.0000 mm, 100.0000 mm): Footprint BAT1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf')
+    Local override; warning
+    @(145.8000 mm, 128.2221 mm): Footprint BOOT1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf')
+    Local override; warning
+    @(98.0065 mm, 93.0405 mm): Footprint C10
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf')
+    Local override; warning
+    @(98.0100 mm, 89.0300 mm): Footprint C11
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(114.0000 mm, 85.5000 mm): Footprint C103
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: ' ', Schematic: '')
+    Local override; warning
+    @(115.3000 mm, 85.5000 mm): Footprint C104
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.we-online.com/catalog/datasheet/74279221100.pdf')
+    Local override; warning
+    @(93.4000 mm, 94.5000 mm): Footprint FB2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/505/505110/5051101097_sd.pdf?inline')
+    Local override; warning
+    @(113.0000 mm, 78.0450 mm): Footprint J10
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://developer.download.nvidia.com/assets/embedded/secure/jetson/Nano/docs/JetsonNano_DataSheet_DS09366001v1.1.pdf?Cl0E0zdGkqKcFMhBhKQ6jUiBAkPRsNupL6w2GNq-N1hfCQRi2KTR5b5uTo4uS7BVWPCP6FXAISlOmC1NRekic-MoL05Qh4d1EttBv7mSOVC-SJwDg4gqFavLvaeo7o2sYB2errkVZVn_VYu2jbPlfjZRjn9SkW3lQI2ox8WuuvdgR_hm6-LtjOp5DPAEkg==&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9')
+    Local override; warning
+    @(160.4400 mm, 123.9400 mm): Footprint M2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf')
+    Local override; warning
+    @(157.0326 mm, 128.3230 mm): Footprint PWR1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(145.5240 mm, 125.4060 mm): Footprint R14
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(156.3900 mm, 128.2200 mm): Footprint R97
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(156.8862 mm, 89.2660 mm): Footprint R111
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(115.3670 mm, 94.6254 mm): Footprint R112
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(158.0000 mm, 95.5000 mm): Footprint R113
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(156.1400 mm, 90.7300 mm): Footprint R139
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://mouser.com/datasheet/2/140/TL3340-2065742.pdf')
+    Local override; warning
+    @(162.1400 mm, 98.0000 mm): Footprint REC1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://mouser.com/datasheet/2/140/TL3340-2065742.pdf')
+    Local override; warning
+    @(162.1400 mm, 105.0000 mm): Footprint RST1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.we-online.com/components/products/datasheet/9774060151R.pdf')
+    Local override; warning
+    @(160.4600 mm, 123.9300 mm): Footprint SP5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.we-online.com/components/products/datasheet/9774060151R.pdf')
+    Local override; warning
+    @(96.8310 mm, 123.9400 mm): Footprint SP6
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf')
+    Local override; warning
+    @(154.0000 mm, 124.0000 mm): Footprint T2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf')
+    Local override; warning
+    @(154.0000 mm, 127.5000 mm): Footprint T4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf')
+    Local override; warning
+    @(158.0000 mm, 93.5000 mm): Footprint T5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf')
+    Local override; warning
+    @(158.2578 mm, 89.9772 mm): Footprint USER1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://mouser.com/datasheet/2/140/TL3340-2065742.pdf')
+    Local override; warning
+    @(162.1420 mm, 90.8860 mm): Footprint USR1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23')
+    Local override; warning
+    @(97.1500 mm, 119.8976 mm): Footprint C1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23')
+    Local override; warning
+    @(97.1500 mm, 118.8816 mm): Footprint C2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23')
+    Local override; warning
+    @(144.1198 mm, 117.6632 mm): Footprint C3
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23')
+    Local override; warning
+    @(144.1198 mm, 116.5202 mm): Footprint C4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(129.9500 mm, 128.0000 mm): Footprint C5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(139.9000 mm, 107.4459 mm): Footprint C6
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(140.9000 mm, 107.4459 mm): Footprint C7
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(141.9000 mm, 107.4459 mm): Footprint C8
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(142.9000 mm, 107.4459 mm): Footprint C12
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(116.7100 mm, 115.2600 mm): Footprint C26
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(112.7500 mm, 120.1270 mm): Footprint C27
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(135.9000 mm, 107.4459 mm): Footprint C39
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(136.9000 mm, 107.4459 mm): Footprint C40
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(137.9000 mm, 107.4459 mm): Footprint C42
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(138.9000 mm, 107.4459 mm): Footprint C43
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(132.9000 mm, 108.8348 mm): Footprint C44
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(133.9000 mm, 108.8394 mm): Footprint C45
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(111.6000 mm, 111.6220 mm): Footprint C73
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(110.6000 mm, 111.6220 mm): Footprint C74
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(109.6000 mm, 111.6220 mm): Footprint C75
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(107.5754 mm, 111.6220 mm): Footprint C76
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(108.5909 mm, 111.6220 mm): Footprint C77
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(105.5500 mm, 111.6000 mm): Footprint C78
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(106.5500 mm, 111.6000 mm): Footprint C79
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(104.5500 mm, 111.6000 mm): Footprint C80
+[footprint_symbol_mismatch]: Value (D2) doesn't match symbol value (1N4148WS)
+    Local override; warning
+    @(143.0530 mm, 113.9040 mm): Footprint D2
+[footprint_symbol_field_mismatch]: Field 'MPN' differs (PCB: '1N4148WS', Schematic: 'B0520W')
+    Local override; warning
+    @(143.0530 mm, 113.9040 mm): Footprint D2
+[footprint_symbol_mismatch]: Value (D4) doesn't match symbol value (1N4148WS)
+    Local override; warning
+    @(99.2000 mm, 119.1000 mm): Footprint D4
+[footprint_symbol_field_mismatch]: Field 'MPN' differs (PCB: '1N4148WS', Schematic: 'B0520W')
+    Local override; warning
+    @(99.2000 mm, 119.1000 mm): Footprint D4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf')
+    Local override; warning
+    @(101.9000 mm, 124.1500 mm): Footprint D10
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf')
+    Local override; warning
+    @(102.3010 mm, 118.8848 mm): Footprint D11
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/PESD2USB5UV-T.pdf')
+    Local override; warning
+    @(129.0510 mm, 123.2000 mm): Footprint D12
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.ti.com/lit/ds/symlink/tpd8s009.pdf?ts=1679406571326&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPD8S009%252Fpart-details%252FTPD8S009DSMR')
+    Local override; warning
+    @(137.5500 mm, 113.3800 mm): Footprint IC2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf')
+    Local override; warning
+    @(115.2530 mm, 119.4134 mm): Footprint IC6
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1627648952184&ref_url=https%253A%252F%252Fmouser.com%252F')
+    Local override; warning
+    @(129.0600 mm, 124.6100 mm): Footprint IC11
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.ti.com/lit/ds/symlink/tpd8s009.pdf?ts=1679406571326&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPD8S009%252Fpart-details%252FTPD8S009DSMR')
+    Local override; warning
+    @(108.1500 mm, 115.3200 mm): Footprint IC18
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.molex.com/webdocs/datasheets/pdf/en-us/0467651001_IO_CONNECTORS.pdf')
+    Local override; warning
+    @(108.2094 mm, 126.1070 mm): Footprint J1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.te.com/usa-en/product-2129320-3.html')
+    Local override; warning
+    @(133.9600 mm, 121.9810 mm): Footprint J2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf?1681308024000')
+    Local override; warning
+    @(102.2000 mm, 127.4000 mm): Footprint L8
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf?1681308024000')
+    Local override; warning
+    @(101.8034 mm, 115.3518 mm): Footprint L9
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf?1681308024000')
+    Local override; warning
+    @(143.2300 mm, 110.7544 mm): Footprint L10
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(111.8000 mm, 119.1000 mm): Footprint R1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(110.8000 mm, 119.1000 mm): Footprint R2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(109.8000 mm, 119.1060 mm): Footprint R3
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(108.8000 mm, 119.1060 mm): Footprint R4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(115.6100 mm, 123.5876 mm): Footprint R5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(113.9300 mm, 123.5876 mm): Footprint R6
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(107.8000 mm, 119.1060 mm): Footprint R7
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(106.8000 mm, 119.1060 mm): Footprint R8
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(105.8000 mm, 119.1060 mm): Footprint R9
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(104.8000 mm, 119.1060 mm): Footprint R10
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(114.7100 mm, 115.2500 mm): Footprint R11
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(103.1496 mm, 115.7836 mm): Footprint R12
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(134.9000 mm, 108.8348 mm): Footprint R26
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(131.9000 mm, 108.8533 mm): Footprint R30
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(128.8500 mm, 117.0000 mm): Footprint R31
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(128.8798 mm, 115.9360 mm): Footprint R32
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(104.1402 mm, 115.7836 mm): Footprint R37
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(115.7100 mm, 115.2500 mm): Footprint R81
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(97.1500 mm, 117.8500 mm): Footprint R82
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(96.5456 mm, 115.7836 mm): Footprint R83
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(100.1900 mm, 115.7500 mm): Footprint R88
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(112.7000 mm, 115.2500 mm): Footprint R98
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(113.7100 mm, 115.2500 mm): Footprint R99
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(128.9584 mm, 127.9910 mm): Footprint R100
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf')
+    Local override; warning
+    @(98.4000 mm, 115.6700 mm): Footprint T1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1A225K050BC')
+    Local override; warning
+    @(121.9000 mm, 98.8000 mm): Footprint C16
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H106K160AE')
+    Local override; warning
+    @(91.7000 mm, 114.5000 mm): Footprint C17
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H106K160AE')
+    Local override; warning
+    @(157.0139 mm, 111.6790 mm): Footprint C19
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.kemet.com/en/us/capacitors/product/C0805C476M9PACTU.html')
+    Local override; warning
+    @(152.2079 mm, 111.9206 mm): Footprint C20
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H106K160AE')
+    Local override; warning
+    @(157.0139 mm, 118.8790 mm): Footprint C21
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H106K160AE')
+    Local override; warning
+    @(93.5000 mm, 78.2000 mm): Footprint C22
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(126.9000 mm, 97.5000 mm): Footprint C23
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(126.9000 mm, 97.5000 mm): Footprint C23
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23')
+    Local override; warning
+    @(126.9000 mm, 97.5000 mm): Footprint C23
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf')
+    Local override; warning
+    @(161.7139 mm, 111.8206 mm): Footprint C24
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.johansontechnology.com/index.php?option=com_jtiproducts&name=160R15X106KV4E')
+    Local override; warning
+    @(152.2079 mm, 118.6790 mm): Footprint C25
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.kemet.com/en/us/capacitors/product/C0402C271J3GAC7867.html')
+    Local override; warning
+    @(104.7000 mm, 88.6750 mm): Footprint C28
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H474KE11%23')
+    Local override; warning
+    @(137.6000 mm, 94.5500 mm): Footprint C41
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R71H104KE14%23')
+    Local override; warning
+    @(104.3000 mm, 79.1000 mm): Footprint C56
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(102.3000 mm, 79.1000 mm): Footprint C57
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GCM155R71E333KA55%23')
+    Local override; warning
+    @(103.1500 mm, 87.2000 mm): Footprint C58
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.kemet.com/en/us/capacitors/product/C0805C476M9PACTU.html')
+    Local override; warning
+    @(101.7700 mm, 96.0000 mm): Footprint C59
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1A225K050BC')
+    Local override; warning
+    @(108.6084 mm, 96.6060 mm): Footprint C60
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GCM155R71H122KA37%23')
+    Local override; warning
+    @(103.7000 mm, 88.6750 mm): Footprint C61
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23')
+    Local override; warning
+    @(135.1000 mm, 102.7000 mm): Footprint C63
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.kemet.com/en/us/capacitors/product/C0805C476M9PACTU.html')
+    Local override; warning
+    @(103.6400 mm, 93.8250 mm): Footprint C64
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC')
+    Local override; warning
+    @(105.6584 mm, 100.0060 mm): Footprint C65
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(137.1500 mm, 102.0000 mm): Footprint C71
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23')
+    Local override; warning
+    @(99.0000 mm, 98.0000 mm): Footprint C81
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GCM155R71H122KA37%23')
+    Local override; warning
+    @(102.2000 mm, 90.2000 mm): Footprint C82
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(106.9500 mm, 85.1000 mm): Footprint C83
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC')
+    Local override; warning
+    @(101.8000 mm, 77.0000 mm): Footprint C84
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1V475M080AC')
+    Local override; warning
+    @(101.4500 mm, 87.9750 mm): Footprint C85
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(105.5400 mm, 91.2000 mm): Footprint C86
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC')
+    Local override; warning
+    @(161.7139 mm, 115.8206 mm): Footprint C87
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(105.6000 mm, 93.2000 mm): Footprint C88
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23')
+    Local override; warning
+    @(161.2500 mm, 118.6000 mm): Footprint C89
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.mouser.com/datasheet/2/308/ESD5B5_0ST1_D-1805066.pdf')
+    Local override; warning
+    @(152.2100 mm, 114.0000 mm): Footprint D1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.mouser.com/datasheet/2/308/ESD5B5_0ST1_D-1805066.pdf')
+    Local override; warning
+    @(93.5000 mm, 92.0000 mm): Footprint D9
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf')
+    Local override; warning
+    @(138.7250 mm, 100.9000 mm): Footprint D13
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.mouser.com/datasheet/2/408/DF2S30FS_datasheet_en_20211216-1916197.pdf')
+    Local override; warning
+    @(163.5000 mm, 117.0000 mm): Footprint D14
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(127.2000 mm, 94.6000 mm): Footprint F1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(127.2000 mm, 94.6000 mm): Footprint F1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf')
+    Local override; warning
+    @(127.2000 mm, 94.6000 mm): Footprint F1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://us.schurter.com/pdf/english/typ_UST_1206.pdf')
+    Local override; warning
+    @(159.1000 mm, 119.1000 mm): Footprint F3
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.we-online.com/catalog/datasheet/74279221100.pdf')
+    Local override; warning
+    @(96.5000 mm, 78.2000 mm): Footprint FB1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.we-online.com/components/products/datasheet/74279220181.pdf')
+    Local override; warning
+    @(156.8000 mm, 125.5000 mm): Footprint FB3
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.ti.com/lit/ds/symlink/tps7a05.pdf?ts=1678973651768&ref_url=https%253A%252F%252Fwww.google.com%252F')
+    Local override; warning
+    @(108.0600 mm, 99.2600 mm): Footprint IC4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://assets.nexperia.com/documents/data-sheet/74HC_HCT00.pdf')
+    Local override; warning
+    @(133.8074 mm, 97.9404 mm): Footprint IC12
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf?ts')
+    Local override; warning
+    @(129.5656 mm, 96.8606 mm): Footprint IC13
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'DC Power Input (9-36V)')
+    Local override; warning
+    @(165.0000 mm, 124.0000 mm): Footprint J4
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471')
+    Local override; warning
+    @(156.0000 mm, 103.0000 mm): Footprint J12
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf')
+    Local override; warning
+    @(153.8139 mm, 115.2790 mm): Footprint L1
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.vishay.com/docs/34316/lp32dz01.pdf')
+    Local override; warning
+    @(98.0000 mm, 108.5000 mm): Footprint L4
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(124.3400 mm, 94.6800 mm): Footprint L5
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(124.3400 mm, 94.6800 mm): Footprint L5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0061.pdf')
+    Local override; warning
+    @(124.3400 mm, 94.6800 mm): Footprint L5
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(137.6000 mm, 96.5500 mm): Footprint R16
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(137.6000 mm, 98.5500 mm): Footprint R36
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(126.7000 mm, 99.8000 mm): Footprint R39
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(160.7000 mm, 111.8150 mm): Footprint R44
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(161.7139 mm, 113.8206 mm): Footprint R45
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(108.1000 mm, 93.0000 mm): Footprint R46
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(163.2000 mm, 116.7200 mm): Footprint R48
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(160.3000 mm, 118.6000 mm): Footprint R70
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(105.3000 mm, 79.1000 mm): Footprint R74
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(105.8000 mm, 86.5750 mm): Footprint R75
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(106.2000 mm, 80.6000 mm): Footprint R76
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(106.2000 mm, 81.6000 mm): Footprint R77
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(137.6000 mm, 95.5500 mm): Footprint R84
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(137.1500 mm, 100.0500 mm): Footprint R85
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(137.6000 mm, 97.5500 mm): Footprint R86
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(129.6500 mm, 100.1500 mm): Footprint R87
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(103.3000 mm, 79.1000 mm): Footprint R89
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(106.4000 mm, 82.6000 mm): Footprint R90
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(101.3000 mm, 79.1000 mm): Footprint R91
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(107.1084 mm, 96.1560 mm): Footprint R92
+[footprint_symbol_field_mismatch]: Field 'Tolerance' differs (PCB: '~', Schematic: '')
+    Local override; warning
+    @(102.7000 mm, 88.6750 mm): Footprint R93
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(103.7000 mm, 90.6250 mm): Footprint R94
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(106.5400 mm, 91.2000 mm): Footprint R95
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(100.3000 mm, 79.1000 mm): Footprint R96
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(105.9500 mm, 85.1000 mm): Footprint R117
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(162.8079 mm, 112.8206 mm): Footprint R118
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '', Schematic: 'https://www.bourns.com/docs/product-datasheets/cr.pdf')
+    Local override; warning
+    @(163.2000 mm, 115.7200 mm): Footprint R119
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(124.3000 mm, 98.3000 mm): Footprint U1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(124.3000 mm, 98.3000 mm): Footprint U1
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+
+** End of Report **

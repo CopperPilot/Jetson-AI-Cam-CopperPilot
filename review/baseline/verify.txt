@@ -1,0 +1,18 @@
+=================================================================
+ ACCEPTANCE VERIFICATION RUN (review/verify.sh)
+=================================================================
+[FAIL] T1 ERC                         -> Errors: 0, Warnings: 321, Exclusions: 0. 321 warnings.
+[FAIL] T2 DRC                         -> Errors: 0, Warnings: 304, Unconnected: 10, Parity: 247. 304 warnings. 10 unconnected items. 247 parity issues.
+[FAIL] T3 Rules >= JLC                -> Rules below JLC targets without waiver: min_track_width=0.09 < 0.127, min_clearance=0.09 < 0.127, min_via_diameter=0.4 < 0.45, min_through_hole_diameter=0.15 < 0.25, min_via_annular_width=0.075 < 0.1, min_copper_edge_clearance=0.125 < 0.25, min_text_height=0.65 < 0.8, min_text_thickness=0.08 < 0.12
+[PASS] T4 Rules not loosened          -> No rules loosened compared to baseline.
+[PASS] T5 Severities not downgraded   -> No DRC severities downgraded to ignore.
+[FAIL] T6 BOM completeness            -> BOM file does not exist (manufacturing/BOM.csv).
+[FAIL] T7 Outputs                     -> manufacturing/ output directory missing.
+[FAIL] T8 Issues closed               -> review/issues.json not found.
+[FAIL] T9 Evidence complete           -> review/issues.json not found.
+[FAIL] T10 No unexplained changes     -> review/renders/diff/changes.json not found. Run visual_diff.py.
+[PASS] T11 Repo hygiene               -> Project files use clean project-local relative paths without tracked cache/lock files.
+=================================================================
+Overall Acceptance Result: FAIL
+Full report written to: review/verify-report.json
+=================================================================
