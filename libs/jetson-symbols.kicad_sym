@@ -30482,7 +30482,7 @@
 			(pin passive line
 				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name \"COMP\"
+				(name "~{COMP}"
 					(effects
 						(font
 							(size 1.27 1.27)
