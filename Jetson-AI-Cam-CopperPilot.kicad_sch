@@ -337,5 +337,16 @@
 			(page "1")
 		)
 	)
+	(text "SYSTEM ARCHITECTURE & POWER BUDGET\n1. Input Supply: VIN (12V-19V DC, 3.5A max at 12V) -> F3 (12A Fuse) + D14 (SMBJ33A TVS) -> U6 & U2.\n2. 5V0_SYS Rail: U6 (SiC477ED, 8A rated) -> Feeds Jetson VDD_IN (J15), USB VBUS switches IC1/IC3, IC4 (1V8_SYS 200mA LDO, <25mA logic load), and IC15 (1V8_CAM 200mA LDO).\n3. 3V3_SYS Rail: U2 (LM62440-Q1, 3.5A rated) -> Feeds 3.3V peripherals, U10 (2V8_CAM 200mA LDO), and U11 (1V2_CAM 500mA LDO). Optional 3V3 FFC bucks U1/U5 (LM3671MF-3.3) are DNP.\n4. Stereo CSI-2 Architecture: Dual Sony IMX219 22-pin FFC connectors (CAM_L on CSI0/CAM0, CAM_R on CSI2/CAM1) + J10 10-pin FFC GPIO."
+		(exclude_from_sim no)
+		(at 40.64 45.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "8821c4b2-135a-4d30-9f18-7a2b3c4d5e6f")
+	)
 	(embedded_fonts no)
 )

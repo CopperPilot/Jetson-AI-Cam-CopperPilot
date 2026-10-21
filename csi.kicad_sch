@@ -11792,6 +11792,15 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C429199"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92651370-03c6-42da-ab01-dd25cd013f04")
 		)
@@ -12697,6 +12706,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C138804"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61cb5f63-31b3-4e6f-b54c-d1904c87917d")
 		)
@@ -12885,6 +12903,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C84617"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20a8af59-fc82-4711-ba44-1b6d758e8960")
 		)
@@ -13046,6 +13073,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8239474-1d4c-4676-85c9-686e7ff74f53")
 		)
@@ -13201,6 +13237,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13360,6 +13405,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50539de9-6f20-4aa5-856e-e48576510e5b")
 		)
@@ -13515,6 +13569,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13674,6 +13737,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd1361de-b202-4d88-a43f-b36249a37283")
 		)
@@ -13829,6 +13901,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13988,6 +14069,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15631f2f-e8fd-4734-916a-9c49e69db704")
 		)
@@ -14143,6 +14233,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14301,6 +14400,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca98aea-58a5-457d-b896-64cfde069c21")
 		)
@@ -14455,6 +14563,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14612,6 +14729,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca914573-dda4-4264-aa7f-a0f48661ea9f")
 		)
@@ -14754,6 +14880,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14913,6 +15048,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e69a8c1-c6c3-475b-b262-8b70a1de2ee8")
 		)
@@ -15052,6 +15196,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15195,6 +15348,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17030,6 +17192,33 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
+		(property "MPN" "BM20B(0.8)-30DS-0.4V(51)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C424662"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0684-9309-8-51&productname=BM20B(0.8)-30DS-0.4V(51)&series=BM20&documenttype=Catalog&lang=en"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "2d90dae2-f69d-4b82-b1fb-8bc4e2447fa7"))
 		(pin "2" (uuid "576047fd-bfc2-4acd-8439-8cd956c14a18"))
 		(pin "3" (uuid "923371e7-9cc9-495b-a2ca-0e3a3793c86d"))
@@ -17122,7 +17311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10f0439c-3df1-4e6f-9e70-ad81b688144b")
-		(property "Reference" "#PWRea579e"
+		(property "Reference" "#PWR0201"
 			(at 228.6 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17136,7 +17325,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRf5ec82")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -17164,7 +17353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b095f905-8eb1-4ec6-89c5-b10d74fdd22b")
-		(property "Reference" "#PWRa1e853"
+		(property "Reference" "#PWR0202"
 			(at 228.6 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17178,7 +17367,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR0f0d21")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -17195,7 +17384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4aba9037-5229-4d6e-8784-e25a7d782ed4")
-		(property "Reference" "#PWR35ec0e"
+		(property "Reference" "#PWR0203"
 			(at 228.6 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17209,7 +17398,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRb3735e")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -17241,7 +17430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24861ff3-d79e-4db3-b086-cff655502cbd")
-		(property "Reference" "#PWR5c5f17"
+		(property "Reference" "#PWR0204"
 			(at 228.6 82.55000000000001 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17255,7 +17444,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR10600c")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -17280,7 +17469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b42cd5a-d3c6-43fb-8762-ae4b7beac40a")
-		(property "Reference" "#PWR3e0b2e"
+		(property "Reference" "#PWR0205"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17294,7 +17483,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRb12197")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -17311,7 +17500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "411a505b-4946-4321-887a-91380fdc7bf5")
-		(property "Reference" "#PWR446050"
+		(property "Reference" "#PWR0206"
 			(at 254.0 90.17 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17325,7 +17514,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR50d0e9")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -17350,7 +17539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68c8ea96-3be9-4eff-a842-c44209e57c8c")
-		(property "Reference" "#PWRb584dd"
+		(property "Reference" "#PWR0207"
 			(at 254.0 82.55000000000001 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17364,7 +17553,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRde9395")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -17403,7 +17592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81a7478d-1182-4097-ad96-f5956ed6dbba")
-		(property "Reference" "#PWRee4e96"
+		(property "Reference" "#PWR0208"
 			(at 254.0 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17417,7 +17606,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRb1ae49")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -17456,7 +17645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b77e9d73-b2a9-454f-938d-0edb91050667")
-		(property "Reference" "#PWR6ff8f4"
+		(property "Reference" "#PWR0209"
 			(at 254.0 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17470,7 +17659,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR704fc1")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -17509,7 +17698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6b05edb-3814-4874-a515-fd69bacbff1e")
-		(property "Reference" "#PWR7a8744"
+		(property "Reference" "#PWR0210"
 			(at 254.0 59.69 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17523,7 +17712,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR637a0b")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -17562,7 +17751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb31ca55-da60-4796-9950-4513ab531d48")
-		(property "Reference" "#PWR2cf983"
+		(property "Reference" "#PWR0211"
 			(at 241.3 133.35 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17576,7 +17765,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR1190de")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -17611,6 +17800,33 @@
 			(at 330.2 88.9 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "BM20B(0.8)-30DS-0.4V(51)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C424662"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0684-9309-8-51&productname=BM20B(0.8)-30DS-0.4V(51)&series=BM20&documenttype=Catalog&lang=en"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1" (uuid "856090c7-f92a-42b3-b1c8-92a20d6aece7"))
 		(pin "2" (uuid "dbc35c8f-d3dd-440f-b7dc-430479ffb714"))
@@ -17704,7 +17920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3804155-5a75-42a7-adc6-c221fc14881a")
-		(property "Reference" "#PWR2ac1d0"
+		(property "Reference" "#PWR0212"
 			(at 317.5 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17718,7 +17934,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR7bd30f")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -17746,7 +17962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbebadf2-ff5e-4bf3-9ec7-7f7c45992d54")
-		(property "Reference" "#PWR0b7e95"
+		(property "Reference" "#PWR0213"
 			(at 317.5 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17760,7 +17976,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR71bf32")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -17777,7 +17993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18e58be-7947-428b-b9d7-72de9e9c0d5b")
-		(property "Reference" "#PWR2d2b13"
+		(property "Reference" "#PWR0214"
 			(at 317.5 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17791,7 +18007,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR5bec1f")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -17823,7 +18039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "923ded6c-07a4-425d-ba14-a5f3cdb0bbeb")
-		(property "Reference" "#PWR2d8fb6"
+		(property "Reference" "#PWR0215"
 			(at 317.5 82.55000000000001 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17837,7 +18053,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRa590a3")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -17862,7 +18078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d9d7eec-ac26-476b-af8d-23f29b978f7e")
-		(property "Reference" "#PWRc6cbb3"
+		(property "Reference" "#PWR0216"
 			(at 317.5 90.17 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17876,7 +18092,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR85b2d9")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -17893,7 +18109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac174f39-ede1-46b4-8a3b-2b3dded2e33e")
-		(property "Reference" "#PWR97841c"
+		(property "Reference" "#PWR0217"
 			(at 342.9 90.17 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17907,7 +18123,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR19ed25")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -17932,7 +18148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2aa47ab-eda3-4d56-83ec-3a48038d12aa")
-		(property "Reference" "#PWR38e79f"
+		(property "Reference" "#PWR0218"
 			(at 342.9 82.55000000000001 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17946,7 +18162,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR451aac")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -17985,7 +18201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "922fddb4-8650-4fda-8432-ecd45dad29ed")
-		(property "Reference" "#PWRaa9e7a"
+		(property "Reference" "#PWR0219"
 			(at 342.9 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -17999,7 +18215,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRd13c32")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -18038,7 +18254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49d587e8-107a-414e-b821-0f78f0df443f")
-		(property "Reference" "#PWRcae0d6"
+		(property "Reference" "#PWR0220"
 			(at 342.9 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18052,7 +18268,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR2901bf")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -18091,7 +18307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0de6b041-5e3f-480b-8f69-d307e37911ac")
-		(property "Reference" "#PWR0960c5"
+		(property "Reference" "#PWR0221"
 			(at 342.9 59.69 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18105,7 +18321,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR775445")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -18144,7 +18360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ec0cfd-7158-400a-a6b5-6bd6907fae1c")
-		(property "Reference" "#PWRf569c8"
+		(property "Reference" "#PWR0222"
 			(at 330.2 133.35 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18158,7 +18374,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRf13c43")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -18188,6 +18404,33 @@
 			(at 254.0 177.8 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "TPS7A0528PDBVR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C194387"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1" (uuid "0ffaab40-dea3-4a60-8001-4e4b48cc120c"))
 		(pin "2" (uuid "f9ae521c-8772-4af1-a17b-77ce823ff323"))
@@ -18220,7 +18463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc6ba81-f625-4381-a031-8d319008b4f2")
-		(property "Reference" "#PWRbe2584"
+		(property "Reference" "#PWR0223"
 			(at 269.24 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18234,7 +18477,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRe18239")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -18265,6 +18508,33 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
+		(property "MPN" "C1005X6S1A105K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "5a1e241f-c384-444b-9c17-9f564e9ca847"))
 		(pin "2" (uuid "b1757dd9-45e5-4d52-86f9-5e2d7e673dde"))
 		(instances
@@ -18288,7 +18558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b4dde20-64f2-4f11-8685-7df636aa4cd4")
-		(property "Reference" "#PWR4ae7dd"
+		(property "Reference" "#PWR0224"
 			(at 246.38 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18302,7 +18572,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR669e12")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -18332,6 +18602,33 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
+		(property "MPN" "C1005X5R1A225K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "2efd6df6-654d-4210-ad2d-65edf727e1e1"))
 		(pin "2" (uuid "a774f5e8-1302-48c5-badf-7162e6d4a076"))
 		(instances
@@ -18355,7 +18652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d67fcb-c355-4e9e-930b-2ea2a6b425b0")
-		(property "Reference" "#PWR0f27c0"
+		(property "Reference" "#PWR0225"
 			(at 276.86 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18369,7 +18666,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRfc2589")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -18399,6 +18696,33 @@
 			(at 304.8 177.8 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "TLV75512PDBVR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C485675"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1" (uuid "2df8560e-b654-47d6-a94e-2174635f7ac9"))
 		(pin "2" (uuid "5dc800b2-e0fd-4810-a8b6-033be549b8d1"))
@@ -18431,7 +18755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66dfea4f-7914-4f99-b4c3-4f4c806d7cbd")
-		(property "Reference" "#PWRe05136"
+		(property "Reference" "#PWR0226"
 			(at 320.04 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18445,7 +18769,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR177321")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -18476,6 +18800,33 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
+		(property "MPN" "C1005X6S1A105K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "68c153ac-0a1a-430f-98d4-ac206dca5e4e"))
 		(pin "2" (uuid "cd4131a1-b316-4de3-953a-efc44c7336bd"))
 		(instances
@@ -18499,7 +18850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33045b0e-c971-4225-9bda-32d970119289")
-		(property "Reference" "#PWR45e268"
+		(property "Reference" "#PWR0227"
 			(at 297.18 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18513,7 +18864,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR8c3b50")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -18543,6 +18894,33 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
+		(property "MPN" "C1005X5R1A225K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "4f30588d-d485-4145-8e17-c3f3183dbbad"))
 		(pin "2" (uuid "d2b6715b-9583-49a5-b0b5-ca5555b75207"))
 		(instances
@@ -18566,7 +18944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a3caee0-511a-449e-b0fc-47dc6e3c1c0c")
-		(property "Reference" "#PWR315968"
+		(property "Reference" "#PWR0228"
 			(at 327.66 182.88 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -18580,7 +18958,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWRca4532")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -19112,6 +19490,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "3317ab04-3a13-474d-bd16-23a5faa8abf7"))
 		(pin "2" (uuid "749adcce-2656-4818-9cf3-5d92d17b99f8"))
 		(instances
@@ -19141,7 +19546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f9f39c3-aca6-4f36-b652-7ae9a4e5d143")
-		(property "Reference" "#PWR_C95"
+		(property "Reference" "#PWR0229"
 			(at 231.14 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19155,7 +19560,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C95")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -19193,6 +19598,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "4f849722-cd03-433d-9e8f-0a23f8563d16"))
 		(pin "2" (uuid "9c084f77-da19-4277-aac1-027cb4c8cdfa"))
 		(instances
@@ -19222,7 +19654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cec4b21-8321-4ec2-b215-a437cf20c751")
-		(property "Reference" "#PWR_C96"
+		(property "Reference" "#PWR0230"
 			(at 241.3 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19236,7 +19668,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C96")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -19274,6 +19706,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "915ac534-1835-445f-bda5-ee892b16b4cb"))
 		(pin "2" (uuid "25c13efc-9ece-432d-a318-cbc026e11722"))
 		(instances
@@ -19303,7 +19762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9257a033-9761-4efb-8a88-54801aa93c2e")
-		(property "Reference" "#PWR_C97"
+		(property "Reference" "#PWR0231"
 			(at 251.46 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19317,7 +19776,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C97")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -19355,6 +19814,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "C1005X5R1A225K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "6c0a722c-9931-4d2a-bdc0-a4d93c3d1575"))
 		(pin "2" (uuid "183fd9f6-e82b-481d-8c2f-6fc897153902"))
 		(instances
@@ -19384,7 +19870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95c3cd0a-a50b-43e1-b40a-0b744fe05997")
-		(property "Reference" "#PWR_C98"
+		(property "Reference" "#PWR0232"
 			(at 261.62 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19398,7 +19884,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C98")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -19436,6 +19922,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "c737e808-b5e9-4193-96ed-46946672e77b"))
 		(pin "2" (uuid "c0d42268-c5e2-4d04-82b0-d910a4462f96"))
 		(instances
@@ -19465,7 +19978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "895da2a7-b74d-4cc5-9566-1b171c770056")
-		(property "Reference" "#PWR_C99"
+		(property "Reference" "#PWR0233"
 			(at 312.42 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19479,7 +19992,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C99")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -19517,6 +20030,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "0dcc2112-760f-420b-90dd-297e9b373d0a"))
 		(pin "2" (uuid "61442a97-f8e0-4f02-a1ed-a03b05985ff0"))
 		(instances
@@ -19546,7 +20086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31df35d3-6081-4b06-8d45-cd308badd8b0")
-		(property "Reference" "#PWR_C100"
+		(property "Reference" "#PWR0234"
 			(at 322.58 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19560,7 +20100,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C100")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -19598,6 +20138,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "5940ad7e-97c6-4bff-9bf5-9a6ee6be55c3"))
 		(pin "2" (uuid "411b953a-551d-4cef-ab01-e639fe688ddd"))
 		(instances
@@ -19627,7 +20194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fa7cdba-d95f-43f2-9d00-d27236c249e2")
-		(property "Reference" "#PWR_C101"
+		(property "Reference" "#PWR0235"
 			(at 332.74 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19641,7 +20208,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C101")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -19679,6 +20246,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "C1005X5R1A225K050BC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/all_series_en.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "258ed9cc-cb37-4999-b329-901060c6e317"))
 		(pin "2" (uuid "ab98b095-aa13-4702-8ccd-1d0fe513cb57"))
 		(instances
@@ -19708,7 +20302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "545e1e2e-1d95-4af1-b00f-2793ba81baf3")
-		(property "Reference" "#PWR_C102"
+		(property "Reference" "#PWR0236"
 			(at 342.9 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -19722,7 +20316,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_C102")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -19758,6 +20352,33 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1" (uuid "f963d35f-201f-43c1-ab62-e2c91577c036"))
 		(pin "2" (uuid "159f569d-9c87-4316-b1db-9190efc5e1be"))
@@ -19815,6 +20436,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "11f13918-3a9a-44b3-8209-3659e0a4a3e7"))
 		(pin "2" (uuid "3166fda6-c38e-4719-81a8-61d0befe0d14"))
 		(instances
@@ -19870,6 +20518,33 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1" (uuid "817a3e60-1eca-45b3-bae1-246bc6547f36"))
 		(pin "2" (uuid "c3f7ac8d-3696-4889-b03b-056df9aa4bd9"))
@@ -19927,6 +20602,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "df3d4642-403c-4038-b273-e6e95598bb14"))
 		(pin "2" (uuid "1e966d19-c6cf-4307-9b3f-0a0f7d44c813"))
 		(instances
@@ -19983,6 +20685,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "CR0402-FX-1003GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "227bf00c-d1af-4e59-98a8-fbf47e8b3649"))
 		(pin "2" (uuid "4ab669de-0f9c-40e8-84f2-810bcb9e702a"))
 		(instances
@@ -20012,7 +20741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90c8ef9f-d07f-4eb4-a159-5bafce5d7ad6")
-		(property "Reference" "#PWR_R144"
+		(property "Reference" "#PWR0237"
 			(at 292.1 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -20026,7 +20755,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_R144")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -20063,6 +20792,33 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
+		(property "MPN" "CR0402-FX-1003GLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CR.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1" (uuid "a2422f8a-a554-4864-9560-a8a4e5ece04f"))
 		(pin "2" (uuid "615affa4-9af3-4db9-84e5-dfcd592cae24"))
 		(instances
@@ -20092,7 +20848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b9b6c78-94a3-4535-b9ee-3e543bdde20e")
-		(property "Reference" "#PWR_R145"
+		(property "Reference" "#PWR0238"
 			(at 373.38 128.27 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -20106,7 +20862,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_R145")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -20153,7 +20909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "273a90fd-d626-4bb7-af09-7c9d19a19410")
-		(property "Reference" "#PWR_GND_FLAG"
+		(property "Reference" "#PWR0239"
 			(at 220.98 123.19 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -20167,7 +20923,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#PWR_GND_FLAG")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -20185,7 +20941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61256964-782c-48aa-aa6b-cd6e71a9d84b")
-		(property "Reference" "#FLG_3V3_CSI"
+		(property "Reference" "#FLG0301"
 			(at 209.55 207.01 0)
 			(effects (font (size 1.27 1.27)))
 		)
@@ -20197,7 +20953,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060d9f63d"
-					(reference "#FLG_3V3_CSI")
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)

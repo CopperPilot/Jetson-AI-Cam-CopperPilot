@@ -1355,6 +1355,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C500682"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c2d8f0c-b0f9-448e-b1dd-edc09841463c")
 		)
@@ -1482,6 +1491,15 @@
 					(thickness 0.15)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1638,6 +1656,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1882,7 +1909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41e478ae-4a87-4a6c-8030-4dacd95deedb")
-		(property "Reference" "#GND_WP"
+		(property "Reference" "#GND_0308"
 			(at 177.165 125.095 0)
 			(hide yes)
 			(show_name no)
@@ -1945,7 +1972,7 @@
 		(instances
 			(project "Jetson-AI-Cam-CopperPilot"
 				(path "/9df9f3e2-e127-4935-b743-4d95c8ce9b2e/00000000-0000-0000-0000-000060b0f7be"
-					(reference "#GND_WP")
+					(reference "#GND_0308")
 					(unit 1)
 				)
 			)
