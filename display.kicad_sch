@@ -14146,7 +14146,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061059bb7")
 		(property "Reference" "C39"
-			(at 31.75 184.15 0)
+			(at 41.91 184.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 36.83 184.15 0)
+			(at 46.99 184.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14308,7 +14308,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061060b9b")
 		(property "Reference" "C42"
-			(at 31.75 191.77 0)
+			(at 41.91 192.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14388,7 +14388,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 36.83 191.77 0)
+			(at 46.99 192.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14470,7 +14470,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061063ad9")
 		(property "Reference" "C6"
-			(at 31.75 199.39 0)
+			(at 41.91 200.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14550,7 +14550,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 36.83 199.39 0)
+			(at 46.99 200.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14632,7 +14632,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610663ec")
 		(property "Reference" "C8"
-			(at 31.75 207.01 0)
+			(at 41.91 207.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14712,7 +14712,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 36.83 207.01 0)
+			(at 46.99 207.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14794,7 +14794,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061066bed")
 		(property "Reference" "C44"
-			(at 31.75 214.63 0)
+			(at 41.91 215.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14874,7 +14874,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 36.83 214.63 0)
+			(at 46.99 215.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14956,7 +14956,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610e6b69")
 		(property "Reference" "C40"
-			(at 43.18 191.77 0)
+			(at 51.435 191.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15036,7 +15036,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 48.26 191.77 0)
+			(at 56.515 191.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15118,7 +15118,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611069bc")
 		(property "Reference" "C43"
-			(at 43.18 199.39 0)
+			(at 51.435 198.755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15198,7 +15198,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 48.26 199.39 0)
+			(at 56.515 198.755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15280,7 +15280,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061107231")
 		(property "Reference" "C7"
-			(at 43.18 207.01 0)
+			(at 51.435 206.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15360,7 +15360,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 48.26 207.01 0)
+			(at 56.515 206.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15442,7 +15442,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006110973a")
 		(property "Reference" "C12"
-			(at 43.18 214.63 0)
+			(at 51.435 213.995 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15522,7 +15522,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 48.26 214.63 0)
+			(at 56.515 213.995 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15604,7 +15604,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006110a39f")
 		(property "Reference" "C45"
-			(at 43.18 222.25 0)
+			(at 51.435 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15684,7 +15684,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 48.26 222.25 0)
+			(at 56.515 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20569,7 +20569,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R_1M_0402"
@@ -20669,7 +20669,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -20861,7 +20861,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R_1M_0402"
@@ -20961,7 +20961,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -23272,7 +23272,7 @@
 		(uuid "0ae7c10a-e9cc-4512-b53a-f7c38d6170dd")
 	)
 	(label "ML_C_LANE0_P"
-		(at 55.88 186.69 0)
+		(at 63.5 186.69 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23342,7 +23342,7 @@
 		(uuid "173b5cb6-b1d7-4584-b9d2-aae210c9f7c0")
 	)
 	(label "ML_C_LANE3_P"
-		(at 55.88 209.55 0)
+		(at 63.5 209.55 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23422,7 +23422,7 @@
 		(uuid "2cd9927c-30d1-400f-ad56-4c39654ae06f")
 	)
 	(label "ML_C_LANE1_N"
-		(at 55.88 196.85 0)
+		(at 63.5 196.85 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23512,7 +23512,7 @@
 		(uuid "44202873-eff9-4b10-a432-41034979ce5c")
 	)
 	(label "EDP_C_AUX_C_P"
-		(at 55.88 217.17 0)
+		(at 63.5 217.17 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23532,7 +23532,7 @@
 		(uuid "4d2f20bd-3a9b-4cf3-820c-30f9300acde4")
 	)
 	(label "ML_C_LANE0_N"
-		(at 55.88 189.23 0)
+		(at 63.5 189.23 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23542,7 +23542,7 @@
 		(uuid "4db70063-3ada-4fbe-b3a0-c8b6ba57b964")
 	)
 	(label "EDP_C_AUX_C_N"
-		(at 55.88 219.71 0)
+		(at 63.5 219.71 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23613,7 +23613,7 @@
 		(uuid "60b8ab46-691b-4ff7-9791-5483815d962c")
 	)
 	(label "ML_C_LANE1_P"
-		(at 55.88 194.31 0)
+		(at 63.5 194.31 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23743,7 +23743,7 @@
 		(uuid "8a54a4b6-fcbc-4fca-8962-06d309d4047f")
 	)
 	(label "ML_C_LANE2_N"
-		(at 55.88 204.47 0)
+		(at 63.5 204.47 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23803,7 +23803,7 @@
 		(uuid "a00089a0-5f27-4fc7-8185-5cfa3dfa7d4a")
 	)
 	(label "ML_C_LANE2_P"
-		(at 55.88 201.93 0)
+		(at 63.5 201.93 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -23953,7 +23953,7 @@
 		(uuid "cba23e29-d8e8-4fe3-aa8e-b777fb34a2c5")
 	)
 	(label "ML_C_LANE3_N"
-		(at 55.88 212.09 0)
+		(at 63.5 212.09 0)
 		(effects
 			(font
 				(size 1.524 1.524)
