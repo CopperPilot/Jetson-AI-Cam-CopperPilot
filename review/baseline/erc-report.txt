@@ -1,0 +1,989 @@
+ERC report (2026-10-17T00:21:22, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(193.675 mm, 120.015 mm): Symbol IC17 [AT24CS01_SOT23]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(218.44 mm, 114.30 mm): Symbol D15 [1N4148WS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(247.65 mm, 134.62 mm): Symbol C36 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(52.07 mm, 41.91 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(172.72 mm, 240.03 mm): Symbol R122 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(175.26 mm, 259.08 mm): Symbol R69 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(177.80 mm, 201.93 mm): Symbol R35 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(180.34 mm, 252.73 mm): Symbol T8 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(187.96 mm, 201.93 mm): Symbol R34 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(199.39 mm, 224.79 mm): Symbol R57 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(199.39 mm, 227.33 mm): Symbol R60 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(207.01 mm, 210.82 mm): Symbol C9 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 209.55 mm): Symbol U4 [PCA9547_VQFN]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(231.14 mm, 120.65 mm): Symbol C95 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 209.55 mm): Symbol R13 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 212.09 mm): Symbol R15 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 217.17 mm): Symbol R17 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 219.71 mm): Symbol R21 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 224.79 mm): Symbol R19 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 227.33 mm): Symbol R58 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 232.41 mm): Symbol R59 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 234.95 mm): Symbol R61 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(241.30 mm, 88.90 mm): Symbol CAM_L [IMX219_30P]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(241.30 mm, 120.65 mm): Symbol C96 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(246.38 mm, 177.80 mm): Symbol C91 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(251.46 mm, 120.65 mm): Symbol C97 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(254.00 mm, 177.80 mm): Symbol U10 [TPS7A0518P_SOT23-5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(261.62 mm, 120.65 mm): Symbol C98 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(271.78 mm, 120.65 mm): Symbol R140 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(276.86 mm, 177.80 mm): Symbol C92 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(281.94 mm, 120.65 mm): Symbol R141 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(292.10 mm, 120.65 mm): Symbol R144 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(297.18 mm, 177.80 mm): Symbol C93 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(304.80 mm, 177.80 mm): Symbol U11 [TPS7A0518P_SOT23-5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(312.42 mm, 120.65 mm): Symbol C99 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(322.58 mm, 120.65 mm): Symbol C100 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(327.66 mm, 177.80 mm): Symbol C94 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(330.20 mm, 88.90 mm): Symbol CAM_R [IMX219_30P]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(332.74 mm, 120.65 mm): Symbol C101 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(342.90 mm, 120.65 mm): Symbol C102 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(353.06 mm, 120.65 mm): Symbol R142 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(363.22 mm, 120.65 mm): Symbol R143 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(373.38 mm, 120.65 mm): Symbol R145 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(41.91 mm, 45.72 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(68.58 mm, 177.80 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(69.85 mm, 125.73 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(115.57 mm, 57.15 mm): Symbol R139 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(207.01 mm, 35.56 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(207.01 mm, 146.05 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(255.905 mm, 260.35 mm): Symbol M2 [Jetson-Nano]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(274.32 mm, 45.72 mm): Symbol C103 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(274.32 mm, 48.26 mm): Symbol C104 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(290.83 mm, 33.02 mm): Symbol J10 [Conn_FFC_Molex_5051101097]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(294.64 mm, 105.41 mm): Symbol R14 [R_470R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(294.64 mm, 118.11 mm): Symbol BOOT1 [LED_G_0603_LG_L29K-G2J1-24-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(297.18 mm, 168.91 mm): Symbol RST1 [SW_TL3340AF160QG_SMD]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(297.18 mm, 184.15 mm): Symbol REC1 [SW_TL3340AF160QG_SMD]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(297.18 mm, 199.39 mm): Symbol USR1 [SW_TL3340AF160QG_SMD]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(302.26 mm, 132.08 mm): Symbol T2 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(314.96 mm, 191.77 mm): Symbol R112 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(321.31 mm, 226.06 mm): Symbol SP1 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(321.31 mm, 238.76 mm): Symbol SP4 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(331.47 mm, 105.41 mm): Symbol R97 [R_470R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(331.47 mm, 118.11 mm): Symbol PWR1 [LED_G_0603_LG_L29K-G2J1-24-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(339.09 mm, 132.08 mm): Symbol T4 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(350.52 mm, 35.56 mm): Symbol C10 [C_Pol_330u_6.3V_KEMET-T520-B]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(350.52 mm, 73.66 mm): Symbol BAT1 [Battery_Holder_MS621FE-FL11E]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(350.52 mm, 226.06 mm): Symbol SP2 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(350.52 mm, 238.76 mm): Symbol SP5 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(364.49 mm, 35.56 mm): Symbol C11 [C_Pol_330u_6.3V_KEMET-T520-B]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(364.49 mm, 62.23 mm): Symbol FB2 [FB_10Z_10A_WE-MPSB_1206]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(370.84 mm, 105.41 mm): Symbol R111 [R_470R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(370.84 mm, 118.11 mm): Symbol USER1 [LED_G_0603_LG_L29K-G2J1-24-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(378.46 mm, 132.08 mm): Symbol T5 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(379.73 mm, 137.16 mm): Symbol R113 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(379.73 mm, 226.06 mm): Symbol SP3 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(379.73 mm, 238.76 mm): Symbol SP6 [Spacer_Drill3.7mm_H6mm_9774060151R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 189.23 mm): Symbol C40 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 196.85 mm): Symbol C43 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 204.47 mm): Symbol C7 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 212.09 mm): Symbol C12 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 219.71 mm): Symbol C45 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(35.56 mm, 186.69 mm): Symbol C39 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(35.56 mm, 194.31 mm): Symbol C42 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(35.56 mm, 201.93 mm): Symbol C6 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(35.56 mm, 209.55 mm): Symbol C8 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(35.56 mm, 217.17 mm): Symbol C44 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(47.625 mm, 40.64 mm): Symbol J15 [Bus_DDR4_SODIMM_CUSTOM_Jetson-Nano...]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(100.33 mm, 229.87 mm): Symbol IC2 [TPD8S009DSMR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(116.84 mm, 177.80 mm): Symbol R26 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(119.38 mm, 238.76 mm): Symbol R30 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(135.89 mm, 44.45 mm): Symbol C73 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(135.89 mm, 59.69 mm): Symbol C75 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(135.89 mm, 72.39 mm): Symbol C76 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(135.89 mm, 85.09 mm): Symbol C78 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(140.97 mm, 46.99 mm): Symbol C74 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(140.97 mm, 62.23 mm): Symbol C77 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(140.97 mm, 74.93 mm): Symbol C79 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(140.97 mm, 87.63 mm): Symbol C80 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(148.59 mm, 229.87 mm): Symbol D2 [1N4148WS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.13 mm, 237.49 mm): Symbol C4 [C_4u7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(160.02 mm, 237.49 mm): Symbol C3 [C_4u7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(163.83 mm, 186.69 mm): Symbol J2 [DisplayPort-Mini_TE_2129320-3]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(175.26 mm, 167.64 mm): Symbol L10 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(198.12 mm, 96.52 mm): Symbol IC18 [TPD8S009DSMR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(199.39 mm, 236.22 mm): Symbol R31 [R_1M_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(208.28 mm, 236.22 mm): Symbol R32 [R_1M_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 44.45 mm): Symbol R1 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 46.99 mm): Symbol R2 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 59.69 mm): Symbol R3 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 62.23 mm): Symbol R4 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 72.39 mm): Symbol R7 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 74.93 mm): Symbol R8 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 85.09 mm): Symbol R9 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(209.55 mm, 87.63 mm): Symbol R10 [R_5R6_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(229.235 mm, 214.63 mm): Symbol C5 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(259.08 mm, 224.155 mm): Symbol IC11 [SN74LV1T125DBVR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(263.525 mm, 230.505 mm): Symbol R100 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(281.305 mm, 236.22 mm): Symbol D12 [PESD2USB5UV-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(286.385 mm, 195.58 mm): Symbol C26 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(289.56 mm, 172.085 mm): Symbol R98 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(289.56 mm, 174.625 mm): Symbol R99 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(290.83 mm, 87.63 mm): Symbol D4 [1N4148WS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(294.005 mm, 93.98 mm): Symbol C1 [C_4u7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(300.355 mm, 161.29 mm): Symbol R11 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(306.07 mm, 93.98 mm): Symbol C2 [C_4u7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(307.975 mm, 161.29 mm): Symbol R81 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(314.96 mm, 169.545 mm): Symbol IC6 [PCA9517ADP]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(316.23 mm, 207.01 mm): Symbol R88 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(318.135 mm, 94.615 mm): Symbol R37 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(323.85 mm, 224.79 mm): Symbol T1 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(328.93 mm, 227.33 mm): Symbol R83 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(334.645 mm, 196.215 mm): Symbol C27 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(335.915 mm, 36.83 mm): Symbol J1 [HDMI-Micro-D_Molex_467561001]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(336.55 mm, 224.79 mm): Symbol R82 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(340.36 mm, 161.29 mm): Symbol R5 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(340.995 mm, 104.14 mm): Symbol L8 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(340.995 mm, 119.38 mm): Symbol L9 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(348.615 mm, 161.29 mm): Symbol R6 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(358.775 mm, 182.245 mm): Symbol D10 [PESD2USB5UV-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(359.41 mm, 234.315 mm): Symbol D11 [PESD2USB5UV-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(368.30 mm, 91.44 mm): Symbol R12 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(24.13 mm, 80.645 mm): Symbol C84 [C_1u_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(26.035 mm, 132.715 mm): Symbol FB3 [FB_180Z_3.1A_WE-MPSB_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(27.305 mm, 46.99 mm): Symbol FB1 [FB_10Z_10A_WE-MPSB_1206]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 191.77 mm): Symbol C16 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(31.75 mm, 217.805 mm): Symbol C18 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(32.385 mm, 80.645 mm): Symbol C85 [C_4u7_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(32.385 mm, 141.605 mm): Symbol C19 [C_10u_1206_50V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(38.735 mm, 48.895 mm): Symbol C17 [C_10u_1206_50V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(40.64 mm, 80.645 mm): Symbol R74 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(46.99 mm, 141.605 mm): Symbol C21 [C_10u_1206_50V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(50.80 mm, 194.31 mm): Symbol R39 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(50.80 mm, 220.345 mm): Symbol R52 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(51.435 mm, 48.895 mm): Symbol C22 [C_10u_1206_50V]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(52.705 mm, 80.645 mm): Symbol C58 [C_33n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(58.42 mm, 190.50 mm): Symbol U1 [LM3671MF-3.3_SOT]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(58.42 mm, 216.535 mm): Symbol U5 [LM3671MF-3.3_SOT]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(60.325 mm, 141.605 mm): Symbol C87 [C_1u_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(60.96 mm, 135.255 mm): Symbol R44 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(64.135 mm, 48.895 mm): Symbol C56 [C_100n_50V_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(67.945 mm, 76.835 mm): Symbol R76 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(73.025 mm, 132.715 mm): Symbol U2 [LM62440-Q1]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(74.295 mm, 80.645 mm): Symbol R77 [R_60k4_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(80.01 mm, 53.975 mm): Symbol R91 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(81.28 mm, 80.645 mm): Symbol R90 [R_26k7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(83.185 mm, 190.50 mm): Symbol L5 [L_2u2_1.6A_1210]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(83.185 mm, 216.535 mm): Symbol L6 [L_2u2_1.6A_1210]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(88.265 mm, 52.705 mm): Symbol U6 [SIC477ED-T1-GE3]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(97.79 mm, 140.335 mm): Symbol R70 [R_100R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(102.235 mm, 191.77 mm): Symbol C23 [C_10u_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(102.235 mm, 217.805 mm): Symbol C55 [C_10u_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(110.49 mm, 190.50 mm): Symbol F1 [F_1.25A_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(110.49 mm, 216.535 mm): Symbol F2 [F_1.25A_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(111.125 mm, 136.525 mm): Symbol C89 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(119.38 mm, 60.325 mm): Symbol R93 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(120.015 mm, 135.255 mm): Symbol L1 [L_2u2_8A_Coilcraft-XFL4020]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(122.555 mm, 71.12 mm): Symbol R96 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(124.46 mm, 46.99 mm): Symbol C57 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(125.095 mm, 46.99 mm): Symbol R89 [R_3R3_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(130.175 mm, 136.525 mm): Symbol C24 [C_6p_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(130.175 mm, 142.875 mm): Symbol R45 [R_1k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(134.62 mm, 54.61 mm): Symbol R94 [R_8k66_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(139.70 mm, 139.065 mm): Symbol R118 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(139.70 mm, 151.765 mm): Symbol R119 [R_44k2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(140.97 mm, 60.96 mm): Symbol C61 [C_1n2_50V_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(141.605 mm, 46.99 mm): Symbol L4 [L_3u3_9.2A_Vishay-IHLP-3232DZ-01]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(149.225 mm, 69.85 mm): Symbol R75 [R_316k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(149.225 mm, 76.20 mm): Symbol C28 [C_270p_25V_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(149.225 mm, 139.065 mm): Symbol R48 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.765 mm, 54.61 mm): Symbol C82 [C_1n2_50V_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(156.845 mm, 139.065 mm): Symbol C25 [C_10u_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(161.925 mm, 59.055 mm): Symbol R117 [R_52k3_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(161.925 mm, 69.85 mm): Symbol R120 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(163.83 mm, 195.58 mm): Symbol C60 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(164.465 mm, 48.26 mm): Symbol C83 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(165.735 mm, 139.065 mm): Symbol C20 [C_47u_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(174.625 mm, 144.78 mm): Symbol D1 [ESD5B5_0ST1G]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(182.88 mm, 198.12 mm): Symbol R92 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(189.23 mm, 50.80 mm): Symbol C81 [C_10u_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(190.50 mm, 194.31 mm): Symbol IC4 [TPS7A0518P_SOT23-5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(197.485 mm, 50.80 mm): Symbol C64 [C_47u_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(206.375 mm, 50.80 mm): Symbol C59 [C_47u_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(212.725 mm, 196.85 mm): Symbol C65 [C_1u_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(214.63 mm, 56.515 mm): Symbol D9 [ESD5B5_0ST1G]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(233.68 mm, 252.73 mm): Symbol J4 [Conn_01x02]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(238.76 mm, 250.19 mm): Symbol F3 [F_12A_1206]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 52.07 mm): Symbol R84 [R_200k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(240.03 mm, 66.04 mm): Symbol C41 [C_47n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(252.73 mm, 252.73 mm): Symbol D14 [SMBJ33A]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(267.97 mm, 52.07 mm): Symbol R86 [R_200k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(278.13 mm, 40.64 mm): Symbol R16 [R_1k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(282.575 mm, 157.48 mm): Symbol C86 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(288.29 mm, 40.64 mm): Symbol R36 [R_1k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(290.195 mm, 132.08 mm): Symbol R95 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(293.37 mm, 59.69 mm): Symbol IC12 [74HC00_TSSOP]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(302.26 mm, 130.81 mm): Symbol T3 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(307.975 mm, 157.48 mm): Symbol U3 [SN74LXC1T45DBVR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(312.42 mm, 132.08 mm): Symbol R46 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(328.93 mm, 60.96 mm): Symbol D13 [1N4148WS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(330.20 mm, 67.31 mm): Symbol R85 [R_470k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(341.63 mm, 50.80 mm): Symbol R87 [R_1k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(341.63 mm, 73.66 mm): Symbol C63 [C_10u_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(346.075 mm, 139.70 mm): Symbol J12 [Molex_PicoBlade_1x4_0533980471]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(346.075 mm, 156.21 mm): Symbol C88 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(355.60 mm, 64.77 mm): Symbol IC13 [SN74LVC1G126_SC-70]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(358.14 mm, 52.07 mm): Symbol C71 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(382.27 mm, 80.01 mm): Symbol R130 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(115.57 mm, 73.66 mm): Symbol R71 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(115.57 mm, 76.20 mm): Symbol R101 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(119.38 mm, 60.325 mm): Symbol C13 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(125.73 mm, 85.09 mm): Symbol R121 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(128.27 mm, 71.12 mm): Symbol U7 [MAX3051EKA]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(153.67 mm, 72.39 mm): Symbol R123 [R_120R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(154.94 mm, 57.785 mm): Symbol F4 [F_1.25A_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(173.99 mm, 71.12 mm): Symbol J13 [JST_SH_1x4_SM04B-SRSS-TB-LF-SN]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(294.005 mm, 64.77 mm): Symbol F5 [F_1.25A_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(306.705 mm, 64.77 mm): Symbol J14 [JST_SH_1x4_SM04B-SRSS-TB-LF-SN]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(34.925 mm, 240.03 mm): Symbol C66 [C_1u_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(57.785 mm, 41.275 mm): Symbol R67 [R_200k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(59.055 mm, 237.49 mm): Symbol IC15 [TPS7A0518P_SOT23-5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(62.23 mm, 60.325 mm): Symbol R68 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(62.865 mm, 111.76 mm): Symbol R124 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(62.865 mm, 114.30 mm): Symbol R125 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(66.675 mm, 241.30 mm): Symbol C67 [C_2u2_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(67.31 mm, 122.555 mm): Symbol R126 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(67.31 mm, 133.35 mm): Symbol R127 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(68.58 mm, 93.98 mm): Symbol R108 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(68.58 mm, 96.52 mm): Symbol R107 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(68.58 mm, 101.60 mm): Symbol R105 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(68.58 mm, 104.14 mm): Symbol R103 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(71.12 mm, 40.64 mm): Symbol C33 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(74.295 mm, 171.45 mm): Symbol R129 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(80.645 mm, 40.64 mm): Symbol C34 [C_47u_0805]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(81.28 mm, 73.66 mm): Symbol R54 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(81.28 mm, 76.20 mm): Symbol R55 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(81.28 mm, 78.74 mm): Symbol R56 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(81.28 mm, 81.28 mm): Symbol R62 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(92.075 mm, 233.045 mm): Symbol C30 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(101.60 mm, 58.42 mm): Symbol IC7 [HD3SS3220RNH]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(104.775 mm, 178.435 mm): Symbol T9 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(104.775 mm, 192.405 mm): Symbol T6 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(106.045 mm, 168.91 mm): Symbol R134 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(106.045 mm, 193.675 mm): Symbol R73 [R_2k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(107.315 mm, 192.405 mm): Symbol R72 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(118.745 mm, 231.14 mm): Symbol R20 [R_22R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(118.745 mm, 233.68 mm): Symbol R41 [R_22R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(132.08 mm, 50.80 mm): Symbol R53 [R_200k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(132.08 mm, 68.58 mm): Symbol R51 [R_909k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(149.225 mm, 101.60 mm): Symbol C48 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(149.225 mm, 116.84 mm): Symbol C53 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.765 mm, 93.98 mm): Symbol R104 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.765 mm, 96.52 mm): Symbol R106 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.765 mm, 109.22 mm): Symbol R109 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(151.765 mm, 111.76 mm): Symbol R110 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(154.305 mm, 104.14 mm): Symbol C50 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(154.305 mm, 119.38 mm): Symbol C54 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(156.21 mm, 175.26 mm): Symbol R133 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(156.21 mm, 228.60 mm): Symbol IC5 [FT232R_QFN]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(164.465 mm, 251.46 mm): Symbol C15 [C_47p_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(173.99 mm, 251.46 mm): Symbol C29 [C_47p_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(177.165 mm, 178.435 mm): Symbol U8 [74LVC1G07_SOT-753]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(180.34 mm, 37.465 mm): Symbol R47 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(184.15 mm, 178.435 mm): Symbol C90 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(184.15 mm, 251.46 mm): Symbol C72 [C_100n_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(191.135 mm, 228.60 mm): Symbol D17 [1N4148WS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(193.675 mm, 48.895 mm): Symbol R49 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(207.01 mm, 59.055 mm): Symbol T7 [BSS138PW]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(211.455 mm, 37.465 mm): Symbol R102 [R_100k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(233.045 mm, 52.07 mm): Symbol R137 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(233.68 mm, 238.76 mm): Symbol L3 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(237.49 mm, 250.19 mm): Symbol D3 [PESD2USB5UV-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(242.57 mm, 153.67 mm): Symbol R135 [R_470R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(242.57 mm, 166.37 mm): Symbol IC1 [NCP380LSNAJAAT1G]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(243.205 mm, 52.705 mm): Symbol C32 [C_10u_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(250.19 mm, 160.02 mm): Symbol R136 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(255.27 mm, 34.29 mm): Symbol R43 [R_470R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(255.905 mm, 46.355 mm): Symbol IC3 [NCP380LSNAJAAT1G]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(257.81 mm, 153.67 mm): Symbol LED2 [LED_G_0603_LG_L29K-G2J1-24-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(264.16 mm, 40.005 mm): Symbol R42 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(264.16 mm, 238.76 mm): Symbol J9 [USB-Micro-B_Molex_473460001]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(265.43 mm, 171.45 mm): Symbol R50 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(271.78 mm, 34.29 mm): Symbol LED1 [LED_G_0603_LG_L29K-G2J1-24-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(283.21 mm, 53.975 mm): Symbol R138 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(285.75 mm, 166.37 mm): Symbol L11 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(288.29 mm, 121.92 mm): Symbol D5 [PESD2USB5UV-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(292.735 mm, 53.34 mm): Symbol C31 [C_100u_1206]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(298.45 mm, 46.355 mm): Symbol L2 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(330.20 mm, 121.92 mm): Symbol D6 [TPD4E05U06QDQARQ1]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(331.47 mm, 99.06 mm): Symbol C35 [C_10u_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(331.47 mm, 187.96 mm): Symbol D8 [TPD4E05U06QDQARQ1]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(342.90 mm, 99.06 mm): Symbol R131 [R_10k_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(347.98 mm, 41.91 mm): Symbol R64 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(347.98 mm, 44.45 mm): Symbol R63 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(347.98 mm, 46.99 mm): Symbol R65 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(347.98 mm, 49.53 mm): Symbol R66 [R_0R_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(358.14 mm, 152.40 mm): Symbol C62 [C_4u7_0402]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(361.95 mm, 190.50 mm): Symbol L7 [FB_120Z_3A_Murata-BLM18SG_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(363.22 mm, 166.37 mm): Symbol J5 [USB-Micro-B_Molex_473460001]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(369.57 mm, 39.37 mm): Symbol J11 [USB-C_WE_632723300011]
+[footprint_link_issues]: The current configuration does not include the footprint library 'jetson-footprints'
+    ; warning
+    @(375.92 mm, 121.92 mm): Symbol D7 [TPD4E05U06QDQARQ1]
+
+***** Sheet /ID Serial/
+
+***** Sheet /CSI/
+
+***** Sheet /SoM/
+
+***** Sheet /Display/
+
+***** Sheet /Supply/
+
+***** Sheet /Interfaces/
+
+***** Sheet /USB/
+
+ ** ERC messages: 321  Errors 0  Warnings 321
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

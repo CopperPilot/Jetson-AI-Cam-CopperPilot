@@ -1,0 +1,288 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.4-10.0.4~ubuntu22.04.1"
+    },
+    "CreationDate": "2026-10-17T00:25:08+05:30"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Jetson-AI-Cam-CopperPilot",
+      "GUID": "4a657473-6f6e-42d4-9149-2d43616d2d43",
+      "Revision": "0.1.0"
+    },
+    "Size": {
+      "X": 78.12,
+      "Y": 55.12
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 1.61,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.125,
+      "PadToTrack": 0.125,
+      "TrackToTrack": 0.125,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.125,
+      "PadToTrack": 0.125,
+      "TrackToTrack": 0.125,
+      "MinLineWidth": 0.12,
+      "TrackToRegion": 0.125,
+      "RegionToRegion": 0.125
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In1_5V0_SYS_VIN_Cu.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In2_SINGAL_Cu.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In3_SIGNAL_Cu.g3",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In4_GND_Cu.g4",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In5_3V3_SYS_SIGNAL_Cu.g5",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-In6_GND_Cu.g6",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Cu.gbl",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Adhesive.gta",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Adhesive.gba",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_5.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_9.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0994,
+      "Material": "FR4-3313",
+      "Name": "F.Cu/In1_5V0_SYS_VIN.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1_5V0_SYS_VIN.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1_5V0_SYS_VIN.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "Name": "In1_5V0_SYS_VIN.Cu/In2_SINGAL.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1_5V0_SYS_VIN.Cu to In2_SINGAL.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2_SINGAL.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4-2116",
+      "Name": "In2_SINGAL.Cu/In3_SIGNAL.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2_SINGAL.Cu to In3_SIGNAL.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3_SIGNAL.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.45,
+      "Material": "FR4",
+      "Name": "In3_SIGNAL.Cu/In4_GND.Cu",
+      "Notes": "Type: dielectric layer 4 (from In3_SIGNAL.Cu to In4_GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In4_GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4-2116",
+      "Name": "In4_GND.Cu/In5_3V3_SYS_SIGNAL.Cu",
+      "Notes": "Type: dielectric layer 5 (from In4_GND.Cu to In5_3V3_SYS_SIGNAL.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In5_3V3_SYS_SIGNAL.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "Name": "In5_3V3_SYS_SIGNAL.Cu/In6_GND.Cu",
+      "Notes": "Type: dielectric layer 6 (from In5_3V3_SYS_SIGNAL.Cu to In6_GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In6_GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0994,
+      "Material": "FR4-3313",
+      "Name": "In6_GND.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 7 (from In6_GND.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
