@@ -14152,7 +14152,8 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 355.6 252.73 0)
+			(at 355.6 248.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14265,7 +14266,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e7103fd")
 		(property "Reference" "SP2"
-			(at 355.6 213.36 0)
+			(at 355.6 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14275,7 +14276,8 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R"
-			(at 355.6 215.9 0)
+			(at 355.6 220.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17855,7 +17857,7 @@
 		(fields_autoplaced yes)
 		(uuid "864ec8b1-9d32-4ab3-be6a-cc31c1c9d241")
 		(property "Reference" "C103"
-			(at 273.05 55.88 0)
+			(at 271.78 56.515 0)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
 		(property "Value" "C_100n_0402"
@@ -17919,7 +17921,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d90b64e-a3f0-44cf-9ee2-7368512d6784")
 		(property "Reference" "C104"
-			(at 280.67 55.88 0)
+			(at 278.13 56.515 0)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
 		(property "Value" "C_100n_0402"
@@ -17972,7 +17974,7 @@
 	)
 
 	(label "PMIC_BBAT"
-		(at 100.33 50.8 0)
+		(at 80.01 50.8 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -20019,7 +20021,7 @@
 		(uuid "366debd2-5f11-488c-8cb2-756c00868b1a")
 	)
 	(wire
-		(pts (xy 74.93 50.8) (xy 100.33 50.8))
+		(pts (xy 74.93 50.8) (xy 80.01 50.8))
 		(stroke
 			(width 0)
 			(type default)
