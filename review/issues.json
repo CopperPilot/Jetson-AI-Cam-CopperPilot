@@ -139,7 +139,17 @@
       "x_min": 10.0,
       "y_min": 10.0,
       "x_max": 400.0,
-      "y_max": 280.0
+      "y_max": 280.0,
+      "layers": [
+        "sch_01_Root",
+        "sch_02_ID_Serial",
+        "sch_03_Interfaces",
+        "sch_04_SoM",
+        "sch_05_Display",
+        "sch_06_Supply",
+        "sch_07_CSI",
+        "sch_08_USB"
+      ]
     },
     "commits": [
       "1aef6f8"
