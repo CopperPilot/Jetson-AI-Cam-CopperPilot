@@ -53,6 +53,15 @@ JLCPCB Standard 8-Layer Impedance Stackup:
 - **BOM File:** `manufacturing/BOM.csv` (contains Designator, Value, Footprint, LCSC Part #, MPN)
 - **CPL File:** `manufacturing/CPL.csv` (contains Designator, Mid X, Mid Y, Rotation, Layer)
 - **DNP Components:** Excluded from assembly BOM and CPL files.
+  - **BAT1 (MS621FE-FL11E Rechargeable Coin Cell):** Marked DNP in automated SMT placement. Must be secondary hand-soldered post-reflow to prevent thermal rupture in 260°C convective oven.
+  - **R48 (0 Ω 0402):** Marked DNP to ensure 3.3V feedback divider network (R118/R119/R45/C24) sets proper 3.30V nominal regulation on U2.
+- **Critical Connectors & SMT Components:**
+  - **J11 (USB Type-C):** 24-Pin SuperSpeed USB 3.1 receptacle (Würth 632723300011 / LCSC C456013).
+  - **J15 (Jetson Nano SoM Socket):** TE Connectivity 2309413-1 260-Pin DDR4 SODIMM socket (LCSC C2766246).
+  - **J2 (Mini DisplayPort):** TE Connectivity 2129320-3 (LCSC C574827).
+  - **J1 (Micro-HDMI):** Molex 467651001 (LCSC C563878).
+  - **J5, J9 (Micro-B USB):** Molex 473460001 (LCSC C132560).
+  - **REC1, RST1, USR1 (Tactile Switches):** E-Switch TL3340AF160QG (LCSC C2886925).
 - **Component Packaging:** Tape & Reel / Tube / Tray as provided by LCSC inventory.
 
 ---

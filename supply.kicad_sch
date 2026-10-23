@@ -16520,10 +16520,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061db825f")
 		(property "Reference" "R48"
 			(at 150.495 140.335 90)
@@ -17015,10 +17015,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e2f94a")
 		(property "Reference" "R118"
 			(at 140.97 140.335 90)
@@ -18455,10 +18455,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ff4e81")
 		(property "Reference" "R119"
 			(at 140.97 153.035 90)
@@ -18575,6 +18575,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C137980"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20752,7 +20761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jetson-symbols:R_470k_0402")
+		(lib_id "jetson-symbols:R_10k_0402")
 		(at 330.2 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -20772,7 +20781,7 @@
 				)
 			)
 		)
-		(property "Value" "R_470k_0402"
+		(property "Value" "R_10k_0402"
 			(at 330.2 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20830,7 +20839,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "CR0402-FX-4703GLF"
+		(property "MPN" "CR0402-FX-1002GLF"
 			(at 335.28 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20842,7 +20851,7 @@
 				(justify left)
 			)
 		)
-		(property "Val" "470k"
+		(property "Val" "10k"
 			(at 332.74 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20853,7 +20862,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 350.52 92.71 0)
+			(at 304.8 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20877,7 +20886,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C25790"
+		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21908,10 +21917,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062a91d2c")
 		(property "Reference" "R45"
 			(at 131.445 144.145 90)
@@ -22060,10 +22069,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062a91d35")
 		(property "Reference" "C24"
 			(at 132.715 137.795 90)

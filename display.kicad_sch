@@ -10396,7 +10396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11939,7 +11939,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C168694"
+		(property "LCSC" "C563878"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12126,7 +12126,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C511423"
+		(property "LCSC" "C574827"
 			(at 0 0 0)
 			(effects
 				(font
