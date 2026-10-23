@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -30636,7 +30636,7 @@
 		(path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f0")
 		(sheetname "/SoM/")
 		(sheetfile "som.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 1.2 -2.15)
@@ -245748,7 +245748,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C511423"
+		(property "LCSC" "C574827"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -253574,7 +253574,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393939"
+		(property "LCSC" "C456013"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -283336,7 +283336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -334487,7 +334487,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C132563"
+		(property "LCSC" "C132560"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -378058,7 +378058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C168694"
+		(property "LCSC" "C563878"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -639270,7 +639270,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -740170,7 +740170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132563"
+		(property "LCSC" "C132560"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
