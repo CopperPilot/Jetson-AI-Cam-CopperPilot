@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -30636,7 +30636,7 @@
 		(path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103f0")
 		(sheetname "/SoM/")
 		(sheetfile "som.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 1.2 -2.15)
@@ -245748,7 +245748,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C511423"
+		(property "LCSC" "C574827"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -253574,7 +253574,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393939"
+		(property "LCSC" "C456013"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -283336,7 +283336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -334487,7 +334487,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C132563"
+		(property "LCSC" "C132560"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -378058,7 +378058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C168694"
+		(property "LCSC" "C563878"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -430197,7 +430197,7 @@
 		(path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062a91d2c")
 		(sheetname "/Supply/")
 		(sheetfile "supply.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -430530,7 +430530,7 @@
 		(path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062a91d35")
 		(sheetname "/Supply/")
 		(sheetfile "supply.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.94 -0.47)
@@ -437810,7 +437810,7 @@
 		(path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061e2f94a")
 		(sheetname "/Supply/")
 		(sheetfile "supply.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -542988,7 +542988,7 @@
 		(path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061db825f")
 		(sheetname "/Supply/")
 		(sheetfile "supply.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -589309,7 +589309,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "R_470k_0402"
+		(property "Value" "R_10k_0402"
 			(at 0 1.4 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -589358,7 +589358,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-4703GLF"
+		(property "MPN" "CR0402-FX-1002GLF"
 			(at 37.1 237.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -589394,7 +589394,7 @@
 				)
 			)
 		)
-		(property "Val" "470k"
+		(property "Val" "10k"
 			(at 37.1 237.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -589406,7 +589406,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25790"
+		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -630445,6 +630445,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C137980"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5e18239-4fec-4fa1-8cf3-11234ba72a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Val" "44k2"
 			(at 326.4 231.44 0)
 			(layer "F.Fab")
@@ -630460,7 +630472,7 @@
 		(path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061ff4e81")
 		(sheetname "/Supply/")
 		(sheetfile "supply.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -639258,7 +639270,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -740158,7 +740170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C132563"
+		(property "LCSC" "C132560"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)

@@ -49,3 +49,4 @@ fp-info-cache
 
 __pycache__/
 *.pyc
+review/tmp_*.json

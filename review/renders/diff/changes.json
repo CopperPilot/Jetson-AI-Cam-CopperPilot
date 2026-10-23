@@ -1,15 +1,15 @@
 {
-  "total_changed_regions": 90,
+  "total_changed_regions": 309,
   "total_unexplained": 0,
   "regions": [
     {
       "layer": "pcb_01_F_Cu",
       "region": {
-        "x_min": 130.39,
+        "x_min": 96.52,
         "y_min": 82.97,
-        "x_max": 135.47,
-        "y_max": 84.67,
-        "pixel_count": 60
+        "x_max": 101.6,
+        "y_max": 86.36,
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-001",
@@ -22,11 +22,62 @@
     {
       "layer": "pcb_01_F_Cu",
       "region": {
-        "x_min": 130.39,
+        "x_min": 132.08,
+        "y_min": 82.97,
+        "x_max": 133.77,
+        "y_max": 86.36,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_01_F_Cu",
+      "region": {
+        "x_min": 111.76,
         "y_min": 86.36,
-        "x_max": 143.93,
-        "y_max": 96.52,
-        "pixel_count": 240
+        "x_max": 113.45,
+        "y_max": 88.05,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_01_F_Cu",
+      "region": {
+        "x_min": 147.32,
+        "y_min": 89.75,
+        "x_max": 149.01,
+        "y_max": 91.44,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_01_F_Cu",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 94.83,
+        "x_max": 147.32,
+        "y_max": 98.21,
+        "pixel_count": 60
       },
       "matched_issues": [
         "PCB-001",
@@ -56,14 +107,29 @@
     {
       "layer": "pcb_01_F_Cu",
       "region": {
-        "x_min": 115.15,
-        "y_min": 106.68,
-        "x_max": 120.23,
-        "y_max": 110.07,
+        "x_min": 89.75,
+        "y_min": 111.76,
+        "x_max": 93.13,
+        "y_max": 118.53,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_01_F_Cu",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 127.0,
+        "x_max": 116.84,
+        "y_max": 130.39,
         "pixel_count": 80
       },
       "matched_issues": [
-        "PCB-001",
         "PCB-002",
         "DFM-001",
         "PCB-003"
@@ -73,27 +139,11 @@
     {
       "layer": "pcb_02_In1_Cu",
       "region": {
-        "x_min": 89.75,
-        "y_min": 74.51,
-        "x_max": 91.44,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_02_In1_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 74.51,
-        "x_max": 167.64,
-        "y_max": 76.2,
-        "pixel_count": 20
+        "x_min": 96.52,
+        "y_min": 81.28,
+        "x_max": 98.21,
+        "y_max": 84.67,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -108,8 +158,8 @@
         "x_min": 130.39,
         "y_min": 82.97,
         "x_max": 133.77,
-        "y_max": 84.67,
-        "pixel_count": 40
+        "y_max": 86.36,
+        "pixel_count": 60
       },
       "matched_issues": [
         "PCB-001",
@@ -122,9 +172,9 @@
     {
       "layer": "pcb_02_In1_Cu",
       "region": {
-        "x_min": 132.08,
+        "x_min": 111.76,
         "y_min": 86.36,
-        "x_max": 133.77,
+        "x_max": 113.45,
         "y_max": 88.05,
         "pixel_count": 20
       },
@@ -139,11 +189,28 @@
     {
       "layer": "pcb_02_In1_Cu",
       "region": {
-        "x_min": 142.24,
+        "x_min": 147.32,
+        "y_min": 89.75,
+        "x_max": 149.01,
+        "y_max": 91.44,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_02_In1_Cu",
+      "region": {
+        "x_min": 143.93,
         "y_min": 94.83,
-        "x_max": 145.63,
-        "y_max": 96.52,
-        "pixel_count": 40
+        "x_max": 147.32,
+        "y_max": 98.21,
+        "pixel_count": 60
       },
       "matched_issues": [
         "PCB-001",
@@ -171,60 +238,12 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_02_In1_Cu",
+      "layer": "pcb_03_In2_Cu",
       "region": {
-        "x_min": 132.08,
-        "y_min": 121.92,
-        "x_max": 133.77,
-        "y_max": 123.61,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_02_In1_Cu",
-      "region": {
-        "x_min": 138.85,
-        "y_min": 121.92,
-        "x_max": 142.24,
-        "y_max": 123.61,
-        "pixel_count": 40
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_02_In1_Cu",
-      "region": {
-        "x_min": 89.75,
-        "y_min": 128.69,
-        "x_max": 91.44,
-        "y_max": 130.39,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_02_In1_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 128.69,
-        "x_max": 167.64,
-        "y_max": 130.39,
+        "x_min": 96.52,
+        "y_min": 82.97,
+        "x_max": 98.21,
+        "y_max": 84.67,
         "pixel_count": 20
       },
       "matched_issues": [
@@ -239,9 +258,9 @@
       "region": {
         "x_min": 106.68,
         "y_min": 82.97,
-        "x_max": 133.77,
+        "x_max": 149.01,
         "y_max": 93.13,
-        "pixel_count": 620
+        "pixel_count": 840
       },
       "matched_issues": [
         "PCB-001",
@@ -254,11 +273,11 @@
     {
       "layer": "pcb_03_In2_Cu",
       "region": {
-        "x_min": 142.24,
+        "x_min": 118.53,
         "y_min": 94.83,
-        "x_max": 143.93,
-        "y_max": 96.52,
-        "pixel_count": 20
+        "x_max": 147.32,
+        "y_max": 98.21,
+        "pixel_count": 340
       },
       "matched_issues": [
         "PCB-001",
@@ -271,10 +290,10 @@
     {
       "layer": "pcb_03_In2_Cu",
       "region": {
-        "x_min": 113.45,
-        "y_min": 101.6,
-        "x_max": 118.53,
-        "y_max": 104.99,
+        "x_min": 104.99,
+        "y_min": 96.52,
+        "x_max": 110.07,
+        "y_max": 101.6,
         "pixel_count": 100
       },
       "matched_issues": [
@@ -288,11 +307,11 @@
     {
       "layer": "pcb_03_In2_Cu",
       "region": {
-        "x_min": 123.61,
-        "y_min": 103.29,
-        "x_max": 125.31,
-        "y_max": 106.68,
-        "pixel_count": 40
+        "x_min": 113.45,
+        "y_min": 99.91,
+        "x_max": 137.16,
+        "y_max": 104.99,
+        "pixel_count": 420
       },
       "matched_issues": [
         "PCB-001",
@@ -305,10 +324,43 @@
     {
       "layer": "pcb_03_In2_Cu",
       "region": {
-        "x_min": 118.53,
-        "y_min": 108.37,
-        "x_max": 120.23,
-        "y_max": 110.07,
+        "x_min": 116.84,
+        "y_min": 106.68,
+        "x_max": 121.92,
+        "y_max": 108.37,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 96.52,
+        "y_min": 82.97,
+        "x_max": 98.21,
+        "y_max": 84.67,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 86.36,
+        "x_max": 113.45,
+        "y_max": 88.05,
         "pixel_count": 20
       },
       "matched_issues": [
@@ -322,9 +374,195 @@
     {
       "layer": "pcb_04_In3_Cu",
       "region": {
-        "x_min": 106.68,
+        "x_min": 120.23,
+        "y_min": 88.05,
+        "x_max": 121.92,
+        "y_max": 89.75,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 143.93,
         "y_min": 89.75,
-        "x_max": 108.37,
+        "x_max": 149.01,
+        "y_max": 98.21,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 91.44,
+        "x_max": 110.07,
+        "y_max": 98.21,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 118.53,
+        "y_min": 94.83,
+        "x_max": 120.23,
+        "y_max": 96.52,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 99.91,
+        "x_max": 110.07,
+        "y_max": 101.6,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 99.91,
+        "x_max": 120.23,
+        "y_max": 103.29,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 135.47,
+        "y_min": 101.6,
+        "x_max": 137.16,
+        "y_max": 103.29,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_04_In3_Cu",
+      "region": {
+        "x_min": 120.23,
+        "y_min": 106.68,
+        "x_max": 121.92,
+        "y_max": 108.37,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 96.52,
+        "y_min": 81.28,
+        "x_max": 98.21,
+        "y_max": 84.67,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 86.36,
+        "x_max": 113.45,
+        "y_max": 88.05,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 120.23,
+        "y_min": 88.05,
+        "x_max": 121.92,
+        "y_max": 89.75,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 106.68,
+        "y_min": 91.44,
+        "x_max": 110.07,
         "y_max": 96.52,
         "pixel_count": 80
       },
@@ -337,146 +575,46 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_04_In3_Cu",
-      "region": {
-        "x_min": 142.24,
-        "y_min": 94.83,
-        "x_max": 143.93,
-        "y_max": 96.52,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_04_In3_Cu",
-      "region": {
-        "x_min": 113.45,
-        "y_min": 99.91,
-        "x_max": 115.15,
-        "y_max": 103.29,
-        "pixel_count": 40
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_04_In3_Cu",
-      "region": {
-        "x_min": 116.84,
-        "y_min": 101.6,
-        "x_max": 118.53,
-        "y_max": 103.29,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_04_In3_Cu",
-      "region": {
-        "x_min": 123.61,
-        "y_min": 103.29,
-        "x_max": 125.31,
-        "y_max": 106.68,
-        "pixel_count": 40
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_04_In3_Cu",
+      "layer": "pcb_05_In4_Cu",
       "region": {
         "x_min": 118.53,
-        "y_min": 106.68,
-        "x_max": 121.92,
-        "y_max": 110.07,
-        "pixel_count": 60
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 89.75,
-        "y_min": 74.51,
-        "x_max": 91.44,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 74.51,
-        "x_max": 167.64,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 106.68,
-        "y_min": 89.75,
-        "x_max": 108.37,
-        "y_max": 91.44,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 142.24,
         "y_min": 94.83,
-        "x_max": 145.63,
+        "x_max": 120.23,
         "y_max": 96.52,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 94.83,
+        "x_max": 149.01,
+        "y_max": 98.21,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 96.52,
+        "x_max": 106.68,
+        "y_max": 99.91,
         "pixel_count": 40
       },
       "matched_issues": [
@@ -490,11 +628,45 @@
     {
       "layer": "pcb_05_In4_Cu",
       "region": {
-        "x_min": 113.45,
+        "x_min": 108.37,
+        "y_min": 99.91,
+        "x_max": 110.07,
+        "y_max": 101.6,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 111.76,
         "y_min": 99.91,
         "x_max": 120.23,
         "y_max": 103.29,
-        "pixel_count": 120
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_05_In4_Cu",
+      "region": {
+        "x_min": 135.47,
+        "y_min": 101.6,
+        "x_max": 138.85,
+        "y_max": 103.29,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-001",
@@ -522,93 +694,13 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 132.08,
-        "y_min": 121.92,
-        "x_max": 142.24,
-        "y_max": 123.61,
-        "pixel_count": 120
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 89.75,
-        "y_min": 128.69,
-        "x_max": 91.44,
-        "y_max": 130.39,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_05_In4_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 128.69,
-        "x_max": 167.64,
-        "y_max": 130.39,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
       "layer": "pcb_06_In5_Cu",
       "region": {
-        "x_min": 89.75,
-        "y_min": 74.51,
-        "x_max": 91.44,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_06_In5_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 74.51,
-        "x_max": 167.64,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_06_In5_Cu",
-      "region": {
-        "x_min": 106.68,
-        "y_min": 89.75,
-        "x_max": 110.07,
-        "y_max": 94.83,
-        "pixel_count": 60
+        "x_min": 96.52,
+        "y_min": 81.28,
+        "x_max": 116.84,
+        "y_max": 96.52,
+        "pixel_count": 580
       },
       "matched_issues": [
         "PCB-001",
@@ -621,11 +713,45 @@
     {
       "layer": "pcb_06_In5_Cu",
       "region": {
-        "x_min": 111.76,
-        "y_min": 94.83,
+        "x_min": 120.23,
+        "y_min": 88.05,
+        "x_max": 121.92,
+        "y_max": 89.75,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 93.13,
         "x_max": 149.01,
-        "y_max": 103.29,
-        "pixel_count": 1020
+        "y_max": 98.21,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 118.53,
+        "y_min": 94.83,
+        "x_max": 120.23,
+        "y_max": 96.52,
+        "pixel_count": 20
       },
       "matched_issues": [
         "PCB-001",
@@ -640,9 +766,94 @@
       "region": {
         "x_min": 104.99,
         "y_min": 96.52,
+        "x_max": 106.68,
+        "y_max": 99.91,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 125.31,
+        "y_min": 98.21,
+        "x_max": 128.69,
+        "y_max": 99.91,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 132.08,
+        "y_min": 98.21,
+        "x_max": 135.47,
+        "y_max": 99.91,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 99.91,
         "x_max": 110.07,
         "y_max": 101.6,
-        "pixel_count": 120
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 99.91,
+        "x_max": 120.23,
+        "y_max": 103.29,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_06_In5_Cu",
+      "region": {
+        "x_min": 135.47,
+        "y_min": 101.6,
+        "x_max": 137.16,
+        "y_max": 103.29,
+        "pixel_count": 20
       },
       "matched_issues": [
         "PCB-001",
@@ -670,28 +881,12 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_06_In5_Cu",
+      "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 132.08,
-        "y_min": 121.92,
-        "x_max": 133.77,
-        "y_max": 123.61,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_06_In5_Cu",
-      "region": {
-        "x_min": 138.85,
-        "y_min": 121.92,
-        "x_max": 142.24,
-        "y_max": 123.61,
+        "x_min": 96.52,
+        "y_min": 81.28,
+        "x_max": 98.21,
+        "y_max": 84.67,
         "pixel_count": 40
       },
       "matched_issues": [
@@ -702,31 +897,16 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_06_In5_Cu",
+      "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 89.75,
-        "y_min": 128.69,
-        "x_max": 91.44,
-        "y_max": 130.39,
+        "x_min": 111.76,
+        "y_min": 86.36,
+        "x_max": 113.45,
+        "y_max": 88.05,
         "pixel_count": 20
       },
       "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_06_In5_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 128.69,
-        "x_max": 167.64,
-        "y_max": 130.39,
-        "pixel_count": 20
-      },
-      "matched_issues": [
+        "PCB-001",
         "PCB-002",
         "DFM-001",
         "PCB-003"
@@ -736,13 +916,14 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 89.75,
-        "y_min": 74.51,
-        "x_max": 91.44,
-        "y_max": 76.2,
+        "x_min": 120.23,
+        "y_min": 88.05,
+        "x_max": 121.92,
+        "y_max": 89.75,
         "pixel_count": 20
       },
       "matched_issues": [
+        "PCB-001",
         "PCB-002",
         "DFM-001",
         "PCB-003"
@@ -752,27 +933,11 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 165.95,
-        "y_min": 74.51,
-        "x_max": 167.64,
-        "y_max": 76.2,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_07_In6_Cu",
-      "region": {
-        "x_min": 108.37,
-        "y_min": 93.13,
+        "x_min": 106.68,
+        "y_min": 91.44,
         "x_max": 110.07,
         "y_max": 96.52,
-        "pixel_count": 40
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-001",
@@ -785,28 +950,28 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 142.24,
+        "x_min": 118.53,
         "y_min": 94.83,
-        "x_max": 145.63,
-        "y_max": 98.21,
-        "pixel_count": 60
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_07_In6_Cu",
-      "region": {
-        "x_min": 147.32,
-        "y_min": 94.83,
-        "x_max": 149.01,
+        "x_max": 120.23,
         "y_max": 96.52,
         "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_07_In6_Cu",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 94.83,
+        "x_max": 149.01,
+        "y_max": 98.21,
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-001",
@@ -822,8 +987,8 @@
         "x_min": 104.99,
         "y_min": 96.52,
         "x_max": 106.68,
-        "y_max": 98.21,
-        "pixel_count": 20
+        "y_max": 99.91,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-001",
@@ -836,11 +1001,11 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 111.76,
-        "y_min": 96.52,
-        "x_max": 121.92,
-        "y_max": 103.29,
-        "pixel_count": 260
+        "x_min": 125.31,
+        "y_min": 98.21,
+        "x_max": 128.69,
+        "y_max": 99.91,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-001",
@@ -853,10 +1018,10 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 135.47,
-        "y_min": 96.52,
-        "x_max": 137.16,
-        "y_max": 98.21,
+        "x_min": 132.08,
+        "y_min": 98.21,
+        "x_max": 133.77,
+        "y_max": 99.91,
         "pixel_count": 20
       },
       "matched_issues": [
@@ -887,11 +1052,11 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 120.23,
-        "y_min": 106.68,
-        "x_max": 121.92,
-        "y_max": 108.37,
-        "pixel_count": 20
+        "x_min": 111.76,
+        "y_min": 99.91,
+        "x_max": 120.23,
+        "y_max": 103.29,
+        "pixel_count": 140
       },
       "matched_issues": [
         "PCB-001",
@@ -904,13 +1069,14 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 132.08,
-        "y_min": 121.92,
-        "x_max": 142.24,
-        "y_max": 123.61,
-        "pixel_count": 120
+        "x_min": 135.47,
+        "y_min": 101.6,
+        "x_max": 138.85,
+        "y_max": 103.29,
+        "pixel_count": 40
       },
       "matched_issues": [
+        "PCB-001",
         "PCB-002",
         "DFM-001",
         "PCB-003"
@@ -920,29 +1086,14 @@
     {
       "layer": "pcb_07_In6_Cu",
       "region": {
-        "x_min": 89.75,
-        "y_min": 128.69,
-        "x_max": 91.44,
-        "y_max": 130.39,
+        "x_min": 120.23,
+        "y_min": 106.68,
+        "x_max": 121.92,
+        "y_max": 108.37,
         "pixel_count": 20
       },
       "matched_issues": [
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_07_In6_Cu",
-      "region": {
-        "x_min": 165.95,
-        "y_min": 128.69,
-        "x_max": 167.64,
-        "y_max": 130.39,
-        "pixel_count": 20
-      },
-      "matched_issues": [
+        "PCB-001",
         "PCB-002",
         "DFM-001",
         "PCB-003"
@@ -969,11 +1120,95 @@
     {
       "layer": "pcb_08_B_Cu",
       "region": {
-        "x_min": 135.47,
+        "x_min": 96.52,
+        "y_min": 82.97,
+        "x_max": 98.21,
+        "y_max": 84.67,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_08_B_Cu",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 86.36,
+        "x_max": 113.45,
+        "y_max": 88.05,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_08_B_Cu",
+      "region": {
+        "x_min": 106.68,
+        "y_min": 88.05,
+        "x_max": 121.92,
+        "y_max": 93.13,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_08_B_Cu",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 94.83,
+        "x_max": 120.23,
+        "y_max": 103.29,
+        "pixel_count": 300
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_08_B_Cu",
+      "region": {
+        "x_min": 125.31,
         "y_min": 94.83,
         "x_max": 149.01,
-        "y_max": 98.21,
-        "pixel_count": 260
+        "y_max": 103.29,
+        "pixel_count": 620
+      },
+      "matched_issues": [
+        "PCB-001",
+        "PCB-002",
+        "DFM-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_08_B_Cu",
+      "region": {
+        "x_min": 96.52,
+        "y_min": 96.52,
+        "x_max": 101.6,
+        "y_max": 99.91,
+        "pixel_count": 100
       },
       "matched_issues": [
         "PCB-001",
@@ -989,25 +1224,8 @@
         "x_min": 104.99,
         "y_min": 96.52,
         "x_max": 106.68,
-        "y_max": 98.21,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-001",
-        "PCB-002",
-        "DFM-001",
-        "PCB-003"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_08_B_Cu",
-      "region": {
-        "x_min": 108.37,
-        "y_min": 96.52,
-        "x_max": 121.92,
-        "y_max": 103.29,
-        "pixel_count": 280
+        "y_max": 99.91,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-001",
@@ -1021,10 +1239,10 @@
       "layer": "pcb_08_B_Cu",
       "region": {
         "x_min": 120.23,
-        "y_min": 103.29,
-        "x_max": 125.31,
+        "y_min": 106.68,
+        "x_max": 121.92,
         "y_max": 108.37,
-        "pixel_count": 80
+        "pixel_count": 20
       },
       "matched_issues": [
         "PCB-001",
@@ -1037,11 +1255,11 @@
     {
       "layer": "pcb_08_B_Cu",
       "region": {
-        "x_min": 145.63,
-        "y_min": 121.92,
-        "x_max": 147.32,
+        "x_min": 89.75,
+        "y_min": 113.45,
+        "x_max": 94.83,
         "y_max": 123.61,
-        "pixel_count": 20
+        "pixel_count": 260
       },
       "matched_issues": [
         "PCB-002",
@@ -1051,72 +1269,92 @@
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_11_F_SilkS",
+      "layer": "pcb_09_F_Mask",
       "region": {
-        "x_min": 91.44,
-        "y_min": 71.12,
+        "x_min": 89.75,
+        "y_min": 111.76,
         "x_max": 93.13,
-        "y_max": 72.81,
-        "pixel_count": 20
+        "y_max": 118.53,
+        "pixel_count": 160
       },
       "matched_issues": [
         "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-004",
-        "PCB-005"
+        "PCB-003"
       ],
       "status": "MATCHED"
     },
     {
-      "layer": "pcb_11_F_SilkS",
+      "layer": "pcb_09_F_Mask",
       "region": {
-        "x_min": 91.44,
-        "y_min": 74.51,
+        "x_min": 113.45,
+        "y_min": 127.0,
+        "x_max": 116.84,
+        "y_max": 130.39,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_10_B_Mask",
+      "region": {
+        "x_min": 96.52,
+        "y_min": 96.52,
+        "x_max": 101.6,
+        "y_max": 99.91,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_10_B_Mask",
+      "region": {
+        "x_min": 125.31,
+        "y_min": 98.21,
+        "x_max": 135.47,
+        "y_max": 103.29,
+        "pixel_count": 300
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_10_B_Mask",
+      "region": {
+        "x_min": 89.75,
+        "y_min": 113.45,
+        "x_max": 94.83,
+        "y_max": 116.84,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_10_B_Mask",
+      "region": {
+        "x_min": 89.75,
+        "y_min": 118.53,
         "x_max": 93.13,
-        "y_max": 76.2,
-        "pixel_count": 20
+        "y_max": 121.92,
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-004",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 82.97,
-        "y_min": 82.97,
-        "x_max": 84.67,
-        "y_max": 84.67,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 82.97,
-        "y_min": 86.36,
-        "x_max": 84.67,
-        "y_max": 88.05,
-        "pixel_count": 20
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-005"
+        "PCB-003"
       ],
       "status": "MATCHED"
     },
@@ -1124,10 +1362,10 @@
       "layer": "pcb_11_F_SilkS",
       "region": {
         "x_min": 88.05,
-        "y_min": 86.36,
+        "y_min": 74.51,
         "x_max": 96.52,
-        "y_max": 94.83,
-        "pixel_count": 220
+        "y_max": 93.13,
+        "pixel_count": 420
       },
       "matched_issues": [
         "PCB-002",
@@ -1141,11 +1379,28 @@
     {
       "layer": "pcb_11_F_SilkS",
       "region": {
-        "x_min": 103.29,
-        "y_min": 91.44,
-        "x_max": 104.99,
-        "y_max": 93.13,
-        "pixel_count": 20
+        "x_min": 162.56,
+        "y_min": 76.2,
+        "x_max": 167.64,
+        "y_max": 88.05,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 88.05,
+        "x_max": 108.37,
+        "y_max": 91.44,
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-002",
@@ -1162,8 +1417,8 @@
         "x_min": 159.17,
         "y_min": 91.44,
         "x_max": 160.87,
-        "y_max": 96.52,
-        "pixel_count": 60
+        "y_max": 94.83,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1180,7 +1435,24 @@
         "y_min": 91.44,
         "x_max": 167.64,
         "y_max": 96.52,
-        "pixel_count": 100
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 137.16,
+        "y_min": 93.13,
+        "x_max": 142.24,
+        "y_max": 103.29,
+        "pixel_count": 220
       },
       "matched_issues": [
         "PCB-002",
@@ -1195,9 +1467,9 @@
       "region": {
         "x_min": 103.29,
         "y_min": 94.83,
-        "x_max": 104.99,
+        "x_max": 106.68,
         "y_max": 96.52,
-        "pixel_count": 20
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1211,11 +1483,11 @@
     {
       "layer": "pcb_11_F_SilkS",
       "region": {
-        "x_min": 94.83,
+        "x_min": 93.13,
         "y_min": 96.52,
         "x_max": 96.52,
         "y_max": 99.91,
-        "pixel_count": 40
+        "pixel_count": 80
       },
       "matched_issues": [
         "PCB-002",
@@ -1231,9 +1503,44 @@
       "region": {
         "x_min": 108.37,
         "y_min": 96.52,
+        "x_max": 138.85,
+        "y_max": 116.84,
+        "pixel_count": 1300
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 96.52,
+        "x_max": 150.71,
+        "y_max": 99.91,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 98.21,
         "x_max": 113.45,
         "y_max": 106.68,
-        "pixel_count": 280
+        "pixel_count": 260
       },
       "matched_issues": [
         "PCB-002",
@@ -1248,10 +1555,10 @@
       "layer": "pcb_11_F_SilkS",
       "region": {
         "x_min": 101.6,
-        "y_min": 99.91,
+        "y_min": 101.6,
         "x_max": 103.29,
         "y_max": 104.99,
-        "pixel_count": 60
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1265,17 +1572,68 @@
     {
       "layer": "pcb_11_F_SilkS",
       "region": {
-        "x_min": 118.53,
-        "y_min": 99.91,
-        "x_max": 120.23,
-        "y_max": 104.99,
-        "pixel_count": 60
+        "x_min": 159.17,
+        "y_min": 104.99,
+        "x_max": 164.25,
+        "y_max": 111.76,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 121.92,
+        "y_min": 108.37,
+        "x_max": 127.0,
+        "y_max": 111.76,
+        "pixel_count": 100
       },
       "matched_issues": [
         "PCB-002",
         "DFM-002",
         "PCB-003",
         "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 145.63,
+        "y_min": 110.07,
+        "x_max": 157.48,
+        "y_max": 123.61,
+        "pixel_count": 500
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 99.91,
+        "y_min": 111.76,
+        "x_max": 104.99,
+        "y_max": 115.15,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
         "PCB-005"
       ],
       "status": "MATCHED"
@@ -1284,9 +1642,9 @@
       "layer": "pcb_11_F_SilkS",
       "region": {
         "x_min": 140.55,
-        "y_min": 99.91,
+        "y_min": 113.45,
         "x_max": 142.24,
-        "y_max": 103.29,
+        "y_max": 116.84,
         "pixel_count": 40
       },
       "matched_issues": [
@@ -1300,11 +1658,11 @@
     {
       "layer": "pcb_11_F_SilkS",
       "region": {
-        "x_min": 132.08,
-        "y_min": 103.29,
-        "x_max": 137.16,
-        "y_max": 108.37,
-        "pixel_count": 180
+        "x_min": 125.31,
+        "y_min": 115.15,
+        "x_max": 127.0,
+        "y_max": 118.53,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1317,85 +1675,85 @@
     {
       "layer": "pcb_11_F_SilkS",
       "region": {
-        "x_min": 99.91,
-        "y_min": 110.07,
-        "x_max": 103.29,
-        "y_max": 115.15,
-        "pixel_count": 120
+        "x_min": 106.68,
+        "y_min": 118.53,
+        "x_max": 113.45,
+        "y_max": 123.61,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 159.17,
+        "y_min": 118.53,
+        "x_max": 164.25,
+        "y_max": 121.92,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 165.95,
+        "y_min": 121.92,
+        "x_max": 167.64,
+        "y_max": 125.31,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_11_F_SilkS",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 128.69,
+        "x_max": 115.15,
+        "y_max": 130.39,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
+        "x_min": 93.13,
+        "y_min": 74.51,
+        "x_max": 94.83,
+        "y_max": 76.2,
+        "pixel_count": 20
       },
       "matched_issues": [
         "PCB-002",
         "DFM-002",
         "PCB-003",
         "PCB-004",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 125.31,
-        "y_min": 115.15,
-        "x_max": 127.0,
-        "y_max": 120.23,
-        "pixel_count": 60
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 147.32,
-        "y_min": 116.84,
-        "x_max": 154.09,
-        "y_max": 125.31,
-        "pixel_count": 220
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 99.91,
-        "y_min": 120.23,
-        "x_max": 103.29,
-        "y_max": 123.61,
-        "pixel_count": 80
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
-        "PCB-005"
-      ],
-      "status": "MATCHED"
-    },
-    {
-      "layer": "pcb_11_F_SilkS",
-      "region": {
-        "x_min": 162.56,
-        "y_min": 121.92,
-        "x_max": 167.64,
-        "y_max": 125.31,
-        "pixel_count": 120
-      },
-      "matched_issues": [
-        "PCB-002",
-        "DFM-002",
-        "PCB-003",
         "PCB-005"
       ],
       "status": "MATCHED"
@@ -1406,8 +1764,8 @@
         "x_min": 99.91,
         "y_min": 74.51,
         "x_max": 101.6,
-        "y_max": 79.59,
-        "pixel_count": 60
+        "y_max": 77.89,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1421,11 +1779,64 @@
     {
       "layer": "pcb_12_B_SilkS",
       "region": {
+        "x_min": 103.29,
+        "y_min": 74.51,
+        "x_max": 106.68,
+        "y_max": 77.89,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
+        "x_min": 93.13,
+        "y_min": 79.59,
+        "x_max": 94.83,
+        "y_max": 81.28,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
+        "x_min": 154.09,
+        "y_min": 81.28,
+        "x_max": 157.48,
+        "y_max": 86.36,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
         "x_min": 160.87,
         "y_min": 84.67,
         "x_max": 164.25,
-        "y_max": 88.05,
-        "pixel_count": 80
+        "y_max": 86.36,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1438,16 +1849,17 @@
     {
       "layer": "pcb_12_B_SilkS",
       "region": {
-        "x_min": 125.31,
-        "y_min": 113.45,
-        "x_max": 128.69,
-        "y_max": 116.84,
+        "x_min": 99.91,
+        "y_min": 86.36,
+        "x_max": 103.29,
+        "y_max": 89.75,
         "pixel_count": 80
       },
       "matched_issues": [
         "PCB-002",
         "DFM-002",
         "PCB-003",
+        "PCB-004",
         "PCB-005"
       ],
       "status": "MATCHED"
@@ -1455,11 +1867,47 @@
     {
       "layer": "pcb_12_B_SilkS",
       "region": {
-        "x_min": 150.71,
+        "x_min": 96.52,
+        "y_min": 93.13,
+        "x_max": 104.99,
+        "y_max": 98.21,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
+        "x_min": 123.61,
+        "y_min": 96.52,
+        "x_max": 137.16,
+        "y_max": 103.29,
+        "pixel_count": 420
+      },
+      "matched_issues": [
+        "PCB-002",
+        "DFM-002",
+        "PCB-003",
+        "PCB-004",
+        "PCB-005"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_12_B_SilkS",
+      "region": {
+        "x_min": 96.52,
         "y_min": 113.45,
-        "x_max": 154.09,
-        "y_max": 118.53,
-        "pixel_count": 120
+        "x_max": 98.21,
+        "y_max": 115.15,
+        "pixel_count": 20
       },
       "matched_issues": [
         "PCB-002",
@@ -1475,8 +1923,8 @@
         "x_min": 99.91,
         "y_min": 115.15,
         "x_max": 101.6,
-        "y_max": 120.23,
-        "pixel_count": 60
+        "y_max": 118.53,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1487,13 +1935,336 @@
       "status": "MATCHED"
     },
     {
+      "layer": "pcb_13_F_Paste",
+      "region": {
+        "x_min": 89.75,
+        "y_min": 111.76,
+        "x_max": 93.13,
+        "y_max": 118.53,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_13_F_Paste",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 127.0,
+        "x_max": 116.84,
+        "y_max": 130.39,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_14_B_Paste",
+      "region": {
+        "x_min": 96.52,
+        "y_min": 96.52,
+        "x_max": 101.6,
+        "y_max": 99.91,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_14_B_Paste",
+      "region": {
+        "x_min": 123.61,
+        "y_min": 98.21,
+        "x_max": 135.47,
+        "y_max": 103.29,
+        "pixel_count": 320
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_14_B_Paste",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 99.91,
+        "x_max": 110.07,
+        "y_max": 101.6,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_14_B_Paste",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 101.6,
+        "x_max": 118.53,
+        "y_max": 103.29,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_14_B_Paste",
+      "region": {
+        "x_min": 89.75,
+        "y_min": 113.45,
+        "x_max": 94.83,
+        "y_max": 123.61,
+        "pixel_count": 260
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 121.92,
+        "y_min": 94.83,
+        "x_max": 123.61,
+        "y_max": 101.6,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 96.52,
+        "x_max": 106.68,
+        "y_max": 101.6,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 96.52,
+        "x_max": 110.07,
+        "y_max": 101.6,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 125.31,
+        "y_min": 96.52,
+        "x_max": 127.0,
+        "y_max": 101.6,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 145.63,
+        "y_min": 116.84,
+        "x_max": 147.32,
+        "y_max": 123.61,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_16_F_CrtYd",
+      "region": {
+        "x_min": 149.01,
+        "y_min": 116.84,
+        "x_max": 150.71,
+        "y_max": 123.61,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_17_B_CrtYd",
+      "region": {
+        "x_min": 152.4,
+        "y_min": 81.28,
+        "x_max": 159.17,
+        "y_max": 82.97,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_17_B_CrtYd",
+      "region": {
+        "x_min": 152.4,
+        "y_min": 84.67,
+        "x_max": 157.48,
+        "y_max": 86.36,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_17_B_CrtYd",
+      "region": {
+        "x_min": 121.92,
+        "y_min": 96.52,
+        "x_max": 137.16,
+        "y_max": 103.29,
+        "pixel_count": 480
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_17_B_CrtYd",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 99.91,
+        "x_max": 118.53,
+        "y_max": 103.29,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 91.44,
+        "y_min": 74.51,
+        "x_max": 94.83,
+        "y_max": 77.89,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
       "layer": "pcb_18_F_Fab",
       "region": {
         "x_min": 88.05,
-        "y_min": 86.36,
-        "x_max": 93.13,
+        "y_min": 84.67,
+        "x_max": 94.83,
         "y_max": 93.13,
-        "pixel_count": 140
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 84.67,
+        "x_max": 167.64,
+        "y_max": 88.05,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 88.05,
+        "x_max": 108.37,
+        "y_max": 91.44,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 159.17,
+        "y_min": 91.44,
+        "x_max": 160.87,
+        "y_max": 94.83,
+        "pixel_count": 40
       },
       "matched_issues": [
         "PCB-002",
@@ -1510,6 +2281,210 @@
         "y_min": 91.44,
         "x_max": 167.64,
         "y_max": 96.52,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 137.16,
+        "y_min": 93.13,
+        "x_max": 142.24,
+        "y_max": 103.29,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 103.29,
+        "y_min": 94.83,
+        "x_max": 106.68,
+        "y_max": 96.52,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 93.13,
+        "y_min": 96.52,
+        "x_max": 96.52,
+        "y_max": 99.91,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 125.31,
+        "y_min": 96.52,
+        "x_max": 128.69,
+        "y_max": 103.29,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 143.93,
+        "y_min": 96.52,
+        "x_max": 150.71,
+        "y_max": 99.91,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 98.21,
+        "x_max": 113.45,
+        "y_max": 106.68,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 99.91,
+        "x_max": 121.92,
+        "y_max": 116.84,
+        "pixel_count": 540
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 101.6,
+        "y_min": 101.6,
+        "x_max": 103.29,
+        "y_max": 104.99,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 127.0,
+        "y_min": 103.29,
+        "x_max": 138.85,
+        "y_max": 111.76,
+        "pixel_count": 360
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 159.17,
+        "y_min": 104.99,
+        "x_max": 164.25,
+        "y_max": 111.76,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 108.37,
+        "y_min": 108.37,
+        "x_max": 111.76,
+        "y_max": 111.76,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 121.92,
+        "y_min": 108.37,
+        "x_max": 127.0,
+        "y_max": 111.76,
         "pixel_count": 100
       },
       "matched_issues": [
@@ -1517,6 +2492,2322 @@
         "PCB-003",
         "PCB-005",
         "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 150.71,
+        "y_min": 110.07,
+        "x_max": 157.48,
+        "y_max": 123.61,
+        "pixel_count": 360
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 99.91,
+        "y_min": 111.76,
+        "x_max": 104.99,
+        "y_max": 115.15,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 140.55,
+        "y_min": 113.45,
+        "x_max": 142.24,
+        "y_max": 116.84,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 88.05,
+        "y_min": 115.15,
+        "x_max": 93.13,
+        "y_max": 138.85,
+        "pixel_count": 540
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 125.31,
+        "y_min": 115.15,
+        "x_max": 127.0,
+        "y_max": 118.53,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 106.68,
+        "y_min": 118.53,
+        "x_max": 113.45,
+        "y_max": 123.61,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 160.87,
+        "y_min": 118.53,
+        "x_max": 164.25,
+        "y_max": 121.92,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 165.95,
+        "y_min": 121.92,
+        "x_max": 167.64,
+        "y_max": 125.31,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_18_F_Fab",
+      "region": {
+        "x_min": 113.45,
+        "y_min": 130.39,
+        "x_max": 125.31,
+        "y_max": 135.47,
+        "pixel_count": 320
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "DOC-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 93.13,
+        "y_min": 67.73,
+        "x_max": 106.68,
+        "y_max": 103.29,
+        "pixel_count": 1760
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 160.87,
+        "y_min": 84.67,
+        "x_max": 164.25,
+        "y_max": 86.36,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 120.23,
+        "y_min": 94.83,
+        "x_max": 137.16,
+        "y_max": 106.68,
+        "pixel_count": 780
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 101.6,
+        "y_min": 101.6,
+        "x_max": 115.15,
+        "y_max": 115.15,
+        "pixel_count": 940
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 116.84,
+        "y_min": 101.6,
+        "x_max": 118.53,
+        "y_max": 103.29,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 140.55,
+        "y_min": 101.6,
+        "x_max": 145.63,
+        "y_max": 113.45,
+        "pixel_count": 320
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 77.89,
+        "y_min": 110.07,
+        "x_max": 93.13,
+        "y_max": 128.69,
+        "pixel_count": 1020
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "pcb_19_B_Fab",
+      "region": {
+        "x_min": 99.91,
+        "y_min": 115.15,
+        "x_max": 101.6,
+        "y_max": 118.53,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 40.64,
+        "y_min": 44.03,
+        "x_max": 274.32,
+        "y_max": 57.57,
+        "pixel_count": 4320
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 60.96,
+        "y_min": 155.79,
+        "x_max": 125.31,
+        "y_max": 193.04,
+        "pixel_count": 1120
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 135.47,
+        "y_min": 155.79,
+        "x_max": 199.81,
+        "y_max": 193.04,
+        "pixel_count": 1140
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 206.59,
+        "y_min": 155.79,
+        "x_max": 270.93,
+        "y_max": 162.56,
+        "pixel_count": 440
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 281.09,
+        "y_min": 155.79,
+        "x_max": 311.57,
+        "y_max": 193.04,
+        "pixel_count": 600
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 342.05,
+        "y_min": 159.17,
+        "x_max": 348.83,
+        "y_max": 193.04,
+        "pixel_count": 400
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_01_Root",
+      "region": {
+        "x_min": 206.59,
+        "y_min": 189.65,
+        "x_max": 270.93,
+        "y_max": 193.04,
+        "pixel_count": 380
+      },
+      "matched_issues": [
+        "SCH-001",
+        "BOM-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_02_ID_Serial",
+      "region": {
+        "x_min": 16.93,
+        "y_min": 20.32,
+        "x_max": 37.25,
+        "y_max": 27.09,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_02_ID_Serial",
+      "region": {
+        "x_min": 176.11,
+        "y_min": 88.05,
+        "x_max": 206.59,
+        "y_max": 94.83,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_02_ID_Serial",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 111.76,
+        "x_max": 237.07,
+        "y_max": 132.08,
+        "pixel_count": 1360
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 13.55,
+        "y_min": 13.55,
+        "x_max": 57.57,
+        "y_max": 20.32,
+        "pixel_count": 520
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 50.8,
+        "y_min": 37.25,
+        "x_max": 77.89,
+        "y_max": 101.6,
+        "pixel_count": 1580
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 206.59,
+        "y_min": 37.25,
+        "x_max": 386.08,
+        "y_max": 145.63,
+        "pixel_count": 18420
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 64.35,
+        "x_max": 203.2,
+        "y_max": 71.12,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 74.51,
+        "x_max": 203.2,
+        "y_max": 77.89,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 81.28,
+        "x_max": 203.2,
+        "y_max": 84.67,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 369.15,
+        "y_min": 81.28,
+        "x_max": 372.53,
+        "y_max": 111.76,
+        "pixel_count": 180
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 104.99,
+        "x_max": 203.2,
+        "y_max": 108.37,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 50.8,
+        "y_min": 108.37,
+        "x_max": 77.89,
+        "y_max": 176.11,
+        "pixel_count": 2180
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 111.76,
+        "x_max": 203.2,
+        "y_max": 115.15,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 142.24,
+        "y_min": 121.92,
+        "x_max": 149.01,
+        "y_max": 125.31,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 152.4,
+        "y_min": 121.92,
+        "x_max": 155.79,
+        "y_max": 125.31,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 121.92,
+        "x_max": 165.95,
+        "y_max": 125.31,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 169.33,
+        "y_min": 121.92,
+        "x_max": 172.72,
+        "y_max": 125.31,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 196.43,
+        "y_min": 155.79,
+        "x_max": 199.81,
+        "y_max": 162.56,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 149.01,
+        "y_min": 155.79,
+        "x_max": 365.76,
+        "y_max": 277.71,
+        "pixel_count": 11120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 250.61,
+        "y_min": 169.33,
+        "x_max": 270.93,
+        "y_max": 176.11,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 199.81,
+        "y_min": 199.81,
+        "x_max": 250.61,
+        "y_max": 267.55,
+        "pixel_count": 2480
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 254.0,
+        "y_min": 206.59,
+        "x_max": 270.93,
+        "y_max": 223.52,
+        "pixel_count": 500
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 196.43,
+        "y_min": 220.13,
+        "x_max": 216.75,
+        "y_max": 233.68,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 176.11,
+        "y_min": 243.84,
+        "x_max": 203.2,
+        "y_max": 264.16,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_03_Interfaces",
+      "region": {
+        "x_min": 206.59,
+        "y_min": 250.61,
+        "x_max": 216.75,
+        "y_max": 267.55,
+        "pixel_count": 260
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 345.44,
+        "y_min": 20.32,
+        "x_max": 369.15,
+        "y_max": 30.48,
+        "pixel_count": 380
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 247.23,
+        "y_min": 30.48,
+        "x_max": 291.25,
+        "y_max": 64.35,
+        "pixel_count": 1820
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 352.21,
+        "y_min": 33.87,
+        "x_max": 358.99,
+        "y_max": 40.64,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 362.37,
+        "y_min": 33.87,
+        "x_max": 372.53,
+        "y_max": 47.41,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 77.89,
+        "y_min": 44.03,
+        "x_max": 135.47,
+        "y_max": 71.12,
+        "pixel_count": 1160
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 355.6,
+        "y_min": 57.57,
+        "x_max": 358.99,
+        "y_max": 60.96,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 372.53,
+        "y_min": 57.57,
+        "x_max": 382.69,
+        "y_max": 64.35,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 169.33,
+        "y_min": 64.35,
+        "x_max": 203.2,
+        "y_max": 77.89,
+        "pixel_count": 580
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 345.44,
+        "y_min": 71.12,
+        "x_max": 386.08,
+        "y_max": 84.67,
+        "pixel_count": 460
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 287.87,
+        "y_min": 88.05,
+        "x_max": 304.8,
+        "y_max": 91.44,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 331.89,
+        "y_min": 104.99,
+        "x_max": 342.05,
+        "y_max": 115.15,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 291.25,
+        "y_min": 121.92,
+        "x_max": 298.03,
+        "y_max": 125.31,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 314.96,
+        "y_min": 121.92,
+        "x_max": 338.67,
+        "y_max": 135.47,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 365.76,
+        "y_min": 121.92,
+        "x_max": 372.53,
+        "y_max": 125.31,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 291.25,
+        "y_min": 128.69,
+        "x_max": 301.41,
+        "y_max": 135.47,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 375.92,
+        "y_min": 128.69,
+        "x_max": 386.08,
+        "y_max": 145.63,
+        "pixel_count": 180
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 365.76,
+        "y_min": 132.08,
+        "x_max": 372.53,
+        "y_max": 135.47,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 172.72,
+        "y_min": 155.79,
+        "x_max": 193.04,
+        "y_max": 162.56,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 287.87,
+        "y_min": 159.17,
+        "x_max": 318.35,
+        "y_max": 169.33,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 287.87,
+        "y_min": 172.72,
+        "x_max": 338.67,
+        "y_max": 203.2,
+        "pixel_count": 1200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 335.28,
+        "y_min": 203.2,
+        "x_max": 406.4,
+        "y_max": 230.29,
+        "pixel_count": 1160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 176.11,
+        "y_min": 223.52,
+        "x_max": 193.04,
+        "y_max": 237.07,
+        "pixel_count": 400
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 304.8,
+        "y_min": 233.68,
+        "x_max": 406.4,
+        "y_max": 250.61,
+        "pixel_count": 1400
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_04_SoM",
+      "region": {
+        "x_min": 254.0,
+        "y_min": 250.61,
+        "x_max": 291.25,
+        "y_max": 267.55,
+        "pixel_count": 680
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 13.55,
+        "y_min": 13.55,
+        "x_max": 33.87,
+        "y_max": 20.32,
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 44.03,
+        "y_min": 20.32,
+        "x_max": 57.57,
+        "y_max": 33.87,
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 328.51,
+        "y_min": 27.09,
+        "x_max": 375.92,
+        "y_max": 91.44,
+        "pixel_count": 1760
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 23.71,
+        "y_min": 30.48,
+        "x_max": 74.51,
+        "y_max": 118.53,
+        "pixel_count": 2620
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 142.24,
+        "y_min": 40.64,
+        "x_max": 155.79,
+        "y_max": 50.8,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 203.2,
+        "y_min": 40.64,
+        "x_max": 209.97,
+        "y_max": 50.8,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 213.36,
+        "y_min": 40.64,
+        "x_max": 220.13,
+        "y_max": 50.8,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 223.52,
+        "y_min": 40.64,
+        "x_max": 243.84,
+        "y_max": 47.41,
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 142.24,
+        "y_min": 54.19,
+        "x_max": 155.79,
+        "y_max": 91.44,
+        "pixel_count": 740
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 203.2,
+        "y_min": 54.19,
+        "x_max": 209.97,
+        "y_max": 91.44,
+        "pixel_count": 360
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 213.36,
+        "y_min": 54.19,
+        "x_max": 220.13,
+        "y_max": 91.44,
+        "pixel_count": 400
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 50.8,
+        "y_min": 64.35,
+        "x_max": 67.73,
+        "y_max": 71.12,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 304.8,
+        "y_min": 84.67,
+        "x_max": 308.19,
+        "y_max": 88.05,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 311.57,
+        "y_min": 132.08,
+        "x_max": 331.89,
+        "y_max": 138.85,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 284.48,
+        "y_min": 165.95,
+        "x_max": 291.25,
+        "y_max": 179.49,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 294.64,
+        "y_min": 165.95,
+        "x_max": 301.41,
+        "y_max": 179.49,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 37.25,
+        "y_min": 182.88,
+        "x_max": 84.67,
+        "y_max": 223.52,
+        "pixel_count": 2720
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 311.57,
+        "y_min": 213.36,
+        "x_max": 318.35,
+        "y_max": 220.13,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 193.04,
+        "y_min": 216.75,
+        "x_max": 216.75,
+        "y_max": 243.84,
+        "pixel_count": 580
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 321.73,
+        "y_min": 220.13,
+        "x_max": 325.12,
+        "y_max": 226.91,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 155.79,
+        "y_min": 223.52,
+        "x_max": 172.72,
+        "y_max": 233.68,
+        "pixel_count": 260
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 311.57,
+        "y_min": 223.52,
+        "x_max": 318.35,
+        "y_max": 230.29,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 149.01,
+        "y_min": 226.91,
+        "x_max": 152.4,
+        "y_max": 230.29,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_05_Display",
+      "region": {
+        "x_min": 91.44,
+        "y_min": 243.84,
+        "x_max": 111.76,
+        "y_max": 254.0,
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 277.71,
+        "y_min": 47.41,
+        "x_max": 294.64,
+        "y_max": 60.96,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 77.89,
+        "y_min": 54.19,
+        "x_max": 81.28,
+        "y_max": 60.96,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 104.99,
+        "y_min": 54.19,
+        "x_max": 128.69,
+        "y_max": 74.51,
+        "pixel_count": 500
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 138.85,
+        "y_min": 54.19,
+        "x_max": 149.01,
+        "y_max": 64.35,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 159.17,
+        "y_min": 54.19,
+        "x_max": 189.65,
+        "y_max": 67.73,
+        "pixel_count": 420
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 375.92,
+        "y_min": 57.57,
+        "x_max": 379.31,
+        "y_max": 60.96,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 379.31,
+        "y_min": 64.35,
+        "x_max": 396.24,
+        "y_max": 71.12,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 20.32,
+        "y_min": 67.73,
+        "x_max": 50.8,
+        "y_max": 101.6,
+        "pixel_count": 620
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 328.51,
+        "y_min": 67.73,
+        "x_max": 335.28,
+        "y_max": 71.12,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 67.73,
+        "y_min": 71.12,
+        "x_max": 74.51,
+        "y_max": 81.28,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 257.39,
+        "y_min": 71.12,
+        "x_max": 277.71,
+        "y_max": 77.89,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 338.67,
+        "y_min": 118.53,
+        "x_max": 358.99,
+        "y_max": 142.24,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 118.53,
+        "y_min": 125.31,
+        "x_max": 155.79,
+        "y_max": 159.17,
+        "pixel_count": 840
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 44.03,
+        "y_min": 128.69,
+        "x_max": 50.8,
+        "y_max": 132.08,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 54.19,
+        "y_min": 128.69,
+        "x_max": 81.28,
+        "y_max": 138.85,
+        "pixel_count": 340
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 298.03,
+        "y_min": 128.69,
+        "x_max": 304.8,
+        "y_max": 142.24,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 91.44,
+        "y_min": 135.47,
+        "x_max": 104.99,
+        "y_max": 145.63,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 308.19,
+        "y_min": 135.47,
+        "x_max": 311.57,
+        "y_max": 142.24,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 304.8,
+        "y_min": 149.01,
+        "x_max": 328.51,
+        "y_max": 155.79,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 47.41,
+        "y_min": 179.49,
+        "x_max": 77.89,
+        "y_max": 199.81,
+        "pixel_count": 440
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 189.65,
+        "y_min": 182.88,
+        "x_max": 206.59,
+        "y_max": 193.04,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 27.09,
+        "y_min": 189.65,
+        "x_max": 40.64,
+        "y_max": 196.43,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 54.19,
+        "y_min": 206.59,
+        "x_max": 77.89,
+        "y_max": 213.36,
+        "pixel_count": 260
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 209.97,
+        "y_min": 233.68,
+        "x_max": 226.91,
+        "y_max": 240.45,
+        "pixel_count": 180
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 220.13,
+        "y_min": 243.84,
+        "x_max": 223.52,
+        "y_max": 247.23,
+        "pixel_count": 20
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 216.75,
+        "y_min": 243.84,
+        "x_max": 240.45,
+        "y_max": 264.16,
+        "pixel_count": 400
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_06_Supply",
+      "region": {
+        "x_min": 254.0,
+        "y_min": 254.0,
+        "x_max": 267.55,
+        "y_max": 260.77,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 16.93,
+        "y_min": 16.93,
+        "x_max": 40.64,
+        "y_max": 23.71,
+        "pixel_count": 280
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 142.24,
+        "y_min": 23.71,
+        "x_max": 159.17,
+        "y_max": 30.48,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 94.83,
+        "y_min": 44.03,
+        "x_max": 176.11,
+        "y_max": 84.67,
+        "pixel_count": 1800
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 274.32,
+        "y_min": 57.57,
+        "x_max": 314.96,
+        "y_max": 84.67,
+        "pixel_count": 1100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 318.35,
+        "y_min": 67.73,
+        "x_max": 355.6,
+        "y_max": 74.51,
+        "pixel_count": 260
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_07_CSI",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 71.12,
+        "x_max": 169.33,
+        "y_max": 77.89,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 44.03,
+        "y_min": 20.32,
+        "x_max": 57.57,
+        "y_max": 30.48,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 254.0,
+        "y_min": 27.09,
+        "x_max": 277.71,
+        "y_max": 60.96,
+        "pixel_count": 1020
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 342.05,
+        "y_min": 30.48,
+        "x_max": 379.31,
+        "y_max": 60.96,
+        "pixel_count": 1260
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 281.09,
+        "y_min": 37.25,
+        "x_max": 321.73,
+        "y_max": 44.03,
+        "pixel_count": 320
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 325.12,
+        "y_min": 40.64,
+        "x_max": 335.28,
+        "y_max": 50.8,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 186.27,
+        "y_min": 44.03,
+        "x_max": 250.61,
+        "y_max": 88.05,
+        "pixel_count": 2760
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 64.35,
+        "y_min": 67.73,
+        "x_max": 101.6,
+        "y_max": 84.67,
+        "pixel_count": 620
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 33.87,
+        "y_min": 88.05,
+        "x_max": 101.6,
+        "y_max": 118.53,
+        "pixel_count": 2120
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 128.69,
+        "y_min": 88.05,
+        "x_max": 199.81,
+        "y_max": 125.31,
+        "pixel_count": 3660
+      },
+      "matched_issues": [
+        "PCB-002",
+        "SCH-001",
+        "PCB-003"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 240.45,
+        "y_min": 149.01,
+        "x_max": 277.71,
+        "y_max": 179.49,
+        "pixel_count": 1240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 270.93,
+        "y_min": 159.17,
+        "x_max": 311.57,
+        "y_max": 165.95,
+        "pixel_count": 480
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 94.83,
+        "y_min": 169.33,
+        "x_max": 101.6,
+        "y_max": 172.72,
+        "pixel_count": 40
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 382.69,
+        "y_min": 169.33,
+        "x_max": 399.63,
+        "y_max": 179.49,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 13.55,
+        "y_min": 172.72,
+        "x_max": 40.64,
+        "y_max": 196.43,
+        "pixel_count": 1120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 94.83,
+        "y_min": 176.11,
+        "x_max": 104.99,
+        "y_max": 186.27,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 176.11,
+        "y_min": 179.49,
+        "x_max": 193.04,
+        "y_max": 189.65,
+        "pixel_count": 280
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 338.67,
+        "y_min": 182.88,
+        "x_max": 399.63,
+        "y_max": 196.43,
+        "pixel_count": 600
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 94.83,
+        "y_min": 189.65,
+        "x_max": 104.99,
+        "y_max": 196.43,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 328.51,
+        "y_min": 199.81,
+        "x_max": 365.76,
+        "y_max": 206.59,
+        "pixel_count": 240
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 213.36,
+        "x_max": 199.81,
+        "y_max": 243.84,
+        "pixel_count": 1140
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 135.47,
+        "y_min": 216.75,
+        "x_max": 152.4,
+        "y_max": 226.91,
+        "pixel_count": 220
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 111.76,
+        "y_min": 223.52,
+        "x_max": 128.69,
+        "y_max": 237.07,
+        "pixel_count": 300
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 216.75,
+        "y_min": 230.29,
+        "x_max": 254.0,
+        "y_max": 237.07,
+        "pixel_count": 420
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 284.48,
+        "y_min": 243.84,
+        "x_max": 301.41,
+        "y_max": 250.61,
+        "pixel_count": 160
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 165.95,
+        "y_min": 250.61,
+        "x_max": 179.49,
+        "y_max": 257.39,
+        "pixel_count": 140
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 186.27,
+        "y_min": 250.61,
+        "x_max": 193.04,
+        "y_max": 257.39,
+        "pixel_count": 80
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 230.29,
+        "y_min": 250.61,
+        "x_max": 260.77,
+        "y_max": 257.39,
+        "pixel_count": 200
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 213.36,
+        "y_min": 254.0,
+        "x_max": 223.52,
+        "y_max": 260.77,
+        "pixel_count": 100
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 162.56,
+        "y_min": 260.77,
+        "x_max": 176.11,
+        "y_max": 267.55,
+        "pixel_count": 120
+      },
+      "matched_issues": [
+        "SCH-001"
+      ],
+      "status": "MATCHED"
+    },
+    {
+      "layer": "sch_08_USB",
+      "region": {
+        "x_min": 179.49,
+        "y_min": 260.77,
+        "x_max": 186.27,
+        "y_max": 267.55,
+        "pixel_count": 60
+      },
+      "matched_issues": [
+        "SCH-001"
       ],
       "status": "MATCHED"
     }
