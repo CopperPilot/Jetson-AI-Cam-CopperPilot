@@ -8565,7 +8565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9486,7 +9486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10407,7 +10407,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11326,7 +11326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12247,7 +12247,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C429199"
+		(property "LCSC" "C2766246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13559,7 +13559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14007,10 +14007,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e7103f0")
 		(property "Reference" "BAT1"
@@ -16047,7 +16047,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16338,7 +16338,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C140844"
+		(property "LCSC" "C2886925"
 			(at 0 0 0)
 			(effects
 				(font
