@@ -25626,6 +25626,7 @@
 		)
 		(property "MPN" "3413.0329.22"
 			(at 241.3 247.015 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31509,7 +31510,7 @@
 	)
 	(text "9...36 VDC"
 		(exclude_from_sim no)
-		(at 214.63 263.525 0)
+		(at 214.63 248.92 0)
 		(effects
 			(font
 				(size 1.524 1.524)
