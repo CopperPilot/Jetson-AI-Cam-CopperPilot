@@ -261,8 +261,7 @@ class KiCadPCB:
                 r'\(pad\s+"([^"]*)"\s+(\w+)\s+(\w+)\s+'
                 r"\(at\s+([-\d\.]+)\s+([-\d\.]+)(?:\s+([-\d\.]+))?\)\s+"
                 r"\(size\s+([-\d\.]+)\s+([-\d\.]+)\)"
-                r"[\s\S]*?"
-                r'(?:\(net\s+(?:\d+\s+)?"?([^"\)\s]+)"?\))?',
+                r"([\s\S]*?\n\t\t\))",
                 block,
             )
             for pad_m in pad_pattern:
@@ -273,7 +272,9 @@ class KiCadPCB:
                 py = float(pad_m.group(5))
                 pw = float(pad_m.group(7))
                 ph = float(pad_m.group(8))
-                net_name = pad_m.group(9) if pad_m.group(9) else ""
+                pad_body = pad_m.group(9)
+                m_net = re.search(r'\(net\s+(?:\d+\s+)?"?([^"\)]+)"?\)', pad_body)
+                net_name = m_net.group(1).strip() if m_net else ""
 
                 pads.append(
                     {
