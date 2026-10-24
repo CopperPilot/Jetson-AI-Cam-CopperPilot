@@ -16288,7 +16288,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062613f61")
 		(property "Reference" "R64"
-			(at 344.17 38.1 0)
+			(at 350.52 40.0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
