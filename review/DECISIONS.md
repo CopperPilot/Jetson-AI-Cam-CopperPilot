@@ -126,3 +126,80 @@
 - **Priority Rule Applied:** Testability & Solderability > Cosmetic Clearance.
 - **Residual Risk:** None; modern high-definition direct legend printers (LDI/inkjet) resolve character spacing down to 0.10 mm without bridging. Solder wetting is 100% protected because zero silkscreen touches copper or mask openings.
 - **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-010: Serial EEPROM Decoupling Bypass C36 Net Reassignment (SCH-005)
+- **Conflict:** C36 (100nF) was connected to `3V3_SYS` upstream of diode D15 rather than to `EEPROM_PWR` at IC17 VCC pin 4. Diode D15 isolates IC17 from `3V3_SYS` during EEPROM page programming cycles (~5 mA), risking local supply rail droop without bypass.
+- **Options Considered:**
+  1. Leave C36 on 3V3_SYS: Violates decoupling best practices for diode-isolated memory devices.
+  2. Reconnect C36 directly to net `/ID Serial/EEPROM_PWR` in schematic and PCB layout: Selected.
+- **Priority Rule Applied:** Functional correctness & Electrical Integrity.
+- **Residual Risk:** None; short 0.20 mm B.Cu trace directly connects C36 pad 1 to adjacent `EEPROM_PWR` corridor with 0 DRC violations.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-011: Level Translator Bypass Capacitor C5 Population (SCH-007)
+- **Conflict:** 100nF bypass capacitor C5 for IC11 (SN74LV1T125 single buffer level translator) was marked DNP (`in_bom no`, `dnp yes`), leaving the active switching buffer unbypassed on `1V8_SYS`.
+- **Options Considered:**
+  1. Leave C5 unpopulated: High-speed edge rates risk supply ground bounce and jitter on display level-shifted signals.
+  2. Populate C5 (`in_bom yes`, `dnp no`) with standard Murata 0402 100nF (LCSC C1525): Selected.
+- **Priority Rule Applied:** Electrical Signal Integrity & Noise Margin.
+- **Residual Risk:** Negligible component cost ($0.003); guarantees clean supply voltage across logic transitions.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-012: Power Supply Input Text & Fuse MPN Collision Resolution (SCH-002)
+- **Conflict:** Free text `9...36 VDC` at (214.63, 263.525) overlapped input connector J4 ground pin and return wire path, and visible unformatted MPN text on fuse F3 overlapped high-current TVS trace on Sheet 6.
+- **Options Considered:**
+  1. Leave text overlapping wires: Degrades schematic drafting legibility.
+  2. Relocate `9...36 VDC` to (214.63, 248.92) above J4 pin 1 and set `(hide yes)` on F3 MPN: Selected.
+- **Priority Rule Applied:** Drafting Standards & Schematic Legibility.
+- **Residual Risk:** None.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-013: USB & Debug Jumper R64 Reference Relocation (SCH-003)
+- **Conflict:** Resistor reference string `R64` at (354.965, 40.64) crossed the 0R jumper wire corridor on Sheet 8 (`usb-debug.kicad_sch`).
+- **Options Considered:**
+  1. Leave text across wire: Aesthetic defect.
+  2. Center Reference `R64` at (350.52, 40.0) directly above the resistor body in open space: Selected.
+- **Priority Rule Applied:** Drafting Standards & Visual Cleanliness.
+- **Residual Risk:** None.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-014: Standoff SP6 Washer Keepout Clearance & Mechanical Envelope (PCB-MECH-02)
+- **Conflict:** Resistor R135 and ferrite bead L8 are located 5.47 mm and 6.36 mm from standoff SP6 center. Standard M2.5 screw head / washer outer diameter must not exceed 5.0 mm to avoid mechanical encroachment on nearby passives.
+- **Options Considered:**
+  1. Relocate R135/L8: Disrupts dense display level shifter routing and impedance matching.
+  2. Formalize assembly requirement in `manufacturing/ORDER_SPEC.md` specifying M2.5 screws with maximum head/washer outer diameter <= 5.0 mm: Selected.
+- **Priority Rule Applied:** Mechanical Integration & DFM.
+- **Residual Risk:** Handled via hardware BOM fastener specification.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-015: Tactile Pushbuttons & SODIMM Latch Arm Clearance Architecture (PCB-MECH-01)
+- **Conflict:** Tactile switches RST1, REC1, and USR1 are positioned along the board edge (X = 162.14 mm) adjacent to the right latch arm of SODIMM socket J15.
+- **Options Considered:**
+  1. Move buttons inward: Impinges on dense SoM breakout corridors and decoupling capacitor arrays.
+  2. Maintain current edge placement with right-angle / side-actuated user finger access from the perimeter: Selected.
+- **Priority Rule Applied:** Ergonomics & Routing Feasibility.
+- **Residual Risk:** Module insertion requires clearing latch swing corridor before operating switches.
+- **Approved by:** Lead Hardware Engineer.
+
+---
+
+### DEC-016: Dual IMX219 Lens Mount Base Clearance Specification (PCB-MECH-03)
+- **Conflict:** Dual IMX219 camera receptacles (CAM_L, CAM_R) on B.Cu have fixed 39.00 mm baseline with nearby passives R47, R126, R127 and ESD diode D5 located ~2 mm from sensor active footprint.
+- **Options Considered:**
+  1. Spread components further: Degrades MIPI CSI-2 1 GHz differential return path and increases ESD clamp loop inductance.
+  2. Enforce strict M12 lens holder base dimension constraint (maximum 14.0 mm square) in manufacturing documentation: Selected.
+- **Priority Rule Applied:** High-Speed Signal Integrity & Optical Geometry.
+- **Residual Risk:** Addressed in optical integration mechanical specification.
+- **Approved by:** Lead Hardware Engineer.

@@ -70,6 +70,7 @@ def run_all_tests():
         test_pcb.Test3DModelsAndLibraryIntegrity,
         test_pcb.TestManufacturingDeliverables,
         test_pcb.TestAcceptanceReportIntegrity,
+        test_pcb.TestReviewRemediations,
     ]
 
     for cls in test_classes:
