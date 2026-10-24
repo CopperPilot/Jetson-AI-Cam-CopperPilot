@@ -368,6 +368,69 @@ def test_t11_repo_hygiene():
     return True, "Project files use clean project-local relative paths without tracked cache/lock files."
 
 
+def test_t12_review_remediations():
+    """Verify that all hardware review findings remain resolved without regressions."""
+    failures = []
+
+    # 1. Check C36 on EEPROM_PWR in id-serial.kicad_sch and kicad_pcb
+    id_sch = REPO_ROOT / "id-serial.kicad_sch"
+    if id_sch.exists():
+        txt = id_sch.read_text(errors="ignore")
+        if 'label "EEPROM_PWR"' not in txt or "3V3_SYS" in txt[txt.find("a9e70e06-3925-4d8f-a870-80580309ac52")-100:txt.find("a9e70e06-3925-4d8f-a870-80580309ac52")]:
+            failures.append("C36 in id-serial.kicad_sch not connected to EEPROM_PWR")
+    
+    if PCB_FILE.exists():
+        pcb_txt = PCB_FILE.read_text(errors="ignore")
+        pos_c36 = pcb_txt.find('(property "Reference" "C36"')
+        if pos_c36 != -1:
+            end_c36 = pcb_txt.find("(footprint", pos_c36)
+            c36_block = pcb_txt[pos_c36:end_c36]
+            if '"/ID Serial/EEPROM_PWR"' not in c36_block:
+                failures.append("C36 pad 1 on PCB not connected to /ID Serial/EEPROM_PWR")
+
+    # 2. Check C5 populated
+    disp_sch = REPO_ROOT / "display.kicad_sch"
+    if disp_sch.exists():
+        d_txt = disp_sch.read_text(errors="ignore")
+        pos_c5 = d_txt.find('"C5"')
+        if pos_c5 != -1:
+            c5_sch = d_txt[d_txt.rfind("(symbol", 0, pos_c5):d_txt.find("(symbol", pos_c5)]
+            if "(in_bom yes)" not in c5_sch or "(dnp no)" not in c5_sch:
+                failures.append("C5 in display.kicad_sch not marked in_bom yes / dnp no")
+
+    # 3. Check supply sheet text collisions
+    sup_sch = REPO_ROOT / "supply.kicad_sch"
+    if sup_sch.exists():
+        s_txt = sup_sch.read_text(errors="ignore")
+        m_volt = re.search(r'\(text\s+"9\.\.\.36 VDC".*?\(at\s+[\d\.\-]+\s+([\d\.\-]+)', s_txt, re.DOTALL)
+        if not m_volt or float(m_volt.group(1)) >= 255.0:
+            failures.append("9...36 VDC text in supply.kicad_sch collides with J4 return path")
+
+    # 4. Check USB debug R64 reference position
+    usb_sch = REPO_ROOT / "usb-debug.kicad_sch"
+    if usb_sch.exists():
+        u_txt = usb_sch.read_text(errors="ignore")
+        pos_r64 = u_txt.find('"R64"')
+        if pos_r64 != -1:
+            r64_blk = u_txt[u_txt.rfind("(symbol", 0, pos_r64):u_txt.find("(symbol", pos_r64)]
+            m_r64 = re.search(r'\(property\s+"Reference"\s+"R64"\s+\(at\s+([\d\.\-]+)', r64_blk)
+            if not m_r64 or float(m_r64.group(1)) > 352.0:
+                failures.append("R64 reference in usb-debug.kicad_sch collides with wire corridor")
+
+    # 5. Check ORDER_SPEC.md mechanical constraints
+    spec_file = REPO_ROOT / "manufacturing/ORDER_SPEC.md"
+    if spec_file.exists():
+        sp_txt = spec_file.read_text(errors="ignore")
+        if "5.0 mm" not in sp_txt and "5.0\\text{ mm}" not in sp_txt:
+            failures.append("ORDER_SPEC.md missing M2.5 spacer screw head envelope constraint")
+        if "14.0" not in sp_txt:
+            failures.append("ORDER_SPEC.md missing M12 lens mount base dimension constraint")
+
+    if failures:
+        return False, f"Remediation regressions detected: {'; '.join(failures)}"
+    return True, "All schematic, layout, and mechanical review remediations verified."
+
+
 def main():
     decisions = load_decisions()
     tests = [
@@ -381,7 +444,8 @@ def main():
         ("T8 Issues closed", test_t8_issues_closed, []),
         ("T9 Evidence complete", test_t9_evidence_complete, []),
         ("T10 No unexplained changes", test_t10_no_unexplained_changes, []),
-        ("T11 Repo hygiene", test_t11_repo_hygiene, [])
+        ("T11 Repo hygiene", test_t11_repo_hygiene, []),
+        ("T12 Remediations", test_t12_review_remediations, [])
     ]
 
     results = {}

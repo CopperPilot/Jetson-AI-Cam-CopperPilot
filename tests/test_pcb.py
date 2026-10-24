@@ -210,3 +210,68 @@ class TestAcceptanceReportIntegrity:
         with open(report_path, "r", encoding="utf-8") as f:
             data = json.load(f)
         assert data.get("overall_status") == "PASS", f"verify-report status is {data.get('overall_status')}"
+
+
+class TestReviewRemediations:
+    """Regression tests for resolved hardware review findings (SCH and PCB)."""
+
+    def test_eeprom_c36_connected_to_eeprom_pwr(self, pcb_data):
+        """Assert C36 pad 1 is connected to EEPROM_PWR downstream of D15."""
+        fp = pcb_data.footprints.get("C36")
+        assert fp is not None, "C36 footprint not found on PCB"
+        pad1 = next((p for p in fp["pads"] if p["number"] == "1"), None)
+        assert pad1 is not None, "C36 pad 1 missing"
+        assert "EEPROM_PWR" in pad1["net_name"], (
+            f"Expected C36 pad 1 on EEPROM_PWR, found {pad1['net_name']}"
+        )
+
+    def test_level_translator_c5_populated(self, pcb_data):
+        """Assert C5 level translator decoupling capacitor is populated in BOM."""
+        fp = pcb_data.footprints.get("C5")
+        assert fp is not None, "C5 footprint not found on PCB"
+        assert not fp.get("dnp", False), "C5 is unexpectedly marked DNP on PCB"
+        bom_path = os.path.join(ROOT_DIR, "manufacturing", "BOM.csv")
+        with open(bom_path, "r", encoding="utf-8") as f:
+            bom_content = f.read()
+        assert re.search(r"\bC5\b.*C1525", bom_content), "C5 with LCSC C1525 missing from BOM.csv"
+
+    def test_standoff_mechanical_envelope_documented(self):
+        """Assert ORDER_SPEC.md specifies fastener head keepout <= 5.0 mm for SP5/SP6."""
+        spec_path = os.path.join(ROOT_DIR, "manufacturing", "ORDER_SPEC.md")
+        with open(spec_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        assert "5.0 mm" in content or "5.0\\text{ mm}" in content, (
+            "Fastener head diameter <= 5.0 mm keepout not found in ORDER_SPEC.md"
+        )
+
+    def test_mipi_csi_lens_mount_envelope_documented(self):
+        """Assert ORDER_SPEC.md specifies M12 lens mount base <= 14.0 mm."""
+        spec_path = os.path.join(ROOT_DIR, "manufacturing", "ORDER_SPEC.md")
+        with open(spec_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        assert "14.0" in content, (
+            "Lens mount base <= 14.0 mm constraint not found in ORDER_SPEC.md"
+        )
+
+    def test_supply_sheet_no_text_overlap(self):
+        """Assert supply.kicad_sch has 9...36 VDC text relocated clear of J4 return wire."""
+        sch_path = os.path.join(ROOT_DIR, "supply.kicad_sch")
+        with open(sch_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        m = re.search(r'\(text\s+"9\.\.\.36 VDC".*?\(at\s+[\d\.\-]+\s+([\d\.\-]+)', content, re.DOTALL)
+        assert m is not None, "9...36 VDC text not found in supply.kicad_sch"
+        y_pos = float(m.group(1))
+        assert y_pos < 255.0, f"9...36 VDC Y-coord {y_pos} >= 255.0 mm overlaps J4 return wire"
+
+    def test_usb_debug_r64_clear_of_wire_corridor(self):
+        """Assert usb-debug.kicad_sch has R64 reference placed clear of wire corridor."""
+        sch_path = os.path.join(ROOT_DIR, "usb-debug.kicad_sch")
+        with open(sch_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        pos = content.find('"R64"')
+        start = content.rfind("(symbol", 0, pos)
+        end = content.find("(symbol", pos)
+        m = re.search(r'\(property\s+"Reference"\s+"R64"\s+\(at\s+([\d\.\-]+)', content[start:end])
+        assert m is not None, "R64 reference not found"
+        x_pos = float(m.group(1))
+        assert x_pos <= 352.0, f"R64 reference X-coord {x_pos} > 352.0 mm collides with wire corridor"

@@ -2027,29 +2027,16 @@
 			)
 		)
 	)
-	(global_label "3V3_SYS"
-		(shape input)
+	(label "EEPROM_PWR"
 		(at 247.65 129.54 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "a9e70e06-3925-4d8f-a870-80580309ac52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 119.2262 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(junction
 		(at 218.44 120.65)
