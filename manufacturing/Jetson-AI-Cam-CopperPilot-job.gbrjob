@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4-10.0.4~ubuntu22.04.1"
     },
-    "CreationDate": "2026-10-23T07:19:58+05:30"
+    "CreationDate": "2026-10-24T08:52:12+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -83,6 +83,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Adhesive.gta",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Adhesive.gba",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "Jetson-AI-Cam-CopperPilot-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
@@ -113,8 +123,48 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "Jetson-AI-Cam-CopperPilot-Edge_Cuts.gm1",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_5.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson-AI-Cam-CopperPilot-User_9.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],

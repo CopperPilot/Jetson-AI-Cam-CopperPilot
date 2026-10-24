@@ -139,17 +139,7 @@
       "x_min": 10.0,
       "y_min": 10.0,
       "x_max": 400.0,
-      "y_max": 280.0,
-      "layers": [
-        "sch_01_Root",
-        "sch_02_ID_Serial",
-        "sch_03_Interfaces",
-        "sch_04_SoM",
-        "sch_05_Display",
-        "sch_06_Supply",
-        "sch_07_CSI",
-        "sch_08_USB"
-      ]
+      "y_max": 280.0
     },
     "commits": [
       "1aef6f8"
@@ -292,6 +282,131 @@
     },
     "commits": [
       "728edb2"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "SCH-002",
+    "sev": "P2",
+    "domain": "SCH",
+    "location": "supply.kicad_sch @ (214.63 mm, 248.92 mm)",
+    "finding": "Input voltage text \"9...36 VDC\" overlapped header J4 ground return wire, and visible unformatted MPN text on fuse F3 collided with TVS diode D14 wire corridor.",
+    "evidence": "review/renders/issues/SCH-002/before.png",
+    "rule_violated": "KiCad Schematic Conventions; Clear Wire & Text Corridor Clearance",
+    "root_cause": "Component text fields placed directly on top of electrical wire segments during schematic capture.",
+    "proposed_fix": "Relocate \"9...36 VDC\" text above J4 pin 1 and set (hide yes) on F3 MPN attribute.",
+    "rationale": "Eliminates visual drafting defects and prevents misinterpretation during schematic review.",
+    "side_effects": "None; purely drafting clearance improvement.",
+    "functional_change": false,
+    "region": {
+      "sheet": "sch_06_Supply",
+      "x_min": 205.0,
+      "y_min": 240.0,
+      "x_max": 250.0,
+      "y_max": 270.0
+    },
+    "commits": [
+      "e15f57c"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "SCH-003",
+    "sev": "P2",
+    "domain": "SCH",
+    "location": "usb-debug.kicad_sch @ (350.52 mm, 40.0 mm)",
+    "finding": "Reference designator string R64 crossed the 0R jumper wire corridor feeding USB-C VBUS power rail.",
+    "evidence": "review/renders/issues/SCH-003/before.png",
+    "rule_violated": "KiCad Schematic Conventions; Section 9.3 Drawing Hygiene",
+    "root_cause": "Default auto-placed reference text offset intersected horizontal wire segment.",
+    "proposed_fix": "Reposition Reference R64 to (350.52, 40.0) centered in open space directly above resistor body.",
+    "rationale": "Restores clean wire corridors and professional drafting presentation.",
+    "side_effects": "None.",
+    "functional_change": false,
+    "region": {
+      "sheet": "sch_08_USB",
+      "x_min": 335.0,
+      "y_min": 35.0,
+      "x_max": 365.0,
+      "y_max": 52.0
+    },
+    "commits": [
+      "b9cbe8a"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "SCH-005",
+    "sev": "P1",
+    "domain": "SCH",
+    "location": "id-serial.kicad_sch @ (247.65 mm, 129.54 mm)",
+    "finding": "100nF decoupling capacitor C36 was connected to 3V3_SYS upstream of diode D15 rather than to EEPROM_PWR directly at IC17 VCC pin 4.",
+    "evidence": "review/renders/issues/SCH-005/before.png",
+    "rule_violated": "IPC-2221 \u00a74.2 Bypass & Decoupling Strategy; Microchip AT24CS01 Datasheet",
+    "root_cause": "Capacitor C36 was assigned to 3V3_SYS global rail before steering diode D15 instead of IC17 local power net.",
+    "proposed_fix": "Connect C36 pin 1 directly to net /ID Serial/EEPROM_PWR on schematic and PCB layout.",
+    "rationale": "Diode D15 isolates IC17 during EEPROM page write programming operations (~5 mA pulses); local bypass charge reservoir on EEPROM_PWR prevents rail droop and data corruption.",
+    "side_effects": "Synchronize PCB netlist and re-route C36 pad 1 on B.Cu to EEPROM_PWR corridor.",
+    "functional_change": true,
+    "region": {
+      "sheet": "sch_02_ID_Serial",
+      "x_min": 210.0,
+      "y_min": 110.0,
+      "x_max": 255.0,
+      "y_max": 150.0
+    },
+    "commits": [
+      "91dfe09"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "SCH-007",
+    "sev": "P1",
+    "domain": "SCH",
+    "location": "display.kicad_sch @ (229.24 mm, 214.63 mm)",
+    "finding": "100nF power supply bypass capacitor C5 for IC11 (SN74LV1T125 level translator) was marked DNP, leaving active switching buffer unbypassed on 1V8_SYS.",
+    "evidence": "review/renders/issues/SCH-007/before.png",
+    "rule_violated": "TI SN74LV1T125 Application & Decoupling Specification \u00a710.1",
+    "root_cause": "Symbol attributes in schematic had (in_bom no) and (dnp yes) accidentally applied.",
+    "proposed_fix": "Set C5 to (in_bom yes) and (dnp no) in schematic and remove exclude_from_bom dnp on PCB footprint.",
+    "rationale": "High-speed logic transitions without local bypass capacitance cause supply rail ground bounce and clock jitter.",
+    "side_effects": "Adds 1 line item (LCSC C1525) to production BOM and CPL files.",
+    "functional_change": true,
+    "region": {
+      "sheet": "sch_05_Display",
+      "x_min": 215.0,
+      "y_min": 205.0,
+      "x_max": 245.0,
+      "y_max": 235.0
+    },
+    "commits": [
+      "96de38c"
+    ],
+    "status": "Verified"
+  },
+  {
+    "id": "PCB-006",
+    "sev": "P1",
+    "domain": "PCB",
+    "location": "Jetson-AI-Cam-CopperPilot.kicad_pcb, B.Cu @ (160.63 mm, 83.15 mm)",
+    "finding": "C36 pad 1 was routed to 3V3_SYS via stub to D15 pad 2 instead of connecting to adjacent EEPROM_PWR copper plane.",
+    "evidence": "review/renders/issues/PCB-006/before.png",
+    "rule_violated": "IPC-2221 \u00a76.3 Netlist Consistency Gate; Decoupling Layout Loop Inductance",
+    "root_cause": "Layout followed erroneous initial netlist assignment connecting C36 to 3V3_SYS.",
+    "proposed_fix": "Remove 3V3_SYS copper stubs and route C36 pad 1 with 0.125 mm trace directly to adjacent EEPROM_PWR corridor.",
+    "rationale": "Provides low-inductance charge delivery loop between C36 and IC17 pin 4 on B.Cu.",
+    "side_effects": "Re-run DRC to confirm 0 clearance violations and 0 unconnected items.",
+    "functional_change": true,
+    "region": {
+      "layer": "pcb_08_B_Cu",
+      "x_min": 153.0,
+      "y_min": 80.0,
+      "x_max": 165.0,
+      "y_max": 87.0
+    },
+    "commits": [
+      "91dfe09"
     ],
     "status": "Verified"
   }
