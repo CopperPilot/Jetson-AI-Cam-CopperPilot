@@ -49478,7 +49478,7 @@
 		(path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-0000615ee274")
 		(sheetname "/Display/")
 		(sheetfile "display.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.94 -0.47)
