@@ -72,3 +72,11 @@ JLCPCB Standard 8-Layer Impedance Stackup:
 - **Electrical Verification:** Zero open circuits, zero shorts (DRC clean, 0 unconnected items)
 - **Solder Mask Dam:** Minimum 0.10 mm between adjacent SMD pads.
 - **Cleanliness:** De-fluxed post-reflow, no ionic contamination.
+
+---
+
+## 5. Mechanical Integration & Assembly Constraints
+- **SMT Spacer Standoffs (SP5, SP6):** M2.5 threaded SMT spacers (Würth 9774060151R, 6.0 mm height). Fastener hardware must use M2.5 screws with maximum head/washer outer diameter $\le 5.0\text{ mm}$ to maintain clearance to adjacent passives (R135, L8, FB3).
+- **Dual IMX219 Optical Lens Mount Base:** Lens holder housings affixed over CAM_L and CAM_R receptacles on B.Cu must have base dimensions not exceeding $14.0\text{ mm} \times 14.0\text{ mm}$ to prevent mechanical interference with surrounding components (D5, R47, R126, R127).
+- **Tactile Switches (RST1, REC1, USR1):** Located along board edge (X = 162.14 mm). Enclosure design must provide side-access actuator cutouts along the perimeter clear of the SODIMM socket latch swing radius.
+- **Coin Cell Battery (BAT1):** MS621FE-FL11E rechargeable lithium coin cell is marked DNP for automated PCBA. Must be hand-soldered post-reflow/post-wash to prevent thermal rupture at 260°C peak reflow temperatures.
