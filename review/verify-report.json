@@ -1,6 +1,6 @@
 {
   "overall_status": "PASS",
-  "timestamp": "2026-10-24 03:19:30Z",
+  "timestamp": "2026-10-24 03:22:46Z",
   "tests": {
     "T1 ERC": {
       "passed": true,
@@ -32,7 +32,7 @@
     },
     "T8 Issues closed": {
       "passed": true,
-      "details": "All 10 issues in register are Verified or Waived."
+      "details": "All 15 issues in register are Verified or Waived."
     },
     "T9 Evidence complete": {
       "passed": true,
